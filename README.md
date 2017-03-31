@@ -6,11 +6,11 @@ E-commerce app built on Xamarin Forms, don't forget to check out our items and m
 
 You are free to contribute to this project as long as it's not picapollo.
 
-#Features
+# Features
 
 > None, so far.
 
-#Install
+# Install
 
 * In order to run this project you need to have installed [Xamarin](https://www.xamarin.com/download-it?_bt=101035044668&_bk=xamarin&_bm=e&gclid=CjwKEAjw_PfGBRDW_sutqMbQsmMSJAAMpUapGQbqSL4rbvu_LuorvmJkytgHeit70r3wXztV_Q3i_BoC1rDw_wcB).
 
