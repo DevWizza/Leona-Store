@@ -9,12 +9,7 @@ namespace LeonaStore.ViewModels
 {
 	public class MainPageViewModel : BindableBase, INavigationAware
 	{
-		private string _title;
-		public string Title
-		{
-			get { return _title; }
-			set { SetProperty(ref _title, value); }
-		}
+		public string Title { get; set; }
 
 		public MainPageViewModel()
 		{
