@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.devwizza.leonastore.leona_store">
 	<uses-sdk android:minSdkVersion="15" />
-	<application android:label="Leona Store">
-	</application>
+	<application android:label="Leona Store" android:theme="@android:style/Theme.Material.Light"></application>
 </manifest>
