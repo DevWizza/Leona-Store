@@ -12,7 +12,7 @@ namespace LeonaStore
 		{
 			InitializeComponent();
 
-			NavigationService.NavigateAsync($"NavigationPage/{Screens.SplashScreen}");
+			NavigationService.NavigateAsync($"{Screens.SplashScreen}");
 		}
 
 		protected override void RegisterTypes()
