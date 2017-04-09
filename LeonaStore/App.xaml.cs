@@ -21,7 +21,10 @@ namespace LeonaStore
 		{
 			Container.RegisterTypeForNavigation<NavigationPage>();
 			Container.RegisterTypeForNavigation<SplashPage>();
-			
+			Container.RegisterTypeForNavigation<LandingPage>();
+			Container.RegisterTypeForNavigation<Home>();
+
+			Container.RegisterType(typeof(ICache), typeof(AkavacheImpl));
 		}
 	}
 }
