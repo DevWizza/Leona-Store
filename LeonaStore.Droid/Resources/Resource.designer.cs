@@ -27,6 +27,7 @@ namespace LeonaStore.Droid
 		public static void UpdateIdValues()
 		{
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::LeonaStore.Droid.Resource.Attribute.actionBarSize;
+			global::Splat.Resource.String.library_name = global::LeonaStore.Droid.Resource.String.library_name;
 		}
 		
 		public partial class Animation
@@ -3711,6 +3712,9 @@ namespace LeonaStore.Droid
 			
 			// aapt resource value: 0x7f0a0016
 			public const int character_counter_pattern = 2131361814;
+			
+			// aapt resource value: 0x7f0a003d
+			public const int library_name = 2131361853;
 			
 			// aapt resource value: 0x7f0a0000
 			public const int mr_button_content_description = 2131361792;

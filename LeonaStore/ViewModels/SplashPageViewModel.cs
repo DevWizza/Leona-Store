@@ -9,9 +9,12 @@ namespace LeonaStore.ViewModels
 	public class SplashPageViewModel : BindableBase, INavigationAware
 	{
 		readonly INavigationService _navigationSevice;
+		readonly ICache _cache;
 
-		public SplashPageViewModel(INavigationService navigationService)
+		public SplashPageViewModel(INavigationService navigationService, ICache cache)
 		{
+			_cache = cache;
+
 			_navigationSevice = navigationService;
 		}
 
@@ -20,9 +23,16 @@ namespace LeonaStore.ViewModels
 
 		}
 
-		public void OnNavigatedTo(NavigationParameters parameters)
+		public async void OnNavigatedTo(NavigationParameters parameters)
 		{
-			
+			await Task.Delay(TimeSpan.FromSeconds(5));
+
+			var isNotFirstTimeUser = await _cache.GetObjectAsync<bool>(CacheKeys.NewUserKey);
+
+			if (isNotFirstTimeUser)
+				await _navigationSevice.NavigateAsync($"{Screens.LandingPage}");
+			else
+				await _navigationSevice.NavigateAsync($"{Screens.Home}");
 		}
 
 		public void OnNavigatingTo(NavigationParameters parameters)
