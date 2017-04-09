@@ -14,11 +14,11 @@
 		HorizontalOptions="CenterAndExpand" 
 		Aspect="AspectFit" 
 		Source="logo"
-		WidthRequest="200"
-		HeightRequest="200"/>
+		WidthRequest="300"
+		HeightRequest="300"/>
 
 	<ActivityIndicator 
-		Color="Green" 
+		Color="#e74c3c"
 		IsRunning="true"/>
 
 	</StackLayout>

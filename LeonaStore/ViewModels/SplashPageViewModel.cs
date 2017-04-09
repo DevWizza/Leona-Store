@@ -22,19 +22,12 @@ namespace LeonaStore.ViewModels
 
 		public void OnNavigatedTo(NavigationParameters parameters)
 		{
-			Device.StartTimer(TimeSpan.FromSeconds(5), onTimerFireOff);
+			
 		}
 
 		public void OnNavigatingTo(NavigationParameters parameters)
 		{
 
-		}
-
-		bool onTimerFireOff()
-		{
-			Task.Run(async () => await _navigationSevice.NavigateAsync(Screens.MainPageScreen));
-
-			return true;
 		}
 	}
 }
