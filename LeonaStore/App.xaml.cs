@@ -1,6 +1,8 @@
 ﻿using Prism.Unity;
 using LeonaStore.Views;
 using Xamarin.Forms;
+using Prism.Navigation;
+using Microsoft.Practices.Unity;
 
 namespace LeonaStore
 {
@@ -12,7 +14,7 @@ namespace LeonaStore
 		{
 			InitializeComponent();
 
-			NavigationService.NavigateAsync($"NavigationPage/{Screens.SplashScreen}");
+			NavigationService.NavigateAsync($"{Screens.SplashScreen}");
 		}
 
 		protected override void RegisterTypes()
@@ -20,6 +22,7 @@ namespace LeonaStore
 			Container.RegisterTypeForNavigation<NavigationPage>();
 			Container.RegisterTypeForNavigation<MainPage>();
 			Container.RegisterTypeForNavigation<SplashPage>();
+			
 		}
 	}
 }

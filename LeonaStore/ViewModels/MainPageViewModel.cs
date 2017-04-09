@@ -11,9 +11,11 @@ namespace LeonaStore.ViewModels
 	{
 		public string Title { get; set; }
 
-		public MainPageViewModel()
-		{
+		readonly INavigationService _navService;
 
+		public MainPageViewModel(INavigationService navService)
+		{
+			_navService = navService;
 		}
 
 		public void OnNavigatedFrom(NavigationParameters parameters)
@@ -23,8 +25,7 @@ namespace LeonaStore.ViewModels
 
 		public void OnNavigatedTo(NavigationParameters parameters)
 		{
-			if (parameters.ContainsKey("title"))
-				Title = (string)parameters["title"] + " and Prism";
+			_navService.NavigateAsync("SplashPage");
 		}
 
 		public void OnNavigatingTo(NavigationParameters parameters)

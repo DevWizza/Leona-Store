@@ -10,9 +10,9 @@ namespace LeonaStore.ViewModels
 	{
 		readonly INavigationService _navigationSevice;
 
-		public SplashPageViewModel(INavigationService navigationSevice)
+		public SplashPageViewModel(INavigationService navigationService)
 		{
-			_navigationSevice = navigationSevice;
+			_navigationSevice = navigationService;
 		}
 
 		public void OnNavigatedFrom(NavigationParameters parameters)

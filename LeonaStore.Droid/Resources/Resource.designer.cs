@@ -1161,44 +1161,44 @@ namespace LeonaStore.Droid
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f08004a
-			public const int abc_background_cache_hint_selector_material_dark = 2131230794;
-			
-			// aapt resource value: 0x7f08004b
-			public const int abc_background_cache_hint_selector_material_light = 2131230795;
-			
-			// aapt resource value: 0x7f08004c
-			public const int abc_btn_colored_borderless_text_material = 2131230796;
-			
-			// aapt resource value: 0x7f08004d
-			public const int abc_btn_colored_text_material = 2131230797;
-			
 			// aapt resource value: 0x7f08004e
-			public const int abc_color_highlight_material = 2131230798;
+			public const int abc_background_cache_hint_selector_material_dark = 2131230798;
 			
 			// aapt resource value: 0x7f08004f
-			public const int abc_hint_foreground_material_dark = 2131230799;
+			public const int abc_background_cache_hint_selector_material_light = 2131230799;
 			
 			// aapt resource value: 0x7f080050
-			public const int abc_hint_foreground_material_light = 2131230800;
+			public const int abc_btn_colored_borderless_text_material = 2131230800;
+			
+			// aapt resource value: 0x7f080051
+			public const int abc_btn_colored_text_material = 2131230801;
+			
+			// aapt resource value: 0x7f080052
+			public const int abc_color_highlight_material = 2131230802;
+			
+			// aapt resource value: 0x7f080053
+			public const int abc_hint_foreground_material_dark = 2131230803;
+			
+			// aapt resource value: 0x7f080054
+			public const int abc_hint_foreground_material_light = 2131230804;
 			
 			// aapt resource value: 0x7f080010
 			public const int abc_input_method_navigation_guard = 2131230736;
 			
-			// aapt resource value: 0x7f080051
-			public const int abc_primary_text_disable_only_material_dark = 2131230801;
-			
-			// aapt resource value: 0x7f080052
-			public const int abc_primary_text_disable_only_material_light = 2131230802;
-			
-			// aapt resource value: 0x7f080053
-			public const int abc_primary_text_material_dark = 2131230803;
-			
-			// aapt resource value: 0x7f080054
-			public const int abc_primary_text_material_light = 2131230804;
-			
 			// aapt resource value: 0x7f080055
-			public const int abc_search_url_text = 2131230805;
+			public const int abc_primary_text_disable_only_material_dark = 2131230805;
+			
+			// aapt resource value: 0x7f080056
+			public const int abc_primary_text_disable_only_material_light = 2131230806;
+			
+			// aapt resource value: 0x7f080057
+			public const int abc_primary_text_material_dark = 2131230807;
+			
+			// aapt resource value: 0x7f080058
+			public const int abc_primary_text_material_light = 2131230808;
+			
+			// aapt resource value: 0x7f080059
+			public const int abc_search_url_text = 2131230809;
 			
 			// aapt resource value: 0x7f080011
 			public const int abc_search_url_text_normal = 2131230737;
@@ -1209,32 +1209,35 @@ namespace LeonaStore.Droid
 			// aapt resource value: 0x7f080013
 			public const int abc_search_url_text_selected = 2131230739;
 			
-			// aapt resource value: 0x7f080056
-			public const int abc_secondary_text_material_dark = 2131230806;
-			
-			// aapt resource value: 0x7f080057
-			public const int abc_secondary_text_material_light = 2131230807;
-			
-			// aapt resource value: 0x7f080058
-			public const int abc_tint_btn_checkable = 2131230808;
-			
-			// aapt resource value: 0x7f080059
-			public const int abc_tint_default = 2131230809;
-			
 			// aapt resource value: 0x7f08005a
-			public const int abc_tint_edittext = 2131230810;
+			public const int abc_secondary_text_material_dark = 2131230810;
 			
 			// aapt resource value: 0x7f08005b
-			public const int abc_tint_seek_thumb = 2131230811;
+			public const int abc_secondary_text_material_light = 2131230811;
 			
 			// aapt resource value: 0x7f08005c
-			public const int abc_tint_spinner = 2131230812;
+			public const int abc_tint_btn_checkable = 2131230812;
 			
 			// aapt resource value: 0x7f08005d
-			public const int abc_tint_switch_thumb = 2131230813;
+			public const int abc_tint_default = 2131230813;
 			
 			// aapt resource value: 0x7f08005e
-			public const int abc_tint_switch_track = 2131230814;
+			public const int abc_tint_edittext = 2131230814;
+			
+			// aapt resource value: 0x7f08005f
+			public const int abc_tint_seek_thumb = 2131230815;
+			
+			// aapt resource value: 0x7f080060
+			public const int abc_tint_spinner = 2131230816;
+			
+			// aapt resource value: 0x7f080061
+			public const int abc_tint_switch_thumb = 2131230817;
+			
+			// aapt resource value: 0x7f080062
+			public const int abc_tint_switch_track = 2131230818;
+			
+			// aapt resource value: 0x7f08004c
+			public const int accent = 2131230796;
 			
 			// aapt resource value: 0x7f080014
 			public const int accent_material_dark = 2131230740;
@@ -1293,8 +1296,8 @@ namespace LeonaStore.Droid
 			// aapt resource value: 0x7f080004
 			public const int design_bottom_navigation_shadow_color = 2131230724;
 			
-			// aapt resource value: 0x7f08005f
-			public const int design_error = 2131230815;
+			// aapt resource value: 0x7f080063
+			public const int design_error = 2131230819;
 			
 			// aapt resource value: 0x7f080005
 			public const int design_fab_shadow_end_color = 2131230725;
@@ -1326,8 +1329,8 @@ namespace LeonaStore.Droid
 			// aapt resource value: 0x7f08000e
 			public const int design_textinput_error_color_light = 2131230734;
 			
-			// aapt resource value: 0x7f080060
-			public const int design_tint_password_toggle = 2131230816;
+			// aapt resource value: 0x7f080064
+			public const int design_tint_password_toggle = 2131230820;
 			
 			// aapt resource value: 0x7f080022
 			public const int dim_foreground_disabled_material_dark = 2131230754;
@@ -1398,6 +1401,12 @@ namespace LeonaStore.Droid
 			// aapt resource value: 0x7f080037
 			public const int notification_material_background_media_default_color = 2131230775;
 			
+			// aapt resource value: 0x7f08004a
+			public const int primary = 2131230794;
+			
+			// aapt resource value: 0x7f08004b
+			public const int primaryDark = 2131230795;
+			
 			// aapt resource value: 0x7f080038
 			public const int primary_dark_material_dark = 2131230776;
 			
@@ -1446,17 +1455,20 @@ namespace LeonaStore.Droid
 			// aapt resource value: 0x7f080047
 			public const int switch_thumb_disabled_material_light = 2131230791;
 			
-			// aapt resource value: 0x7f080061
-			public const int switch_thumb_material_dark = 2131230817;
+			// aapt resource value: 0x7f080065
+			public const int switch_thumb_material_dark = 2131230821;
 			
-			// aapt resource value: 0x7f080062
-			public const int switch_thumb_material_light = 2131230818;
+			// aapt resource value: 0x7f080066
+			public const int switch_thumb_material_light = 2131230822;
 			
 			// aapt resource value: 0x7f080048
 			public const int switch_thumb_normal_material_dark = 2131230792;
 			
 			// aapt resource value: 0x7f080049
 			public const int switch_thumb_normal_material_light = 2131230793;
+			
+			// aapt resource value: 0x7f08004d
+			public const int window_background = 2131230797;
 			
 			static Color()
 			{
@@ -2982,8 +2994,8 @@ namespace LeonaStore.Droid
 			// aapt resource value: 0x7f0c0048
 			public const int list_item = 2131492936;
 			
-			// aapt resource value: 0x7f0c00b1
-			public const int masked = 2131493041;
+			// aapt resource value: 0x7f0c00b3
+			public const int masked = 2131493043;
 			
 			// aapt resource value: 0x7f0c009f
 			public const int media_actions = 2131493023;
@@ -3183,6 +3195,9 @@ namespace LeonaStore.Droid
 			// aapt resource value: 0x7f0c0036
 			public const int showTitle = 2131492918;
 			
+			// aapt resource value: 0x7f0c00b0
+			public const int sliding_tabs = 2131493040;
+			
 			// aapt resource value: 0x7f0c0073
 			public const int smallLabel = 2131492979;
 			
@@ -3258,6 +3273,9 @@ namespace LeonaStore.Droid
 			// aapt resource value: 0x7f0c0057
 			public const int title_template = 2131492951;
 			
+			// aapt resource value: 0x7f0c00b1
+			public const int toolbar = 2131493041;
+			
 			// aapt resource value: 0x7f0c001e
 			public const int top = 2131492894;
 			
@@ -3282,8 +3300,8 @@ namespace LeonaStore.Droid
 			// aapt resource value: 0x7f0c0002
 			public const int view_offset_helper = 2131492866;
 			
-			// aapt resource value: 0x7f0c00b0
-			public const int visible = 2131493040;
+			// aapt resource value: 0x7f0c00b2
+			public const int visible = 2131493042;
 			
 			// aapt resource value: 0x7f0c0091
 			public const int volume_item_container = 2131493009;
@@ -3572,6 +3590,12 @@ namespace LeonaStore.Droid
 			
 			// aapt resource value: 0x7f030041
 			public const int support_simple_spinner_dropdown_item = 2130903105;
+			
+			// aapt resource value: 0x7f030042
+			public const int tabs = 2130903106;
+			
+			// aapt resource value: 0x7f030043
+			public const int toolbar = 2130903107;
 			
 			static Layout()
 			{
@@ -4270,6 +4294,12 @@ namespace LeonaStore.Droid
 			
 			// aapt resource value: 0x7f070003
 			public const int CardView_Light = 2131165187;
+			
+			// aapt resource value: 0x7f070189
+			public const int MyTheme = 2131165577;
+			
+			// aapt resource value: 0x7f07018a
+			public const int MyTheme_Base = 2131165578;
 			
 			// aapt resource value: 0x7f070048
 			public const int Platform_AppCompat = 2131165256;
