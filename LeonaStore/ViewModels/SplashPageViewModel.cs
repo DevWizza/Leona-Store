@@ -25,14 +25,14 @@ namespace LeonaStore.ViewModels
 
 		public async void OnNavigatedTo(NavigationParameters parameters)
 		{
-			await Task.Delay(TimeSpan.FromSeconds(5));
+			//await Task.Delay(TimeSpan.FromSeconds(5));
 
 			var isNotFirstTimeUser = await _cache.GetObjectAsync<bool>(CacheKeys.NewUserKey);
 
 			if (isNotFirstTimeUser)
-				await _navigationSevice.NavigateAsync($"{Screens.LandingPage}");
-			else
 				await _navigationSevice.NavigateAsync($"{Screens.Home}");
+			else
+				await _navigationSevice.NavigateAsync($"{Screens.LandingPage}");
 		}
 
 		public void OnNavigatingTo(NavigationParameters parameters)

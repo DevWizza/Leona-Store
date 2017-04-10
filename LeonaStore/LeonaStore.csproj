@@ -48,6 +48,14 @@
       <DependentUpon>Home.xaml</DependentUpon>
     </Compile>
     <Compile Include="ViewModels\HomeViewModel.cs" />
+    <Compile Include="Components\GesturatorDots\GesturatorDotsView.cs" />
+    <Compile Include="Components\Gesturator\GesturatorView.xaml.cs">
+      <DependentUpon>GesturatorView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Components\Gesturator\Template\LandingPage\LandingPageTemplate.xaml.cs">
+      <DependentUpon>LandingPageTemplate.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Components\Gesturator\Template\LandingPage\LandingPageTemplateModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="App.xaml">
@@ -60,6 +68,12 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Home.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\Gesturator\GesturatorView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\Gesturator\Template\LandingPage\LandingPageTemplate.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
@@ -121,6 +135,9 @@
     <Reference Include="SQLitePCLRaw.batteries_v2">
       <HintPath>..\packages\SQLitePCLRaw.bundle_e_sqlite3.1.1.2\lib\portable-net45+netcore45+wpa81+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\SQLitePCLRaw.batteries_v2.dll</HintPath>
     </Reference>
+    <Reference Include="PropertyChanged">
+      <HintPath>..\packages\PropertyChanged.Fody.1.52.1\lib\portable-net4+sl4+wp8+win8+wpa81+MonoAndroid16+MonoTouch40\PropertyChanged.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -130,6 +147,10 @@
     <Folder Include="Components\" />
     <Folder Include="Services\" />
     <Folder Include="Services\Caching\" />
+    <Folder Include="Components\Gesturator\" />
+    <Folder Include="Components\GesturatorDots\" />
+    <Folder Include="Components\Gesturator\Template\" />
+    <Folder Include="Components\Gesturator\Template\LandingPage\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\packages\Fody.1.29.4\build\portable-net+sl+win+wpa+wp\Fody.targets" Condition="Exists('..\packages\Fody.1.29.4\build\portable-net+sl+win+wpa+wp\Fody.targets')" />
