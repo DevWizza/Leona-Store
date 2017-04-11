@@ -158,6 +158,9 @@
     <Reference Include="Akavache.Sqlite3">
       <HintPath>..\packages\akavache.sqlite3.5.0.0\lib\Portable-Net45+Win8+WP8+Wpa81\Akavache.Sqlite3.dll</HintPath>
     </Reference>
+    <Reference Include="Xamarin.Forms.CarouselView">
+      <HintPath>..\packages\Xamarin.Forms.CarouselView.2.3.0-pre2\lib\MonoAndroid10\Xamarin.Forms.CarouselView.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LeonaStore\LeonaStore.csproj">
@@ -181,6 +184,7 @@
     <Folder Include="Resources\layout\" />
     <Folder Include="Resources\values\" />
     <Folder Include="Resources\values-v21\" />
+    <Folder Include="Renderer\" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\icon.png" />

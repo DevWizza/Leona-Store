@@ -32,49 +32,48 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\SplashPage.xaml.cs">
-      <DependentUpon>SplashPage.xaml</DependentUpon>
-    </Compile>
     <Compile Include="ViewModels\SplashPageViewModel.cs" />
     <Compile Include="LeonaStore.cs" />
     <Compile Include="AkavacheSqliteLinkerOverride.cs" />
     <Compile Include="Services\Caching\ICache.cs" />
     <Compile Include="Services\Caching\AkavacheImpl.cs" />
-    <Compile Include="Views\LandingPage.xaml.cs">
+    <Compile Include="ViewModels\LandingPageViewModel.cs" />
+    <Compile Include="ViewModels\HomeViewModel.cs" />
+    <Compile Include="Components\GesturatorDots\CarouselDotsView.cs" />
+    <Compile Include="Views\SplashPage\SplashPage.xaml.cs">
+      <DependentUpon>SplashPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\LandingPage\LandingPage.xaml.cs">
       <DependentUpon>LandingPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ViewModels\LandingPageViewModel.cs" />
-    <Compile Include="Views\Home.xaml.cs">
+    <Compile Include="Views\Home\Home.xaml.cs">
       <DependentUpon>Home.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ViewModels\HomeViewModel.cs" />
-    <Compile Include="Components\GesturatorDots\GesturatorDotsView.cs" />
-    <Compile Include="Components\Gesturator\GesturatorView.xaml.cs">
-      <DependentUpon>GesturatorView.xaml</DependentUpon>
+    <Compile Include="Views\LandingPage\LandingPageTemplate\LandingPageTemplateModel.cs" />
+    <Compile Include="Views\LandingPage\LandingPageTemplate\LandingPageViewTemplate.xaml.cs">
+      <DependentUpon>LandingPageViewTemplate.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Components\Gesturator\Template\LandingPage\LandingPageTemplate.xaml.cs">
-      <DependentUpon>LandingPageTemplate.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Components\Gesturator\Template\LandingPage\LandingPageTemplateModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="App.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <LogicalName>App.xaml</LogicalName>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\SplashPage.xaml">
+    <EmbeddedResource Include="Views\SplashPage\SplashPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <LogicalName>SplashPage.xaml</LogicalName>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\LandingPage.xaml">
+    <EmbeddedResource Include="Views\LandingPage\LandingPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <LogicalName>LandingPage.xaml</LogicalName>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\Home.xaml">
+    <EmbeddedResource Include="Views\Home\Home.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <LogicalName>Home.xaml</LogicalName>
     </EmbeddedResource>
-    <EmbeddedResource Include="Components\Gesturator\GesturatorView.xaml">
+    <EmbeddedResource Include="Views\LandingPage\LandingPageTemplate\LandingPageViewTemplate.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Components\Gesturator\Template\LandingPage\LandingPageTemplate.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <LogicalName>LandingPageViewTemplate.xaml</LogicalName>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -138,6 +137,9 @@
     <Reference Include="PropertyChanged">
       <HintPath>..\packages\PropertyChanged.Fody.1.52.1\lib\portable-net4+sl4+wp8+win8+wpa81+MonoAndroid16+MonoTouch40\PropertyChanged.dll</HintPath>
     </Reference>
+    <Reference Include="Xamarin.Forms.CarouselView">
+      <HintPath>..\packages\Xamarin.Forms.CarouselView.2.3.0-pre2\lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.CarouselView.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -147,10 +149,11 @@
     <Folder Include="Components\" />
     <Folder Include="Services\" />
     <Folder Include="Services\Caching\" />
-    <Folder Include="Components\Gesturator\" />
     <Folder Include="Components\GesturatorDots\" />
-    <Folder Include="Components\Gesturator\Template\" />
-    <Folder Include="Components\Gesturator\Template\LandingPage\" />
+    <Folder Include="Views\Home\" />
+    <Folder Include="Views\LandingPage\" />
+    <Folder Include="Views\SplashPage\" />
+    <Folder Include="Views\LandingPage\LandingPageTemplate\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\packages\Fody.1.29.4\build\portable-net+sl+win+wpa+wp\Fody.targets" Condition="Exists('..\packages\Fody.1.29.4\build\portable-net+sl+win+wpa+wp\Fody.targets')" />

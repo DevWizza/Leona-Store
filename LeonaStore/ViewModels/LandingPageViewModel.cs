@@ -14,25 +14,16 @@ namespace LeonaStore.ViewModels
 	{
 		public IList<LandingPageTemplateModel> PagesModelData { get; set; }
 
-		public ICommand ReachedLastPageCommand { get; set; }
-
-		public ICommand ViewTapCommand { get; set; }
+		public int CarouselPosition { get; set; }
 
 		public LandingPageViewModel()
 		{
-			ReachedLastPageCommand = new Command(OnReachedLastPage);
-
-			ViewTapCommand = new Command(OnViewTap);
+			
 		}
 
 		void OnReachedLastPage()
 		{
 			
-		}
-
-		void OnViewTap()
-		{
-
 		}
 
 		public void OnNavigatedFrom(NavigationParameters parameters)
@@ -50,7 +41,21 @@ namespace LeonaStore.ViewModels
 					{
 						Title = "Welcome To Slack",
 						Image = "",
-						BackgroundColor = Color.Black,
+						BackgroundColor = Color.FromHex("e74c3c"),
+						Description = "All your team communication in one place, instantly searchable"
+					},
+					new LandingPageTemplateModel
+					{
+						Title = "Welcome To Facebook",
+						Image = "",
+						BackgroundColor = Color.FromHex("1abc9c"),
+						Description = "All your team communication in one place, instantly searchable"
+					},
+					new LandingPageTemplateModel
+					{
+						Title = "Welcome To Twitter",
+						Image = "",
+						BackgroundColor = Color.FromHex("f39c12"),
 						Description = "All your team communication in one place, instantly searchable"
 					}
 				};

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+	xmlns:template="clr-namespace:LeonaStore.Views.LandingPage.LandingPageTemplate;assembly=LeonaStore"
+	xmlns:cv="clr-namespace:Xamarin.Forms;assembly=Xamarin.Forms.CarouselView"
+	prism:ViewModelLocator.AutowireViewModel="True" 
+	x:Class="LeonaStore.Views.LandingPage">
+
+	<StackLayout
+		HorizontalOptions="FillAndExpand"
+		VerticalOptions="FillAndExpand">
+
+		<cv:CarouselView
+			HorizontalOptions="FillAndExpand"
+			VerticalOptions="FillAndExpand"
+			ItemsSource="{Binding PagesModelData}"
+			Position="{Binding CarouselPosition}">
+			    <cv:CarouselView.ItemTemplate>
+			      <DataTemplate>
+			        <template:LandingPageViewTemplate/>
+			      </DataTemplate>
+			    </cv:CarouselView.ItemTemplate>
+	  </cv:CarouselView>
+
+	</StackLayout>
+</ContentPage>
