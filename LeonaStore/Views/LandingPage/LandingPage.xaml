@@ -4,6 +4,7 @@
 	xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
 	xmlns:template="clr-namespace:LeonaStore.Views.LandingPage.LandingPageTemplate;assembly=LeonaStore"
 	xmlns:cv="clr-namespace:Xamarin.Forms;assembly=Xamarin.Forms.CarouselView"
+	xmlns:dots="clr-namespace:LeonaStore.Components.CarouselDotsGenerator;assembly=LeonaStore"
 	prism:ViewModelLocator.AutowireViewModel="True" 
 	x:Class="LeonaStore.Views.LandingPage">
 
@@ -22,6 +23,10 @@
 			      </DataTemplate>
 			    </cv:CarouselView.ItemTemplate>
 	  </cv:CarouselView>
+
+		<dots:CarouselDotsGenerator
+			ItemsSource="{Binding PagesModelData}"
+			CurrentPage="{Binding CarouselPosition}"/>
 
 	</StackLayout>
 </ContentPage>
