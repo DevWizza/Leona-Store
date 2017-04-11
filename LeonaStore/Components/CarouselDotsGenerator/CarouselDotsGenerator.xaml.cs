@@ -3,6 +3,7 @@ using System.Collections;
 using ImageCircle.Forms.Plugin.Abstractions;
 using Xamarin.Forms;
 using System.Linq;
+using CarouselDotsGenerator;
 
 namespace LeonaStore.Components.CarouselDotsGenerator
 {
@@ -62,33 +63,22 @@ namespace LeonaStore.Components.CarouselDotsGenerator
 		{
 			for (int eachPage = 0; eachPage < listOfPagesOnScreen; eachPage++)
 			{
-				var circle = new CircleImage
-				{
-					BorderColor = Color.Transparent,
-					FillColor = Color.Black.MultiplyAlpha(0.6),
-					BorderThickness = 0,
-					HeightRequest = 10,
-					WidthRequest = 10,
-					Aspect = Aspect.AspectFit,
-					HorizontalOptions = LayoutOptions.Center
-				};
-
-				Children.Add(circle);
+				Children.Add(new LittleDotView());
 			}
 		}
 
 		void SetCurrentPage(int newValue)
 		{
-			foreach (var littleDot in Children)
+			foreach (IDot littleDot in Children)
 			{
-				littleDot.Opacity = 0.4;
+				littleDot.ChangeFillColorTo(Color.Black.MultiplyAlpha(0.4));
 			}
 
-			var selected = Children.ElementAtOrDefault(newValue);
+			var selected = (IDot) Children.ElementAtOrDefault(newValue);
 
 			if (selected != null)
 			{
-				selected.Opacity = 1;
+				selected.ChangeFillColorTo(Color.White);
 			}
 		}
 	}
