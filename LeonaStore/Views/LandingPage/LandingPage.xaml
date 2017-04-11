@@ -8,7 +8,7 @@
 	prism:ViewModelLocator.AutowireViewModel="True" 
 	x:Class="LeonaStore.Views.LandingPage">
 
-	<StackLayout
+	<RelativeLayout
 		HorizontalOptions="FillAndExpand"
 		VerticalOptions="FillAndExpand">
 
@@ -16,7 +16,27 @@
 			HorizontalOptions="FillAndExpand"
 			VerticalOptions="FillAndExpand"
 			ItemsSource="{Binding PagesModelData}"
-			Position="{Binding CarouselPosition}">
+			Position="{Binding CarouselPosition}"
+		RelativeLayout.XConstraint =
+      "{ConstraintExpression Type=RelativeToParent,
+                             Property=X,
+                             Factor=0,
+                             Constant=0}"
+    	RelativeLayout.YConstraint =
+      "{ConstraintExpression Type=RelativeToParent,
+                             Property=Y,
+                             Factor=0,
+                             Constant=0}"
+		RelativeLayout.WidthConstraint =
+      "{ConstraintExpression Type=RelativeToParent,
+                             Property=Width,
+                             Factor=1,
+                             Constant=0}"
+    	RelativeLayout.HeightConstraint =
+      "{ConstraintExpression Type=RelativeToParent,
+                             Property=Height,
+                             Factor=1,
+                             Constant=0}">
 			    <cv:CarouselView.ItemTemplate>
 			      <DataTemplate>
 			        <template:LandingPageViewTemplate/>
@@ -24,9 +44,38 @@
 			    </cv:CarouselView.ItemTemplate>
 	  </cv:CarouselView>
 
-		<dots:CarouselDotsGenerator
-			ItemsSource="{Binding PagesModelData}"
-			CurrentPage="{Binding CarouselPosition}"/>
+		<StackLayout
+			HorizontalOptions="FillAndExpand"
+			VerticalOptions="FillAndExpand"
+			Padding="0,0,0,50"
+		RelativeLayout.XConstraint =
+      "{ConstraintExpression Type=RelativeToParent,
+                             Property=X,
+                             Factor=0,
+                             Constant=0}"
+    	RelativeLayout.YConstraint =
+      "{ConstraintExpression Type=RelativeToParent,
+                             Property=Y,
+                             Factor=0,
+                             Constant=0}"
+		RelativeLayout.WidthConstraint =
+      "{ConstraintExpression Type=RelativeToParent,
+                             Property=Width,
+                             Factor=1,
+                             Constant=0}"
+    	RelativeLayout.HeightConstraint =
+      "{ConstraintExpression Type=RelativeToParent,
+                             Property=Height,
+                             Factor=1,
+                             Constant=0}">
 
-	</StackLayout>
+			<dots:CarouselDotsGenerator
+				HorizontalOptions="CenterAndExpand"
+				VerticalOptions="EndAndExpand"
+				ItemsSource="{Binding PagesModelData}"
+				CurrentPage="{Binding CarouselPosition}"/>
+
+		</StackLayout>
+
+	</RelativeLayout>
 </ContentPage>
