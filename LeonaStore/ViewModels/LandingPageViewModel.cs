@@ -39,24 +39,24 @@ namespace LeonaStore.ViewModels
 				{
 					new LandingPageTemplateModel
 					{
-						Title = "Welcome To Slack",
-						Image = "",
+						Title = "Welcome To Leona",
+						Image = "pocket",
 						BackgroundColor = Color.FromHex("e74c3c"),
-						Description = "All your team communication in one place, instantly searchable"
+						Description = "Buy and Sell as never seen before"
 					},
 					new LandingPageTemplateModel
 					{
-						Title = "Welcome To Facebook",
-						Image = "",
+						Title = "Modern and Responsive",
+						Image = "modern",
 						BackgroundColor = Color.FromHex("1abc9c"),
-						Description = "All your team communication in one place, instantly searchable"
+						Description = "All your favorite items in one place, instantly searchable"
 					},
 					new LandingPageTemplateModel
 					{
-						Title = "Welcome To Twitter",
-						Image = "",
+						Title = "Ready to awesome up?",
+						Image = "ready",
 						BackgroundColor = Color.FromHex("f39c12"),
-						Description = "All your team communication in one place, instantly searchable"
+						Description = "Hit that button below!"
 					}
 				};
 			}

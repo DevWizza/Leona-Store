@@ -6,7 +6,6 @@
 	x:Class="LeonaStore.Views.LandingPage.LandingPageTemplate.LandingPageViewTemplate">
 
 	<Image
-		BackgroundColor="Fuchsia"
 		HorizontalOptions="FillAndExpand"
 		VerticalOptions="CenterAndExpand"
 		HeightRequest="200"
@@ -20,6 +19,7 @@
 		Text="{Binding Title}"
 		FontAttributes="Bold"
 		FontSize="28"
+		HorizontalTextAlignment="Center"
 		TextColor="White"
 		HorizontalOptions="CenterAndExpand"/>
 
