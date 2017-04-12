@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StackLayout xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	BackgroundColor="{Binding BackgroundColor}"
+	Padding="0,40,0,40"
+	x:Class="LeonaStore.Views.LandingPage.LandingPageTemplate.LandingPageViewTemplate">
+
+	<Image
+		HorizontalOptions="FillAndExpand"
+		VerticalOptions="CenterAndExpand"
+		HeightRequest="200"
+		Source="{Binding Image}"/>
+
+	<StackLayout
+		VerticalOptions="CenterAndExpand"
+		Padding="20">
+
+	<Label
+		Text="{Binding Title}"
+		FontAttributes="Bold"
+		FontSize="28"
+		HorizontalTextAlignment="Center"
+		TextColor="White"
+		HorizontalOptions="CenterAndExpand"/>
+
+	<Label
+		Text="{Binding Description}"
+		TextColor="White"
+		FontSize="20"
+		HorizontalTextAlignment="Center"
+		HorizontalOptions="CenterAndExpand"/>
+
+	</StackLayout>
+	
+</StackLayout>

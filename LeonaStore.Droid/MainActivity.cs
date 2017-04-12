@@ -2,6 +2,7 @@
 using Android.App;
 using Android.Content.PM;
 using Android.OS;
+using ImageCircle.Forms.Plugin.Droid;
 using Microsoft.Practices.Unity;
 using Prism;
 using Prism.Unity;
@@ -20,6 +21,8 @@ namespace LeonaStore.Droid
 			base.OnCreate(bundle);
 
 			global::Xamarin.Forms.Forms.Init(this, bundle);
+
+			ImageCircleRenderer.Init();
 
 			LoadApplication(new App(new AndroidInitializer()));
 		}

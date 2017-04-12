@@ -32,35 +32,62 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\SplashPage.xaml.cs">
-      <DependentUpon>SplashPage.xaml</DependentUpon>
-    </Compile>
     <Compile Include="ViewModels\SplashPageViewModel.cs" />
     <Compile Include="LeonaStore.cs" />
     <Compile Include="AkavacheSqliteLinkerOverride.cs" />
     <Compile Include="Services\Caching\ICache.cs" />
     <Compile Include="Services\Caching\AkavacheImpl.cs" />
-    <Compile Include="Views\LandingPage.xaml.cs">
+    <Compile Include="ViewModels\LandingPageViewModel.cs" />
+    <Compile Include="ViewModels\HomeViewModel.cs" />
+    <Compile Include="Views\SplashPage\SplashPage.xaml.cs">
+      <DependentUpon>SplashPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\LandingPage\LandingPage.xaml.cs">
       <DependentUpon>LandingPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ViewModels\LandingPageViewModel.cs" />
-    <Compile Include="Views\Home.xaml.cs">
+    <Compile Include="Views\Home\Home.xaml.cs">
       <DependentUpon>Home.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ViewModels\HomeViewModel.cs" />
+    <Compile Include="Views\LandingPage\LandingPageTemplate\LandingPageTemplateModel.cs" />
+    <Compile Include="Views\LandingPage\LandingPageTemplate\LandingPageViewTemplate.xaml.cs">
+      <DependentUpon>LandingPageViewTemplate.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Components\CarouselDotsGenerator\CarouselDotsGenerator.xaml.cs">
+      <DependentUpon>CarouselDotsGenerator.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Components\CarouselDotsGenerator\LittleDotView.xaml.cs">
+      <DependentUpon>LittleDotView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Components\CarouselDotsGenerator\IDot.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="App.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <LogicalName>App.xaml</LogicalName>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\SplashPage.xaml">
+    <EmbeddedResource Include="Views\SplashPage\SplashPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <LogicalName>SplashPage.xaml</LogicalName>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\LandingPage.xaml">
+    <EmbeddedResource Include="Views\LandingPage\LandingPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <LogicalName>LandingPage.xaml</LogicalName>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\Home.xaml">
+    <EmbeddedResource Include="Views\Home\Home.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <LogicalName>Home.xaml</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\LandingPage\LandingPageTemplate\LandingPageViewTemplate.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <LogicalName>LandingPageViewTemplate.xaml</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\CarouselDotsGenerator\CarouselDotsGenerator.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <LogicalName>CarouselDotsGenerator.xaml</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\CarouselDotsGenerator\LittleDotView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <LogicalName>LittleDotView.xaml</LogicalName>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -121,6 +148,15 @@
     <Reference Include="SQLitePCLRaw.batteries_v2">
       <HintPath>..\packages\SQLitePCLRaw.bundle_e_sqlite3.1.1.2\lib\portable-net45+netcore45+wpa81+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\SQLitePCLRaw.batteries_v2.dll</HintPath>
     </Reference>
+    <Reference Include="PropertyChanged">
+      <HintPath>..\packages\PropertyChanged.Fody.1.52.1\lib\portable-net4+sl4+wp8+win8+wpa81+MonoAndroid16+MonoTouch40\PropertyChanged.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.CarouselView">
+      <HintPath>..\packages\Xamarin.Forms.CarouselView.2.3.0-pre2\lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.CarouselView.dll</HintPath>
+    </Reference>
+    <Reference Include="ImageCircle.Forms.Plugin.Abstractions">
+      <HintPath>..\packages\Xam.Plugins.Forms.ImageCircle.1.8.2.19-beta\lib\portable-net45+wp80+win8+wpa81\ImageCircle.Forms.Plugin.Abstractions.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -130,6 +166,11 @@
     <Folder Include="Components\" />
     <Folder Include="Services\" />
     <Folder Include="Services\Caching\" />
+    <Folder Include="Views\Home\" />
+    <Folder Include="Views\LandingPage\" />
+    <Folder Include="Views\SplashPage\" />
+    <Folder Include="Views\LandingPage\LandingPageTemplate\" />
+    <Folder Include="Components\CarouselDotsGenerator\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\packages\Fody.1.29.4\build\portable-net+sl+win+wpa+wp\Fody.targets" Condition="Exists('..\packages\Fody.1.29.4\build\portable-net+sl+win+wpa+wp\Fody.targets')" />
