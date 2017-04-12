@@ -45,6 +45,47 @@
 	  </cv:CarouselView>
 
 		<StackLayout
+		Padding="30"
+		Orientation="Horizontal"
+		RelativeLayout.XConstraint =
+      "{ConstraintExpression Type=RelativeToParent,
+                             Property=X,
+                             Factor=0,
+                             Constant=0}"
+    	RelativeLayout.YConstraint =
+      "{ConstraintExpression Type=RelativeToParent,
+                             Property=Y,
+                             Factor=0,
+                             Constant=0}"
+		RelativeLayout.WidthConstraint =
+      "{ConstraintExpression Type=RelativeToParent,
+                             Property=Width,
+                             Factor=1,
+                             Constant=0}"
+    	RelativeLayout.HeightConstraint =
+      "{ConstraintExpression Type=RelativeToParent,
+                             Property=Height,
+                             Factor=1,
+                             Constant=0}">
+
+           <Label
+				FontAttributes="Bold"
+				Text="Skip"
+				TextColor="White"
+				Opacity="0.6"
+				FontSize="20"
+				HorizontalOptions="EndAndExpand"
+				VerticalOptions="StartAndExpand">
+
+				<Label.GestureRecognizers>
+					<TapGestureRecognizer Command="{Binding SkipLandingPage}"/>
+				</Label.GestureRecognizers>
+
+			</Label>
+
+		</StackLayout>
+
+		<StackLayout
 			HorizontalOptions="FillAndExpand"
 			VerticalOptions="FillAndExpand"
 			Padding="0,0,0,50"

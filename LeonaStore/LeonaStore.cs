@@ -1,4 +1,6 @@
 ﻿using System;
+using Xamarin.Forms;
+
 namespace LeonaStore
 {
 	public class Screens
@@ -16,5 +18,10 @@ namespace LeonaStore
 	public class CacheKeys
 	{
 		public static readonly string NewUserKey = "NewUserKey";
+	}
+
+	public class AppColors
+	{
+		public static readonly Color BrandingColor = Color.FromHex("e74c3c");
 	}
 }

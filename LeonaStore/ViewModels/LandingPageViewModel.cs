@@ -14,11 +14,22 @@ namespace LeonaStore.ViewModels
 	{
 		public IList<LandingPageTemplateModel> PagesModelData { get; set; }
 
+		public ICommand SkipLandingPage { get; set; }
+
 		public int CarouselPosition { get; set; }
 
-		public LandingPageViewModel()
+		readonly INavigationService _navigationService;
+
+		public LandingPageViewModel(INavigationService navigationService)
 		{
-			
+			_navigationService = navigationService;
+
+			SkipLandingPage = new Command(OnSkipLandingPage);
+		}
+
+		async void OnSkipLandingPage()
+		{
+			await _navigationService.NavigateAsync($"{Screens.Home}");
 		}
 
 		void OnReachedLastPage()
@@ -41,21 +52,21 @@ namespace LeonaStore.ViewModels
 					{
 						Title = "Welcome To Leona",
 						Image = "pocket",
-						BackgroundColor = Color.FromHex("e74c3c"),
+						BackgroundColor = AppColors.BrandingColor,
 						Description = "Buy and Sell as never seen before"
 					},
 					new LandingPageTemplateModel
 					{
 						Title = "Modern and Responsive",
 						Image = "modern",
-						BackgroundColor = Color.FromHex("1abc9c"),
+						BackgroundColor = AppColors.BrandingColor,
 						Description = "All your favorite items in one place, instantly searchable"
 					},
 					new LandingPageTemplateModel
 					{
 						Title = "Ready to awesome up?",
 						Image = "ready",
-						BackgroundColor = Color.FromHex("f39c12"),
+						BackgroundColor = AppColors.BrandingColor,
 						Description = "Hit that button below!"
 					}
 				};
