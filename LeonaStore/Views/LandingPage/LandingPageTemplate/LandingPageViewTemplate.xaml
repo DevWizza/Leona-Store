@@ -8,7 +8,7 @@
 	<Image
 		HorizontalOptions="FillAndExpand"
 		VerticalOptions="CenterAndExpand"
-		HeightRequest="200"
+		HeightRequest="150"
 		Source="{Binding Image}"/>
 
 	<StackLayout

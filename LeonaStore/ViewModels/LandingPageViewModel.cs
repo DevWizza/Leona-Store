@@ -53,7 +53,7 @@ namespace LeonaStore.ViewModels
 						Title = "Welcome To Leona",
 						Image = "pocket",
 						BackgroundColor = AppColors.BrandingColor,
-						Description = "Buy and Sell as never seen before"
+						Description = "Buy and Sell like never seen before"
 					},
 					new LandingPageTemplateModel
 					{
