@@ -1,8 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<StackLayout xmlns="http://xamarin.com/schemas/2014/forms"
+<RelativeLayout xmlns="http://xamarin.com/schemas/2014/forms"
 	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-	x:Class="BasicItem.BasicItemView">
+	x:Class="BasicItem.BasicItemView"
+	BackgroundColor="{Binding BrandColor}"
+	HeightRequest="200"
+	Margin="0,8,0,8"
+	HorizontalOptions="FillAndExpand">
 
-	<Label Text="Basic Item"/>
+	<Image 
+		Source="{Binding ProductBackground}"
+		Aspect="AspectFit"
+		RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Y, Factor=0,Constant=0}"
+        RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=X, Factor=0, Constant=110}"
+        RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width,Factor=1,Constant=0}"
+        RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=1,Constant=0}"/>
+
+	<StackLayout
+		Padding="50"
+		HorizontalOptions="StartAndExpand"
+		RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Y, Factor=0,Constant=0}"
+        RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=X, Factor=0, Constant=0}"
+        RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width,Factor=1,Constant=0}"
+        RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=1,Constant=0}">
+
+	<Label Text="{Binding BrandCompany}" FontSize="24"/>
+
+	<BoxView HeightRequest="1"
+			WidthRequest="20"
+			Color="Black"/>
+
+	<Label Text="{Binding ProductName}" 
+		FontAttributes="Bold"
+		FontSize="30"/>
+
+	</StackLayout>
 	
-</StackLayout>
+</RelativeLayout>

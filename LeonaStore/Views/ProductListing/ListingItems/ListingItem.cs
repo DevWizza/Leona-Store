@@ -1,4 +1,5 @@
 ﻿using System;
+using Xamarin.Forms;
 
 namespace LeonaStore.Views.Home.ListingItem
 {
@@ -12,7 +13,7 @@ namespace LeonaStore.Views.Home.ListingItem
 
 		public string ProductName { get; set; }
 
-		public string HexadecimalBrandColor { get; set; }
+		public Color BrandColor { get; set; }
 
 		public string ProductBackground { get; set; }
 	}
