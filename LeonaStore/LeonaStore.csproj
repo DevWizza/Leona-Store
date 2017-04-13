@@ -59,6 +59,20 @@
       <DependentUpon>LittleDotView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Components\CarouselDotsGenerator\IDot.cs" />
+    <Compile Include="Views\Home\ListingItems\ListingItemTemplateSelector.xaml.cs">
+      <DependentUpon>ListingItemTemplateSelector.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Home\ListingItems\ListingItemType.cs" />
+    <Compile Include="Views\Home\ListingItems\ListingItem.cs" />
+    <Compile Include="Views\Home\ListingItems\AnnouncementItem\AnnouncementItemView.xaml.cs">
+      <DependentUpon>AnnouncementItemView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Home\ListingItems\BasicItem\BasicItemView.xaml.cs">
+      <DependentUpon>BasicItemView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Home\ListingItems\PremiumItem\PremiumItemView.xaml.cs">
+      <DependentUpon>PremiumItemView.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="App.xaml">
@@ -88,6 +102,22 @@
     <EmbeddedResource Include="Components\CarouselDotsGenerator\LittleDotView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <LogicalName>LittleDotView.xaml</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Home\ListingItems\ListingItemTemplateSelector.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <LogicalName>ListingItemTemplateSelector.xaml</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Home\ListingItems\AnnouncementItem\AnnouncementItemView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <LogicalName>AnnouncementItemView.xaml</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Home\ListingItems\BasicItem\BasicItemView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <LogicalName>BasicItemView.xaml</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Home\ListingItems\PremiumItem\PremiumItemView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <LogicalName>PremiumItemView.xaml</LogicalName>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -171,6 +201,10 @@
     <Folder Include="Views\SplashPage\" />
     <Folder Include="Views\LandingPage\LandingPageTemplate\" />
     <Folder Include="Components\CarouselDotsGenerator\" />
+    <Folder Include="Views\Home\ListingItems\" />
+    <Folder Include="Views\Home\ListingItems\PremiumItem\" />
+    <Folder Include="Views\Home\ListingItems\BasicItem\" />
+    <Folder Include="Views\Home\ListingItems\AnnouncementItem\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\packages\Fody.1.29.4\build\portable-net+sl+win+wpa+wp\Fody.targets" Condition="Exists('..\packages\Fody.1.29.4\build\portable-net+sl+win+wpa+wp\Fody.targets')" />
