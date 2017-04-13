@@ -38,15 +38,15 @@
     <Compile Include="Services\Caching\ICache.cs" />
     <Compile Include="Services\Caching\AkavacheImpl.cs" />
     <Compile Include="ViewModels\LandingPageViewModel.cs" />
-    <Compile Include="ViewModels\HomeViewModel.cs" />
+    <Compile Include="ViewModels\ProductListingViewModel.cs" />
     <Compile Include="Views\SplashPage\SplashPage.xaml.cs">
       <DependentUpon>SplashPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\LandingPage\LandingPage.xaml.cs">
       <DependentUpon>LandingPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\Home\Home.xaml.cs">
-      <DependentUpon>Home.xaml</DependentUpon>
+    <Compile Include="Views\ProductListing\ProductListing.xaml.cs">
+      <DependentUpon>ProductListing.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\LandingPage\LandingPageTemplate\LandingPageTemplateModel.cs" />
     <Compile Include="Views\LandingPage\LandingPageTemplate\LandingPageViewTemplate.xaml.cs">
@@ -59,18 +59,18 @@
       <DependentUpon>LittleDotView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Components\CarouselDotsGenerator\IDot.cs" />
-    <Compile Include="Views\Home\ListingItems\ListingItemTemplateSelector.xaml.cs">
+    <Compile Include="Views\ProductListing\ListingItems\ListingItemTemplateSelector.xaml.cs">
       <DependentUpon>ListingItemTemplateSelector.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\Home\ListingItems\ListingItemType.cs" />
-    <Compile Include="Views\Home\ListingItems\ListingItem.cs" />
-    <Compile Include="Views\Home\ListingItems\AnnouncementItem\AnnouncementItemView.xaml.cs">
+    <Compile Include="Views\ProductListing\ListingItems\ListingItemType.cs" />
+    <Compile Include="Views\ProductListing\ListingItems\ListingItem.cs" />
+    <Compile Include="Views\ProductListing\ListingItems\AnnouncementItem\AnnouncementItemView.xaml.cs">
       <DependentUpon>AnnouncementItemView.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\Home\ListingItems\BasicItem\BasicItemView.xaml.cs">
+    <Compile Include="Views\ProductListing\ListingItems\BasicItem\BasicItemView.xaml.cs">
       <DependentUpon>BasicItemView.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\Home\ListingItems\PremiumItem\PremiumItemView.xaml.cs">
+    <Compile Include="Views\ProductListing\ListingItems\PremiumItem\PremiumItemView.xaml.cs">
       <DependentUpon>PremiumItemView.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
@@ -87,9 +87,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <LogicalName>LandingPage.xaml</LogicalName>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\Home\Home.xaml">
+    <EmbeddedResource Include="Views\ProductListing\ProductListing.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-      <LogicalName>Home.xaml</LogicalName>
+      <LogicalName>ProductListing.xaml</LogicalName>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\LandingPage\LandingPageTemplate\LandingPageViewTemplate.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
@@ -103,19 +103,19 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <LogicalName>LittleDotView.xaml</LogicalName>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\Home\ListingItems\ListingItemTemplateSelector.xaml">
+    <EmbeddedResource Include="Views\ProductListing\ListingItems\ListingItemTemplateSelector.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <LogicalName>ListingItemTemplateSelector.xaml</LogicalName>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\Home\ListingItems\AnnouncementItem\AnnouncementItemView.xaml">
+    <EmbeddedResource Include="Views\ProductListing\ListingItems\AnnouncementItem\AnnouncementItemView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <LogicalName>AnnouncementItemView.xaml</LogicalName>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\Home\ListingItems\BasicItem\BasicItemView.xaml">
+    <EmbeddedResource Include="Views\ProductListing\ListingItems\BasicItem\BasicItemView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <LogicalName>BasicItemView.xaml</LogicalName>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\Home\ListingItems\PremiumItem\PremiumItemView.xaml">
+    <EmbeddedResource Include="Views\ProductListing\ListingItems\PremiumItem\PremiumItemView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <LogicalName>PremiumItemView.xaml</LogicalName>
     </EmbeddedResource>
@@ -196,15 +196,15 @@
     <Folder Include="Components\" />
     <Folder Include="Services\" />
     <Folder Include="Services\Caching\" />
-    <Folder Include="Views\Home\" />
+    <Folder Include="Views\ProductListing\" />
     <Folder Include="Views\LandingPage\" />
     <Folder Include="Views\SplashPage\" />
     <Folder Include="Views\LandingPage\LandingPageTemplate\" />
     <Folder Include="Components\CarouselDotsGenerator\" />
-    <Folder Include="Views\Home\ListingItems\" />
-    <Folder Include="Views\Home\ListingItems\PremiumItem\" />
-    <Folder Include="Views\Home\ListingItems\BasicItem\" />
-    <Folder Include="Views\Home\ListingItems\AnnouncementItem\" />
+    <Folder Include="Views\ProductListing\ListingItems\" />
+    <Folder Include="Views\ProductListing\ListingItems\PremiumItem\" />
+    <Folder Include="Views\ProductListing\ListingItems\BasicItem\" />
+    <Folder Include="Views\ProductListing\ListingItems\AnnouncementItem\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\packages\Fody.1.29.4\build\portable-net+sl+win+wpa+wp\Fody.targets" Condition="Exists('..\packages\Fody.1.29.4\build\portable-net+sl+win+wpa+wp\Fody.targets')" />

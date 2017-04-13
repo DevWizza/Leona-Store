@@ -7,7 +7,7 @@ namespace LeonaStore
 	{ 
 		public static readonly string SplashScreen = "SplashPage";
 		public static readonly string LandingPage = "LandingPage";
-		public static readonly string Home = "Home";
+		public static readonly string ProductListing = "ProductListing";
 	}
 
 	public class CacheSetup
