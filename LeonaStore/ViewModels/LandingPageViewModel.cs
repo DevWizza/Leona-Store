@@ -29,7 +29,7 @@ namespace LeonaStore.ViewModels
 
 		async void OnSkipLandingPage()
 		{
-			await _navigationService.NavigateAsync($"{Screens.Home}");
+			await _navigationService.NavigateAsync($"NavigationPage/{Screens.ProductListing}");
 		}
 
 		void OnReachedLastPage()

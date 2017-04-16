@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	Title="{Binding Title}"
+	BackgroundColor="{Binding BackgroundColor}"
+	xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+	xmlns:listingItemTemplateSelector="clr-namespace:LeonaStore.Views.Home.ListingItem;assembly=LeonaStore"
+	prism:ViewModelLocator.AutowireViewModel="True"
+	x:Class="LeonaStore.Views.ProductListing">
+
+	<ContentPage.ToolbarItems>
+		<ToolbarItem Icon="ic_search_white_24dp" Command="{Binding SearchCommand}"/>
+	</ContentPage.ToolbarItems>
+	<!--Create component that let you create ToolbarItems out of a List-->
+
+	<StackLayout>
+
+		<ListView
+		ItemsSource="{Binding Articles}"
+		SelectedItem="{Binding SelectedArticle}"
+		SeparatorColor="Transparent"
+		HasUnevenRows="true"
+		SeparatorVisibility="None"
+		RefreshCommand="{Binding RefreshListingCommand}"
+		IsPullToRefreshEnabled="true"
+		IsRefreshing="{Binding IsRefreshingListing}"
+		HorizontalOptions="FillAndExpand"
+		VerticalOptions="FillAndExpand">
+		<ListView.ItemTemplate>
+			<DataTemplate>
+				<listingItemTemplateSelector:ListingItemTemplateSelector/>
+			</DataTemplate>
+		</ListView.ItemTemplate>
+	</ListView>
+		
+	</StackLayout>
+	
+</ContentPage>
+

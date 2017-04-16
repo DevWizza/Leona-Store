@@ -3,6 +3,7 @@ using LeonaStore.Views;
 using Xamarin.Forms;
 using Prism.Navigation;
 using Microsoft.Practices.Unity;
+using LeonaStore.Views.Home;
 
 namespace LeonaStore
 {
@@ -22,7 +23,7 @@ namespace LeonaStore
 			Container.RegisterTypeForNavigation<NavigationPage>();
 			Container.RegisterTypeForNavigation<SplashPage>();
 			Container.RegisterTypeForNavigation<LandingPage>();
-			Container.RegisterTypeForNavigation<Home>();
+			Container.RegisterTypeForNavigation<ProductListing>();
 
 			Container.RegisterType(typeof(ICache), typeof(AkavacheImpl));
 		}

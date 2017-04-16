@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	x:Class="AnnouncementItem.AnnouncementItemView"
+	xmlns:behaviors="clr-namespace:ListingItems;assembly=LeonaStore"
+	BackgroundColor="{Binding BrandColor}"
+	HeightRequest="350"
+	Margin="0,8,0,8"
+	HorizontalOptions="FillAndExpand">
+
+	<Image
+		Source="{Binding ProductBackground}"
+		Aspect="AspectFit"
+		RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Y, Factor=0,Constant=0}"
+        RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=X, Factor=0, Constant=0}"
+        RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width,Factor=1,Constant=0}"
+        RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.5,Constant=0}">
+
+        <Image.Behaviors>
+        	<behaviors:ZoomInBehavior/>
+		</Image.Behaviors>
+
+	</Image>
+
+	<StackLayout
+		VerticalOptions="EndAndExpand"
+		RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Y, Factor=0,Constant=0}"
+        RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=X, Factor=0, Constant=0}"
+        RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width,Factor=1,Constant=0}"
+        RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=1,Constant=0}">
+
+
+	<StackLayout
+			Padding="50"
+			HorizontalOptions="CenterAndExpand"
+			VerticalOptions="FillAndExpand">
+
+			<Label Text="{Binding ProductName}" 
+		FontAttributes="Bold"
+		FontSize="30"/>
+
+	<Label Text="{Binding Price}"
+		FontSize="18"
+		HorizontalTextAlignment="Center"/>
+		
+	<Label Text="Only 4 in stock!"
+			FontSize="18"
+			TextColor="#e74c3c"
+			HorizontalTextAlignment="Center">
+	</Label>
+
+	</StackLayout>
+
+		<BoxView
+			VerticalOptions="End"
+			HorizontalOptions="FillAndExpand"
+			HeightRequest="1"
+			BackgroundColor="#e74c3c"/>
+
+	</StackLayout>
+	
+</RelativeLayout>

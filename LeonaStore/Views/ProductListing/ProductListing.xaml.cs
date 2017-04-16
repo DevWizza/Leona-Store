@@ -2,9 +2,9 @@
 
 namespace LeonaStore.Views
 {
-	public partial class Home : ContentPage
+	public partial class ProductListing : ContentPage
 	{
-		public Home()
+		public ProductListing()
 		{
 			InitializeComponent();
 		}

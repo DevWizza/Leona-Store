@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StackLayout xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	x:Class="BasicItem.BasicItemView"
+	BackgroundColor="{Binding BrandColor}"
+	HeightRequest="200"
+	Opacity="0"
+	Margin="0,8,0,8"
+	Orientation="Horizontal"
+	HorizontalOptions="FillAndExpand">
+
+	<Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+
+	<Grid.RowDefinitions>
+		<RowDefinition Height="*"/>
+	</Grid.RowDefinitions>
+
+	<Grid.ColumnDefinitions>
+		<ColumnDefinition Width="*"/>
+		<ColumnDefinition Width="*"/>
+	</Grid.ColumnDefinitions>
+
+	<StackLayout
+		Grid.Row="0"
+		Grid.Column="0">
+
+	<Image 
+		Source="{Binding ProductBackground}"
+		Aspect="AspectFit"
+		HeightRequest="150"
+		WidthRequest="150"
+		VerticalOptions="CenterAndExpand"
+		HorizontalOptions="CenterAndExpand"/>
+
+	</StackLayout>
+
+	<StackLayout
+		Spacing="4"
+		VerticalOptions="CenterAndExpand"
+		Grid.Row="0"
+		Grid.Column="1">
+
+	<Label Text="{Binding ProductName}" 
+		FontAttributes="Bold"
+		TextColor="Black"
+		FontSize="20"/>
+		
+	<Label Text="{Binding BrandCompany}"
+		FontSize="18"/>
+
+	<Label Text="{Binding Price, Converter={StaticResource moneyConverter}}"
+		FontSize="18"
+		TextColor="Black"/>
+
+	</StackLayout>
+
+	</Grid>
+
+</StackLayout>
