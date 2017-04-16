@@ -4,6 +4,7 @@
 	x:Class="BasicItem.BasicItemView"
 	BackgroundColor="{Binding BrandColor}"
 	HeightRequest="200"
+	Opacity="0"
 	Margin="0,8,0,8"
 	Orientation="Horizontal"
 	HorizontalOptions="FillAndExpand">

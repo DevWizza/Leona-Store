@@ -1,14 +1,15 @@
-﻿	using Prism.Commands;
-	using Prism.Mvvm;
-	using System;
-	using System.Collections.Generic;
-	using System.Linq;
-	using Prism.Navigation;
-	using System.Collections.ObjectModel;
-	using LeonaStore.Views.Home.ListingItem;
-	using Xamarin.Forms;
+﻿using Prism.Commands;
+using Prism.Mvvm;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using Prism.Navigation;
+using System.Collections.ObjectModel;
+using LeonaStore.Views.Home.ListingItem;
+using Xamarin.Forms;
+using System.Windows.Input;
 
-	namespace LeonaStore.ViewModels
+namespace LeonaStore.ViewModels
 	{
 		public class ProductListingViewModel : BindableBase, INavigationAware
 		{
@@ -18,14 +19,23 @@
 
 			public ObservableCollection<ListingItem> Articles { get; set; }
 
+			public ICommand RefreshListingCommand { get; set; }
+
+			public bool IsRefreshingListing { get; set; }
+
 			public ProductListingViewModel()
 			{
-
+				RefreshListingCommand = new Command(OnRefreshListing);
 			}
 
 			public void OnNavigatedFrom(NavigationParameters parameters)
 			{
 				
+			}
+
+			void OnRefreshListing()
+			{
+				IsRefreshingListing = false;
 			}
 
 			public void OnNavigatedTo(NavigationParameters parameters)
@@ -67,7 +77,7 @@
 						ProductName = "Nintendo Switch",
 						Price = new Price
 						{
-							Amount = 99.45,
+							Amount = 299.99,
 							Currency = "USD"
 						},
 						ListingItemType = ListingItemType.Basic,
@@ -80,13 +90,26 @@
 						ProductName = "iPhone 7",
 						Price = new Price
 						{
-							Amount = 12.45,
+							Amount = 699.34,
 							Currency = "USD"
 						},
 						ListingItemType = ListingItemType.Basic,
 						BrandCompany = "Apple",
 						BrandColor = Color.White,
 						ProductBackground = "http://pngbase.com/content/Electronics/Iphone%20Apple/5396.png"
+					},
+					new ListingItem()
+					{
+						ProductName = "Macbook Pro 15'",
+						Price = new Price
+						{
+							Amount = 1200.42,
+							Currency = "USD"
+						},
+						ListingItemType = ListingItemType.Basic,
+						BrandCompany = "Apple",
+						BrandColor = Color.White,
+						ProductBackground = "http://www.umbc.edu/bookstore-data/macbooksplash/images/MacBookPro_15inch_2.png"
 					}
 				};
 			}

@@ -13,6 +13,13 @@ namespace LeonaStore.Views.Home.ListingItem
 			InitializeComponent();
 		}
 
+		protected override async void OnAppearing()
+		{
+			base.OnAppearing();
+
+			await View.FadeTo(1, 500, Easing.SinIn);
+		}
+
 		protected override void OnBindingContextChanged()
 		{
 			base.OnBindingContextChanged();
