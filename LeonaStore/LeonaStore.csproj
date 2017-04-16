@@ -73,6 +73,11 @@
     <Compile Include="Views\ProductListing\ListingItems\Price.cs" />
     <Compile Include="Views\ProductListing\ListingItems\MoneyConverter.cs" />
     <Compile Include="Views\ProductListing\ListingItems\ZoomInBehavior.cs" />
+    <Compile Include="Views\ListingDetail\ListingDetail.xaml.cs">
+      <DependentUpon>ListingDetail.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModels\ListingDetailViewModel.cs" />
+    <Compile Include="Components\Behaviors\ListViewItemSelectedToCommandBehavior.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="App.xaml">
@@ -114,6 +119,10 @@
     <EmbeddedResource Include="Views\ProductListing\ListingItems\BasicItem\BasicItemView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <LogicalName>BasicItemView.xaml</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ListingDetail\ListingDetail.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <LogicalName>ListingDetail.xaml</LogicalName>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -200,6 +209,8 @@
     <Folder Include="Views\ProductListing\ListingItems\" />
     <Folder Include="Views\ProductListing\ListingItems\BasicItem\" />
     <Folder Include="Views\ProductListing\ListingItems\AnnouncementItem\" />
+    <Folder Include="Views\ListingDetail\" />
+    <Folder Include="Components\Behaviors\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\packages\Fody.1.29.4\build\portable-net+sl+win+wpa+wp\Fody.targets" Condition="Exists('..\packages\Fody.1.29.4\build\portable-net+sl+win+wpa+wp\Fody.targets')" />
