@@ -4,7 +4,7 @@ using Xamarin.Forms;
 
 namespace BasicItem
 {
-	public partial class BasicItemView : RelativeLayout
+	public partial class BasicItemView : StackLayout
 	{
 		public BasicItemView()
 		{

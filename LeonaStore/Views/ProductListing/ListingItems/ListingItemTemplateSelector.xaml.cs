@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using AnnouncementItem;
 using BasicItem;
-using PremiumItem;
 using Xamarin.Forms;
 
 namespace LeonaStore.Views.Home.ListingItem
@@ -27,9 +26,6 @@ namespace LeonaStore.Views.Home.ListingItem
 					break;
 				case ListingItemType.Announcement:
 					View = new AnnouncementItemView() { BindingContext = bindingContext };
-					break;
-				case ListingItemType.Premium:
-					View = new PremiumItemView() { BindingContext = bindingContext };
 					break;
 			}
 		}

@@ -39,7 +39,11 @@
 					new ListingItem()
 					{
 						ProductName = "Adidas R1",
-						Price = 66.66,
+						Price = new Price
+						{
+							Amount = 42.45,
+							Currency = "USD"
+						},
 						ListingItemType = ListingItemType.Announcement,
 						BrandCompany = "Adidas",
 						BrandColor = Color.White,
@@ -48,7 +52,11 @@
 					new ListingItem()
 					{
 						ProductName = "Chuck II Rio",
-						Price = 34.12,
+						Price = new Price
+						{
+							Amount = 33.45,
+							Currency = "USD"
+						},
 						ListingItemType = ListingItemType.Basic,
 						BrandCompany = "Converse",
 						BrandColor = Color.White,
@@ -57,11 +65,28 @@
 					new ListingItem()
 					{
 						ProductName = "Nintendo Switch",
-						Price = 34.12,
-						ListingItemType = ListingItemType.Premium,
+						Price = new Price
+						{
+							Amount = 99.45,
+							Currency = "USD"
+						},
+						ListingItemType = ListingItemType.Basic,
 						BrandCompany = "Nintendo",
 						BrandColor = Color.White,
 						ProductBackground = "http://vignette4.wikia.nocookie.net/fireemblem/images/4/42/Nintendo_Switch.png/revision/latest?cb=20170115150103"
+					},
+					new ListingItem()
+					{
+						ProductName = "iPhone 7",
+						Price = new Price
+						{
+							Amount = 12.45,
+							Currency = "USD"
+						},
+						ListingItemType = ListingItemType.Basic,
+						BrandCompany = "Apple",
+						BrandColor = Color.White,
+						ProductBackground = "http://pngbase.com/content/Electronics/Iphone%20Apple/5396.png"
 					}
 				};
 			}

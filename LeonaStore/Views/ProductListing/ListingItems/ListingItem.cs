@@ -9,7 +9,7 @@ namespace LeonaStore.Views.Home.ListingItem
 
 		public string BrandCompany { get; set; }
 
-		public double Price { get; set; }
+		public Price Price { get; set; }
 
 		public string ProductName { get; set; }
 

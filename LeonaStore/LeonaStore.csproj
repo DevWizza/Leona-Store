@@ -70,9 +70,8 @@
     <Compile Include="Views\ProductListing\ListingItems\BasicItem\BasicItemView.xaml.cs">
       <DependentUpon>BasicItemView.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\ProductListing\ListingItems\PremiumItem\PremiumItemView.xaml.cs">
-      <DependentUpon>PremiumItemView.xaml</DependentUpon>
-    </Compile>
+    <Compile Include="Views\ProductListing\ListingItems\Price.cs" />
+    <Compile Include="Views\ProductListing\ListingItems\MoneyConverter.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="App.xaml">
@@ -114,10 +113,6 @@
     <EmbeddedResource Include="Views\ProductListing\ListingItems\BasicItem\BasicItemView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <LogicalName>BasicItemView.xaml</LogicalName>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Views\ProductListing\ListingItems\PremiumItem\PremiumItemView.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-      <LogicalName>PremiumItemView.xaml</LogicalName>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -202,7 +197,6 @@
     <Folder Include="Views\LandingPage\LandingPageTemplate\" />
     <Folder Include="Components\CarouselDotsGenerator\" />
     <Folder Include="Views\ProductListing\ListingItems\" />
-    <Folder Include="Views\ProductListing\ListingItems\PremiumItem\" />
     <Folder Include="Views\ProductListing\ListingItems\BasicItem\" />
     <Folder Include="Views\ProductListing\ListingItems\AnnouncementItem\" />
   </ItemGroup>
