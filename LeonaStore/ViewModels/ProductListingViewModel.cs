@@ -38,6 +38,15 @@
 				{
 					new ListingItem()
 					{
+						ProductName = "Adidas R1",
+						Price = 66.66,
+						ListingItemType = ListingItemType.Announcement,
+						BrandCompany = "Adidas",
+						BrandColor = Color.White,
+						ProductBackground = "http://www.pngall.com/wp-content/uploads/2016/06/Adidas-Shoes-PNG-Picture.png"
+					},
+					new ListingItem()
+					{
 						ProductName = "Chuck II Rio",
 						Price = 34.12,
 						ListingItemType = ListingItemType.Basic,
@@ -47,21 +56,12 @@
 					},
 					new ListingItem()
 					{
-						ProductName = "Adidas R1",
-						Price = 66.66,
-						ListingItemType = ListingItemType.Basic,
-						BrandCompany = "Adidas",
-						BrandColor = Color.White,
-						ProductBackground = "http://www.pngall.com/wp-content/uploads/2016/06/Adidas-Shoes-PNG-Picture.png"
-					},
-					new ListingItem()
-					{
-						ProductName = "Premium",
+						ProductName = "Nintendo Switch",
 						Price = 34.12,
-						ListingItemType = ListingItemType.Basic,
-						BrandCompany = "Timberland",
+						ListingItemType = ListingItemType.Premium,
+						BrandCompany = "Nintendo",
 						BrandColor = Color.White,
-						ProductBackground = "http://image.sneakerhead.com/is/image/sneakerhead/snusa-detail_20?$sn20-650$&$img=sneakerhead/timberland-af-6-inch-annversary-27092-1"
+						ProductBackground = "http://vignette4.wikia.nocookie.net/fireemblem/images/4/42/Nintendo_Switch.png/revision/latest?cb=20170115150103"
 					}
 				};
 			}
