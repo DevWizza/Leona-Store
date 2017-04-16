@@ -21,11 +21,24 @@ namespace LeonaStore.ViewModels
 
 			public ICommand RefreshListingCommand { get; set; }
 
+			public ICommand ListingSelectedCommand { get; set; }
+
 			public bool IsRefreshingListing { get; set; }
 
-			public ProductListingViewModel()
+			readonly INavigationService _navigationService;
+
+			public ProductListingViewModel(INavigationService navigationService)
 			{
+				_navigationService = navigationService;
+				
 				RefreshListingCommand = new Command(OnRefreshListing);
+
+				ListingSelectedCommand = new Command(OnListingSelected);
+			}
+
+			async void OnListingSelected()
+			{
+				await _navigationService.NavigateAsync($"{Screens.ListingDetail}");
 			}
 
 			public void OnNavigatedFrom(NavigationParameters parameters)

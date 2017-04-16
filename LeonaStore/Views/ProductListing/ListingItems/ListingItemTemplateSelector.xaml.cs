@@ -26,6 +26,9 @@ namespace LeonaStore.Views.Home.ListingItem
 
 			var bindingContext = (ListingItem)BindingContext;
 
+			if (bindingContext == null)
+				return;
+
 			switch (bindingContext.ListingItemType)
 			{
 				case ListingItemType.Basic:

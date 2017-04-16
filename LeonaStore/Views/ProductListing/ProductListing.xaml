@@ -5,6 +5,7 @@
 	BackgroundColor="{Binding BackgroundColor}"
 	xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
 	xmlns:listingItemTemplateSelector="clr-namespace:LeonaStore.Views.Home.ListingItem;assembly=LeonaStore"
+	xmlns:behaviors="clr-namespace:Behaviors;assembly=LeonaStore"
 	prism:ViewModelLocator.AutowireViewModel="True"
 	x:Class="LeonaStore.Views.ProductListing">
 
@@ -31,6 +32,9 @@
 				<listingItemTemplateSelector:ListingItemTemplateSelector/>
 			</DataTemplate>
 		</ListView.ItemTemplate>
+		<ListView.Behaviors>
+			<behaviors:ListViewItemSelectedToCommandBehavior Command="{Binding ListingSelectedCommand}"/>
+		</ListView.Behaviors>
 	</ListView>
 		
 	</StackLayout>
