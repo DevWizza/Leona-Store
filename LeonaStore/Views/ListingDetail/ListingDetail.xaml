@@ -3,8 +3,124 @@
 	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
 	xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
 	prism:ViewModelLocator.AutowireViewModel="True" 
+	BackgroundColor="White"
+	Title="iPhone 7s"
 	x:Class="LeonaStore.Views.ListingDetail.Views.ListingDetail">
 
+	<ScrollView>
 
+	<StackLayout
+		Spacing="20"
+		Padding="40"
+		VerticalOptions="FillAndExpand" 
+		HorizontalOptions="FillAndExpand">
+
+	<StackLayout Spacing="20">
+
+	<Image
+		WidthRequest="180"
+		HeightRequest="180"
+		HorizontalOptions="CenterAndExpand"
+		Aspect="AspectFit"
+		Source="http://pngbase.com/content/Electronics/Iphone%20Apple/5396.png"/>
+
+	<BoxView
+		HorizontalOptions="FillAndExpand"
+		HeightRequest="1"
+		Opacity="0.2"
+		Color="Gray"/>	
+
+
+	</StackLayout>
+
+	<StackLayout Spacing="16">
+
+		<Label FontAttributes="Bold" Text="NEW ARRIVAL"
+			TextColor="#e74c3c"/>
+
+		<StackLayout Orientation="Horizontal">
+
+				<Label Text="iPhone 7s"
+			TextColor="Black"
+			HorizontalOptions="StartAndExpand"
+			VerticalOptions="CenterAndExpand"
+			FontSize="26"/>
+
+			<Image
+				Aspect="AspectFit"
+				Source="http://www.clker.com/cliparts/v/x/S/0/n/X/solid-gray-heart-hi.png"
+				HorizontalOptions="EndAndExpand"
+				VerticalOptions="CenterAndExpand"
+				WidthRequest="24"
+				HeightRequest="24"/>
+
+		</StackLayout>
+
+		<StackLayout Orientation="Horizontal">
+
+		<Label
+			HorizontalOptions="StartAndExpand"
+			Text="Pink"
+			VerticalOptions="CenterAndExpand"
+			TextColor="#F64747"
+			FontSize="18"/>
+
+		<Label
+			HorizontalOptions="EndAndExpand"
+			Text="Change Color"
+			VerticalOptions="CenterAndExpand"
+			TextColor="#F64747"
+			FontSize="14"/>
+
+		</StackLayout>
+
+
+		<StackLayout
+				Orientation="Horizontal">
+
+				<Label  TextColor="Black" Text="$199"  FontSize="18"/>
+
+				<StackLayout
+					Orientation="Horizontal"
+				HorizontalOptions="EndAndExpand">
+
+			<BoxView Color="Gray" HorizontalOptions="End"
+				VerticalOptions="CenterAndExpand"
+				WidthRequest="20"
+				HeightRequest="20"/>
+
+					<BoxView Color="Gray" HorizontalOptions="End"
+				VerticalOptions="CenterAndExpand"
+				WidthRequest="20"
+				HeightRequest="20"/>
+
+					<BoxView Color="Gray" HorizontalOptions="End"
+				VerticalOptions="CenterAndExpand"
+				WidthRequest="20"
+				HeightRequest="20"/>
+
+					<BoxView Color="Gray" HorizontalOptions="End"
+				VerticalOptions="CenterAndExpand"
+				WidthRequest="20"
+				HeightRequest="20"/>
+
+				</StackLayout>
+
+		</StackLayout>
+
+	</StackLayout>
+
+		<Label TextColor="Black" Text="iPhone 7 dramatically improves the most important aspects of the iPhone experience. It introduces advanced new camera systems. The best performance and battery life ever in an iPhone. Immersive stereo speakers. The brightest, most colorful iPhone display. Splash and water resistance*. And it looks every bit as powerful as it is. This is iPhone 7."/>
+
+		<Button TextColor="White"
+			Text="ADD TO CART"
+				FontSize="18"
+				WidthRequest="80"
+				HeightRequest="60"
+			BackgroundColor="#e74c3c"/>
+		
+	</StackLayout>
+
+	</ScrollView>
 	
 </ContentPage>
