@@ -10,7 +10,7 @@ using Xamarin.Forms.Platform.Android;
 
 namespace LeonaStore.Droid
 {
-	[Activity(Label = "LeonaStore.Droid", Icon = "@drawable/icon", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+	[Activity(Label = "@string/AppName", Icon = "@mipmap/icon", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
 	public class MainActivity : FormsAppCompatActivity
 	{
 		protected override void OnCreate(Bundle bundle)
