@@ -4,14 +4,17 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using Prism.Navigation;
+using Like.ViewModels;
 
-namespace ViewModels.ViewModels
+namespace LeonaStore.ViewModels
 {
 	public class ListingDetailViewModel : BindableBase, INavigationAware
 	{
-		public ListingDetailViewModel()
-		{
+		public LikeViewModel LikeViewModel { get; set; }
 
+		public ListingDetailViewModel(LikeViewModel likeViewModel)
+		{
+			LikeViewModel = likeViewModel;
 		}
 
 		public void OnNavigatedFrom(NavigationParameters parameters)
