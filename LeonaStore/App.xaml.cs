@@ -4,7 +4,7 @@ using Xamarin.Forms;
 using Prism.Navigation;
 using Microsoft.Practices.Unity;
 using LeonaStore.Views.Home;
-using LeonaStore.Views.ListingDetail.Views;
+using Like.ViewModels;
 
 namespace LeonaStore
 {
@@ -26,6 +26,8 @@ namespace LeonaStore
 			Container.RegisterTypeForNavigation<LandingPage>();
 			Container.RegisterTypeForNavigation<ProductListing>();
 			Container.RegisterTypeForNavigation<ListingDetail>();
+
+			Container.RegisterType<LikeViewModel>();
 
 			Container.RegisterType(typeof(ICache), typeof(AkavacheImpl));
 		}

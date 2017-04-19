@@ -1,6 +1,6 @@
 ﻿using Xamarin.Forms;
 
-namespace LeonaStore.Views.ListingDetail.Views
+namespace LeonaStore.Views
 {
 	public partial class ListingDetail : ContentPage
 	{

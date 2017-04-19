@@ -3,9 +3,10 @@
 	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
 	xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
 	prism:ViewModelLocator.AutowireViewModel="True" 
+	xmlns:components="clr-namespace:Like;assembly=LeonaStore"
 	BackgroundColor="White"
 	Title="iPhone 7s"
-	x:Class="LeonaStore.Views.ListingDetail.Views.ListingDetail">
+	x:Class="LeonaStore.Views.ListingDetail">
 
 	<ScrollView>
 
@@ -40,19 +41,15 @@
 
 		<StackLayout Orientation="Horizontal">
 
-				<Label Text="iPhone 7s"
+		<Label Text="iPhone 7s"
 			TextColor="Black"
 			HorizontalOptions="StartAndExpand"
 			VerticalOptions="CenterAndExpand"
 			FontSize="26"/>
 
-			<Image
-				Aspect="AspectFit"
-				Source="http://www.clker.com/cliparts/v/x/S/0/n/X/solid-gray-heart-hi.png"
-				HorizontalOptions="EndAndExpand"
-				VerticalOptions="CenterAndExpand"
-				WidthRequest="24"
-				HeightRequest="24"/>
+			<components:LikeView HorizontalOptions="EndAndExpand"
+				BindingContext="{Binding LikeViewModel}"
+				VerticalOptions="CenterAndExpand"/>
 
 		</StackLayout>
 

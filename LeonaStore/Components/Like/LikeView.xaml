@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	x:Class="Like.LikeView"
+	HeightRequest="24"
+	WidthRequest="24">
+
+	<Image
+		x:Name="Heart_Unselected_State"
+		Aspect="AspectFit"
+		Source="selected_heart"
+		WidthRequest="24"
+		HeightRequest="24"
+		RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Y, Factor=0,Constant=0}"
+        RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=X, Factor=0, Constant=0}"
+        RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width,Factor=0,Constant=24}"
+        RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0,Constant=24}"/>
+
+	<Image
+		IsVisible="{Binding IsLiked}"
+		x:Name="Heart_Selected_State"
+		Aspect="AspectFit"
+		Source="unselected_heart"
+		WidthRequest="24"
+		HeightRequest="24"
+		RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Y, Factor=0,Constant=0}"
+        RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=X, Factor=0, Constant=0}"
+        RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width,Factor=0,Constant=24}"
+        RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0,Constant=24}"/>
+
+	<RelativeLayout.GestureRecognizers>
+		<TapGestureRecognizer Tapped="OnComponentTapped" Command="{Binding UserLikedArticleCommand}"/>
+	</RelativeLayout.GestureRecognizers>
+	
+</RelativeLayout>
