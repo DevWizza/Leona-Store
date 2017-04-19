@@ -9,6 +9,12 @@ namespace LeonaStore
 		public static readonly string LandingPage = "LandingPage";
 		public static readonly string ProductListing = "ProductListing";
 		public static readonly string ListingDetail = "ListingDetail";
+		public static readonly string PickAColor = "PickAColor";
+	}
+
+	public class ScreensNavigationParameters
+	{
+		public static readonly string SelectedColor = "ColorSelected";
 	}
 
 	public class CacheSetup

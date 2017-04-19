@@ -26,6 +26,7 @@ namespace LeonaStore
 			Container.RegisterTypeForNavigation<LandingPage>();
 			Container.RegisterTypeForNavigation<ProductListing>();
 			Container.RegisterTypeForNavigation<ListingDetail>();
+			Container.RegisterTypeForNavigation<PickAColor>();
 
 			Container.RegisterType<LikeViewModel>();
 

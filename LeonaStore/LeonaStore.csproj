@@ -82,6 +82,10 @@
       <DependentUpon>LikeView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Components\Like\LikeViewModel.cs" />
+    <Compile Include="Views\PickAColor\PickAColor.xaml.cs">
+      <DependentUpon>PickAColor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModels\PickAColorViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="App.xaml">
@@ -131,6 +135,10 @@
     <EmbeddedResource Include="Components\Like\LikeView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <LogicalName>LikeView.xaml</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\PickAColor\PickAColor.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <LogicalName>PickAColor.xaml</LogicalName>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -220,6 +228,7 @@
     <Folder Include="Views\ListingDetail\" />
     <Folder Include="Components\Behaviors\" />
     <Folder Include="Components\Like\" />
+    <Folder Include="Views\PickAColor\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\packages\Fody.1.29.4\build\portable-net+sl+win+wpa+wp\Fody.targets" Condition="Exists('..\packages\Fody.1.29.4\build\portable-net+sl+win+wpa+wp\Fody.targets')" />
