@@ -35,6 +35,8 @@ namespace LeonaStore.Components.CarouselDotsGenerator
 			set { SetValue(ItemsSourceProperty, value); }
 		}
 
+		public Color DotColor { get; set; }
+
 		static void OnCurrentPageChanged(BindableObject bindable, object oldValue, object newValue)
 		{
 			var instance = (CarouselDotsGenerator)bindable;
@@ -57,6 +59,8 @@ namespace LeonaStore.Components.CarouselDotsGenerator
 		public CarouselDotsGenerator()
 		{
 			InitializeComponent();
+
+			DotColor = Color.White;
 		}
 
 		void PopulateDots(int listOfPagesOnScreen)
@@ -78,7 +82,7 @@ namespace LeonaStore.Components.CarouselDotsGenerator
 
 			if (selected != null)
 			{
-				selected.ChangeFillColorTo(Color.White);
+				selected.ChangeFillColorTo(DotColor);
 			}
 		}
 	}

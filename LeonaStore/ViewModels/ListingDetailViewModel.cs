@@ -8,6 +8,7 @@ using Like.ViewModels;
 using Xamarin.Forms;
 using System.Windows.Input;
 using Prism.Services;
+using System.Collections;
 
 namespace LeonaStore.ViewModels
 {
@@ -19,7 +20,11 @@ namespace LeonaStore.ViewModels
 
 		public string SelectedColor { get; set; }
 
+		public IList ListingImages { get; set; }
+
 		public ICommand ChangeColorCommand { get; set; }
+
+		public int CarouselPosition { get; set; }
 
 		readonly INavigationService _navigationService;
 
@@ -60,7 +65,12 @@ namespace LeonaStore.ViewModels
 
 		public void OnNavigatedTo(NavigationParameters parameters)
 		{
-			
+			ListingImages = new List<string>
+			{
+				"http://pngbase.com/content/Electronics/Iphone%20Apple/5396.png",
+				"http://www.pngall.com/wp-content/uploads/2016/06/IPhone-PNG-Picture-PNG-Image.png",
+				"http://www.opusnetworks.co.uk/wp-content/uploads/2017/01/IPhone-7.png"
+			};
 		}
 
 		public void OnNavigatingTo(NavigationParameters parameters)
