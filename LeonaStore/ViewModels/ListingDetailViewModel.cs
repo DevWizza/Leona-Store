@@ -9,6 +9,7 @@ using Xamarin.Forms;
 using System.Windows.Input;
 using Prism.Services;
 using System.Collections;
+using Common;
 
 namespace LeonaStore.ViewModels
 {
@@ -29,6 +30,8 @@ namespace LeonaStore.ViewModels
 		readonly INavigationService _navigationService;
 
 		readonly IPageDialogService _dialogService;
+
+		public IList<ListingFeature> ListingFeature { get; set; }
 
 		public ListingDetailViewModel(LikeViewModel likeViewModel, 
 		                              INavigationService navigationService,
@@ -70,6 +73,26 @@ namespace LeonaStore.ViewModels
 				"http://pngbase.com/content/Electronics/Iphone%20Apple/5396.png",
 				"http://www.pngall.com/wp-content/uploads/2016/06/IPhone-PNG-Picture-PNG-Image.png",
 				"http://www.opusnetworks.co.uk/wp-content/uploads/2017/01/IPhone-7.png"
+			};
+
+			ListingFeature = new List<ListingFeature>
+			{
+				new ListingFeature
+				{
+					Feature = "128gb"
+				},
+				new ListingFeature
+				{
+					Feature = "iOS10"
+				},
+				new ListingFeature
+				{
+					Feature = "New"
+				},
+				new ListingFeature
+				{
+					Feature = "Unlocked"
+				}
 			};
 		}
 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StackLayout xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	InputTransparent="true"
+	x:Class="ListingModelSelection.ListingModelSelectionTemplate">
+
+	<StackLayout
+		x:Name="Container"
+		BackgroundColor="#e74c3c"
+		Padding="4">
+
+		<Label HorizontalOptions="End"
+			TextColor="White"
+			FontSize="12"
+			FontAttributes="Bold"
+			VerticalOptions="CenterAndExpand"
+			Text="{Binding Feature}"/>
+			
+	</StackLayout>
+</StackLayout>

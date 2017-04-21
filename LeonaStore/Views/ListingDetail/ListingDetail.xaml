@@ -6,8 +6,10 @@
 	xmlns:components="clr-namespace:Like;assembly=LeonaStore"
 	BackgroundColor="White"
 	Title="iPhone 7s"
+	xmlns:listingComponentsTemplate="clr-namespace:ListingModelSelection;assembly=LeonaStore"
 	xmlns:cv="clr-namespace:Xamarin.Forms;assembly=Xamarin.Forms.CarouselView"
 	xmlns:dots="clr-namespace:LeonaStore.Components.CarouselDotsGenerator;assembly=LeonaStore"
+	xmlns:listingComponents="clr-namespace:LeonaStore;assembly=LeonaStore"
 	x:Class="LeonaStore.Views.ListingDetail">
 
 	<ScrollView>
@@ -146,40 +148,26 @@
 
 		</StackLayout>
 
-
 		<StackLayout
 				Orientation="Horizontal">
 
-				<Label  TextColor="Black" Text="$199"  FontSize="18"/>
+				<Label TextColor="Black"
+					Text="$199"
+					FontSize="18"/>
 
-				<StackLayout
-					Orientation="Horizontal"
-				HorizontalOptions="EndAndExpand">
+				<listingComponents:ListingModelSelection
+					HorizontalOptions="EndAndExpand"
+					ItemsSource="{Binding ListingFeature}">
 
-			<BoxView Color="Gray" HorizontalOptions="End"
-				VerticalOptions="CenterAndExpand"
-				WidthRequest="20"
-				HeightRequest="20"/>
+				<listingComponents:ListingModelSelection.DataTemplate>
+					<DataTemplate>
+						<listingComponentsTemplate:ListingModelSelectionTemplate/>
+					</DataTemplate>
+				</listingComponents:ListingModelSelection.DataTemplate>
 
-					<BoxView Color="Gray" HorizontalOptions="End"
-				VerticalOptions="CenterAndExpand"
-				WidthRequest="20"
-				HeightRequest="20"/>
-
-					<BoxView Color="Gray" HorizontalOptions="End"
-				VerticalOptions="CenterAndExpand"
-				WidthRequest="20"
-				HeightRequest="20"/>
-
-					<BoxView Color="Gray" HorizontalOptions="End"
-				VerticalOptions="CenterAndExpand"
-				WidthRequest="20"
-				HeightRequest="20"/>
-
-				</StackLayout>
+				</listingComponents:ListingModelSelection>
 
 		</StackLayout>
-
 	</StackLayout>
 	<StackLayout Padding="40,0,40,0">
 		<Label TextColor="Black" 

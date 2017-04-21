@@ -82,6 +82,13 @@
       <DependentUpon>LikeView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Components\Like\LikeViewModel.cs" />
+    <Compile Include="Components\ListingModelSelection\ListingModelSelection.xaml.cs">
+      <DependentUpon>ListingModelSelection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Common\ListingFeature.cs" />
+    <Compile Include="Components\ListingModelSelection\ListingModelSelectionTemplate.xaml.cs">
+      <DependentUpon>ListingModelSelectionTemplate.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="App.xaml">
@@ -131,6 +138,14 @@
     <EmbeddedResource Include="Components\Like\LikeView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <LogicalName>LikeView.xaml</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\ListingModelSelection\ListingModelSelection.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <LogicalName>ListingModelSelection.xaml</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\ListingModelSelection\ListingModelSelectionTemplate.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <LogicalName>ListingModelSelectionTemplate.xaml</LogicalName>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -220,6 +235,8 @@
     <Folder Include="Views\ListingDetail\" />
     <Folder Include="Components\Behaviors\" />
     <Folder Include="Components\Like\" />
+    <Folder Include="Components\ListingModelSelection\" />
+    <Folder Include="Common\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\packages\Fody.1.29.4\build\portable-net+sl+win+wpa+wp\Fody.targets" Condition="Exists('..\packages\Fody.1.29.4\build\portable-net+sl+win+wpa+wp\Fody.targets')" />
