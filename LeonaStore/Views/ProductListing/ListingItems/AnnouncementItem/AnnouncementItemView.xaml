@@ -39,7 +39,7 @@
 		FontAttributes="Bold"
 		FontSize="30"/>
 
-	<Label Text="{Binding Price}"
+	<Label Text="{Binding Price, Converter={StaticResource moneyConverter}}"
 		FontSize="18"
 		HorizontalTextAlignment="Center"/>
 		
