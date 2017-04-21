@@ -57,17 +57,23 @@
 
 		<Label
 			HorizontalOptions="StartAndExpand"
-			Text="Pink"
+			Text="{Binding SelectedColor}"
 			VerticalOptions="CenterAndExpand"
-			TextColor="#F64747"
+			TextColor="Black"
 			FontSize="18"/>
 
 		<Label
 			HorizontalOptions="EndAndExpand"
-			Text="Change Color"
+			Text="{Binding ChangeColorText}"
 			VerticalOptions="CenterAndExpand"
-			TextColor="#F64747"
-			FontSize="14"/>
+			TextColor="Gray"
+			FontSize="14">
+
+		<RelativeLayout.GestureRecognizers>
+			<TapGestureRecognizer Command="{Binding ChangeColorCommand}"/>
+		</RelativeLayout.GestureRecognizers>
+
+		</Label>
 
 		</StackLayout>
 
