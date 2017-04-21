@@ -6,35 +6,106 @@
 	xmlns:components="clr-namespace:Like;assembly=LeonaStore"
 	BackgroundColor="White"
 	Title="iPhone 7s"
+	xmlns:cv="clr-namespace:Xamarin.Forms;assembly=Xamarin.Forms.CarouselView"
+	xmlns:dots="clr-namespace:LeonaStore.Components.CarouselDotsGenerator;assembly=LeonaStore"
 	x:Class="LeonaStore.Views.ListingDetail">
 
 	<ScrollView>
 
 	<StackLayout
 		Spacing="20"
-		Padding="40"
+		Padding="0,40,0,40"
 		VerticalOptions="FillAndExpand" 
 		HorizontalOptions="FillAndExpand">
 
 	<StackLayout Spacing="20">
 
-	<Image
-		WidthRequest="180"
-		HeightRequest="180"
-		HorizontalOptions="CenterAndExpand"
-		Aspect="AspectFit"
-		Source="http://pngbase.com/content/Electronics/Iphone%20Apple/5396.png"/>
+			<RelativeLayout
+				
+	HorizontalOptions="FillAndExpand"
+	VerticalOptions="FillAndExpand">
+
+	<cv:CarouselView
+		HorizontalOptions="FillAndExpand"
+		VerticalOptions="FillAndExpand"
+		ItemsSource="{Binding ListingImages}"
+		Position="{Binding CarouselPosition}"
+	RelativeLayout.XConstraint =
+  "{ConstraintExpression Type=RelativeToParent,
+                         Property=X,
+                         Factor=0,
+                         Constant=0}"
+	RelativeLayout.YConstraint =
+  "{ConstraintExpression Type=RelativeToParent,
+                         Property=Y,
+                         Factor=0,
+                         Constant=0}"
+	RelativeLayout.WidthConstraint =
+  "{ConstraintExpression Type=RelativeToParent,
+                         Property=Width,
+                         Factor=1,
+                         Constant=0}"
+	RelativeLayout.HeightConstraint =
+  "{ConstraintExpression Type=RelativeToParent,
+                         Property=Height,
+                         Factor=0,
+                         Constant=180}">
+		    <cv:CarouselView.ItemTemplate>
+		      <DataTemplate>
+		        	<Image
+	WidthRequest="180"
+	HeightRequest="180"
+	HorizontalOptions="CenterAndExpand"
+	Aspect="AspectFit"
+	Source="{Binding .}"/>
+		      </DataTemplate>
+		    </cv:CarouselView.ItemTemplate>
+  </cv:CarouselView>
+
+	<StackLayout
+		HorizontalOptions="FillAndExpand"
+		VerticalOptions="FillAndExpand"
+	RelativeLayout.XConstraint =
+  "{ConstraintExpression Type=RelativeToParent,
+                         Property=X,
+                         Factor=0,
+                         Constant=0}"
+	RelativeLayout.YConstraint =
+  "{ConstraintExpression Type=RelativeToParent,
+                         Property=Y,
+                         Factor=0,
+                         Constant=40}"
+	RelativeLayout.WidthConstraint =
+  "{ConstraintExpression Type=RelativeToParent,
+                         Property=Width,
+                         Factor=1,
+                         Constant=0}"
+	RelativeLayout.HeightConstraint =
+  "{ConstraintExpression Type=RelativeToParent,
+                         Property=Height,
+                         Factor=0,
+                         Constant=180}">
+
+		<dots:CarouselDotsGenerator
+			DotColor="#e74c3c"
+			HorizontalOptions="CenterAndExpand"
+			VerticalOptions="EndAndExpand"
+			ItemsSource="{Binding ListingImages}"
+			CurrentPage="{Binding CarouselPosition}"/>
+
+	</StackLayout>
+
+</RelativeLayout>
 
 	<BoxView
 		HorizontalOptions="FillAndExpand"
 		HeightRequest="1"
 		Opacity="0.2"
+		Margin="40,0,40,0"
 		Color="Gray"/>	
 
-
 	</StackLayout>
-
-	<StackLayout Spacing="16">
+	<StackLayout Spacing="16" Padding="40,0,40,0">
 
 		<Label FontAttributes="Bold" Text="NEW ARRIVAL"
 			TextColor="#e74c3c"/>
@@ -62,18 +133,16 @@
 			TextColor="Black"
 			FontSize="18"/>
 
+		<StackLayout.GestureRecognizers>
+			<TapGestureRecognizer Command="{Binding ChangeColorCommand}"/>
+		</StackLayout.GestureRecognizers>
+
 		<Label
 			HorizontalOptions="EndAndExpand"
 			Text="{Binding ChangeColorText}"
 			VerticalOptions="CenterAndExpand"
 			TextColor="Gray"
-			FontSize="14">
-
-		<RelativeLayout.GestureRecognizers>
-			<TapGestureRecognizer Command="{Binding ChangeColorCommand}"/>
-		</RelativeLayout.GestureRecognizers>
-
-		</Label>
+			FontSize="14"/>
 
 		</StackLayout>
 
@@ -112,8 +181,10 @@
 		</StackLayout>
 
 	</StackLayout>
-
-		<Label TextColor="Black" Text="iPhone 7 dramatically improves the most important aspects of the iPhone experience. It introduces advanced new camera systems. The best performance and battery life ever in an iPhone. Immersive stereo speakers. The brightest, most colorful iPhone display. Splash and water resistance*. And it looks every bit as powerful as it is. This is iPhone 7."/>
+	<StackLayout Padding="40,0,40,0">
+		<Label TextColor="Black" 
+				
+			Text="iPhone 7 dramatically improves the most important aspects of the iPhone experience. It introduces advanced new camera systems. The best performance and battery life ever in an iPhone. Immersive stereo speakers. The brightest, most colorful iPhone display. Splash and water resistance*. And it looks every bit as powerful as it is. This is iPhone 7."/>
 
 		<Button TextColor="White"
 			Text="ADD TO CART"
@@ -121,7 +192,7 @@
 				WidthRequest="80"
 				HeightRequest="60"
 			BackgroundColor="#e74c3c"/>
-		
+		</StackLayout>
 	</StackLayout>
 
 	</ScrollView>
