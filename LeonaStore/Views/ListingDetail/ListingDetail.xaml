@@ -92,7 +92,7 @@
 			DotColor="#e74c3c"
 			HorizontalOptions="CenterAndExpand"
 			VerticalOptions="EndAndExpand"
-			ItemsSource="{Binding ListingImages}"
+			ItemsSource="{Binding SelectedListingItem.ListingImages}"
 			CurrentPage="{Binding CarouselPosition}"/>
 
 	</StackLayout>
