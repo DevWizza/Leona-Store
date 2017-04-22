@@ -1,4 +1,4 @@
-namespace LeonaStore.Views.Home.ListingItem
+namespace LeonaStore.Domain
 {
 	public enum ListingItemType
 	{

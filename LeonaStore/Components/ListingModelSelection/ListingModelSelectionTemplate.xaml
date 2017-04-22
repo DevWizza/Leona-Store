@@ -14,7 +14,7 @@
 			FontSize="12"
 			FontAttributes="Bold"
 			VerticalOptions="CenterAndExpand"
-			Text="{Binding Feature}"/>
+			Text="{Binding .}"/>
 			
 	</StackLayout>
 </StackLayout>

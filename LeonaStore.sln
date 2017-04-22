@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeonaStore.iOS", "LeonaStor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeonaStore.Droid", "LeonaStore.Droid\LeonaStore.Droid.csproj", "{248F6995-E2C2-4B0B-AEB0-3AB9FD460C95}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeonaStore.Domain", "LeonaStore.Domain\LeonaStore.Domain.csproj", "{30DAA200-132C-489B-940B-F9DD6AF144D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,5 +55,17 @@ Global
 		{248F6995-E2C2-4B0B-AEB0-3AB9FD460C95}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{248F6995-E2C2-4B0B-AEB0-3AB9FD460C95}.Debug|iPhone.ActiveCfg = Debug|Any CPU
 		{248F6995-E2C2-4B0B-AEB0-3AB9FD460C95}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{30DAA200-132C-489B-940B-F9DD6AF144D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30DAA200-132C-489B-940B-F9DD6AF144D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30DAA200-132C-489B-940B-F9DD6AF144D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30DAA200-132C-489B-940B-F9DD6AF144D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30DAA200-132C-489B-940B-F9DD6AF144D4}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{30DAA200-132C-489B-940B-F9DD6AF144D4}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{30DAA200-132C-489B-940B-F9DD6AF144D4}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{30DAA200-132C-489B-940B-F9DD6AF144D4}.Release|iPhone.Build.0 = Release|Any CPU
+		{30DAA200-132C-489B-940B-F9DD6AF144D4}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{30DAA200-132C-489B-940B-F9DD6AF144D4}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{30DAA200-132C-489B-940B-F9DD6AF144D4}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{30DAA200-132C-489B-940B-F9DD6AF144D4}.Debug|iPhone.Build.0 = Debug|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -62,15 +62,12 @@
     <Compile Include="Views\ProductListing\ListingItems\ListingItemTemplateSelector.xaml.cs">
       <DependentUpon>ListingItemTemplateSelector.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\ProductListing\ListingItems\ListingItemType.cs" />
-    <Compile Include="Views\ProductListing\ListingItems\ListingItem.cs" />
     <Compile Include="Views\ProductListing\ListingItems\AnnouncementItem\AnnouncementItemView.xaml.cs">
       <DependentUpon>AnnouncementItemView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\ProductListing\ListingItems\BasicItem\BasicItemView.xaml.cs">
       <DependentUpon>BasicItemView.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\ProductListing\ListingItems\Price.cs" />
     <Compile Include="Views\ProductListing\ListingItems\MoneyConverter.cs" />
     <Compile Include="Views\ProductListing\ListingItems\ZoomInBehavior.cs" />
     <Compile Include="Views\ListingDetail\ListingDetail.xaml.cs">
@@ -85,10 +82,10 @@
     <Compile Include="Components\ListingModelSelection\ListingModelSelection.xaml.cs">
       <DependentUpon>ListingModelSelection.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Common\ListingFeature.cs" />
     <Compile Include="Components\ListingModelSelection\ListingModelSelectionTemplate.xaml.cs">
       <DependentUpon>ListingModelSelectionTemplate.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Services\ListingServices\IListingService.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="App.xaml">
@@ -236,7 +233,13 @@
     <Folder Include="Components\Behaviors\" />
     <Folder Include="Components\Like\" />
     <Folder Include="Components\ListingModelSelection\" />
-    <Folder Include="Common\" />
+    <Folder Include="Services\ListingServices\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LeonaStore.Domain\LeonaStore.Domain.csproj">
+      <Project>{30DAA200-132C-489B-940B-F9DD6AF144D4}</Project>
+      <Name>LeonaStore.Domain</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\packages\Fody.1.29.4\build\portable-net+sl+win+wpa+wp\Fody.targets" Condition="Exists('..\packages\Fody.1.29.4\build\portable-net+sl+win+wpa+wp\Fody.targets')" />

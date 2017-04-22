@@ -3,7 +3,7 @@
 	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
 	x:Class="AnnouncementItem.AnnouncementItemView"
 	xmlns:behaviors="clr-namespace:ListingItems;assembly=LeonaStore"
-	BackgroundColor="{Binding BrandColor}"
+	BackgroundColor="{Binding ListingOwner.BrandColorHex}"
 	HeightRequest="350"
 	Margin="0,8,0,8"
 	HorizontalOptions="FillAndExpand">

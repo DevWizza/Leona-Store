@@ -2,7 +2,7 @@
 <StackLayout xmlns="http://xamarin.com/schemas/2014/forms"
 	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
 	x:Class="BasicItem.BasicItemView"
-	BackgroundColor="{Binding BrandColor}"
+	BackgroundColor="{Binding ListingOwner.BrandColorHex}"
 	HeightRequest="200"
 	Opacity="0"
 	Margin="0,8,0,8"
@@ -45,7 +45,7 @@
 		TextColor="Black"
 		FontSize="20"/>
 		
-	<Label Text="{Binding BrandCompany}"
+	<Label Text="{Binding ListingOwner.OwnerIdentityName}"
 		FontSize="18"/>
 
 	<Label Text="{Binding Price, Converter={StaticResource moneyConverter}}"

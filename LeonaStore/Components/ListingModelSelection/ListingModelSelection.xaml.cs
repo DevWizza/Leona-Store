@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using Common;
 using Xamarin.Forms;
 
 namespace LeonaStore
@@ -36,7 +35,7 @@ namespace LeonaStore
 		static void OnItemsSourceChanged(BindableObject bindable, object oldValue, object newValue)
 		{
 			var instance = (ListingModelSelection) bindable;
-			instance.PopulateChildrens((List<ListingFeature>)newValue);
+			instance.PopulateChildrens((List<string>)newValue);
 		}
 
 		void PopulateChildrens(IList list)
