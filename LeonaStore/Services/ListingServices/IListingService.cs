@@ -8,10 +8,10 @@ namespace ListingServices
 {
 	public interface IListingService
 	{
-		[Get("/LuisAlbertoPenaNunez/26bd329c9f4a8205f50e417b0ace3564/raw/7a0d982feae97cb132f6635003bc2eb0038ddf87/listingItems.json")]
+		[Get("/LuisAlbertoPenaNunez/26bd329c9f4a8205f50e417b0ace3564/raw/6be896a249f89628676c6df8488464ac1cb42fe4/listingItems.json")]
 		Task<List<ListingItem>> GetAllListings();
 
-		[Get("/LuisAlbertoPenaNunez/26bd329c9f4a8205f50e417b0ace3564/raw/7a0d982feae97cb132f6635003bc2eb0038ddf87/listingItems.json")]
+		[Get("/LuisAlbertoPenaNunez/26bd329c9f4a8205f50e417b0ace3564/raw/6be896a249f89628676c6df8488464ac1cb42fe4/listingItems.json")]
 		Task<ListingItem> GetListing(string productId);
 	}
 }
