@@ -9,35 +9,36 @@ using Xamarin.Forms;
 using System.Windows.Input;
 using Prism.Services;
 using System.Collections;
+using ListingServices;
+using LeonaStore.Domain;
 
 namespace LeonaStore.ViewModels
 {
 	public class ListingDetailViewModel : BindableBase, INavigationAware
 	{
+		public ICommand ChangeColorCommand { get; set; }
+
+		readonly IPageDialogService _dialogService;
+
+		readonly IListingService _listingService;
+
 		public LikeViewModel LikeViewModel { get; set; }
+
+		public ListingItem SelectedListingItem { get; set; }
 
 		public string ChangeColorText { get; set; }
 
 		public string SelectedColor { get; set; }
 
-		public IList ListingImages { get; set; }
-
-		public ICommand ChangeColorCommand { get; set; }
-
 		public int CarouselPosition { get; set; }
 
-		readonly INavigationService _navigationService;
-
-		readonly IPageDialogService _dialogService;
-
-		public IList<string> ListingFeature { get; set; }
-
-		public ListingDetailViewModel(LikeViewModel likeViewModel, 
-		                              INavigationService navigationService,
-		                              IPageDialogService dialogService)
+		public ListingDetailViewModel(LikeViewModel likeViewModel,
+		                              IPageDialogService dialogService,
+		                              IListingService listingService)
 		{
-			this._dialogService = dialogService;
-			_navigationService = navigationService;
+			_listingService = listingService;
+
+			_dialogService = dialogService;
 
 			LikeViewModel = likeViewModel;
 
@@ -65,22 +66,14 @@ namespace LeonaStore.ViewModels
 			
 		}
 
-		public void OnNavigatedTo(NavigationParameters parameters)
+		public async void OnNavigatedTo(NavigationParameters parameters)
 		{
-			//ListingImages = new List<string>
-			//{
-			//	"http://pngbase.com/content/Electronics/Iphone%20Apple/5396.png",
-			//	"http://www.pngall.com/wp-content/uploads/2016/06/IPhone-PNG-Picture-PNG-Image.png",
-			//	"http://www.opusnetworks.co.uk/wp-content/uploads/2017/01/IPhone-7.png"
-			//};
+			object productId = null;
 
-			//ListingFeature = new List<string>
-			//{
-			//	"128gb",
-			//	"iOS10",
-			//	"New",
-			//	"Unlocked"
-			//};
+			if (parameters.TryGetValue(ScreensNavigationParameters.ProductId, out productId))
+			{
+				SelectedListingItem = await _listingService.GetListing(productId as string);
+			}
 		}
 
 		public void OnNavigatingTo(NavigationParameters parameters)

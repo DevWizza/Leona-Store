@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using LeonaStore;
 using LeonaStore.Domain;
 using Refit;
+using System.Linq;
 
 namespace ListingServices
 {
@@ -19,6 +20,15 @@ namespace ListingServices
 		public async Task<List<ListingItem>> GetAllListings()
 		{
 			return await _listingService.GetAllListings();
+		}
+
+		public async Task<ListingItem> GetListing(string productId)
+		{
+			return await Task.Run(async() => {
+				var listings = await _listingService.GetAllListings();
+
+				return listings.FirstOrDefault(listing => listing.ProductName == productId);
+			});
 		}
 	}
 }

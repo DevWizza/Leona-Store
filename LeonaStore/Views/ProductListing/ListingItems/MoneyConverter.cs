@@ -17,9 +17,9 @@ namespace ListingItems
 			var price = value as Price;
 
 			if (price == null)
-				throw new Exception("Value must be a 'Price' object");
+				throw new ArgumentException("Value must be a 'Price' object");
 
-			return $"${price.Amount} {price.Currency}";
+			return $"{price.Amount:C} {price.Currency}";
 		}
 
 		public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)

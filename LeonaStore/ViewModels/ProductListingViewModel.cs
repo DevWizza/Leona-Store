@@ -37,12 +37,13 @@ namespace LeonaStore.ViewModels
 				
 				RefreshListingCommand = new Command(async()=> await OnRefreshListing());
 
-				ListingSelectedCommand = new Command(OnListingSelected);
+				ListingSelectedCommand = new Command<ListingItem>(OnListingSelected);
 			}
 
-			async void OnListingSelected()
+			async void OnListingSelected(ListingItem item)
 			{
-				await _navigationService.NavigateAsync($"{Screens.ListingDetail}");
+				await _navigationService.NavigateAsync($"{Screens.ListingDetail}",
+			                                           new NavigationParameters($"{ScreensNavigationParameters.ProductId}={item.ProductName}"));
 			}
 
 			public void OnNavigatedFrom(NavigationParameters parameters)

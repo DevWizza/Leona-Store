@@ -35,6 +35,7 @@
     <Compile Include="ListingOwner.cs" />
     <Compile Include="ListingModelType.cs" />
     <Compile Include="ListingDifferentModels.cs" />
+    <Compile Include="Currency.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
 </Project>

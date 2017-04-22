@@ -15,6 +15,7 @@ namespace LeonaStore
 	public class ScreensNavigationParameters
 	{
 		public static readonly string SelectedColor = "ColorSelected";
+		public static readonly string ProductId = "ProductId";
 	}
 
 	public class CacheSetup

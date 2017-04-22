@@ -5,7 +5,7 @@
 	prism:ViewModelLocator.AutowireViewModel="True" 
 	xmlns:components="clr-namespace:Like;assembly=LeonaStore"
 	BackgroundColor="White"
-	Title="iPhone 7s"
+	Title="{Binding SelectedListingItem.ProductName}"
 	xmlns:listingComponentsTemplate="clr-namespace:ListingModelSelection;assembly=LeonaStore"
 	xmlns:cv="clr-namespace:Xamarin.Forms;assembly=Xamarin.Forms.CarouselView"
 	xmlns:dots="clr-namespace:LeonaStore.Components.CarouselDotsGenerator;assembly=LeonaStore"
@@ -30,7 +30,7 @@
 	<cv:CarouselView
 		HorizontalOptions="FillAndExpand"
 		VerticalOptions="FillAndExpand"
-		ItemsSource="{Binding ListingImages}"
+		ItemsSource="{Binding SelectedListingItem.ListingImages}"
 		Position="{Binding CarouselPosition}"
 	RelativeLayout.XConstraint =
   "{ConstraintExpression Type=RelativeToParent,
@@ -114,7 +114,7 @@
 
 		<StackLayout Orientation="Horizontal">
 
-		<Label Text="iPhone 7s"
+		<Label Text="{Binding SelectedListingItem.ProductName}"
 			TextColor="Black"
 			HorizontalOptions="StartAndExpand"
 			VerticalOptions="CenterAndExpand"
@@ -152,12 +152,12 @@
 				Orientation="Horizontal">
 
 				<Label TextColor="Black"
-					Text="$199"
+					Text="{Binding SelectedListingItem.Price, Converter={StaticResource moneyConverter}}"
 					FontSize="18"/>
 
 				<listingComponents:ListingModelSelection
 					HorizontalOptions="EndAndExpand"
-					ItemsSource="{Binding ListingFeature}">
+					ItemsSource="{Binding SelectedListingItem.PronouncedFeatures}">
 
 				<listingComponents:ListingModelSelection.DataTemplate>
 					<DataTemplate>
@@ -172,7 +172,7 @@
 	<StackLayout Padding="40,0,40,0">
 		<Label TextColor="Black" 
 				
-			Text="iPhone 7 dramatically improves the most important aspects of the iPhone experience. It introduces advanced new camera systems. The best performance and battery life ever in an iPhone. Immersive stereo speakers. The brightest, most colorful iPhone display. Splash and water resistance*. And it looks every bit as powerful as it is. This is iPhone 7."/>
+			Text="{Binding SelectedListingItem.ProductDescription}"/>
 
 		<Button TextColor="White"
 			Text="ADD TO CART"
