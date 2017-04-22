@@ -40,7 +40,7 @@ namespace Behaviors
 				return;
 
 			if (Command.CanExecute(null))
-				Command.Execute(null);
+				Command.Execute(e.SelectedItem);
 		}
 
 		void OnContextChanged(object sender, EventArgs e)

@@ -5,12 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{349535DB-8E20-4FA6-9A7E-13C06E191973}</ProjectGuid>
     <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <UseMSBuildEngine>true</UseMSBuildEngine>
     <OutputType>Library</OutputType>
     <RootNamespace>LeonaStore</RootNamespace>
     <AssemblyName>LeonaStore</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
-    <TargetFrameworkProfile>Profile78</TargetFrameworkProfile>
+    <TargetFrameworkProfile>Profile259</TargetFrameworkProfile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -62,15 +61,12 @@
     <Compile Include="Views\ProductListing\ListingItems\ListingItemTemplateSelector.xaml.cs">
       <DependentUpon>ListingItemTemplateSelector.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\ProductListing\ListingItems\ListingItemType.cs" />
-    <Compile Include="Views\ProductListing\ListingItems\ListingItem.cs" />
     <Compile Include="Views\ProductListing\ListingItems\AnnouncementItem\AnnouncementItemView.xaml.cs">
       <DependentUpon>AnnouncementItemView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\ProductListing\ListingItems\BasicItem\BasicItemView.xaml.cs">
       <DependentUpon>BasicItemView.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\ProductListing\ListingItems\Price.cs" />
     <Compile Include="Views\ProductListing\ListingItems\MoneyConverter.cs" />
     <Compile Include="Views\ProductListing\ListingItems\ZoomInBehavior.cs" />
     <Compile Include="Views\ListingDetail\ListingDetail.xaml.cs">
@@ -85,10 +81,11 @@
     <Compile Include="Components\ListingModelSelection\ListingModelSelection.xaml.cs">
       <DependentUpon>ListingModelSelection.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Common\ListingFeature.cs" />
     <Compile Include="Components\ListingModelSelection\ListingModelSelectionTemplate.xaml.cs">
       <DependentUpon>ListingModelSelectionTemplate.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Services\ListingServices\IListingService.cs" />
+    <Compile Include="Services\ListingServices\ListingService.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="App.xaml">
@@ -173,9 +170,6 @@
     <Reference Include="Xamarin.Forms.Xaml">
       <HintPath>..\packages\Xamarin.Forms.2.3.4.224\lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.Xaml.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>..\packages\Newtonsoft.Json.6.0.3\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
-    </Reference>
     <Reference Include="System.Reactive.Interfaces">
       <HintPath>..\packages\Rx-Interfaces.2.2.5\lib\portable-windows8+net45+wp8\System.Reactive.Interfaces.dll</HintPath>
     </Reference>
@@ -215,6 +209,21 @@
     <Reference Include="ImageCircle.Forms.Plugin.Abstractions">
       <HintPath>..\packages\Xam.Plugins.Forms.ImageCircle.1.8.2.19-beta\lib\portable-net45+wp80+win8+wpa81\ImageCircle.Forms.Plugin.Abstractions.dll</HintPath>
     </Reference>
+    <Reference Include="Refit">
+      <HintPath>..\packages\refit.2.4.1\lib\Portable-Net45+NetCore45+WP8+WPA81\Refit.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.29\lib\portable-net40+sl4+win8+wp71+wpa81\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Extensions">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.29\lib\portable-net40+sl4+win8+wp71+wpa81\System.Net.Http.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Primitives">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.29\lib\portable-net40+sl4+win8+wp71+wpa81\System.Net.Http.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.2\lib\portable-net45+win8+wpa81+wp8\Newtonsoft.Json.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -236,10 +245,17 @@
     <Folder Include="Components\Behaviors\" />
     <Folder Include="Components\Like\" />
     <Folder Include="Components\ListingModelSelection\" />
-    <Folder Include="Common\" />
+    <Folder Include="Services\ListingServices\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LeonaStore.Domain\LeonaStore.Domain.csproj">
+      <Project>{30DAA200-132C-489B-940B-F9DD6AF144D4}</Project>
+      <Name>LeonaStore.Domain</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\packages\Fody.1.29.4\build\portable-net+sl+win+wpa+wp\Fody.targets" Condition="Exists('..\packages\Fody.1.29.4\build\portable-net+sl+win+wpa+wp\Fody.targets')" />
   <Import Project="..\packages\Fody.1.29.2\build\portable-net+sl+win+wpa+wp\Fody.targets" Condition="Exists('..\packages\Fody.1.29.2\build\portable-net+sl+win+wpa+wp\Fody.targets')" />
   <Import Project="..\packages\Xamarin.Forms.2.3.4.224\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.3.4.224\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets')" />
+  <Import Project="..\packages\refit.2.4.1\build\portable-net45+netcore45+wp8+wpa81+monoandroid+xamarin.ios10\refit.targets" Condition="Exists('..\packages\refit.2.4.1\build\portable-net45+netcore45+wp8+wpa81+monoandroid+xamarin.ios10\refit.targets')" />
 </Project>

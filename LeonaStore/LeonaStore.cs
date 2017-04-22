@@ -15,6 +15,7 @@ namespace LeonaStore
 	public class ScreensNavigationParameters
 	{
 		public static readonly string SelectedColor = "ColorSelected";
+		public static readonly string ProductId = "ProductId";
 	}
 
 	public class CacheSetup
@@ -30,5 +31,10 @@ namespace LeonaStore
 	public class AppColors
 	{
 		public static readonly Color BrandingColor = Color.FromHex("e74c3c");
+	}
+
+	public class API
+	{
+		public static readonly string REST_Endpoint = "https://gist.githubusercontent.com/";
 	}
 }

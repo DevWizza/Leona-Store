@@ -25,7 +25,7 @@ namespace LeonaStore.ViewModels
 
 		public async void OnNavigatedTo(NavigationParameters parameters)
 		{
-			//await Task.Delay(TimeSpan.FromSeconds(5));
+			await Task.Delay(TimeSpan.FromSeconds(2));
 
 			var isNotFirstTimeUser = await _cache.GetObjectAsync<bool>(CacheKeys.NewUserKey);
 

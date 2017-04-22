@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using AnnouncementItem;
 using BasicItem;
+using LeonaStore.Domain;
 using Xamarin.Forms;
 
 namespace LeonaStore.Views.Home.ListingItem
@@ -24,7 +25,7 @@ namespace LeonaStore.Views.Home.ListingItem
 		{
 			base.OnBindingContextChanged();
 
-			var bindingContext = (ListingItem)BindingContext;
+			var bindingContext = (Domain.ListingItem)BindingContext;
 
 			if (bindingContext == null)
 				return;

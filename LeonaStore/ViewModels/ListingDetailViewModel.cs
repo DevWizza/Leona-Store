@@ -9,56 +9,56 @@ using Xamarin.Forms;
 using System.Windows.Input;
 using Prism.Services;
 using System.Collections;
-using Common;
+using ListingServices;
+using LeonaStore.Domain;
 
 namespace LeonaStore.ViewModels
 {
 	public class ListingDetailViewModel : BindableBase, INavigationAware
 	{
+		public ICommand ChangeColorCommand { get; set; }
+
+		readonly IPageDialogService _dialogService;
+
+		readonly IListingService _listingService;
+
 		public LikeViewModel LikeViewModel { get; set; }
+
+		public ListingItem SelectedListingItem { get; set; }
 
 		public string ChangeColorText { get; set; }
 
 		public string SelectedColor { get; set; }
 
-		public IList ListingImages { get; set; }
-
-		public ICommand ChangeColorCommand { get; set; }
-
 		public int CarouselPosition { get; set; }
 
-		readonly INavigationService _navigationService;
-
-		readonly IPageDialogService _dialogService;
-
-		public IList<ListingFeature> ListingFeature { get; set; }
-
-		public ListingDetailViewModel(LikeViewModel likeViewModel, 
-		                              INavigationService navigationService,
-		                              IPageDialogService dialogService)
+		public ListingDetailViewModel(LikeViewModel likeViewModel,
+		                              IPageDialogService dialogService,
+		                              IListingService listingService)
 		{
-			this._dialogService = dialogService;
-			_navigationService = navigationService;
+			_listingService = listingService;
+
+			_dialogService = dialogService;
 
 			LikeViewModel = likeViewModel;
 
 			ChangeColorCommand = new Command(OnChangeColor);
-
-			ChangeColorText = "Change Color";
-
-			SelectedColor = "Black";
 		}
 
 		async void OnChangeColor()
 		{
-			await _dialogService.DisplayActionSheetAsync("Device Color",
-			                                             ActionSheetButton.CreateButton("Pink", () => OnColorSelected("Pink")),
-			                                            ActionSheetButton.CreateButton("Blue", () => OnColorSelected("Blue")),
-			                                            ActionSheetButton.CreateButton("Red", () => OnColorSelected("Red")));
+			var modelList = new List<IActionSheetButton>();
+
+			foreach (var model in SelectedListingItem.ListingModels.ListingModels)
+			{
+				modelList.Add(ActionSheetButton.CreateButton(model, () => OnModelSelected(model)));
+			}
+
+			await _dialogService.DisplayActionSheetAsync($"Select {SelectedListingItem.ListingModels.ModelType}", modelList.ToArray());
 		}
 
-		public void OnColorSelected(string color) {
-			SelectedColor = color;
+		public void OnModelSelected(string model) {
+			SelectedColor = model;
 		}
 
 		public void OnNavigatedFrom(NavigationParameters parameters)
@@ -66,34 +66,18 @@ namespace LeonaStore.ViewModels
 			
 		}
 
-		public void OnNavigatedTo(NavigationParameters parameters)
+		public async void OnNavigatedTo(NavigationParameters parameters)
 		{
-			ListingImages = new List<string>
-			{
-				"http://pngbase.com/content/Electronics/Iphone%20Apple/5396.png",
-				"http://www.pngall.com/wp-content/uploads/2016/06/IPhone-PNG-Picture-PNG-Image.png",
-				"http://www.opusnetworks.co.uk/wp-content/uploads/2017/01/IPhone-7.png"
-			};
+			object productId = null;
 
-			ListingFeature = new List<ListingFeature>
+			if (parameters.TryGetValue(ScreensNavigationParameters.ProductId, out productId))
 			{
-				new ListingFeature
-				{
-					Feature = "128gb"
-				},
-				new ListingFeature
-				{
-					Feature = "iOS10"
-				},
-				new ListingFeature
-				{
-					Feature = "New"
-				},
-				new ListingFeature
-				{
-					Feature = "Unlocked"
-				}
-			};
+				SelectedListingItem = await _listingService.GetListing(productId as string);
+
+				ChangeColorText = $"Change {SelectedListingItem.ListingModels.ModelType}";
+
+				SelectedColor = SelectedListingItem.ListingModels?.ListingModels.FirstOrDefault();
+			}
 		}
 
 		public void OnNavigatingTo(NavigationParameters parameters)
