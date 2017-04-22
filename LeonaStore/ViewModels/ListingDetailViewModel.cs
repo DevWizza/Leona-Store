@@ -43,22 +43,22 @@ namespace LeonaStore.ViewModels
 			LikeViewModel = likeViewModel;
 
 			ChangeColorCommand = new Command(OnChangeColor);
-
-			ChangeColorText = "Change Color";
-
-			SelectedColor = "Black";
 		}
 
 		async void OnChangeColor()
 		{
-			await _dialogService.DisplayActionSheetAsync("Device Color",
-			                                             ActionSheetButton.CreateButton("Pink", () => OnColorSelected("Pink")),
-			                                            ActionSheetButton.CreateButton("Blue", () => OnColorSelected("Blue")),
-			                                            ActionSheetButton.CreateButton("Red", () => OnColorSelected("Red")));
+			var modelList = new List<IActionSheetButton>();
+
+			foreach (var model in SelectedListingItem.ListingModels.ListingModels)
+			{
+				modelList.Add(ActionSheetButton.CreateButton(model, () => OnModelSelected(model)));
+			}
+
+			await _dialogService.DisplayActionSheetAsync($"Select {SelectedListingItem.ListingModels.ModelType}", modelList.ToArray());
 		}
 
-		public void OnColorSelected(string color) {
-			SelectedColor = color;
+		public void OnModelSelected(string model) {
+			SelectedColor = model;
 		}
 
 		public void OnNavigatedFrom(NavigationParameters parameters)
@@ -73,6 +73,10 @@ namespace LeonaStore.ViewModels
 			if (parameters.TryGetValue(ScreensNavigationParameters.ProductId, out productId))
 			{
 				SelectedListingItem = await _listingService.GetListing(productId as string);
+
+				ChangeColorText = $"Change {SelectedListingItem.ListingModels.ModelType}";
+
+				SelectedColor = SelectedListingItem.ListingModels?.ListingModels.FirstOrDefault();
 			}
 		}
 
