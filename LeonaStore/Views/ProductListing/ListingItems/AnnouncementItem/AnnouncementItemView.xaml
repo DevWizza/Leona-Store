@@ -11,7 +11,7 @@
 	<Image
 		Source="{Binding ProductBackground}"
 		Aspect="AspectFit"
-		RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Y, Factor=0,Constant=0}"
+		RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Y, Factor=0,Constant=20}"
         RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=X, Factor=0, Constant=0}"
         RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width,Factor=1,Constant=0}"
         RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.5,Constant=0}">
@@ -24,7 +24,7 @@
 
 	<StackLayout
 		VerticalOptions="EndAndExpand"
-		RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Y, Factor=0,Constant=0}"
+		RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Y, Factor=0,Constant=30}"
         RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=X, Factor=0, Constant=0}"
         RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width,Factor=1,Constant=0}"
         RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=1,Constant=0}">
@@ -33,7 +33,7 @@
 	<StackLayout
 			Padding="50"
 			HorizontalOptions="CenterAndExpand"
-			VerticalOptions="FillAndExpand">
+			VerticalOptions="EndAndExpand">
 
 			<Label Text="{Binding ProductName}" 
 		FontAttributes="Bold"
@@ -51,12 +51,16 @@
 
 	</StackLayout>
 
-		<BoxView
+	</StackLayout>
+
+	<BoxView
 			VerticalOptions="End"
 			HorizontalOptions="FillAndExpand"
 			HeightRequest="1"
-			BackgroundColor="#e74c3c"/>
-
-	</StackLayout>
+			BackgroundColor="#e74c3c"
+		RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=1,Constant=0}"
+        RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=X, Factor=0, Constant=-1}"
+        RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width,Factor=1,Constant=0}"
+        RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0,Constant=1}"/>
 	
 </RelativeLayout>

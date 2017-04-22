@@ -5,6 +5,7 @@ using Prism.Navigation;
 using Microsoft.Practices.Unity;
 using LeonaStore.Views.Home;
 using Like.ViewModels;
+using ListingServices;
 
 namespace LeonaStore
 {
@@ -30,6 +31,7 @@ namespace LeonaStore
 			Container.RegisterType<LikeViewModel>();
 
 			Container.RegisterType(typeof(ICache), typeof(AkavacheImpl));
+			Container.RegisterType(typeof(IListingService), typeof(ListingService));
 		}
 	}
 }
