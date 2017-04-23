@@ -2,10 +2,10 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
 	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
 	Title="{Binding Title}"
+	xmlns:prismBehaviors="clr-namespace:Prism.Behaviors;assembly=Prism.Forms"
 	BackgroundColor="{Binding BackgroundColor}"
 	xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
 	xmlns:listingItemTemplateSelector="clr-namespace:LeonaStore.Views.Home.ListingItem;assembly=LeonaStore"
-	xmlns:behaviors="clr-namespace:Behaviors;assembly=LeonaStore"
 	prism:ViewModelLocator.AutowireViewModel="True"
 	x:Class="LeonaStore.Views.ProductListing">
 
@@ -53,7 +53,8 @@
 			</DataTemplate>
 		</ListView.ItemTemplate>
 		<ListView.Behaviors>
-			<behaviors:ListViewItemSelectedToCommandBehavior Command="{Binding ListingSelectedCommand}"/>
+			<prismBehaviors:EventToCommandBehavior EventName="ItemSelected"
+				Command="{Binding ListingSelectedCommand}" EventArgsParameterPath="SelectedItem"/>
 		</ListView.Behaviors>
 	</ListView>
 

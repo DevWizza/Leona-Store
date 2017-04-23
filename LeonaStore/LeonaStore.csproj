@@ -73,7 +73,6 @@
       <DependentUpon>ListingDetail.xaml</DependentUpon>
     </Compile>
     <Compile Include="ViewModels\ListingDetailViewModel.cs" />
-    <Compile Include="Components\Behaviors\ListViewItemSelectedToCommandBehavior.cs" />
     <Compile Include="Components\Like\LikeView.xaml.cs">
       <DependentUpon>LikeView.xaml</DependentUpon>
     </Compile>
