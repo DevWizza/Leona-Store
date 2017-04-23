@@ -11,21 +11,19 @@
 	xmlns:dots="clr-namespace:LeonaStore.Components.CarouselDotsGenerator;assembly=LeonaStore"
 	xmlns:listingComponents="clr-namespace:LeonaStore;assembly=LeonaStore"
 	x:Class="LeonaStore.Views.ListingDetail">
-
 	<ScrollView>
-
-	<StackLayout
-		Spacing="20"
-		Padding="0,40,0,40"
-		VerticalOptions="FillAndExpand" 
-		HorizontalOptions="FillAndExpand">
+	<StackLayout>
+			
+			<StackLayout
+				Spacing="20"
+				Padding="0,40,0,40"
+				VerticalOptions="FillAndExpand" 
+				HorizontalOptions="FillAndExpand">
 
 	<StackLayout Spacing="20">
 
-			<RelativeLayout
-				
-	HorizontalOptions="FillAndExpand"
-	VerticalOptions="FillAndExpand">
+			<RelativeLayout HorizontalOptions="FillAndExpand"
+		VerticalOptions="FillAndExpand">
 
 	<cv:CarouselView
 		HorizontalOptions="FillAndExpand"
@@ -97,17 +95,51 @@
 
 	</StackLayout>
 
+	<StackLayout
+							HorizontalOptions="FillAndExpand"
+		VerticalOptions="FillAndExpand"
+	RelativeLayout.XConstraint =
+  "{ConstraintExpression Type=RelativeToParent,
+                         Property=X,
+                         Factor=0,
+                         Constant=0}"
+	RelativeLayout.YConstraint =
+  "{ConstraintExpression Type=RelativeToParent,
+                         Property=Y,
+                         Factor=0,
+                         Constant=40}"
+	RelativeLayout.WidthConstraint =
+  "{ConstraintExpression Type=RelativeToParent,
+                         Property=Width,
+                         Factor=1,
+                         Constant=0}"
+	RelativeLayout.HeightConstraint =
+  "{ConstraintExpression Type=RelativeToParent,
+                         Property=Height,
+                         Factor=0,
+                         Constant=180}">
+
+		<ActivityIndicator
+				Color="#e74c3c"
+				IsRunning="true"
+				IsVisible="{Binding IsLoading}"
+				HorizontalOptions="CenterAndExpand"
+				VerticalOptions="CenterAndExpand"/>
+							
+	</StackLayout>
+
 </RelativeLayout>
 
 	<BoxView
 		HorizontalOptions="FillAndExpand"
 		HeightRequest="1"
 		Opacity="0.2"
+						IsVisible="{Binding ShowContent}"
 		Margin="40,0,40,0"
 		Color="Gray"/>	
 
 	</StackLayout>
-	<StackLayout Spacing="16" Padding="40,0,40,0">
+	<StackLayout Spacing="16" Padding="40,0,40,0" IsVisible="{Binding ShowContent}">
 
 		<Label FontAttributes="Bold" Text="NEW ARRIVAL"
 			TextColor="#e74c3c"/>
@@ -126,7 +158,7 @@
 
 		</StackLayout>
 
-		<StackLayout Orientation="Horizontal">
+		<StackLayout Orientation="Horizontal" IsVisible="{Binding ShowContent}">
 
 		<Label
 			HorizontalOptions="StartAndExpand"
@@ -149,7 +181,7 @@
 		</StackLayout>
 
 		<StackLayout
-				Orientation="Horizontal">
+				Orientation="Horizontal" IsVisible="{Binding ShowContent}">
 
 				<Label TextColor="Black"
 					Text="{Binding SelectedListingItem.Price, Converter={StaticResource moneyConverter}}"
@@ -169,7 +201,7 @@
 
 		</StackLayout>
 	</StackLayout>
-	<StackLayout Padding="40,0,40,0">
+	<StackLayout Padding="40,0,40,0" IsVisible="{Binding ShowContent}">
 		<Label TextColor="Black" 
 				
 			Text="{Binding SelectedListingItem.ProductDescription}"/>
@@ -181,8 +213,8 @@
 				HeightRequest="60"
 			BackgroundColor="#e74c3c"/>
 		</StackLayout>
-	</StackLayout>
-
+				</StackLayout>
+			</StackLayout>
 	</ScrollView>
 	
 </ContentPage>

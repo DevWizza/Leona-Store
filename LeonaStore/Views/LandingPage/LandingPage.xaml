@@ -15,6 +15,7 @@
 		VerticalOptions="FillAndExpand">
 
 		<cv:CarouselView
+			x:Name="Carousel"
 			HorizontalOptions="FillAndExpand"
 			VerticalOptions="FillAndExpand"
 			ItemsSource="{Binding PagesModelData}"
@@ -77,6 +78,7 @@
                              Constant=0}">
 
            <Label
+				x:Name="SkipLabel"
 				FontAttributes="Bold"
 				Text="Skip"
 				TextColor="#99FFFFFF"
@@ -125,6 +127,7 @@
 				Spacing="20">
 
 			<Button
+				x:Name="ContinueButton"
 				Opacity = "0"
 				Text="Get Started"
 				HorizontalOptions="CenterAndExpand"

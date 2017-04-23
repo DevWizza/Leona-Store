@@ -32,6 +32,10 @@ namespace LeonaStore.ViewModels
 
 		public int CarouselPosition { get; set; }
 
+		public bool IsLoading { get; set; }
+
+		public bool ShowContent { get; set; }
+
 		public ListingDetailViewModel(LikeViewModel likeViewModel,
 		                              IPageDialogService dialogService,
 		                              IListingService listingService)
@@ -43,6 +47,10 @@ namespace LeonaStore.ViewModels
 			LikeViewModel = likeViewModel;
 
 			ChangeColorCommand = new Command(OnChangeColor);
+
+			IsLoading = false;
+
+			ShowContent = false;
 		}
 
 		async void OnChangeColor()
@@ -68,6 +76,10 @@ namespace LeonaStore.ViewModels
 
 		public async void OnNavigatedTo(NavigationParameters parameters)
 		{
+			IsLoading = true;
+
+			ShowContent = !IsLoading;
+
 			object productId = null;
 
 			if (parameters.TryGetValue(ScreensNavigationParameters.ProductId, out productId))
@@ -78,6 +90,10 @@ namespace LeonaStore.ViewModels
 
 				SelectedColor = SelectedListingItem.ListingModels?.ListingModels.FirstOrDefault();
 			}
+
+			IsLoading = false;
+
+			ShowContent = !IsLoading;
 		}
 
 		public void OnNavigatingTo(NavigationParameters parameters)

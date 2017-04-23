@@ -66,7 +66,8 @@ namespace LeonaStore.ViewModels
 
 				BackgroundColor = Color.FromHex("F5F5F5");
 
-				await OnRefreshListing();
+				if(Articles == null)
+					await OnRefreshListing();
 			}
 
 			public void OnNavigatingTo(NavigationParameters parameters)
