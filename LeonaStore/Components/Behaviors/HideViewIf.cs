@@ -76,9 +76,9 @@ namespace Behaviors
 		{
 			base.OnDetachingFrom(bindable);
 
-			_associatedObject = null;
-
 			_associatedObject.BindingContextChanged -= OnBindingContextChanged;
+
+			BindingContext = null;
 		}
 	}
 }

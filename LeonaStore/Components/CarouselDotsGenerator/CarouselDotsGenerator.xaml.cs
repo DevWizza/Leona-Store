@@ -35,7 +35,16 @@ namespace LeonaStore.Components.CarouselDotsGenerator
 			set { SetValue(ItemsSourceProperty, value); }
 		}
 
-		public Color DotColor { get; set; }
+		public static BindableProperty DotColorProperty =
+			BindableProperty.Create("DotColor",
+				typeof(Color),
+				typeof(CarouselDotsGenerator), Color.White);
+
+		public Color DotColor
+		{
+			get { return (Color)GetValue(DotColorProperty); }
+			set { SetValue(DotColorProperty, value); }
+		}
 
 		static void OnCurrentPageChanged(BindableObject bindable, object oldValue, object newValue)
 		{
@@ -46,6 +55,9 @@ namespace LeonaStore.Components.CarouselDotsGenerator
 
 		static void OnItemsSourceChanged(BindableObject bindable, object oldValue, object newValue)
 		{
+			if (newValue == null)
+				return;
+			
 			var instance = (CarouselDotsGenerator)bindable;
 
 			var items = ((IList)newValue).Count;

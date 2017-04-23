@@ -10,6 +10,7 @@ namespace LeonaStore
 		public static readonly string ProductListing = "ProductListing";
 		public static readonly string ListingDetail = "ListingDetail";
 		public static readonly string PickAColor = "PickAColor";
+		public static readonly string AbsoluteURI = "http://www.devwizza.com";
 	}
 
 	public class ScreensNavigationParameters

@@ -54,11 +54,11 @@ namespace Behaviors
 
 			_associatedObject = bindable;
 
+			_associatedObject.BindingContextChanged -= OnContextChanged;
+
 			_associatedObject.ItemSelected -= OnItemSelected;
 
 			BindingContext = null;
-
-			_associatedObject.BindingContextChanged -= OnContextChanged;
 		}
 	}
 }
