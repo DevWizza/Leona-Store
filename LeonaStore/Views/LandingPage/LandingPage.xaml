@@ -2,6 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
 	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
 	xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+	xmlns:prismBehaviors="clr-namespace:Prism.Behaviors;assembly=Prism.Forms"
+	xmlns:behaviors="clr-namespace:Behaviors;assembly=LeonaStore"
 	xmlns:template="clr-namespace:LeonaStore.Views.LandingPage.LandingPageTemplate;assembly=LeonaStore"
 	xmlns:cv="clr-namespace:Xamarin.Forms;assembly=Xamarin.Forms.CarouselView"
 	xmlns:dots="clr-namespace:LeonaStore.Components.CarouselDotsGenerator;assembly=LeonaStore"
@@ -42,6 +44,12 @@
 			        <template:LandingPageViewTemplate/>
 			      </DataTemplate>
 			    </cv:CarouselView.ItemTemplate>
+
+			<cv:CarouselView.Behaviors>
+			    	<prismBehaviors:EventToCommandBehavior EventName="PositionSelected"
+				Command="{Binding PositionChangedCommand}" EventArgsParameterPath="SelectedPosition"/>
+			</cv:CarouselView.Behaviors>
+			
 	  </cv:CarouselView>
 
 		<StackLayout
@@ -71,8 +79,7 @@
            <Label
 				FontAttributes="Bold"
 				Text="Skip"
-				TextColor="White"
-				Opacity="0.6"
+				TextColor="#99FFFFFF"
 				FontSize="20"
 				HorizontalOptions="EndAndExpand"
 				VerticalOptions="StartAndExpand">
@@ -80,7 +87,10 @@
 				<Label.GestureRecognizers>
 					<TapGestureRecognizer Command="{Binding SkipLandingPage}"/>
 				</Label.GestureRecognizers>
-
+				
+			<Label.Behaviors>
+					<behaviors:HideViewIf HideControlIf="{Binding ShowSkip}"/>
+				</Label.Behaviors>
 			</Label>
 
 		</StackLayout>
@@ -110,11 +120,31 @@
                              Factor=1,
                              Constant=0}">
 
+			<StackLayout 
+				VerticalOptions="EndAndExpand"
+				Spacing="20">
+
+			<Button
+				Opacity = "0"
+				Text="Get Started"
+				HorizontalOptions="CenterAndExpand"
+				TextColor="White"
+				Command="{Binding SkipLandingPage}"
+				BackgroundColor="#c0392b"
+				WidthRequest="200">
+
+			<Button.Behaviors>
+					<behaviors:HideViewIf HideControlIf="{Binding ShowContinueButton}"/>
+				</Button.Behaviors>
+
+			</Button>
+
 			<dots:CarouselDotsGenerator
 				HorizontalOptions="CenterAndExpand"
-				VerticalOptions="EndAndExpand"
 				ItemsSource="{Binding PagesModelData}"
 				CurrentPage="{Binding CarouselPosition}"/>
+
+			</StackLayout>
 
 		</StackLayout>
 

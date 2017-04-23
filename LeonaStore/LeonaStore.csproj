@@ -86,6 +86,7 @@
     </Compile>
     <Compile Include="Services\ListingServices\IListingService.cs" />
     <Compile Include="Services\ListingServices\ListingService.cs" />
+    <Compile Include="Components\Behaviors\HideViewIf.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="App.xaml">

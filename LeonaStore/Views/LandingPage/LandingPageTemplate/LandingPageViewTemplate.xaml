@@ -13,7 +13,8 @@
 
 	<StackLayout
 		VerticalOptions="CenterAndExpand"
-		Padding="20">
+		Padding="20"
+		Margin="0,0,0,50">
 
 	<Label
 		Text="{Binding Title}"
