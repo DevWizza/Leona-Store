@@ -20,11 +20,24 @@ namespace LeonaStore.ViewModels
 
 		readonly INavigationService _navigationService;
 
+		public bool ShowSkip { get; set; }
+
+		public ICommand PositionChangedCommand { get; set; }
+
 		public LandingPageViewModel(INavigationService navigationService)
 		{
 			_navigationService = navigationService;
 
 			SkipLandingPage = new Command(OnSkipLandingPage);
+
+			PositionChangedCommand = new Command<int>(OnPositionChanged);
+
+			ShowSkip = true;
+		}
+
+		void OnPositionChanged(int position)
+		{
+			ShowSkip = position != (PagesModelData.Count - 1);
 		}
 
 		async void OnSkipLandingPage()
