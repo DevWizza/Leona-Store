@@ -4,4 +4,5 @@
   <color name="primaryDark">#c0392b</color>
   <color name="accent">#e74c3c</color>
   <color name="window_background">#F5F5F5</color>
+  <color name="customHighlight">@android:color/transparent</color>
 </resources>
