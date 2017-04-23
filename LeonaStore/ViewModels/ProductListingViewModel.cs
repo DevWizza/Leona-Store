@@ -28,6 +28,8 @@ namespace LeonaStore.ViewModels
 			
 			readonly IListingService _listingService;
 
+			public ListingItem ItemSelected { get; set; }
+
 			public ProductListingViewModel(INavigationService navigationService,
 		                                   IListingService listingService)
 			{
@@ -42,8 +44,13 @@ namespace LeonaStore.ViewModels
 
 			async void OnListingSelected(ListingItem item)
 			{
+				if (item == null)
+					return;
+
 				await _navigationService.NavigateAsync($"{Screens.ListingDetail}",
-			                                           new NavigationParameters($"{ScreensNavigationParameters.ProductId}={item.ProductName}"));
+			                                       new NavigationParameters($"{ScreensNavigationParameters.ProductId}={item.ProductName}"));
+
+				ItemSelected = null;
 			}
 
 			public void OnNavigatedFrom(NavigationParameters parameters)

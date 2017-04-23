@@ -18,7 +18,7 @@
 
 		<ListView
 		ItemsSource="{Binding Articles}"
-		SelectedItem="{Binding SelectedArticle}"
+		SelectedItem="{Binding ItemSelected, Mode=TwoWay}"
 		SeparatorColor="Transparent"
 		HasUnevenRows="true"
 		SeparatorVisibility="None"
