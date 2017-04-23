@@ -22,6 +22,8 @@ namespace LeonaStore.ViewModels
 
 		public bool ShowSkip { get; set; }
 
+		public bool ShowContinueButton { get; set; }
+
 		public ICommand PositionChangedCommand { get; set; }
 
 		public LandingPageViewModel(INavigationService navigationService)
@@ -38,6 +40,8 @@ namespace LeonaStore.ViewModels
 		void OnPositionChanged(int position)
 		{
 			ShowSkip = position != (PagesModelData.Count - 1);
+
+			ShowContinueButton = position == (PagesModelData.Count - 1);
 		}
 
 		async void OnSkipLandingPage()

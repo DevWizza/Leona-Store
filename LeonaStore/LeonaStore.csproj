@@ -86,9 +86,7 @@
     </Compile>
     <Compile Include="Services\ListingServices\IListingService.cs" />
     <Compile Include="Services\ListingServices\ListingService.cs" />
-    <Compile Include="Views\LandingPage\LandingPageTemplate\LandingPageGetStartedButton.xaml.cs">
-      <DependentUpon>LandingPageGetStartedButton.xaml</DependentUpon>
-    </Compile>
+    <Compile Include="Components\Behaviors\HideViewIf.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="App.xaml">
@@ -146,10 +144,6 @@
     <EmbeddedResource Include="Components\ListingModelSelection\ListingModelSelectionTemplate.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <LogicalName>ListingModelSelectionTemplate.xaml</LogicalName>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Views\LandingPage\LandingPageTemplate\LandingPageGetStartedButton.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-      <LogicalName>LandingPageGetStartedButton.xaml</LogicalName>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
