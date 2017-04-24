@@ -1,40 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
 	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-	Title="{Binding Title}"
-	xmlns:prismBehaviors="clr-namespace:Prism.Behaviors;assembly=Prism.Forms"
-	BackgroundColor="{Binding BackgroundColor}"
 	xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
-	xmlns:listingItemTemplateSelector="clr-namespace:LeonaStore.Views.Home.ListingItem;assembly=LeonaStore"
 	prism:ViewModelLocator.AutowireViewModel="True"
-	x:Class="LeonaStore.Views.ProductListing">
+	xmlns:prismBehaviors="clr-namespace:Prism.Behaviors;assembly=Prism.Forms"
+	xmlns:BasicItemWithinFrame="clr-namespace:BasicItemWithinFrame;assembly=LeonaStore"
+	xmlns:listingItemTemplateSelector="clr-namespace:LeonaStore.Views.Home.ListingItem;assembly=LeonaStore"
+	x:Class="LeonaStore.Views.SearchPage">
 
-	<ContentPage.ToolbarItems>
-		<ToolbarItem Icon="ic_search_white_24dp" Command="{Binding SearchListingCommand}"/>
-	</ContentPage.ToolbarItems>
-	<!--Create component that let you create ToolbarItems out of a List-->
-
-	<RelativeLayout>
-
-		<ListView
-		ItemsSource="{Binding Articles}"
-		SelectedItem="{Binding ItemSelected, Mode=TwoWay}"
-		SeparatorColor="Transparent"
-		HasUnevenRows="true"
-		SeparatorVisibility="None"
-		RefreshCommand="{Binding RefreshListingCommand}"
-		IsPullToRefreshEnabled="true"
-		IsRefreshing="{Binding IsRefreshingListing}"
+	<RelativeLayout VerticalOptions="FillAndExpand"
 		HorizontalOptions="FillAndExpand"
-		VerticalOptions="FillAndExpand"
-		RelativeLayout.XConstraint =
+		Padding="0,0,0,0">
+		
+		<StackLayout Padding="0,100,0,0" RelativeLayout.XConstraint =
 	  "{ConstraintExpression Type=RelativeToParent,
 	                         Property=X,
 	                         Factor=0,
 	                         Constant=0}"
 		RelativeLayout.YConstraint =
 	  "{ConstraintExpression Type=RelativeToParent,
-	                         Property=Y,
+	                         Property=Height,
 	                         Factor=0,
 	                         Constant=0}"
 		RelativeLayout.WidthConstraint =
@@ -47,9 +32,21 @@
 	                         Property=Height,
 	                         Factor=1,
 	                         Constant=0}">
+			
+				<ListView
+		ItemsSource="{Binding Articles}"
+		SelectedItem="{Binding ItemSelected, Mode=TwoWay}"
+		SeparatorColor="Transparent"
+		HasUnevenRows="true"
+		SeparatorVisibility="None"
+		IsPullToRefreshEnabled="false"
+		HorizontalOptions="FillAndExpand"
+		VerticalOptions="FillAndExpand">
 		<ListView.ItemTemplate>
 			<DataTemplate>
-				<listingItemTemplateSelector:ListingItemTemplateSelector/>
+				<ViewCell>
+					<BasicItemWithinFrame:BasicItemWithinFrame/>
+				</ViewCell>
 			</DataTemplate>
 		</ListView.ItemTemplate>
 		<ListView.Behaviors>
@@ -58,16 +55,16 @@
 		</ListView.Behaviors>
 	</ListView>
 
-	<StackLayout
-		IsVisible="{Binding IsLoading}"
-		RelativeLayout.XConstraint =
+			</StackLayout>
+		
+		<StackLayout RelativeLayout.XConstraint =
 	  "{ConstraintExpression Type=RelativeToParent,
 	                         Property=X,
 	                         Factor=0,
 	                         Constant=0}"
 		RelativeLayout.YConstraint =
 	  "{ConstraintExpression Type=RelativeToParent,
-	                         Property=Y,
+	                         Property=Height,
 	                         Factor=0,
 	                         Constant=0}"
 		RelativeLayout.WidthConstraint =
@@ -80,12 +77,40 @@
 	                         Property=Height,
 	                         Factor=1,
 	                         Constant=0}">
+	                         		
+		<StackLayout BackgroundColor="#e74c3c"
+				VerticalOptions="StartAndExpand"
+				HorizontalOptions="FillAndExpand"
+				Padding="8,10,8,10"
+				Orientation="Vertical">
 
-						<!--We gotta do something awesome here while the app is loading-->
+		<Image Source="ic_close_white_24dp" 
+				Aspect="AspectFit" 
+				HeightRequest="24"
+				WidthRequest="24"
+				HorizontalOptions="Start">
+				<Image.GestureRecognizers>
+					<TapGestureRecognizer Command="{Binding NavigateBackCommand}"/>
+				</Image.GestureRecognizers>
+		</Image>
+
+		<Frame HorizontalOptions="End"
+			CornerRadius="4"
+			OutlineColor="#F5F5F5"
+			HasShadow="true"
+			Padding="10">
+			
+		<SearchBar HorizontalOptions="Center"
+			VerticalOptions="Start"
+			HeightRequest="40"
+			CancelButtonColor="White"
+			Placeholder="Search for..."/>
+		</Frame>
 
 		</StackLayout>
-		
+				
+			</StackLayout>
+
 	</RelativeLayout>
 	
 </ContentPage>
-
