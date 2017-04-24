@@ -24,6 +24,8 @@ namespace LeonaStore.ViewModels
 
 		readonly INavigationService _navigationService;
 
+		public bool IsLoading { get; set; }
+
 		public SearchPageViewModel(IListingService listingService,
 		                           INavigationService navigationService)
 		{
@@ -41,7 +43,11 @@ namespace LeonaStore.ViewModels
 
 		async Task OnRefreshListing()
 		{
+			IsLoading = true;
+
 			Articles = await _listingService.GetAllListings();
+
+			IsLoading = false;
 		}
 
 		public void OnNavigatedFrom(NavigationParameters parameters)

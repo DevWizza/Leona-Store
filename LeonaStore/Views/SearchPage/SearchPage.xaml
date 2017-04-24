@@ -94,13 +94,13 @@
 				</Image.GestureRecognizers>
 		</Image>
 
-		<Frame HorizontalOptions="End"
+		<Frame HorizontalOptions="FillAndExpand"
 			CornerRadius="4"
 			OutlineColor="#F5F5F5"
 			HasShadow="true"
 			Padding="10">
 			
-		<SearchBar HorizontalOptions="Center"
+		<SearchBar HorizontalOptions="FillAndExpand"
 			VerticalOptions="Start"
 			HeightRequest="40"
 			CancelButtonColor="White"
@@ -110,6 +110,38 @@
 		</StackLayout>
 				
 			</StackLayout>
+
+		<StackLayout
+		IsVisible="{Binding IsLoading}"
+		RelativeLayout.XConstraint =
+	  "{ConstraintExpression Type=RelativeToParent,
+	                         Property=X,
+	                         Factor=0,
+	                         Constant=0}"
+		RelativeLayout.YConstraint =
+	  "{ConstraintExpression Type=RelativeToParent,
+	                         Property=Y,
+	                         Factor=0,
+	                         Constant=0}"
+		RelativeLayout.WidthConstraint =
+	  "{ConstraintExpression Type=RelativeToParent,
+	                         Property=Width,
+	                         Factor=1,
+	                         Constant=0}"
+		RelativeLayout.HeightConstraint =
+	  "{ConstraintExpression Type=RelativeToParent,
+	                         Property=Height,
+	                         Factor=1,
+	                         Constant=0}">
+
+			<ActivityIndicator
+				Color="#e74c3c"
+				IsRunning="true"
+				IsVisible="{Binding IsLoading}"
+				HorizontalOptions="CenterAndExpand"
+				VerticalOptions="CenterAndExpand"/>
+
+		</StackLayout>
 
 	</RelativeLayout>
 	
