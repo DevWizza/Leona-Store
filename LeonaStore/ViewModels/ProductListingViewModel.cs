@@ -7,6 +7,7 @@ using LeonaStore.Domain;
 using System.Collections.Generic;
 using ListingServices;
 using System.Threading.Tasks;
+using System;
 
 namespace LeonaStore.ViewModels
 	{
@@ -21,6 +22,8 @@ namespace LeonaStore.ViewModels
 			public ICommand RefreshListingCommand { get; set; }
 
 			public ICommand ListingSelectedCommand { get; set; }
+
+			public ICommand SearchListingCommand { get; set; }
 
 			public bool IsRefreshingListing { get; set; }
 
@@ -40,6 +43,13 @@ namespace LeonaStore.ViewModels
 				RefreshListingCommand = new Command(async()=> await OnRefreshListing());
 
 				ListingSelectedCommand = new Command<ListingItem>(OnListingSelected);
+
+				SearchListingCommand = new Command(OnSearchListing);
+			}
+
+			async void OnSearchListing()
+			{
+				await _navigationService.NavigateAsync($"{Screens.SearchPage}", useModalNavigation: true);
 			}
 
 			async void OnListingSelected(ListingItem item)

@@ -217,6 +217,10 @@
     <AndroidResource Include="Resources\mipmap-xxhdpi\icon.png" />
     <AndroidResource Include="Resources\drawable\selected_heart.png" />
     <AndroidResource Include="Resources\drawable\unselected_heart.png" />
+    <AndroidResource Include="Resources\drawable\ic_close_white_24dp.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_close_white_24dp.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_close_white_24dp.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_close_white_24dp.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Build.Download.0.4.2\build\Xamarin.Build.Download.targets" Condition="Exists('..\packages\Xamarin.Build.Download.0.4.2\build\Xamarin.Build.Download.targets')" />
