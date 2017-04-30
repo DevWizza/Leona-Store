@@ -52,6 +52,16 @@ namespace ViewModels.ViewModels
 					{
 						Text = "Customer Service",
 						Icon = "ic_help_black_24dp"
+					},
+					new DrawerItem
+					{
+						Text = "More Apps",
+						Icon = "ic_info_black_24dp"
+					},
+					new DrawerItem
+					{
+						Text = "Settings",
+						Icon = "ic_settings_black_24dp"
 					}
 				};
 		}

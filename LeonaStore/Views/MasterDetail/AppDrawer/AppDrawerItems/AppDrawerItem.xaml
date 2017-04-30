@@ -6,6 +6,8 @@
 	x:Class="AppDrawerItems.Views.AppDrawerItem">
 
 	<ViewCell.View>
+
+	<StackLayout>
 		
 		<StackLayout
 			Margin="0,10,0,10"
@@ -26,6 +28,8 @@
 			Text="{Binding Text}"/>
 			
 		</StackLayout>
+
+	</StackLayout>
 
 	</ViewCell.View>
 	

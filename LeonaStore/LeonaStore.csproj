@@ -108,6 +108,9 @@
     <Compile Include="Components\ListViewDivider\ListviewDivider.xaml.cs">
       <DependentUpon>ListviewDivider.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Components\ListViewDivider\SeparatorView.xaml.cs">
+      <DependentUpon>SeparatorView.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="App.xaml">
@@ -189,6 +192,10 @@
     <EmbeddedResource Include="Components\ListViewDivider\ListviewDivider.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <LogicalName>ListviewDivider.xaml</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\ListViewDivider\SeparatorView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <LogicalName>SeparatorView.xaml</LogicalName>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

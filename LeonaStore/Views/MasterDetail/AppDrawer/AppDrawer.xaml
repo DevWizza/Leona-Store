@@ -9,7 +9,8 @@
 	x:Class="AppDrawer.Views.AppDrawer"
 	Title="Drawer">
 
-	<StackLayout>
+	<StackLayout
+		Spacing="0">
 
 		<RelativeLayout
 			VerticalOptions="StartAndExpand"
