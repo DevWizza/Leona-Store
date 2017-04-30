@@ -6,6 +6,7 @@ using Microsoft.Practices.Unity;
 using LeonaStore.Views.Home;
 using Like.ViewModels;
 using ListingServices;
+using ViewModels.ViewModels;
 
 namespace LeonaStore
 {
@@ -22,6 +23,7 @@ namespace LeonaStore
 
 		protected override void RegisterTypes()
 		{
+			Container.RegisterTypeForNavigation<MasterDetailContainer>();
 			Container.RegisterTypeForNavigation<NavigationPage>();
 			Container.RegisterTypeForNavigation<SplashPage>();
 			Container.RegisterTypeForNavigation<LandingPage>();
@@ -30,6 +32,7 @@ namespace LeonaStore
 			Container.RegisterTypeForNavigation<SearchPage>();
 
 			Container.RegisterType<LikeViewModel>();
+			Container.RegisterType<AppDrawerViewModel>();
 
 			Container.RegisterType(typeof(ICache), typeof(AkavacheImpl));
 			Container.RegisterType(typeof(IListingService), typeof(ListingService));

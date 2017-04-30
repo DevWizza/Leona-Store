@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+	xmlns:control="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin.Abstractions"
+	xmlns:drawerViewCell="clr-namespace:AppDrawerItems.Views;assembly=LeonaStore"
+	xmlns:listviewWithDivider="clr-namespace:ListViewDivider;assembly=LeonaStore"
+	prism:ViewModelLocator.AutowireViewModel="True" 
+	x:Class="AppDrawer.Views.AppDrawer"
+	Title="Drawer">
+
+	<StackLayout>
+
+		<RelativeLayout
+			VerticalOptions="StartAndExpand"
+			HeightRequest="250">
+
+		<Image 
+			Aspect="AspectFill"
+			HorizontalOptions="FillAndExpand"
+			Source="https://cdn.pixabay.com/photo/2017/04/06/17/43/water-2208931_960_720.jpg"
+			RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0,Constant=0}"
+	        RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0, Constant=0}"
+	        RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width,Factor=1,Constant=0}"
+	        RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=1,Constant=0}"/>
+
+		<Image 
+			Aspect="AspectFill"
+			HorizontalOptions="FillAndExpand"
+			BackgroundColor="Black"
+			Opacity="0.4"
+			RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0,Constant=0}"
+	        RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0, Constant=0}"
+	        RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width,Factor=1,Constant=0}"
+	        RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=1,Constant=0}"/>
+
+		<StackLayout
+			HorizontalOptions="FillAndExpand"
+			VerticalOptions="CenterAndExpand"
+			Padding="20,0,0,0"
+			Spacing="16"
+			RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0,Constant=0}"
+	        RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0, Constant=0}"
+	        RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width,Factor=1,Constant=0}"
+	        RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=1,Constant=0}">
+
+	        <control:CircleImage
+				BorderColor = "Transparent"
+				BorderThickness = "0"
+				HeightRequest = "100"
+				Source="profile"
+				WidthRequest = "100"
+				Aspect = "AspectFit"
+				HorizontalOptions = "StartAndExpand"/>
+
+			<StackLayout Padding="0,10,0,0">
+
+
+			<Label
+				Text="Luis Alberto Pena Nunez"
+				TextColor="White"
+				HorizontalOptions="StartAndExpand"
+				VerticalOptions="EndAndExpand"/>
+
+			<Label
+				Text="luis.pena.nunez@gmail.com"
+				TextColor="White"
+				HorizontalOptions="StartAndExpand"
+				VerticalOptions="EndAndExpand"/>
+
+			</StackLayout>
+
+		</StackLayout>
+
+		</RelativeLayout>
+
+	<listviewWithDivider:ListviewDivider
+		ItemsSource="{Binding DrawerItems}"
+		SeparatorColor="Transparent"
+		HasUnevenRows="true"
+		SeparatorVisibility="None"
+		BackgroundColor="Transparent"
+		IsPullToRefreshEnabled="false"
+		HorizontalOptions="FillAndExpand"
+		VerticalOptions="FillAndExpand">
+		<ListView.ItemTemplate>
+			<DataTemplate>
+				<drawerViewCell:AppDrawerItem/>
+			</DataTemplate>
+		</ListView.ItemTemplate>
+	</listviewWithDivider:ListviewDivider>
+	</StackLayout>
+</ContentPage>

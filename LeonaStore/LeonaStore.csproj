@@ -93,6 +93,21 @@
     <Compile Include="Views\ProductListing\ListingItems\BasicItemWIthinFrame\BasicItemWithinFrame.xaml.cs">
       <DependentUpon>BasicItemWithinFrame.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\MasterDetail\MasterDetailContainer.xaml.cs">
+      <DependentUpon>MasterDetailContainer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModels\MasterDetailContainerViewModel.cs" />
+    <Compile Include="Views\MasterDetail\AppDrawer\AppDrawer.xaml.cs">
+      <DependentUpon>AppDrawer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModels\AppDrawerViewModel.cs" />
+    <Compile Include="Views\MasterDetail\AppDrawer\AppDrawerItems\AppDrawerItem.xaml.cs">
+      <DependentUpon>AppDrawerItem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MasterDetail\AppDrawer\AppDrawerItems\DrawerItem.cs" />
+    <Compile Include="Components\ListViewDivider\ListviewDivider.xaml.cs">
+      <DependentUpon>ListviewDivider.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="App.xaml">
@@ -158,6 +173,22 @@
     <EmbeddedResource Include="Views\ProductListing\ListingItems\BasicItemWIthinFrame\BasicItemWithinFrame.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <LogicalName>BasicItemWithinFrame.xaml</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\MasterDetail\MasterDetailContainer.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <LogicalName>MasterDetailContainer.xaml</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\MasterDetail\AppDrawer\AppDrawer.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <LogicalName>AppDrawer.xaml</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\MasterDetail\AppDrawer\AppDrawerItems\AppDrawerItem.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <LogicalName>AppDrawerItem.xaml</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\ListViewDivider\ListviewDivider.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <LogicalName>ListviewDivider.xaml</LogicalName>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -263,6 +294,10 @@
     <Folder Include="Services\ListingServices\" />
     <Folder Include="Views\SearchPage\" />
     <Folder Include="Views\ProductListing\ListingItems\BasicItemWIthinFrame\" />
+    <Folder Include="Views\MasterDetail\" />
+    <Folder Include="Views\MasterDetail\AppDrawer\" />
+    <Folder Include="Views\MasterDetail\AppDrawer\AppDrawerItems\" />
+    <Folder Include="Components\ListViewDivider\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LeonaStore.Domain\LeonaStore.Domain.csproj">
