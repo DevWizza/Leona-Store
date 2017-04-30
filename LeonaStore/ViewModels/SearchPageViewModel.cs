@@ -24,7 +24,13 @@ namespace LeonaStore.ViewModels
 
 		readonly INavigationService _navigationService;
 
+		public ICommand PerformSearchCommand { get; set; }
+
 		public bool IsLoading { get; set; }
+
+		public string SearchQuery { get; set; }
+
+		public bool CouldntFindAnyResultFromTheSearch { get; set; }
 
 		public SearchPageViewModel(IListingService listingService,
 		                           INavigationService navigationService)
@@ -34,6 +40,25 @@ namespace LeonaStore.ViewModels
 			_listingService = listingService;
 
 			NavigateBackCommand = new Command(OnNavigateBack);
+
+			PerformSearchCommand = new Command(OnPerformSearch);
+		}
+
+		async void OnPerformSearch()
+		{
+			CouldntFindAnyResultFromTheSearch = false;
+
+			Articles = null;
+
+			IsLoading = true;
+
+			var anyListingsFound = await _listingService.GetListingsByTitle(SearchQuery);
+
+			Articles = anyListingsFound;
+
+			CouldntFindAnyResultFromTheSearch = Articles == null;
+
+			IsLoading = false;
 		}
 
 		async void OnNavigateBack()

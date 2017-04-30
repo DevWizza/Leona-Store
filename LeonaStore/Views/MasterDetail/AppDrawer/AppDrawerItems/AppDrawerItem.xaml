@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ViewCell xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+	prism:ViewModelLocator.AutowireViewModel="True"
+	x:Class="AppDrawerItems.Views.AppDrawerItem">
+
+	<ViewCell.View>
+
+	<StackLayout>
+		
+		<StackLayout
+			Margin="0,10,0,10"
+			Spacing="20"
+			Padding="20,8,20,8"
+			Orientation="Horizontal">
+
+		<Image
+			WidthRequest="20"
+			HeightRequest="20"
+			Source="{Binding Icon}"
+			VerticalOptions="CenterAndExpand"
+			HorizontalOptions="Start"/>
+
+		<Label
+			HorizontalOptions="StartAndExpand"
+			VerticalOptions="CenterAndExpand"
+			Text="{Binding Text}"/>
+			
+		</StackLayout>
+
+	</StackLayout>
+
+	</ViewCell.View>
+	
+</ViewCell>

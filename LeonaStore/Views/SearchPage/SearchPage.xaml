@@ -104,6 +104,8 @@
 			VerticalOptions="Start"
 			HeightRequest="40"
 			CancelButtonColor="White"
+			Text="{Binding SearchQuery}"
+			SearchCommand="{Binding PerformSearchCommand}"
 			Placeholder="Search for..."/>
 		</Frame>
 
@@ -140,6 +142,54 @@
 				IsVisible="{Binding IsLoading}"
 				HorizontalOptions="CenterAndExpand"
 				VerticalOptions="CenterAndExpand"/>
+
+		</StackLayout>
+
+
+		<StackLayout
+		IsVisible="{Binding CouldntFindAnyResultFromTheSearch}"
+		RelativeLayout.XConstraint =
+	  "{ConstraintExpression Type=RelativeToParent,
+	                         Property=X,
+	                         Factor=0,
+	                         Constant=0}"
+		RelativeLayout.YConstraint =
+	  "{ConstraintExpression Type=RelativeToParent,
+	                         Property=Y,
+	                         Factor=0,
+	                         Constant=0}"
+		RelativeLayout.WidthConstraint =
+	  "{ConstraintExpression Type=RelativeToParent,
+	                         Property=Width,
+	                         Factor=1,
+	                         Constant=0}"
+		RelativeLayout.HeightConstraint =
+	  "{ConstraintExpression Type=RelativeToParent,
+	                         Property=Height,
+	                         Factor=1,
+	                         Constant=0}">
+
+			<StackLayout 
+				HorizontalOptions="CenterAndExpand"
+				VerticalOptions="CenterAndExpand">
+				
+			<Label 
+				Text="Couldn't find any article matching your criteria"
+				FontSize="18"
+				HorizontalTextAlignment="Center"
+				TextColor="Gray"
+				VerticalOptions="Center"
+				HorizontalOptions="Center"/>
+
+			<Label 
+				Text="Try again using different keywords"
+				FontSize="14"
+				HorizontalTextAlignment="Center"
+				TextColor="Gray"
+				VerticalOptions="Center"
+				HorizontalOptions="Center"/>
+
+			</StackLayout>
 
 		</StackLayout>
 
