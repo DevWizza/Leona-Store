@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+	prism:ViewModelLocator.AutowireViewModel="True"
+	BackgroundColor="#F5F5F5"
+	Title="Get to know me"
+	xmlns:control="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin.Abstractions"
+	x:Class="LeonaStore.Views.MoreApps">
+
+	<StackLayout>
+
+	<RelativeLayout x:Name="Parent">
+		
+		<RelativeLayout
+			VerticalOptions="Start"
+			HorizontalOptions="FillAndExpand"
+			HeightRequest="200">
+
+			<Image
+				Aspect="AspectFill"
+				Source="https://cdn.pixabay.com/photo/2016/11/19/16/46/alley-1840264_960_720.jpg"
+				RelativeLayout.XConstraint =
+      						"{ConstraintExpression Type=RelativeToParent,
+                             Property=Width,
+                             Factor=0,
+                             Constant=0}"
+			    RelativeLayout.YConstraint =
+			      			"{ConstraintExpression Type=RelativeToParent,
+                             Property=Height,
+                             Factor=0,
+                             Constant=0}"
+				RelativeLayout.HeightConstraint =
+      						"{ConstraintExpression Type=RelativeToParent,
+                             Property=Height,
+                             Factor=1,
+                             Constant=0}"
+			    RelativeLayout.WidthConstraint =
+			      			"{ConstraintExpression Type=RelativeToParent,
+                             Property=Width,
+                             Factor=1,
+                             Constant=0}"/>
+
+            <RelativeLayout 
+				RelativeLayout.XConstraint =
+      						"{ConstraintExpression Type=RelativeToParent,
+                             Property=Width,
+                             Factor=1,
+                             Constant=-100}"
+			    RelativeLayout.YConstraint =
+			      			"{ConstraintExpression Type=RelativeToParent,
+                             Property=Height,
+                             Factor=1,
+                             Constant=-50}"
+				RelativeLayout.HeightConstraint =
+      						"{ConstraintExpression Type=RelativeToParent,
+                             Property=Height,
+                             Factor=0,
+                             Constant=50}"
+			    RelativeLayout.WidthConstraint =
+			      			"{ConstraintExpression Type=RelativeToParent,
+                             Property=Width,
+                             Factor=0,
+                             Constant=50}">
+
+				
+            <control:CircleImage
+				BorderColor = "Transparent"
+				FillColor="#e74c3c"
+				BorderThickness = "0"
+				HeightRequest = "50"
+				WidthRequest = "50"
+				Aspect = "AspectFit"
+				RelativeLayout.XConstraint =
+      						"{ConstraintExpression Type=RelativeToParent,
+                             Property=Width,
+                             Factor=0.5,
+                             Constant=0}"
+			    RelativeLayout.YConstraint =
+			      			"{ConstraintExpression Type=RelativeToParent,
+                             Property=Height,
+                             Factor=0.5,
+                             Constant=0}"
+				RelativeLayout.HeightConstraint =
+      						"{ConstraintExpression Type=RelativeToParent,
+                             Property=Height,
+                             Factor=1,
+                             Constant=0}"
+			    RelativeLayout.WidthConstraint =
+			      			"{ConstraintExpression Type=RelativeToParent,
+                             Property=Width,
+                             Factor=1,
+                             Constant=0}"/>
+
+			<Image
+				Source="ic_email_white_24dp"
+				HeightRequest = "25"
+				WidthRequest = "25"
+				Aspect = "AspectFit"
+				RelativeLayout.XConstraint =
+      						"{ConstraintExpression Type=RelativeToParent,
+                             Property=Width,
+                             Factor=0.5,
+                             Constant=13}"
+			    RelativeLayout.YConstraint =
+			      			"{ConstraintExpression Type=RelativeToParent,
+                             Property=Height,
+                             Factor=0.5,
+                             Constant=13}"
+				RelativeLayout.HeightConstraint =
+      						"{ConstraintExpression Type=RelativeToParent,
+                             Property=Height,
+                             Factor=0,
+                             Constant=25}"
+			    RelativeLayout.WidthConstraint =
+			      			"{ConstraintExpression Type=RelativeToParent,
+                             Property=Width,
+                             Factor=0,
+                             Constant=25}"/>
+				
+			</RelativeLayout>
+
+		</RelativeLayout>
+
+
+		<StackLayout
+				BackgroundColor="White"
+				x:Name="Second_Panel"
+				Padding="14,10,14,10"
+				Spacing="20"
+				RelativeLayout.XConstraint =
+      						"{ConstraintExpression Type=RelativeToParent,
+                             Property=Width,
+                             Factor=0,
+                             Constant=0}"
+			    RelativeLayout.YConstraint =
+			      			"{ConstraintExpression Type=RelativeToParent,
+                             Property=Height,
+                             Factor=0,
+                             Constant=200}"
+				RelativeLayout.HeightConstraint =
+      						"{ConstraintExpression Type=RelativeToParent,
+                             Property=Height,
+                             Factor=0,
+                             Constant=176}"
+			    RelativeLayout.WidthConstraint =
+			      			"{ConstraintExpression Type=RelativeToParent,
+                             Property=Width,
+                             Factor=1,
+                             Constant=0}">
+
+				<StackLayout>
+
+				<Label Text="Luis Pena Nunez"
+					HorizontalOptions="StartAndExpand"
+					FontSize="20"
+					FontAttributes="Bold"
+					VerticalOptions="Start"/>
+
+				<Label Text="Available for hiring!"
+					HorizontalOptions="StartAndExpand"
+					TextColor="Gray"
+					VerticalOptions="Start"/>
+
+				</StackLayout>
+
+				<StackLayout 
+					Spacing="10"
+					VerticalOptions="Fill"
+					HorizontalOptions="FillAndExpand">
+
+				<StackLayout
+						Spacing="10"
+						Orientation="Horizontal">
+
+				<Image 
+					Source="ic_location_on_black_24dp"
+					WidthRequest="18"
+					HeightRequest="18"
+					HorizontalOptions="Start"
+					VerticalOptions="CenterAndExpand"
+					Aspect="AspectFit"/>
+						
+				<Label
+					Text="Apple Valley, Minnesota, USA"
+					FontSize="14"
+					VerticalOptions="CenterAndExpand"
+					HorizontalOptions="Start"
+					TextColor="Gray"/>
+
+				</StackLayout>
+
+			<StackLayout
+						Spacing="10"
+						Orientation="Horizontal">
+
+				<Image 
+					Source="ic_person_black_24dp"
+					WidthRequest="18"
+					HeightRequest="18"
+					HorizontalOptions="Start"
+					VerticalOptions="CenterAndExpand"
+					Aspect="AspectFit"/>
+						
+				<Label
+					Text="18 years old"
+					FontSize="14"
+					VerticalOptions="CenterAndExpand"
+					HorizontalOptions="Start"
+					TextColor="Gray"/>
+
+			</StackLayout>
+
+				<StackLayout
+						Spacing="10"
+						Orientation="Horizontal">
+
+				<Image 
+					Source="ic_favorite_black_24dp"
+					WidthRequest="18"
+					HeightRequest="18"
+					HorizontalOptions="Start"
+					VerticalOptions="CenterAndExpand"
+					Aspect="AspectFit"/>
+						
+				<Label
+					Text="Xamarin/Mobile and Web Developer"
+					FontSize="14"
+					VerticalOptions="CenterAndExpand"
+					HorizontalOptions="Start"
+					TextColor="Gray"/>
+
+			</StackLayout>	
+					
+				</StackLayout>
+			
+			</StackLayout>
+
+	</RelativeLayout>
+
+	</StackLayout>
+</ContentPage>

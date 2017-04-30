@@ -250,6 +250,22 @@
     <AndroidResource Include="Resources\drawable-hdpi\ic_info_black_24dp.png" />
     <AndroidResource Include="Resources\drawable-xhdpi\ic_info_black_24dp.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\ic_info_black_24dp.png" />
+    <AndroidResource Include="Resources\drawable\ic_email_white_24dp.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_email_white_24dp.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_email_white_24dp.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_email_white_24dp.png" />
+    <AndroidResource Include="Resources\drawable\ic_location_on_black_24dp.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_location_on_black_24dp.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_location_on_black_24dp.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_location_on_black_24dp.png" />
+    <AndroidResource Include="Resources\drawable\ic_person_black_24dp.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_person_black_24dp.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_person_black_24dp.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_person_black_24dp.png" />
+    <AndroidResource Include="Resources\drawable\ic_favorite_black_24dp.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_favorite_black_24dp.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_favorite_black_24dp.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_favorite_black_24dp.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Build.Download.0.4.2\build\Xamarin.Build.Download.targets" Condition="Exists('..\packages\Xamarin.Build.Download.0.4.2\build\Xamarin.Build.Download.targets')" />

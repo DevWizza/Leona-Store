@@ -4,20 +4,21 @@ using Xamarin.Forms;
 namespace LeonaStore
 {
 	public class Screens
-	{ 
-		public static readonly string SplashScreen = "SplashPage";
-		public static readonly string LandingPage = "LandingPage";
-		public static readonly string ProductListing = "ProductListing";
-		public static readonly string ListingDetail = "ListingDetail";
-		public static readonly string PickAColor = "PickAColor";
-		public static readonly string SearchPage = "SearchPage";
+	{
+		public static readonly string SplashPage = nameof(SplashPage);
+		public static readonly string LandingPage = nameof(LandingPage);
+		public static readonly string ProductListing = nameof(ProductListing);
+		public static readonly string ListingDetail = nameof(ListingDetail);
+		public static readonly string PickAColor = nameof(PickAColor);
+		public static readonly string SearchPage = nameof(SearchPage);
+		public static readonly string MoreApps = nameof(MoreApps);
 		public static readonly string AbsoluteURI = "http://www.devwizza.com";
 	}
 
 	public class ScreensNavigationParameters
 	{
-		public static readonly string SelectedColor = "ColorSelected";
-		public static readonly string ProductId = "ProductId";
+		public static readonly string SelectedColor = nameof(SelectedColor);
+		public static readonly string ProductId = nameof(ProductId);
 	}
 
 	public class CacheSetup
@@ -27,7 +28,7 @@ namespace LeonaStore
 
 	public class CacheKeys
 	{
-		public static readonly string NewUserKey = "NewUserKey";
+		public static readonly string NewUserKey = nameof(NewUserKey);
 	}
 
 	public class AppColors
