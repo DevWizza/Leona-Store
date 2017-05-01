@@ -5,14 +5,23 @@ using System.Collections.Generic;
 using System.Linq;
 using Prism.Navigation;
 using System.Threading.Tasks;
+using System.Windows.Input;
+using Xamarin.Forms;
 
-namespace ViewModels.ViewModels
+namespace LeonaStore.ViewModels
 {
 	public class MoreAppsViewModel : BindableBase, INavigationAware
 	{
+		public ICommand SendEmailToLuisCommand { get; set; }
+
 		public MoreAppsViewModel()
 		{
+			SendEmailToLuisCommand = new Command(OnSendEmailToLuis);
+		}
 
+		void OnSendEmailToLuis()
+		{
+			Device.OpenUri(new Uri("mailto:luis.pena.nunez.developer@gmail.com"));
 		}
 
 		public void OnNavigatedFrom(NavigationParameters parameters)

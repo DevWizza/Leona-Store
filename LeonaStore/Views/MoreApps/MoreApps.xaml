@@ -63,12 +63,17 @@
                              Factor=0,
                              Constant=50}">
 
+				<RelativeLayout.GestureRecognizers>
+                     	<TapGestureRecognizer Command="{Binding SendEmailToLuisCommand}"/>
+				</RelativeLayout.GestureRecognizers>
+
 				
             <control:CircleImage
 				BorderColor = "Transparent"
 				FillColor="#e74c3c"
 				BorderThickness = "0"
 				HeightRequest = "50"
+				InputTransparent="true"
 				WidthRequest = "50"
 				Aspect = "AspectFit"
 				RelativeLayout.XConstraint =
@@ -96,6 +101,7 @@
 				Source="ic_email_white_24dp"
 				HeightRequest = "25"
 				WidthRequest = "25"
+				InputTransparent="true"
 				Aspect = "AspectFit"
 				RelativeLayout.XConstraint =
       						"{ConstraintExpression Type=RelativeToParent,
