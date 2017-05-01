@@ -7,7 +7,7 @@
 	Title="Get to know me"
 	xmlns:control="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin.Abstractions"
 	x:Class="LeonaStore.Views.MoreApps">
-
+	<ScrollView>
 	<StackLayout>
 
 	<RelativeLayout x:Name="Parent">
@@ -236,7 +236,112 @@
 			
 			</StackLayout>
 
+			<StackLayout
+				RelativeLayout.XConstraint =
+      						"{ConstraintExpression Type=RelativeToParent,
+                             Property=Width,
+                             Factor=0,
+                             Constant=0}"
+			    RelativeLayout.YConstraint =
+			      			"{ConstraintExpression Type=RelativeToParent,
+                             Property=Height,
+                             Factor=0,
+                             Constant=390}"
+				RelativeLayout.HeightConstraint =
+      						"{ConstraintExpression Type=RelativeToParent,
+                             Property=Height,
+                             Factor=1,
+                             Constant=0}"
+			    RelativeLayout.WidthConstraint =
+			      			"{ConstraintExpression Type=RelativeToParent,
+                             Property=Width,
+                             Factor=1,
+                             Constant=0}">
+
+
+                <StackLayout Spacing="10">
+
+					<StackLayout BackgroundColor="White"
+						Padding="14,20,14,20">
+
+						<Label Text="Knowledge" 
+						TextColor="Gray"
+						FontSize="18"
+						FontAttributes="Bold"></Label>
+
+
+						<ScrollView Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+						<StackLayout Orientation="Horizontal">
+							<StackLayout Margin="10,0,10,0">
+								<Image
+									Source="http://logosvector.net/wp-content/uploads/2015/07/android-vector-logo-200x200.png" 
+									WidthRequest="100"
+									Aspect="AspectFit"
+									HeightRequest="100"/>
+
+								<Label Text="Xamarin Android"
+											FontSize="14"
+										HorizontalOptions="CenterAndExpand"/> 
+							</StackLayout>
+
+								<StackLayout Margin="10,0,10,0">
+								<Image
+									Source="https://www.bekodo.com/wp-content/uploads/2016/02/ios_logo-2.png" 
+									WidthRequest="100"
+									Aspect="AspectFit"
+									HeightRequest="100"/>
+
+										<Label Text="Xamarin iOS"
+											FontSize="14"
+										HorizontalOptions="CenterAndExpand"/> 
+							</StackLayout>
+
+								<StackLayout Margin="10,0,10,0">
+								<Image
+									Source="https://www.xamarin.com/content/images/pages/branding/assets/xamagon.png" 
+									WidthRequest="100"
+									Aspect="AspectFit"
+									HeightRequest="100"/>
+										<Label Text="Xamarin Forms"
+											FontSize="14"
+										HorizontalOptions="CenterAndExpand"/> 
+							</StackLayout>
+
+
+								<StackLayout Margin="10,0,10,0">
+								<Image
+									Source="http://uiexplorer.in/img/angular_logo.png" 
+									WidthRequest="100"
+									Aspect="AspectFit"
+									HeightRequest="100"/>
+										<Label Text="Angular 2"
+											FontSize="14"
+										HorizontalOptions="CenterAndExpand"/> 
+							</StackLayout>
+
+
+								<StackLayout Margin="10,0,10,0">
+								<Image
+									Source="https://shopify.github.io/liquid/images/jekyll-logo.png" 
+									WidthRequest="100"
+									Aspect="AspectFit"
+									HeightRequest="100"/>
+										<Label Text="Jekyll"
+											FontSize="14"
+										HorizontalOptions="CenterAndExpand"/> 
+							</StackLayout>
+
+							</StackLayout>
+						</ScrollView>
+
+					</StackLayout>
+
+				</StackLayout>
+
+			</StackLayout>
+
 	</RelativeLayout>
 
 	</StackLayout>
+	</ScrollView>
 </ContentPage>
