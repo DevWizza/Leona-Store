@@ -26,6 +26,8 @@ namespace LeonaStore.ViewModels
 
 		public ICommand PerformSearchCommand { get; set; }
 
+		public ICommand NavigateToListingDetailCommand { get; set; }
+
 		public bool IsLoading { get; set; }
 
 		public string SearchQuery { get; set; }
@@ -41,10 +43,22 @@ namespace LeonaStore.ViewModels
 
 			NavigateBackCommand = new Command(OnNavigateBack);
 
-			PerformSearchCommand = new Command(OnPerformSearch);
+			PerformSearchCommand = new Command(async()=> await OnPerformSearch());
+
+			NavigateToListingDetailCommand = new Command<ListingItem>(OnNavigateToListingDetail);
 		}
 
-		async void OnPerformSearch()
+		async void OnNavigateToListingDetail(ListingItem item)
+		{
+			if (item == null)
+					return;
+			
+			await _navigationService.GoBackAsync(new NavigationParameters($"{ScreensNavigationParameters.ProductId}={item.ProductName}"));
+
+			ItemSelected = null;
+		}
+
+		async Task OnPerformSearch()
 		{
 			CouldntFindAnyResultFromTheSearch = false;
 

@@ -33,15 +33,13 @@ namespace ListingServices
 
 		public async Task<List<ListingItem>> GetListingsByTitle(string searchQuery)
 		{
-			return await Task.Run<List<ListingItem>>(async() => {
+			return await Task.Run(async() => {
+				
+				var listings = await _listingService.GetAllListings();
 
-				await Task.Delay(3000);
+				var matches = listings.FindAll(listing => listing.ProductName.StartsWith(searchQuery, StringComparison.CurrentCultureIgnoreCase));
 
-				//var listings = await _listingService.GetAllListings();
-
-				//var matches = listings.Select(listing => listing).Distinct();
-
-				return null;
+				return matches.Any() ? matches : null;
 			});
 		}
 	}
