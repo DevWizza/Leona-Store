@@ -7,8 +7,6 @@ namespace LeonaStore.Views
 		public MoreApps()
 		{
 			InitializeComponent();
-
-			this.Parent.LowerChild(Second_Panel);
 		}
 	}
 }
