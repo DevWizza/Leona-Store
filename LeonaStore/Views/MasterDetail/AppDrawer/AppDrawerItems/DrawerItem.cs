@@ -7,6 +7,8 @@ namespace AppDrawerItems
 
 		public string Icon { get; set; }
 
+		public string ScreenNavigateTo { get; set; }
+
 		public bool ShowSeparatorAfter { get; set; }
 	}
 }

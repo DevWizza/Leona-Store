@@ -5,7 +5,8 @@
 	xmlns:control="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin.Abstractions"
 	xmlns:drawerViewCell="clr-namespace:AppDrawerItems.Views;assembly=LeonaStore"
 	xmlns:listviewWithDivider="clr-namespace:ListViewDivider;assembly=LeonaStore"
-	prism:ViewModelLocator.AutowireViewModel="True" 
+	prism:ViewModelLocator.AutowireViewModel="True"
+	xmlns:prismBehaviors="clr-namespace:Prism.Behaviors;assembly=Prism.Forms"
 	x:Class="AppDrawer.Views.AppDrawer"
 	Title="Drawer">
 
@@ -89,6 +90,10 @@
 				<drawerViewCell:AppDrawerItem/>
 			</DataTemplate>
 		</ListView.ItemTemplate>
+		<ListView.Behaviors>
+			<prismBehaviors:EventToCommandBehavior EventName="ItemSelected"
+				Command="{Binding DrawerItemSelectedCommand}" EventArgsParameterPath="SelectedItem"/>
+		</ListView.Behaviors>
 	</listviewWithDivider:ListviewDivider>
 	</StackLayout>
 </ContentPage>

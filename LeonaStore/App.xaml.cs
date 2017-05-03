@@ -18,7 +18,7 @@ namespace LeonaStore
 		{
 			InitializeComponent();
 
-			NavigationService.NavigateAsync($"{Screens.SplashScreen}");
+			NavigationService.NavigateAsync($"{Screens.SplashPage}");
 		}
 
 		protected override void RegisterTypes()
@@ -30,6 +30,7 @@ namespace LeonaStore
 			Container.RegisterTypeForNavigation<ProductListing>();
 			Container.RegisterTypeForNavigation<ListingDetail>();
 			Container.RegisterTypeForNavigation<SearchPage>();
+			Container.RegisterTypeForNavigation<MoreApps>();
 
 			Container.RegisterType<LikeViewModel>();
 			Container.RegisterType<AppDrawerViewModel>();
