@@ -51,7 +51,7 @@
 		</ListView.ItemTemplate>
 		<ListView.Behaviors>
 			<prismBehaviors:EventToCommandBehavior EventName="ItemSelected"
-				Command="{Binding ListingSelectedCommand}" EventArgsParameterPath="SelectedItem"/>
+				Command="{Binding NavigateToListingDetailCommand}" EventArgsParameterPath="SelectedItem"/>
 		</ListView.Behaviors>
 	</ListView>
 
@@ -106,7 +106,9 @@
 			CancelButtonColor="White"
 			Text="{Binding SearchQuery}"
 			SearchCommand="{Binding PerformSearchCommand}"
-			Placeholder="Search for..."/>
+			Placeholder="Search for...">
+		
+		</SearchBar>
 		</Frame>
 
 		</StackLayout>

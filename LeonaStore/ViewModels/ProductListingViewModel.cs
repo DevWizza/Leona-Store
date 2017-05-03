@@ -85,6 +85,14 @@ namespace LeonaStore.ViewModels
 
 				if(Articles == null)
 					await OnRefreshListing();
+
+				object productId;
+
+				if (parameters.TryGetValue(ScreensNavigationParameters.ProductId, out productId))
+				{
+					await _navigationService.NavigateAsync($"{Screens.ListingDetail}",
+				                                           new NavigationParameters($"{ScreensNavigationParameters.ProductId}={productId}"));
+				}
 			}
 
 			public void OnNavigatingTo(NavigationParameters parameters)
