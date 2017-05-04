@@ -16,7 +16,11 @@ You are free to contribute to this project as long as it's not picapollo.
 
 Clone the repository locally and as simple as opening the solution that's all you have to do, no strange dependencies needed.
 
+# Important Announcements
 
+| Android  | iOS |
+| ------------- | ------------- |
+| All features are working as expected √  | Having issue with the [ScrollView component](https://www.nuget.org/packages/Xamarin.Forms.CarouselView/2.3.0-pre2) which make the app unusable at the moment. Is anyone willing to help to find the root of the issue?  |
 
 # License
 
