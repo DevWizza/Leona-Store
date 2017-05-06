@@ -115,6 +115,9 @@
       <DependentUpon>MoreApps.xaml</DependentUpon>
     </Compile>
     <Compile Include="ViewModels\MoreAppsViewModel.cs" />
+    <Compile Include="Views\LeonaNavigationPage\LeonaNavigationPage.xaml.cs">
+      <DependentUpon>LeonaNavigationPage.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="App.xaml">
@@ -204,6 +207,10 @@
     <EmbeddedResource Include="Views\MoreApps\MoreApps.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <LogicalName>MoreApps.xaml</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\LeonaNavigationPage\LeonaNavigationPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <LogicalName>LeonaNavigationPage.xaml</LogicalName>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -314,6 +321,7 @@
     <Folder Include="Views\MasterDetail\AppDrawer\AppDrawerItems\" />
     <Folder Include="Components\ListViewDivider\" />
     <Folder Include="Views\MoreApps\" />
+    <Folder Include="Views\LeonaNavigationPage\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LeonaStore.Domain\LeonaStore.Domain.csproj">

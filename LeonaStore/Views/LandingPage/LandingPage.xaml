@@ -7,75 +7,17 @@
 	xmlns:template="clr-namespace:LeonaStore.Views.LandingPage.LandingPageTemplate;assembly=LeonaStore"
 	xmlns:cv="clr-namespace:Xamarin.Forms;assembly=Xamarin.Forms.CarouselView"
 	xmlns:dots="clr-namespace:LeonaStore.Components.CarouselDotsGenerator;assembly=LeonaStore"
+	BackgroundColor="{Binding BackgroundColor}"
 	prism:ViewModelLocator.AutowireViewModel="True" 
 	x:Class="LeonaStore.Views.LandingPage">
 
-	<RelativeLayout
+	<StackLayout
 		HorizontalOptions="FillAndExpand"
 		VerticalOptions="FillAndExpand">
 
-		<cv:CarouselView
-			x:Name="Carousel"
-			HorizontalOptions="FillAndExpand"
-			VerticalOptions="FillAndExpand"
-			ItemsSource="{Binding PagesModelData}"
-			Position="{Binding CarouselPosition}"
-		RelativeLayout.XConstraint =
-      "{ConstraintExpression Type=RelativeToParent,
-                             Property=X,
-                             Factor=0,
-                             Constant=0}"
-    	RelativeLayout.YConstraint =
-      "{ConstraintExpression Type=RelativeToParent,
-                             Property=Y,
-                             Factor=0,
-                             Constant=0}"
-		RelativeLayout.WidthConstraint =
-      "{ConstraintExpression Type=RelativeToParent,
-                             Property=Width,
-                             Factor=1,
-                             Constant=0}"
-    	RelativeLayout.HeightConstraint =
-      "{ConstraintExpression Type=RelativeToParent,
-                             Property=Height,
-                             Factor=1,
-                             Constant=0}">
-			    <cv:CarouselView.ItemTemplate>
-			      <DataTemplate>
-			        <template:LandingPageViewTemplate/>
-			      </DataTemplate>
-			    </cv:CarouselView.ItemTemplate>
-
-			<cv:CarouselView.Behaviors>
-			    	<prismBehaviors:EventToCommandBehavior EventName="PositionSelected"
-				Command="{Binding PositionChangedCommand}" EventArgsParameterPath="SelectedPosition"/>
-			</cv:CarouselView.Behaviors>
-			
-	  </cv:CarouselView>
-
 		<StackLayout
 		Padding="30"
-		Orientation="Horizontal"
-		RelativeLayout.XConstraint =
-      "{ConstraintExpression Type=RelativeToParent,
-                             Property=X,
-                             Factor=0,
-                             Constant=0}"
-    	RelativeLayout.YConstraint =
-      "{ConstraintExpression Type=RelativeToParent,
-                             Property=Y,
-                             Factor=0,
-                             Constant=0}"
-		RelativeLayout.WidthConstraint =
-      "{ConstraintExpression Type=RelativeToParent,
-                             Property=Width,
-                             Factor=1,
-                             Constant=0}"
-    	RelativeLayout.HeightConstraint =
-      "{ConstraintExpression Type=RelativeToParent,
-                             Property=Height,
-                             Factor=1,
-                             Constant=0}">
+		Orientation="Horizontal">
 
            <Label
 				x:Name="SkipLabel"
@@ -97,30 +39,31 @@
 
 		</StackLayout>
 
-		<StackLayout
+
+		<cv:CarouselView
+			x:Name="Carousel"
 			HorizontalOptions="FillAndExpand"
 			VerticalOptions="FillAndExpand"
-			Padding="0,0,0,50"
-		RelativeLayout.XConstraint =
-      "{ConstraintExpression Type=RelativeToParent,
-                             Property=X,
-                             Factor=0,
-                             Constant=0}"
-    	RelativeLayout.YConstraint =
-      "{ConstraintExpression Type=RelativeToParent,
-                             Property=Y,
-                             Factor=0,
-                             Constant=0}"
-		RelativeLayout.WidthConstraint =
-      "{ConstraintExpression Type=RelativeToParent,
-                             Property=Width,
-                             Factor=1,
-                             Constant=0}"
-    	RelativeLayout.HeightConstraint =
-      "{ConstraintExpression Type=RelativeToParent,
-                             Property=Height,
-                             Factor=1,
-                             Constant=0}">
+			ItemsSource="{Binding PagesModelData}"
+			Position="{Binding CarouselPosition}">
+			
+			    <cv:CarouselView.ItemTemplate>
+			      <DataTemplate>
+			        <template:LandingPageViewTemplate/>
+			      </DataTemplate>
+			    </cv:CarouselView.ItemTemplate>
+
+			<cv:CarouselView.Behaviors>
+			    	<prismBehaviors:EventToCommandBehavior EventName="PositionSelected"
+				Command="{Binding PositionChangedCommand}" EventArgsParameterPath="SelectedPosition"/>
+			</cv:CarouselView.Behaviors>
+			
+	  </cv:CarouselView>
+
+		<StackLayout
+			HorizontalOptions="FillAndExpand"
+			VerticalOptions="End"
+			Padding="0,0,0,50">
 
 			<StackLayout 
 				VerticalOptions="EndAndExpand"
@@ -151,5 +94,5 @@
 
 		</StackLayout>
 
-	</RelativeLayout>
+	</StackLayout>
 </ContentPage>
