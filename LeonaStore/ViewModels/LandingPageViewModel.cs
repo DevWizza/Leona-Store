@@ -26,6 +26,8 @@ namespace LeonaStore.ViewModels
 
 		public ICommand PositionChangedCommand { get; set; }
 
+		public Color BackgroundColor { get; set; }
+
 		public LandingPageViewModel(INavigationService navigationService)
 		{
 			_navigationService = navigationService;
@@ -46,7 +48,7 @@ namespace LeonaStore.ViewModels
 
 		async void OnSkipLandingPage()
 		{
-			await _navigationService.NavigateAsync(new Uri($"{Screens.AbsoluteURI}/MasterDetailContainer/NavigationPage/{Screens.ProductListing}", UriKind.Absolute));
+			await _navigationService.NavigateAsync(new Uri($"{Screens.AbsoluteURI}/{Screens.MasterDetailContainer}/{Screens.LeonaNavigationPage}/{Screens.ProductListing}", UriKind.Absolute));
 		}
 
 		void OnReachedLastPage()
@@ -61,6 +63,8 @@ namespace LeonaStore.ViewModels
 
 		public void OnNavigatedTo(NavigationParameters parameters)
 		{
+			BackgroundColor = AppColors.BrandingColor;
+
 			if (PagesModelData == null)
 			{
 				PagesModelData = new List<LandingPageTemplateModel>
@@ -69,21 +73,18 @@ namespace LeonaStore.ViewModels
 					{
 						Title = "Welcome To Leona",
 						Image = "pocket",
-						BackgroundColor = AppColors.BrandingColor,
 						Description = "Buy and Sell like never seen before"
 					},
 					new LandingPageTemplateModel
 					{
 						Title = "Modern and Responsive",
 						Image = "modern",
-						BackgroundColor = AppColors.BrandingColor,
 						Description = "All your favorite items in one place, instantly searchable"
 					},
 					new LandingPageTemplateModel
 					{
 						Title = "Ready to awesome up?",
 						Image = "ready",
-						BackgroundColor = AppColors.BrandingColor,
 						Description = "Hit that button below!"
 					}
 				};

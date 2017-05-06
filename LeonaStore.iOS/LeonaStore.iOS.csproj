@@ -183,6 +183,7 @@
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
     <Compile Include="AkavacheSqliteLinkerOverride.cs" />
+    <Compile Include="Renderers\DisableScrollviewScrollBarRenderer.cs" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\logo%402x.png" />
@@ -206,6 +207,9 @@
     <BundleResource Include="Resources\ready%402x.png" />
     <BundleResource Include="Resources\selected_heart%402x.png" />
     <BundleResource Include="Resources\unselected_heart%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Renderers\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\packages\refit.2.4.1\build\portable-net45+netcore45+wp8+wpa81+monoandroid+xamarin.ios10\refit.targets" Condition="Exists('..\packages\refit.2.4.1\build\portable-net45+netcore45+wp8+wpa81+monoandroid+xamarin.ios10\refit.targets')" />

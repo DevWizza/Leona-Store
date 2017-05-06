@@ -8,6 +8,7 @@ using AppDrawerItems;
 using System.Windows.Input;
 using Xamarin.Forms;
 using System.Threading.Tasks;
+using LeonaStore;
 
 namespace ViewModels.ViewModels
 {
@@ -28,7 +29,7 @@ namespace ViewModels.ViewModels
 
 		async Task OnDrawerItemSelected(DrawerItem item)
 		{
-			await _navigationService.NavigateAsync($"NavigationPage/{item.ScreenNavigateTo}");
+			await _navigationService.NavigateAsync($"{Screens.LeonaNavigationPage}/{item.ScreenNavigateTo}");
 		}
 
 		public void OnNavigatedFrom(NavigationParameters parameters)

@@ -24,7 +24,7 @@ namespace LeonaStore
 		protected override void RegisterTypes()
 		{
 			Container.RegisterTypeForNavigation<MasterDetailContainer>();
-			Container.RegisterTypeForNavigation<NavigationPage>();
+			Container.RegisterTypeForNavigation<LeonaNavigationPage>();
 			Container.RegisterTypeForNavigation<SplashPage>();
 			Container.RegisterTypeForNavigation<LandingPage>();
 			Container.RegisterTypeForNavigation<ProductListing>();

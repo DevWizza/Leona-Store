@@ -12,6 +12,8 @@ namespace LeonaStore
 		public static readonly string PickAColor = nameof(PickAColor);
 		public static readonly string SearchPage = nameof(SearchPage);
 		public static readonly string MoreApps = nameof(MoreApps);
+		public static readonly string LeonaNavigationPage = nameof(LeonaNavigationPage);
+		public static readonly string MasterDetailContainer = nameof(MasterDetailContainer);
 		public static readonly string AbsoluteURI = "http://www.devwizza.com";
 	}
 
