@@ -14,7 +14,7 @@
 	</ContentPage.ToolbarItems>
 	<!--Create component that let you create ToolbarItems out of a List-->
 
-	<RelativeLayout>
+	<StackLayout>
 
 		<ListView
 		ItemsSource="{Binding Articles}"
@@ -26,27 +26,7 @@
 		IsPullToRefreshEnabled="true"
 		IsRefreshing="{Binding IsRefreshingListing}"
 		HorizontalOptions="FillAndExpand"
-		VerticalOptions="FillAndExpand"
-		RelativeLayout.XConstraint =
-	  "{ConstraintExpression Type=RelativeToParent,
-	                         Property=X,
-	                         Factor=0,
-	                         Constant=0}"
-		RelativeLayout.YConstraint =
-	  "{ConstraintExpression Type=RelativeToParent,
-	                         Property=Y,
-	                         Factor=0,
-	                         Constant=0}"
-		RelativeLayout.WidthConstraint =
-	  "{ConstraintExpression Type=RelativeToParent,
-	                         Property=Width,
-	                         Factor=1,
-	                         Constant=0}"
-		RelativeLayout.HeightConstraint =
-	  "{ConstraintExpression Type=RelativeToParent,
-	                         Property=Height,
-	                         Factor=1,
-	                         Constant=0}">
+		VerticalOptions="FillAndExpand">
 		<ListView.ItemTemplate>
 			<DataTemplate>
 				<listingItemTemplateSelector:ListingItemTemplateSelector/>
@@ -58,34 +38,8 @@
 		</ListView.Behaviors>
 	</ListView>
 
-	<StackLayout
-		IsVisible="{Binding IsLoading}"
-		RelativeLayout.XConstraint =
-	  "{ConstraintExpression Type=RelativeToParent,
-	                         Property=X,
-	                         Factor=0,
-	                         Constant=0}"
-		RelativeLayout.YConstraint =
-	  "{ConstraintExpression Type=RelativeToParent,
-	                         Property=Y,
-	                         Factor=0,
-	                         Constant=0}"
-		RelativeLayout.WidthConstraint =
-	  "{ConstraintExpression Type=RelativeToParent,
-	                         Property=Width,
-	                         Factor=1,
-	                         Constant=0}"
-		RelativeLayout.HeightConstraint =
-	  "{ConstraintExpression Type=RelativeToParent,
-	                         Property=Height,
-	                         Factor=1,
-	                         Constant=0}">
 
-						<!--We gotta do something awesome here while the app is loading-->
-
-		</StackLayout>
-		
-	</RelativeLayout>
+	</StackLayout>
 	
 </ContentPage>
 
