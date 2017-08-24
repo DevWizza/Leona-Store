@@ -14,7 +14,7 @@
 
 			<Image
 				Aspect="AspectFill"
-				Source="https://cdn.pixabay.com/photo/2017/03/16/08/05/road-2148417_960_720.jpg"/>
+				Source="me"/>
 
 		<StackLayout
 				BackgroundColor="White"
@@ -193,7 +193,7 @@
 					<Label
 							HorizontalOptions="FillAndExpand"
 							TextColor="White"
-							Text="Appasionate about the mobile and web industry since his early teen years, participating in open source projects and contributing component code quality."/>
+							Text="Passionate about the mobile and web industry since his early teen years, participating in open source projects and contributing component code quality."/>
 
 					<Label
 							HorizontalOptions="FillAndExpand"
@@ -254,7 +254,7 @@
 
 								<StackLayout Margin="10,0,10,0">
 								<Image
-									Source="http://uiexplorer.in/img/angular_logo.png" 
+									Source="https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAqfAAAAJDQwZWJiNTdkLThiYjUtNGQ2YS1iMzJjLTRiMmQ5YjZiMDNiNw.png" 
 									WidthRequest="100"
 									Aspect="AspectFit"
 									HeightRequest="100"/>
@@ -411,7 +411,7 @@
 							HorizontalOptions="FillAndExpand"
 							BackgroundColor="#C91F37">
 								
-										<Label Text="Kiruma"
+										<Label Text="Kimura"
 											FontSize="14"
 											FontAttributes="Bold"
 											TextColor="White"

@@ -26,7 +26,7 @@ namespace LeonaStore
 			Container.RegisterTypeForNavigation<MasterDetailContainer>();
 			Container.RegisterTypeForNavigation<LeonaNavigationPage>();
 			Container.RegisterTypeForNavigation<SplashPage>();
-			Container.RegisterTypeForNavigation<LandingPage>();
+			Container.RegisterTypeForNavigation<LandingContentPage>();
 			Container.RegisterTypeForNavigation<ProductListing>();
 			Container.RegisterTypeForNavigation<ListingDetail>();
 			Container.RegisterTypeForNavigation<SearchPage>();

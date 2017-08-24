@@ -32,7 +32,7 @@ namespace LeonaStore.ViewModels
 			if (isNotFirstTimeUser)
 				await _navigationSevice.NavigateAsync(new Uri($"{Screens.AbsoluteURI}/MasterDetailContainer/NavigationPage/{Screens.ProductListing}", UriKind.Absolute));
 			else
-				await _navigationSevice.NavigateAsync(new Uri($"{Screens.AbsoluteURI}/{Screens.LandingPage}", UriKind.Absolute));
+				await _navigationSevice.NavigateAsync(new Uri($"{Screens.AbsoluteURI}/{Screens.LandingContentPage}", UriKind.Absolute));
 		}
 
 		public void OnNavigatingTo(NavigationParameters parameters)

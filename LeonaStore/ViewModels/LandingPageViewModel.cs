@@ -10,7 +10,7 @@ using Xamarin.Forms;
 
 namespace LeonaStore.ViewModels
 {
-	public class LandingPageViewModel : BindableBase, INavigationAware
+	public class LandingContentPageViewModel : BindableBase, INavigationAware
 	{
 		public IList<LandingPageTemplateModel> PagesModelData { get; set; }
 
@@ -28,7 +28,7 @@ namespace LeonaStore.ViewModels
 
 		public Color BackgroundColor { get; set; }
 
-		public LandingPageViewModel(INavigationService navigationService)
+		public LandingContentPageViewModel(INavigationService navigationService)
 		{
 			_navigationService = navigationService;
 
