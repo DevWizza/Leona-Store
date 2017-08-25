@@ -6,7 +6,7 @@ namespace LeonaStore
 	public class Screens
 	{
 		public static readonly string SplashPage = nameof(SplashPage);
-		public static readonly string LandingPage = nameof(LandingPage);
+		public static readonly string LandingContentPage = nameof(LandingContentPage);
 		public static readonly string ProductListing = nameof(ProductListing);
 		public static readonly string ListingDetail = nameof(ListingDetail);
 		public static readonly string PickAColor = nameof(PickAColor);

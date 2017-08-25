@@ -6,9 +6,9 @@ using Xamarin.Forms.Xaml;
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace LeonaStore.Views
 {
-	public partial class LandingPage : ContentPage, IDestructible
+	public partial class LandingContentPage : ContentPage, IDestructible
 	{
-		public LandingPage()
+		public LandingContentPage()
 		{
 			InitializeComponent();
 		}

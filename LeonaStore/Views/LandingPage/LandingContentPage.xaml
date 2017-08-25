@@ -9,7 +9,7 @@
 	xmlns:dots="clr-namespace:LeonaStore.Components.CarouselDotsGenerator;assembly=LeonaStore"
 	BackgroundColor="{Binding BackgroundColor}"
 	prism:ViewModelLocator.AutowireViewModel="True" 
-	x:Class="LeonaStore.Views.LandingPage">
+	x:Class="LeonaStore.Views.LandingContentPage">
 
 	<StackLayout
 		HorizontalOptions="FillAndExpand"
