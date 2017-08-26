@@ -8,6 +8,6 @@ namespace LeonaStore.Views
 		{
 			InitializeComponent();
 		}
+        
 	}
 }
-

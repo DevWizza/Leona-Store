@@ -8,6 +8,7 @@
 	prism:ViewModelLocator.AutowireViewModel="True"
 	xmlns:prismBehaviors="clr-namespace:Prism.Behaviors;assembly=Prism.Forms"
 	x:Class="AppDrawer.Views.AppDrawer"
+    Icon="ic_menu"
 	Title="Drawer">
 
 	<StackLayout
