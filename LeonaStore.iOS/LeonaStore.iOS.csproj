@@ -79,6 +79,15 @@
     <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Lottie.Forms, Version=1.0.6442.27471, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Com.Airbnb.Xamarin.Forms.Lottie.2.3.2\lib\xamarinios\Lottie.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="Lottie.Forms.iOS, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Com.Airbnb.Xamarin.Forms.Lottie.2.3.2\lib\xamarinios\Lottie.Forms.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Lottie.iOS, Version=1.0.6442.27471, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Com.Airbnb.iOS.Lottie.2.0.5.0\lib\xamarinios\Lottie.iOS.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
@@ -178,8 +187,10 @@
     <InterfaceDefinition Include="Resources\LaunchScreen.xib" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
     <None Include="Info.plist" />
     <None Include="Entitlements.plist" />
+    <BundleResource Include="loading.json" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

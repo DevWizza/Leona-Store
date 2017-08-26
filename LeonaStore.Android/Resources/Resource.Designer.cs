@@ -26,6 +26,2133 @@ namespace LeonaStore.Android
 		
 		public static void UpdateIdValues()
 		{
+			global::Lottie.Forms.Droid.Resource.Animation.abc_fade_in = global::LeonaStore.Android.Resource.Animation.abc_fade_in;
+			global::Lottie.Forms.Droid.Resource.Animation.abc_fade_out = global::LeonaStore.Android.Resource.Animation.abc_fade_out;
+			global::Lottie.Forms.Droid.Resource.Animation.abc_grow_fade_in_from_bottom = global::LeonaStore.Android.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Lottie.Forms.Droid.Resource.Animation.abc_popup_enter = global::LeonaStore.Android.Resource.Animation.abc_popup_enter;
+			global::Lottie.Forms.Droid.Resource.Animation.abc_popup_exit = global::LeonaStore.Android.Resource.Animation.abc_popup_exit;
+			global::Lottie.Forms.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom = global::LeonaStore.Android.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Lottie.Forms.Droid.Resource.Animation.abc_slide_in_bottom = global::LeonaStore.Android.Resource.Animation.abc_slide_in_bottom;
+			global::Lottie.Forms.Droid.Resource.Animation.abc_slide_in_top = global::LeonaStore.Android.Resource.Animation.abc_slide_in_top;
+			global::Lottie.Forms.Droid.Resource.Animation.abc_slide_out_bottom = global::LeonaStore.Android.Resource.Animation.abc_slide_out_bottom;
+			global::Lottie.Forms.Droid.Resource.Animation.abc_slide_out_top = global::LeonaStore.Android.Resource.Animation.abc_slide_out_top;
+			global::Lottie.Forms.Droid.Resource.Animation.design_bottom_sheet_slide_in = global::LeonaStore.Android.Resource.Animation.design_bottom_sheet_slide_in;
+			global::Lottie.Forms.Droid.Resource.Animation.design_bottom_sheet_slide_out = global::LeonaStore.Android.Resource.Animation.design_bottom_sheet_slide_out;
+			global::Lottie.Forms.Droid.Resource.Animation.design_fab_in = global::LeonaStore.Android.Resource.Animation.design_fab_in;
+			global::Lottie.Forms.Droid.Resource.Animation.design_fab_out = global::LeonaStore.Android.Resource.Animation.design_fab_out;
+			global::Lottie.Forms.Droid.Resource.Animation.design_snackbar_in = global::LeonaStore.Android.Resource.Animation.design_snackbar_in;
+			global::Lottie.Forms.Droid.Resource.Animation.design_snackbar_out = global::LeonaStore.Android.Resource.Animation.design_snackbar_out;
+			global::Lottie.Forms.Droid.Resource.Animator.design_appbar_state_list_animator = global::LeonaStore.Android.Resource.Animator.design_appbar_state_list_animator;
+			global::Lottie.Forms.Droid.Resource.Attribute.actionBarDivider = global::LeonaStore.Android.Resource.Attribute.actionBarDivider;
+			global::Lottie.Forms.Droid.Resource.Attribute.actionBarItemBackground = global::LeonaStore.Android.Resource.Attribute.actionBarItemBackground;
+			global::Lottie.Forms.Droid.Resource.Attribute.actionBarPopupTheme = global::LeonaStore.Android.Resource.Attribute.actionBarPopupTheme;
+			global::Lottie.Forms.Droid.Resource.Attribute.actionBarSize = global::LeonaStore.Android.Resource.Attribute.actionBarSize;
+			global::Lottie.Forms.Droid.Resource.Attribute.actionBarSplitStyle = global::LeonaStore.Android.Resource.Attribute.actionBarSplitStyle;
+			global::Lottie.Forms.Droid.Resource.Attribute.actionBarStyle = global::LeonaStore.Android.Resource.Attribute.actionBarStyle;
+			global::Lottie.Forms.Droid.Resource.Attribute.actionBarTabBarStyle = global::LeonaStore.Android.Resource.Attribute.actionBarTabBarStyle;
+			global::Lottie.Forms.Droid.Resource.Attribute.actionBarTabStyle = global::LeonaStore.Android.Resource.Attribute.actionBarTabStyle;
+			global::Lottie.Forms.Droid.Resource.Attribute.actionBarTabTextStyle = global::LeonaStore.Android.Resource.Attribute.actionBarTabTextStyle;
+			global::Lottie.Forms.Droid.Resource.Attribute.actionBarTheme = global::LeonaStore.Android.Resource.Attribute.actionBarTheme;
+			global::Lottie.Forms.Droid.Resource.Attribute.actionBarWidgetTheme = global::LeonaStore.Android.Resource.Attribute.actionBarWidgetTheme;
+			global::Lottie.Forms.Droid.Resource.Attribute.actionButtonStyle = global::LeonaStore.Android.Resource.Attribute.actionButtonStyle;
+			global::Lottie.Forms.Droid.Resource.Attribute.actionDropDownStyle = global::LeonaStore.Android.Resource.Attribute.actionDropDownStyle;
+			global::Lottie.Forms.Droid.Resource.Attribute.actionLayout = global::LeonaStore.Android.Resource.Attribute.actionLayout;
+			global::Lottie.Forms.Droid.Resource.Attribute.actionMenuTextAppearance = global::LeonaStore.Android.Resource.Attribute.actionMenuTextAppearance;
+			global::Lottie.Forms.Droid.Resource.Attribute.actionMenuTextColor = global::LeonaStore.Android.Resource.Attribute.actionMenuTextColor;
+			global::Lottie.Forms.Droid.Resource.Attribute.actionModeBackground = global::LeonaStore.Android.Resource.Attribute.actionModeBackground;
+			global::Lottie.Forms.Droid.Resource.Attribute.actionModeCloseButtonStyle = global::LeonaStore.Android.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Lottie.Forms.Droid.Resource.Attribute.actionModeCloseDrawable = global::LeonaStore.Android.Resource.Attribute.actionModeCloseDrawable;
+			global::Lottie.Forms.Droid.Resource.Attribute.actionModeCopyDrawable = global::LeonaStore.Android.Resource.Attribute.actionModeCopyDrawable;
+			global::Lottie.Forms.Droid.Resource.Attribute.actionModeCutDrawable = global::LeonaStore.Android.Resource.Attribute.actionModeCutDrawable;
+			global::Lottie.Forms.Droid.Resource.Attribute.actionModeFindDrawable = global::LeonaStore.Android.Resource.Attribute.actionModeFindDrawable;
+			global::Lottie.Forms.Droid.Resource.Attribute.actionModePasteDrawable = global::LeonaStore.Android.Resource.Attribute.actionModePasteDrawable;
+			global::Lottie.Forms.Droid.Resource.Attribute.actionModePopupWindowStyle = global::LeonaStore.Android.Resource.Attribute.actionModePopupWindowStyle;
+			global::Lottie.Forms.Droid.Resource.Attribute.actionModeSelectAllDrawable = global::LeonaStore.Android.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Lottie.Forms.Droid.Resource.Attribute.actionModeShareDrawable = global::LeonaStore.Android.Resource.Attribute.actionModeShareDrawable;
+			global::Lottie.Forms.Droid.Resource.Attribute.actionModeSplitBackground = global::LeonaStore.Android.Resource.Attribute.actionModeSplitBackground;
+			global::Lottie.Forms.Droid.Resource.Attribute.actionModeStyle = global::LeonaStore.Android.Resource.Attribute.actionModeStyle;
+			global::Lottie.Forms.Droid.Resource.Attribute.actionModeWebSearchDrawable = global::LeonaStore.Android.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Lottie.Forms.Droid.Resource.Attribute.actionOverflowButtonStyle = global::LeonaStore.Android.Resource.Attribute.actionOverflowButtonStyle;
+			global::Lottie.Forms.Droid.Resource.Attribute.actionOverflowMenuStyle = global::LeonaStore.Android.Resource.Attribute.actionOverflowMenuStyle;
+			global::Lottie.Forms.Droid.Resource.Attribute.actionProviderClass = global::LeonaStore.Android.Resource.Attribute.actionProviderClass;
+			global::Lottie.Forms.Droid.Resource.Attribute.actionViewClass = global::LeonaStore.Android.Resource.Attribute.actionViewClass;
+			global::Lottie.Forms.Droid.Resource.Attribute.activityChooserViewStyle = global::LeonaStore.Android.Resource.Attribute.activityChooserViewStyle;
+			global::Lottie.Forms.Droid.Resource.Attribute.alertDialogButtonGroupStyle = global::LeonaStore.Android.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Lottie.Forms.Droid.Resource.Attribute.alertDialogCenterButtons = global::LeonaStore.Android.Resource.Attribute.alertDialogCenterButtons;
+			global::Lottie.Forms.Droid.Resource.Attribute.alertDialogStyle = global::LeonaStore.Android.Resource.Attribute.alertDialogStyle;
+			global::Lottie.Forms.Droid.Resource.Attribute.alertDialogTheme = global::LeonaStore.Android.Resource.Attribute.alertDialogTheme;
+			global::Lottie.Forms.Droid.Resource.Attribute.allowStacking = global::LeonaStore.Android.Resource.Attribute.allowStacking;
+			global::Lottie.Forms.Droid.Resource.Attribute.alpha = global::LeonaStore.Android.Resource.Attribute.alpha;
+			global::Lottie.Forms.Droid.Resource.Attribute.arrowHeadLength = global::LeonaStore.Android.Resource.Attribute.arrowHeadLength;
+			global::Lottie.Forms.Droid.Resource.Attribute.arrowShaftLength = global::LeonaStore.Android.Resource.Attribute.arrowShaftLength;
+			global::Lottie.Forms.Droid.Resource.Attribute.autoCompleteTextViewStyle = global::LeonaStore.Android.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Lottie.Forms.Droid.Resource.Attribute.background = global::LeonaStore.Android.Resource.Attribute.background;
+			global::Lottie.Forms.Droid.Resource.Attribute.backgroundSplit = global::LeonaStore.Android.Resource.Attribute.backgroundSplit;
+			global::Lottie.Forms.Droid.Resource.Attribute.backgroundStacked = global::LeonaStore.Android.Resource.Attribute.backgroundStacked;
+			global::Lottie.Forms.Droid.Resource.Attribute.backgroundTint = global::LeonaStore.Android.Resource.Attribute.backgroundTint;
+			global::Lottie.Forms.Droid.Resource.Attribute.backgroundTintMode = global::LeonaStore.Android.Resource.Attribute.backgroundTintMode;
+			global::Lottie.Forms.Droid.Resource.Attribute.barLength = global::LeonaStore.Android.Resource.Attribute.barLength;
+			global::Lottie.Forms.Droid.Resource.Attribute.behavior_autoHide = global::LeonaStore.Android.Resource.Attribute.behavior_autoHide;
+			global::Lottie.Forms.Droid.Resource.Attribute.behavior_hideable = global::LeonaStore.Android.Resource.Attribute.behavior_hideable;
+			global::Lottie.Forms.Droid.Resource.Attribute.behavior_overlapTop = global::LeonaStore.Android.Resource.Attribute.behavior_overlapTop;
+			global::Lottie.Forms.Droid.Resource.Attribute.behavior_peekHeight = global::LeonaStore.Android.Resource.Attribute.behavior_peekHeight;
+			global::Lottie.Forms.Droid.Resource.Attribute.behavior_skipCollapsed = global::LeonaStore.Android.Resource.Attribute.behavior_skipCollapsed;
+			global::Lottie.Forms.Droid.Resource.Attribute.borderWidth = global::LeonaStore.Android.Resource.Attribute.borderWidth;
+			global::Lottie.Forms.Droid.Resource.Attribute.borderlessButtonStyle = global::LeonaStore.Android.Resource.Attribute.borderlessButtonStyle;
+			global::Lottie.Forms.Droid.Resource.Attribute.bottomSheetDialogTheme = global::LeonaStore.Android.Resource.Attribute.bottomSheetDialogTheme;
+			global::Lottie.Forms.Droid.Resource.Attribute.bottomSheetStyle = global::LeonaStore.Android.Resource.Attribute.bottomSheetStyle;
+			global::Lottie.Forms.Droid.Resource.Attribute.buttonBarButtonStyle = global::LeonaStore.Android.Resource.Attribute.buttonBarButtonStyle;
+			global::Lottie.Forms.Droid.Resource.Attribute.buttonBarNegativeButtonStyle = global::LeonaStore.Android.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Lottie.Forms.Droid.Resource.Attribute.buttonBarNeutralButtonStyle = global::LeonaStore.Android.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Lottie.Forms.Droid.Resource.Attribute.buttonBarPositiveButtonStyle = global::LeonaStore.Android.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Lottie.Forms.Droid.Resource.Attribute.buttonBarStyle = global::LeonaStore.Android.Resource.Attribute.buttonBarStyle;
+			global::Lottie.Forms.Droid.Resource.Attribute.buttonGravity = global::LeonaStore.Android.Resource.Attribute.buttonGravity;
+			global::Lottie.Forms.Droid.Resource.Attribute.buttonPanelSideLayout = global::LeonaStore.Android.Resource.Attribute.buttonPanelSideLayout;
+			global::Lottie.Forms.Droid.Resource.Attribute.buttonStyle = global::LeonaStore.Android.Resource.Attribute.buttonStyle;
+			global::Lottie.Forms.Droid.Resource.Attribute.buttonStyleSmall = global::LeonaStore.Android.Resource.Attribute.buttonStyleSmall;
+			global::Lottie.Forms.Droid.Resource.Attribute.buttonTint = global::LeonaStore.Android.Resource.Attribute.buttonTint;
+			global::Lottie.Forms.Droid.Resource.Attribute.buttonTintMode = global::LeonaStore.Android.Resource.Attribute.buttonTintMode;
+			global::Lottie.Forms.Droid.Resource.Attribute.cardBackgroundColor = global::LeonaStore.Android.Resource.Attribute.cardBackgroundColor;
+			global::Lottie.Forms.Droid.Resource.Attribute.cardCornerRadius = global::LeonaStore.Android.Resource.Attribute.cardCornerRadius;
+			global::Lottie.Forms.Droid.Resource.Attribute.cardElevation = global::LeonaStore.Android.Resource.Attribute.cardElevation;
+			global::Lottie.Forms.Droid.Resource.Attribute.cardMaxElevation = global::LeonaStore.Android.Resource.Attribute.cardMaxElevation;
+			global::Lottie.Forms.Droid.Resource.Attribute.cardPreventCornerOverlap = global::LeonaStore.Android.Resource.Attribute.cardPreventCornerOverlap;
+			global::Lottie.Forms.Droid.Resource.Attribute.cardUseCompatPadding = global::LeonaStore.Android.Resource.Attribute.cardUseCompatPadding;
+			global::Lottie.Forms.Droid.Resource.Attribute.checkboxStyle = global::LeonaStore.Android.Resource.Attribute.checkboxStyle;
+			global::Lottie.Forms.Droid.Resource.Attribute.checkedTextViewStyle = global::LeonaStore.Android.Resource.Attribute.checkedTextViewStyle;
+			global::Lottie.Forms.Droid.Resource.Attribute.closeIcon = global::LeonaStore.Android.Resource.Attribute.closeIcon;
+			global::Lottie.Forms.Droid.Resource.Attribute.closeItemLayout = global::LeonaStore.Android.Resource.Attribute.closeItemLayout;
+			global::Lottie.Forms.Droid.Resource.Attribute.collapseContentDescription = global::LeonaStore.Android.Resource.Attribute.collapseContentDescription;
+			global::Lottie.Forms.Droid.Resource.Attribute.collapseIcon = global::LeonaStore.Android.Resource.Attribute.collapseIcon;
+			global::Lottie.Forms.Droid.Resource.Attribute.collapsedTitleGravity = global::LeonaStore.Android.Resource.Attribute.collapsedTitleGravity;
+			global::Lottie.Forms.Droid.Resource.Attribute.collapsedTitleTextAppearance = global::LeonaStore.Android.Resource.Attribute.collapsedTitleTextAppearance;
+			global::Lottie.Forms.Droid.Resource.Attribute.color = global::LeonaStore.Android.Resource.Attribute.color;
+			global::Lottie.Forms.Droid.Resource.Attribute.colorAccent = global::LeonaStore.Android.Resource.Attribute.colorAccent;
+			global::Lottie.Forms.Droid.Resource.Attribute.colorBackgroundFloating = global::LeonaStore.Android.Resource.Attribute.colorBackgroundFloating;
+			global::Lottie.Forms.Droid.Resource.Attribute.colorButtonNormal = global::LeonaStore.Android.Resource.Attribute.colorButtonNormal;
+			global::Lottie.Forms.Droid.Resource.Attribute.colorControlActivated = global::LeonaStore.Android.Resource.Attribute.colorControlActivated;
+			global::Lottie.Forms.Droid.Resource.Attribute.colorControlHighlight = global::LeonaStore.Android.Resource.Attribute.colorControlHighlight;
+			global::Lottie.Forms.Droid.Resource.Attribute.colorControlNormal = global::LeonaStore.Android.Resource.Attribute.colorControlNormal;
+			global::Lottie.Forms.Droid.Resource.Attribute.colorPrimary = global::LeonaStore.Android.Resource.Attribute.colorPrimary;
+			global::Lottie.Forms.Droid.Resource.Attribute.colorPrimaryDark = global::LeonaStore.Android.Resource.Attribute.colorPrimaryDark;
+			global::Lottie.Forms.Droid.Resource.Attribute.colorSwitchThumbNormal = global::LeonaStore.Android.Resource.Attribute.colorSwitchThumbNormal;
+			global::Lottie.Forms.Droid.Resource.Attribute.commitIcon = global::LeonaStore.Android.Resource.Attribute.commitIcon;
+			global::Lottie.Forms.Droid.Resource.Attribute.contentInsetEnd = global::LeonaStore.Android.Resource.Attribute.contentInsetEnd;
+			global::Lottie.Forms.Droid.Resource.Attribute.contentInsetEndWithActions = global::LeonaStore.Android.Resource.Attribute.contentInsetEndWithActions;
+			global::Lottie.Forms.Droid.Resource.Attribute.contentInsetLeft = global::LeonaStore.Android.Resource.Attribute.contentInsetLeft;
+			global::Lottie.Forms.Droid.Resource.Attribute.contentInsetRight = global::LeonaStore.Android.Resource.Attribute.contentInsetRight;
+			global::Lottie.Forms.Droid.Resource.Attribute.contentInsetStart = global::LeonaStore.Android.Resource.Attribute.contentInsetStart;
+			global::Lottie.Forms.Droid.Resource.Attribute.contentInsetStartWithNavigation = global::LeonaStore.Android.Resource.Attribute.contentInsetStartWithNavigation;
+			global::Lottie.Forms.Droid.Resource.Attribute.contentPadding = global::LeonaStore.Android.Resource.Attribute.contentPadding;
+			global::Lottie.Forms.Droid.Resource.Attribute.contentPaddingBottom = global::LeonaStore.Android.Resource.Attribute.contentPaddingBottom;
+			global::Lottie.Forms.Droid.Resource.Attribute.contentPaddingLeft = global::LeonaStore.Android.Resource.Attribute.contentPaddingLeft;
+			global::Lottie.Forms.Droid.Resource.Attribute.contentPaddingRight = global::LeonaStore.Android.Resource.Attribute.contentPaddingRight;
+			global::Lottie.Forms.Droid.Resource.Attribute.contentPaddingTop = global::LeonaStore.Android.Resource.Attribute.contentPaddingTop;
+			global::Lottie.Forms.Droid.Resource.Attribute.contentScrim = global::LeonaStore.Android.Resource.Attribute.contentScrim;
+			global::Lottie.Forms.Droid.Resource.Attribute.controlBackground = global::LeonaStore.Android.Resource.Attribute.controlBackground;
+			global::Lottie.Forms.Droid.Resource.Attribute.counterEnabled = global::LeonaStore.Android.Resource.Attribute.counterEnabled;
+			global::Lottie.Forms.Droid.Resource.Attribute.counterMaxLength = global::LeonaStore.Android.Resource.Attribute.counterMaxLength;
+			global::Lottie.Forms.Droid.Resource.Attribute.counterOverflowTextAppearance = global::LeonaStore.Android.Resource.Attribute.counterOverflowTextAppearance;
+			global::Lottie.Forms.Droid.Resource.Attribute.counterTextAppearance = global::LeonaStore.Android.Resource.Attribute.counterTextAppearance;
+			global::Lottie.Forms.Droid.Resource.Attribute.customNavigationLayout = global::LeonaStore.Android.Resource.Attribute.customNavigationLayout;
+			global::Lottie.Forms.Droid.Resource.Attribute.defaultQueryHint = global::LeonaStore.Android.Resource.Attribute.defaultQueryHint;
+			global::Lottie.Forms.Droid.Resource.Attribute.dialogPreferredPadding = global::LeonaStore.Android.Resource.Attribute.dialogPreferredPadding;
+			global::Lottie.Forms.Droid.Resource.Attribute.dialogTheme = global::LeonaStore.Android.Resource.Attribute.dialogTheme;
+			global::Lottie.Forms.Droid.Resource.Attribute.displayOptions = global::LeonaStore.Android.Resource.Attribute.displayOptions;
+			global::Lottie.Forms.Droid.Resource.Attribute.divider = global::LeonaStore.Android.Resource.Attribute.divider;
+			global::Lottie.Forms.Droid.Resource.Attribute.dividerHorizontal = global::LeonaStore.Android.Resource.Attribute.dividerHorizontal;
+			global::Lottie.Forms.Droid.Resource.Attribute.dividerPadding = global::LeonaStore.Android.Resource.Attribute.dividerPadding;
+			global::Lottie.Forms.Droid.Resource.Attribute.dividerVertical = global::LeonaStore.Android.Resource.Attribute.dividerVertical;
+			global::Lottie.Forms.Droid.Resource.Attribute.drawableSize = global::LeonaStore.Android.Resource.Attribute.drawableSize;
+			global::Lottie.Forms.Droid.Resource.Attribute.drawerArrowStyle = global::LeonaStore.Android.Resource.Attribute.drawerArrowStyle;
+			global::Lottie.Forms.Droid.Resource.Attribute.dropDownListViewStyle = global::LeonaStore.Android.Resource.Attribute.dropDownListViewStyle;
+			global::Lottie.Forms.Droid.Resource.Attribute.dropdownListPreferredItemHeight = global::LeonaStore.Android.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Lottie.Forms.Droid.Resource.Attribute.editTextBackground = global::LeonaStore.Android.Resource.Attribute.editTextBackground;
+			global::Lottie.Forms.Droid.Resource.Attribute.editTextColor = global::LeonaStore.Android.Resource.Attribute.editTextColor;
+			global::Lottie.Forms.Droid.Resource.Attribute.editTextStyle = global::LeonaStore.Android.Resource.Attribute.editTextStyle;
+			global::Lottie.Forms.Droid.Resource.Attribute.elevation = global::LeonaStore.Android.Resource.Attribute.elevation;
+			global::Lottie.Forms.Droid.Resource.Attribute.errorEnabled = global::LeonaStore.Android.Resource.Attribute.errorEnabled;
+			global::Lottie.Forms.Droid.Resource.Attribute.errorTextAppearance = global::LeonaStore.Android.Resource.Attribute.errorTextAppearance;
+			global::Lottie.Forms.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable = global::LeonaStore.Android.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Lottie.Forms.Droid.Resource.Attribute.expanded = global::LeonaStore.Android.Resource.Attribute.expanded;
+			global::Lottie.Forms.Droid.Resource.Attribute.expandedTitleGravity = global::LeonaStore.Android.Resource.Attribute.expandedTitleGravity;
+			global::Lottie.Forms.Droid.Resource.Attribute.expandedTitleMargin = global::LeonaStore.Android.Resource.Attribute.expandedTitleMargin;
+			global::Lottie.Forms.Droid.Resource.Attribute.expandedTitleMarginBottom = global::LeonaStore.Android.Resource.Attribute.expandedTitleMarginBottom;
+			global::Lottie.Forms.Droid.Resource.Attribute.expandedTitleMarginEnd = global::LeonaStore.Android.Resource.Attribute.expandedTitleMarginEnd;
+			global::Lottie.Forms.Droid.Resource.Attribute.expandedTitleMarginStart = global::LeonaStore.Android.Resource.Attribute.expandedTitleMarginStart;
+			global::Lottie.Forms.Droid.Resource.Attribute.expandedTitleMarginTop = global::LeonaStore.Android.Resource.Attribute.expandedTitleMarginTop;
+			global::Lottie.Forms.Droid.Resource.Attribute.expandedTitleTextAppearance = global::LeonaStore.Android.Resource.Attribute.expandedTitleTextAppearance;
+			global::Lottie.Forms.Droid.Resource.Attribute.externalRouteEnabledDrawable = global::LeonaStore.Android.Resource.Attribute.externalRouteEnabledDrawable;
+			global::Lottie.Forms.Droid.Resource.Attribute.fabSize = global::LeonaStore.Android.Resource.Attribute.fabSize;
+			global::Lottie.Forms.Droid.Resource.Attribute.foregroundInsidePadding = global::LeonaStore.Android.Resource.Attribute.foregroundInsidePadding;
+			global::Lottie.Forms.Droid.Resource.Attribute.gapBetweenBars = global::LeonaStore.Android.Resource.Attribute.gapBetweenBars;
+			global::Lottie.Forms.Droid.Resource.Attribute.goIcon = global::LeonaStore.Android.Resource.Attribute.goIcon;
+			global::Lottie.Forms.Droid.Resource.Attribute.headerLayout = global::LeonaStore.Android.Resource.Attribute.headerLayout;
+			global::Lottie.Forms.Droid.Resource.Attribute.height = global::LeonaStore.Android.Resource.Attribute.height;
+			global::Lottie.Forms.Droid.Resource.Attribute.hideOnContentScroll = global::LeonaStore.Android.Resource.Attribute.hideOnContentScroll;
+			global::Lottie.Forms.Droid.Resource.Attribute.hintAnimationEnabled = global::LeonaStore.Android.Resource.Attribute.hintAnimationEnabled;
+			global::Lottie.Forms.Droid.Resource.Attribute.hintEnabled = global::LeonaStore.Android.Resource.Attribute.hintEnabled;
+			global::Lottie.Forms.Droid.Resource.Attribute.hintTextAppearance = global::LeonaStore.Android.Resource.Attribute.hintTextAppearance;
+			global::Lottie.Forms.Droid.Resource.Attribute.homeAsUpIndicator = global::LeonaStore.Android.Resource.Attribute.homeAsUpIndicator;
+			global::Lottie.Forms.Droid.Resource.Attribute.homeLayout = global::LeonaStore.Android.Resource.Attribute.homeLayout;
+			global::Lottie.Forms.Droid.Resource.Attribute.icon = global::LeonaStore.Android.Resource.Attribute.icon;
+			global::Lottie.Forms.Droid.Resource.Attribute.iconifiedByDefault = global::LeonaStore.Android.Resource.Attribute.iconifiedByDefault;
+			global::Lottie.Forms.Droid.Resource.Attribute.imageButtonStyle = global::LeonaStore.Android.Resource.Attribute.imageButtonStyle;
+			global::Lottie.Forms.Droid.Resource.Attribute.indeterminateProgressStyle = global::LeonaStore.Android.Resource.Attribute.indeterminateProgressStyle;
+			global::Lottie.Forms.Droid.Resource.Attribute.initialActivityCount = global::LeonaStore.Android.Resource.Attribute.initialActivityCount;
+			global::Lottie.Forms.Droid.Resource.Attribute.insetForeground = global::LeonaStore.Android.Resource.Attribute.insetForeground;
+			global::Lottie.Forms.Droid.Resource.Attribute.isLightTheme = global::LeonaStore.Android.Resource.Attribute.isLightTheme;
+			global::Lottie.Forms.Droid.Resource.Attribute.itemBackground = global::LeonaStore.Android.Resource.Attribute.itemBackground;
+			global::Lottie.Forms.Droid.Resource.Attribute.itemIconTint = global::LeonaStore.Android.Resource.Attribute.itemIconTint;
+			global::Lottie.Forms.Droid.Resource.Attribute.itemPadding = global::LeonaStore.Android.Resource.Attribute.itemPadding;
+			global::Lottie.Forms.Droid.Resource.Attribute.itemTextAppearance = global::LeonaStore.Android.Resource.Attribute.itemTextAppearance;
+			global::Lottie.Forms.Droid.Resource.Attribute.itemTextColor = global::LeonaStore.Android.Resource.Attribute.itemTextColor;
+			global::Lottie.Forms.Droid.Resource.Attribute.keylines = global::LeonaStore.Android.Resource.Attribute.keylines;
+			global::Lottie.Forms.Droid.Resource.Attribute.layout = global::LeonaStore.Android.Resource.Attribute.layout;
+			global::Lottie.Forms.Droid.Resource.Attribute.layoutManager = global::LeonaStore.Android.Resource.Attribute.layoutManager;
+			global::Lottie.Forms.Droid.Resource.Attribute.layout_anchor = global::LeonaStore.Android.Resource.Attribute.layout_anchor;
+			global::Lottie.Forms.Droid.Resource.Attribute.layout_anchorGravity = global::LeonaStore.Android.Resource.Attribute.layout_anchorGravity;
+			global::Lottie.Forms.Droid.Resource.Attribute.layout_behavior = global::LeonaStore.Android.Resource.Attribute.layout_behavior;
+			global::Lottie.Forms.Droid.Resource.Attribute.layout_collapseMode = global::LeonaStore.Android.Resource.Attribute.layout_collapseMode;
+			global::Lottie.Forms.Droid.Resource.Attribute.layout_collapseParallaxMultiplier = global::LeonaStore.Android.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::Lottie.Forms.Droid.Resource.Attribute.layout_dodgeInsetEdges = global::LeonaStore.Android.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Lottie.Forms.Droid.Resource.Attribute.layout_insetEdge = global::LeonaStore.Android.Resource.Attribute.layout_insetEdge;
+			global::Lottie.Forms.Droid.Resource.Attribute.layout_keyline = global::LeonaStore.Android.Resource.Attribute.layout_keyline;
+			global::Lottie.Forms.Droid.Resource.Attribute.layout_scrollFlags = global::LeonaStore.Android.Resource.Attribute.layout_scrollFlags;
+			global::Lottie.Forms.Droid.Resource.Attribute.layout_scrollInterpolator = global::LeonaStore.Android.Resource.Attribute.layout_scrollInterpolator;
+			global::Lottie.Forms.Droid.Resource.Attribute.listChoiceBackgroundIndicator = global::LeonaStore.Android.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Lottie.Forms.Droid.Resource.Attribute.listDividerAlertDialog = global::LeonaStore.Android.Resource.Attribute.listDividerAlertDialog;
+			global::Lottie.Forms.Droid.Resource.Attribute.listItemLayout = global::LeonaStore.Android.Resource.Attribute.listItemLayout;
+			global::Lottie.Forms.Droid.Resource.Attribute.listLayout = global::LeonaStore.Android.Resource.Attribute.listLayout;
+			global::Lottie.Forms.Droid.Resource.Attribute.listMenuViewStyle = global::LeonaStore.Android.Resource.Attribute.listMenuViewStyle;
+			global::Lottie.Forms.Droid.Resource.Attribute.listPopupWindowStyle = global::LeonaStore.Android.Resource.Attribute.listPopupWindowStyle;
+			global::Lottie.Forms.Droid.Resource.Attribute.listPreferredItemHeight = global::LeonaStore.Android.Resource.Attribute.listPreferredItemHeight;
+			global::Lottie.Forms.Droid.Resource.Attribute.listPreferredItemHeightLarge = global::LeonaStore.Android.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Lottie.Forms.Droid.Resource.Attribute.listPreferredItemHeightSmall = global::LeonaStore.Android.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Lottie.Forms.Droid.Resource.Attribute.listPreferredItemPaddingLeft = global::LeonaStore.Android.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Lottie.Forms.Droid.Resource.Attribute.listPreferredItemPaddingRight = global::LeonaStore.Android.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Lottie.Forms.Droid.Resource.Attribute.logo = global::LeonaStore.Android.Resource.Attribute.logo;
+			global::Lottie.Forms.Droid.Resource.Attribute.logoDescription = global::LeonaStore.Android.Resource.Attribute.logoDescription;
+			global::Lottie.Forms.Droid.Resource.Attribute.lottie_autoPlay = global::LeonaStore.Android.Resource.Attribute.lottie_autoPlay;
+			global::Lottie.Forms.Droid.Resource.Attribute.lottie_cacheStrategy = global::LeonaStore.Android.Resource.Attribute.lottie_cacheStrategy;
+			global::Lottie.Forms.Droid.Resource.Attribute.lottie_colorFilter = global::LeonaStore.Android.Resource.Attribute.lottie_colorFilter;
+			global::Lottie.Forms.Droid.Resource.Attribute.lottie_enableMergePathsForKitKatAndAbove = global::LeonaStore.Android.Resource.Attribute.lottie_enableMergePathsForKitKatAndAbove;
+			global::Lottie.Forms.Droid.Resource.Attribute.lottie_fileName = global::LeonaStore.Android.Resource.Attribute.lottie_fileName;
+			global::Lottie.Forms.Droid.Resource.Attribute.lottie_imageAssetsFolder = global::LeonaStore.Android.Resource.Attribute.lottie_imageAssetsFolder;
+			global::Lottie.Forms.Droid.Resource.Attribute.lottie_loop = global::LeonaStore.Android.Resource.Attribute.lottie_loop;
+			global::Lottie.Forms.Droid.Resource.Attribute.lottie_progress = global::LeonaStore.Android.Resource.Attribute.lottie_progress;
+			global::Lottie.Forms.Droid.Resource.Attribute.lottie_scale = global::LeonaStore.Android.Resource.Attribute.lottie_scale;
+			global::Lottie.Forms.Droid.Resource.Attribute.maxActionInlineWidth = global::LeonaStore.Android.Resource.Attribute.maxActionInlineWidth;
+			global::Lottie.Forms.Droid.Resource.Attribute.maxButtonHeight = global::LeonaStore.Android.Resource.Attribute.maxButtonHeight;
+			global::Lottie.Forms.Droid.Resource.Attribute.measureWithLargestChild = global::LeonaStore.Android.Resource.Attribute.measureWithLargestChild;
+			global::Lottie.Forms.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable = global::LeonaStore.Android.Resource.Attribute.mediaRouteAudioTrackDrawable;
+			global::Lottie.Forms.Droid.Resource.Attribute.mediaRouteButtonStyle = global::LeonaStore.Android.Resource.Attribute.mediaRouteButtonStyle;
+			global::Lottie.Forms.Droid.Resource.Attribute.mediaRouteCloseDrawable = global::LeonaStore.Android.Resource.Attribute.mediaRouteCloseDrawable;
+			global::Lottie.Forms.Droid.Resource.Attribute.mediaRouteControlPanelThemeOverlay = global::LeonaStore.Android.Resource.Attribute.mediaRouteControlPanelThemeOverlay;
+			global::Lottie.Forms.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable = global::LeonaStore.Android.Resource.Attribute.mediaRouteDefaultIconDrawable;
+			global::Lottie.Forms.Droid.Resource.Attribute.mediaRoutePauseDrawable = global::LeonaStore.Android.Resource.Attribute.mediaRoutePauseDrawable;
+			global::Lottie.Forms.Droid.Resource.Attribute.mediaRoutePlayDrawable = global::LeonaStore.Android.Resource.Attribute.mediaRoutePlayDrawable;
+			global::Lottie.Forms.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::LeonaStore.Android.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
+			global::Lottie.Forms.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::LeonaStore.Android.Resource.Attribute.mediaRouteSpeakerIconDrawable;
+			global::Lottie.Forms.Droid.Resource.Attribute.mediaRouteStopDrawable = global::LeonaStore.Android.Resource.Attribute.mediaRouteStopDrawable;
+			global::Lottie.Forms.Droid.Resource.Attribute.mediaRouteTheme = global::LeonaStore.Android.Resource.Attribute.mediaRouteTheme;
+			global::Lottie.Forms.Droid.Resource.Attribute.mediaRouteTvIconDrawable = global::LeonaStore.Android.Resource.Attribute.mediaRouteTvIconDrawable;
+			global::Lottie.Forms.Droid.Resource.Attribute.menu = global::LeonaStore.Android.Resource.Attribute.menu;
+			global::Lottie.Forms.Droid.Resource.Attribute.multiChoiceItemLayout = global::LeonaStore.Android.Resource.Attribute.multiChoiceItemLayout;
+			global::Lottie.Forms.Droid.Resource.Attribute.navigationContentDescription = global::LeonaStore.Android.Resource.Attribute.navigationContentDescription;
+			global::Lottie.Forms.Droid.Resource.Attribute.navigationIcon = global::LeonaStore.Android.Resource.Attribute.navigationIcon;
+			global::Lottie.Forms.Droid.Resource.Attribute.navigationMode = global::LeonaStore.Android.Resource.Attribute.navigationMode;
+			global::Lottie.Forms.Droid.Resource.Attribute.overlapAnchor = global::LeonaStore.Android.Resource.Attribute.overlapAnchor;
+			global::Lottie.Forms.Droid.Resource.Attribute.paddingBottomNoButtons = global::LeonaStore.Android.Resource.Attribute.paddingBottomNoButtons;
+			global::Lottie.Forms.Droid.Resource.Attribute.paddingEnd = global::LeonaStore.Android.Resource.Attribute.paddingEnd;
+			global::Lottie.Forms.Droid.Resource.Attribute.paddingStart = global::LeonaStore.Android.Resource.Attribute.paddingStart;
+			global::Lottie.Forms.Droid.Resource.Attribute.paddingTopNoTitle = global::LeonaStore.Android.Resource.Attribute.paddingTopNoTitle;
+			global::Lottie.Forms.Droid.Resource.Attribute.panelBackground = global::LeonaStore.Android.Resource.Attribute.panelBackground;
+			global::Lottie.Forms.Droid.Resource.Attribute.panelMenuListTheme = global::LeonaStore.Android.Resource.Attribute.panelMenuListTheme;
+			global::Lottie.Forms.Droid.Resource.Attribute.panelMenuListWidth = global::LeonaStore.Android.Resource.Attribute.panelMenuListWidth;
+			global::Lottie.Forms.Droid.Resource.Attribute.passwordToggleContentDescription = global::LeonaStore.Android.Resource.Attribute.passwordToggleContentDescription;
+			global::Lottie.Forms.Droid.Resource.Attribute.passwordToggleDrawable = global::LeonaStore.Android.Resource.Attribute.passwordToggleDrawable;
+			global::Lottie.Forms.Droid.Resource.Attribute.passwordToggleEnabled = global::LeonaStore.Android.Resource.Attribute.passwordToggleEnabled;
+			global::Lottie.Forms.Droid.Resource.Attribute.passwordToggleTint = global::LeonaStore.Android.Resource.Attribute.passwordToggleTint;
+			global::Lottie.Forms.Droid.Resource.Attribute.passwordToggleTintMode = global::LeonaStore.Android.Resource.Attribute.passwordToggleTintMode;
+			global::Lottie.Forms.Droid.Resource.Attribute.popupMenuStyle = global::LeonaStore.Android.Resource.Attribute.popupMenuStyle;
+			global::Lottie.Forms.Droid.Resource.Attribute.popupTheme = global::LeonaStore.Android.Resource.Attribute.popupTheme;
+			global::Lottie.Forms.Droid.Resource.Attribute.popupWindowStyle = global::LeonaStore.Android.Resource.Attribute.popupWindowStyle;
+			global::Lottie.Forms.Droid.Resource.Attribute.preserveIconSpacing = global::LeonaStore.Android.Resource.Attribute.preserveIconSpacing;
+			global::Lottie.Forms.Droid.Resource.Attribute.pressedTranslationZ = global::LeonaStore.Android.Resource.Attribute.pressedTranslationZ;
+			global::Lottie.Forms.Droid.Resource.Attribute.progressBarPadding = global::LeonaStore.Android.Resource.Attribute.progressBarPadding;
+			global::Lottie.Forms.Droid.Resource.Attribute.progressBarStyle = global::LeonaStore.Android.Resource.Attribute.progressBarStyle;
+			global::Lottie.Forms.Droid.Resource.Attribute.queryBackground = global::LeonaStore.Android.Resource.Attribute.queryBackground;
+			global::Lottie.Forms.Droid.Resource.Attribute.queryHint = global::LeonaStore.Android.Resource.Attribute.queryHint;
+			global::Lottie.Forms.Droid.Resource.Attribute.radioButtonStyle = global::LeonaStore.Android.Resource.Attribute.radioButtonStyle;
+			global::Lottie.Forms.Droid.Resource.Attribute.ratingBarStyle = global::LeonaStore.Android.Resource.Attribute.ratingBarStyle;
+			global::Lottie.Forms.Droid.Resource.Attribute.ratingBarStyleIndicator = global::LeonaStore.Android.Resource.Attribute.ratingBarStyleIndicator;
+			global::Lottie.Forms.Droid.Resource.Attribute.ratingBarStyleSmall = global::LeonaStore.Android.Resource.Attribute.ratingBarStyleSmall;
+			global::Lottie.Forms.Droid.Resource.Attribute.reverseLayout = global::LeonaStore.Android.Resource.Attribute.reverseLayout;
+			global::Lottie.Forms.Droid.Resource.Attribute.rippleColor = global::LeonaStore.Android.Resource.Attribute.rippleColor;
+			global::Lottie.Forms.Droid.Resource.Attribute.scrimAnimationDuration = global::LeonaStore.Android.Resource.Attribute.scrimAnimationDuration;
+			global::Lottie.Forms.Droid.Resource.Attribute.scrimVisibleHeightTrigger = global::LeonaStore.Android.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::Lottie.Forms.Droid.Resource.Attribute.searchHintIcon = global::LeonaStore.Android.Resource.Attribute.searchHintIcon;
+			global::Lottie.Forms.Droid.Resource.Attribute.searchIcon = global::LeonaStore.Android.Resource.Attribute.searchIcon;
+			global::Lottie.Forms.Droid.Resource.Attribute.searchViewStyle = global::LeonaStore.Android.Resource.Attribute.searchViewStyle;
+			global::Lottie.Forms.Droid.Resource.Attribute.seekBarStyle = global::LeonaStore.Android.Resource.Attribute.seekBarStyle;
+			global::Lottie.Forms.Droid.Resource.Attribute.selectableItemBackground = global::LeonaStore.Android.Resource.Attribute.selectableItemBackground;
+			global::Lottie.Forms.Droid.Resource.Attribute.selectableItemBackgroundBorderless = global::LeonaStore.Android.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Lottie.Forms.Droid.Resource.Attribute.showAsAction = global::LeonaStore.Android.Resource.Attribute.showAsAction;
+			global::Lottie.Forms.Droid.Resource.Attribute.showDividers = global::LeonaStore.Android.Resource.Attribute.showDividers;
+			global::Lottie.Forms.Droid.Resource.Attribute.showText = global::LeonaStore.Android.Resource.Attribute.showText;
+			global::Lottie.Forms.Droid.Resource.Attribute.showTitle = global::LeonaStore.Android.Resource.Attribute.showTitle;
+			global::Lottie.Forms.Droid.Resource.Attribute.singleChoiceItemLayout = global::LeonaStore.Android.Resource.Attribute.singleChoiceItemLayout;
+			global::Lottie.Forms.Droid.Resource.Attribute.spanCount = global::LeonaStore.Android.Resource.Attribute.spanCount;
+			global::Lottie.Forms.Droid.Resource.Attribute.spinBars = global::LeonaStore.Android.Resource.Attribute.spinBars;
+			global::Lottie.Forms.Droid.Resource.Attribute.spinnerDropDownItemStyle = global::LeonaStore.Android.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Lottie.Forms.Droid.Resource.Attribute.spinnerStyle = global::LeonaStore.Android.Resource.Attribute.spinnerStyle;
+			global::Lottie.Forms.Droid.Resource.Attribute.splitTrack = global::LeonaStore.Android.Resource.Attribute.splitTrack;
+			global::Lottie.Forms.Droid.Resource.Attribute.srcCompat = global::LeonaStore.Android.Resource.Attribute.srcCompat;
+			global::Lottie.Forms.Droid.Resource.Attribute.stackFromEnd = global::LeonaStore.Android.Resource.Attribute.stackFromEnd;
+			global::Lottie.Forms.Droid.Resource.Attribute.state_above_anchor = global::LeonaStore.Android.Resource.Attribute.state_above_anchor;
+			global::Lottie.Forms.Droid.Resource.Attribute.state_collapsed = global::LeonaStore.Android.Resource.Attribute.state_collapsed;
+			global::Lottie.Forms.Droid.Resource.Attribute.state_collapsible = global::LeonaStore.Android.Resource.Attribute.state_collapsible;
+			global::Lottie.Forms.Droid.Resource.Attribute.statusBarBackground = global::LeonaStore.Android.Resource.Attribute.statusBarBackground;
+			global::Lottie.Forms.Droid.Resource.Attribute.statusBarScrim = global::LeonaStore.Android.Resource.Attribute.statusBarScrim;
+			global::Lottie.Forms.Droid.Resource.Attribute.subMenuArrow = global::LeonaStore.Android.Resource.Attribute.subMenuArrow;
+			global::Lottie.Forms.Droid.Resource.Attribute.submitBackground = global::LeonaStore.Android.Resource.Attribute.submitBackground;
+			global::Lottie.Forms.Droid.Resource.Attribute.subtitle = global::LeonaStore.Android.Resource.Attribute.subtitle;
+			global::Lottie.Forms.Droid.Resource.Attribute.subtitleTextAppearance = global::LeonaStore.Android.Resource.Attribute.subtitleTextAppearance;
+			global::Lottie.Forms.Droid.Resource.Attribute.subtitleTextColor = global::LeonaStore.Android.Resource.Attribute.subtitleTextColor;
+			global::Lottie.Forms.Droid.Resource.Attribute.subtitleTextStyle = global::LeonaStore.Android.Resource.Attribute.subtitleTextStyle;
+			global::Lottie.Forms.Droid.Resource.Attribute.suggestionRowLayout = global::LeonaStore.Android.Resource.Attribute.suggestionRowLayout;
+			global::Lottie.Forms.Droid.Resource.Attribute.switchMinWidth = global::LeonaStore.Android.Resource.Attribute.switchMinWidth;
+			global::Lottie.Forms.Droid.Resource.Attribute.switchPadding = global::LeonaStore.Android.Resource.Attribute.switchPadding;
+			global::Lottie.Forms.Droid.Resource.Attribute.switchStyle = global::LeonaStore.Android.Resource.Attribute.switchStyle;
+			global::Lottie.Forms.Droid.Resource.Attribute.switchTextAppearance = global::LeonaStore.Android.Resource.Attribute.switchTextAppearance;
+			global::Lottie.Forms.Droid.Resource.Attribute.tabBackground = global::LeonaStore.Android.Resource.Attribute.tabBackground;
+			global::Lottie.Forms.Droid.Resource.Attribute.tabContentStart = global::LeonaStore.Android.Resource.Attribute.tabContentStart;
+			global::Lottie.Forms.Droid.Resource.Attribute.tabGravity = global::LeonaStore.Android.Resource.Attribute.tabGravity;
+			global::Lottie.Forms.Droid.Resource.Attribute.tabIndicatorColor = global::LeonaStore.Android.Resource.Attribute.tabIndicatorColor;
+			global::Lottie.Forms.Droid.Resource.Attribute.tabIndicatorHeight = global::LeonaStore.Android.Resource.Attribute.tabIndicatorHeight;
+			global::Lottie.Forms.Droid.Resource.Attribute.tabMaxWidth = global::LeonaStore.Android.Resource.Attribute.tabMaxWidth;
+			global::Lottie.Forms.Droid.Resource.Attribute.tabMinWidth = global::LeonaStore.Android.Resource.Attribute.tabMinWidth;
+			global::Lottie.Forms.Droid.Resource.Attribute.tabMode = global::LeonaStore.Android.Resource.Attribute.tabMode;
+			global::Lottie.Forms.Droid.Resource.Attribute.tabPadding = global::LeonaStore.Android.Resource.Attribute.tabPadding;
+			global::Lottie.Forms.Droid.Resource.Attribute.tabPaddingBottom = global::LeonaStore.Android.Resource.Attribute.tabPaddingBottom;
+			global::Lottie.Forms.Droid.Resource.Attribute.tabPaddingEnd = global::LeonaStore.Android.Resource.Attribute.tabPaddingEnd;
+			global::Lottie.Forms.Droid.Resource.Attribute.tabPaddingStart = global::LeonaStore.Android.Resource.Attribute.tabPaddingStart;
+			global::Lottie.Forms.Droid.Resource.Attribute.tabPaddingTop = global::LeonaStore.Android.Resource.Attribute.tabPaddingTop;
+			global::Lottie.Forms.Droid.Resource.Attribute.tabSelectedTextColor = global::LeonaStore.Android.Resource.Attribute.tabSelectedTextColor;
+			global::Lottie.Forms.Droid.Resource.Attribute.tabTextAppearance = global::LeonaStore.Android.Resource.Attribute.tabTextAppearance;
+			global::Lottie.Forms.Droid.Resource.Attribute.tabTextColor = global::LeonaStore.Android.Resource.Attribute.tabTextColor;
+			global::Lottie.Forms.Droid.Resource.Attribute.textAllCaps = global::LeonaStore.Android.Resource.Attribute.textAllCaps;
+			global::Lottie.Forms.Droid.Resource.Attribute.textAppearanceLargePopupMenu = global::LeonaStore.Android.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Lottie.Forms.Droid.Resource.Attribute.textAppearanceListItem = global::LeonaStore.Android.Resource.Attribute.textAppearanceListItem;
+			global::Lottie.Forms.Droid.Resource.Attribute.textAppearanceListItemSmall = global::LeonaStore.Android.Resource.Attribute.textAppearanceListItemSmall;
+			global::Lottie.Forms.Droid.Resource.Attribute.textAppearancePopupMenuHeader = global::LeonaStore.Android.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::Lottie.Forms.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle = global::LeonaStore.Android.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Lottie.Forms.Droid.Resource.Attribute.textAppearanceSearchResultTitle = global::LeonaStore.Android.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Lottie.Forms.Droid.Resource.Attribute.textAppearanceSmallPopupMenu = global::LeonaStore.Android.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Lottie.Forms.Droid.Resource.Attribute.textColorAlertDialogListItem = global::LeonaStore.Android.Resource.Attribute.textColorAlertDialogListItem;
+			global::Lottie.Forms.Droid.Resource.Attribute.textColorError = global::LeonaStore.Android.Resource.Attribute.textColorError;
+			global::Lottie.Forms.Droid.Resource.Attribute.textColorSearchUrl = global::LeonaStore.Android.Resource.Attribute.textColorSearchUrl;
+			global::Lottie.Forms.Droid.Resource.Attribute.theme = global::LeonaStore.Android.Resource.Attribute.theme;
+			global::Lottie.Forms.Droid.Resource.Attribute.thickness = global::LeonaStore.Android.Resource.Attribute.thickness;
+			global::Lottie.Forms.Droid.Resource.Attribute.thumbTextPadding = global::LeonaStore.Android.Resource.Attribute.thumbTextPadding;
+			global::Lottie.Forms.Droid.Resource.Attribute.thumbTint = global::LeonaStore.Android.Resource.Attribute.thumbTint;
+			global::Lottie.Forms.Droid.Resource.Attribute.thumbTintMode = global::LeonaStore.Android.Resource.Attribute.thumbTintMode;
+			global::Lottie.Forms.Droid.Resource.Attribute.tickMark = global::LeonaStore.Android.Resource.Attribute.tickMark;
+			global::Lottie.Forms.Droid.Resource.Attribute.tickMarkTint = global::LeonaStore.Android.Resource.Attribute.tickMarkTint;
+			global::Lottie.Forms.Droid.Resource.Attribute.tickMarkTintMode = global::LeonaStore.Android.Resource.Attribute.tickMarkTintMode;
+			global::Lottie.Forms.Droid.Resource.Attribute.title = global::LeonaStore.Android.Resource.Attribute.title;
+			global::Lottie.Forms.Droid.Resource.Attribute.titleEnabled = global::LeonaStore.Android.Resource.Attribute.titleEnabled;
+			global::Lottie.Forms.Droid.Resource.Attribute.titleMargin = global::LeonaStore.Android.Resource.Attribute.titleMargin;
+			global::Lottie.Forms.Droid.Resource.Attribute.titleMarginBottom = global::LeonaStore.Android.Resource.Attribute.titleMarginBottom;
+			global::Lottie.Forms.Droid.Resource.Attribute.titleMarginEnd = global::LeonaStore.Android.Resource.Attribute.titleMarginEnd;
+			global::Lottie.Forms.Droid.Resource.Attribute.titleMarginStart = global::LeonaStore.Android.Resource.Attribute.titleMarginStart;
+			global::Lottie.Forms.Droid.Resource.Attribute.titleMarginTop = global::LeonaStore.Android.Resource.Attribute.titleMarginTop;
+			global::Lottie.Forms.Droid.Resource.Attribute.titleMargins = global::LeonaStore.Android.Resource.Attribute.titleMargins;
+			global::Lottie.Forms.Droid.Resource.Attribute.titleTextAppearance = global::LeonaStore.Android.Resource.Attribute.titleTextAppearance;
+			global::Lottie.Forms.Droid.Resource.Attribute.titleTextColor = global::LeonaStore.Android.Resource.Attribute.titleTextColor;
+			global::Lottie.Forms.Droid.Resource.Attribute.titleTextStyle = global::LeonaStore.Android.Resource.Attribute.titleTextStyle;
+			global::Lottie.Forms.Droid.Resource.Attribute.toolbarId = global::LeonaStore.Android.Resource.Attribute.toolbarId;
+			global::Lottie.Forms.Droid.Resource.Attribute.toolbarNavigationButtonStyle = global::LeonaStore.Android.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Lottie.Forms.Droid.Resource.Attribute.toolbarStyle = global::LeonaStore.Android.Resource.Attribute.toolbarStyle;
+			global::Lottie.Forms.Droid.Resource.Attribute.track = global::LeonaStore.Android.Resource.Attribute.track;
+			global::Lottie.Forms.Droid.Resource.Attribute.trackTint = global::LeonaStore.Android.Resource.Attribute.trackTint;
+			global::Lottie.Forms.Droid.Resource.Attribute.trackTintMode = global::LeonaStore.Android.Resource.Attribute.trackTintMode;
+			global::Lottie.Forms.Droid.Resource.Attribute.useCompatPadding = global::LeonaStore.Android.Resource.Attribute.useCompatPadding;
+			global::Lottie.Forms.Droid.Resource.Attribute.voiceIcon = global::LeonaStore.Android.Resource.Attribute.voiceIcon;
+			global::Lottie.Forms.Droid.Resource.Attribute.windowActionBar = global::LeonaStore.Android.Resource.Attribute.windowActionBar;
+			global::Lottie.Forms.Droid.Resource.Attribute.windowActionBarOverlay = global::LeonaStore.Android.Resource.Attribute.windowActionBarOverlay;
+			global::Lottie.Forms.Droid.Resource.Attribute.windowActionModeOverlay = global::LeonaStore.Android.Resource.Attribute.windowActionModeOverlay;
+			global::Lottie.Forms.Droid.Resource.Attribute.windowFixedHeightMajor = global::LeonaStore.Android.Resource.Attribute.windowFixedHeightMajor;
+			global::Lottie.Forms.Droid.Resource.Attribute.windowFixedHeightMinor = global::LeonaStore.Android.Resource.Attribute.windowFixedHeightMinor;
+			global::Lottie.Forms.Droid.Resource.Attribute.windowFixedWidthMajor = global::LeonaStore.Android.Resource.Attribute.windowFixedWidthMajor;
+			global::Lottie.Forms.Droid.Resource.Attribute.windowFixedWidthMinor = global::LeonaStore.Android.Resource.Attribute.windowFixedWidthMinor;
+			global::Lottie.Forms.Droid.Resource.Attribute.windowMinWidthMajor = global::LeonaStore.Android.Resource.Attribute.windowMinWidthMajor;
+			global::Lottie.Forms.Droid.Resource.Attribute.windowMinWidthMinor = global::LeonaStore.Android.Resource.Attribute.windowMinWidthMinor;
+			global::Lottie.Forms.Droid.Resource.Attribute.windowNoTitle = global::LeonaStore.Android.Resource.Attribute.windowNoTitle;
+			global::Lottie.Forms.Droid.Resource.Boolean.abc_action_bar_embed_tabs = global::LeonaStore.Android.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Lottie.Forms.Droid.Resource.Boolean.abc_allow_stacked_button_bar = global::LeonaStore.Android.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::Lottie.Forms.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::LeonaStore.Android.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Lottie.Forms.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::LeonaStore.Android.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
+			global::Lottie.Forms.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::LeonaStore.Android.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
+			global::Lottie.Forms.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark = global::LeonaStore.Android.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Lottie.Forms.Droid.Resource.Color.abc_background_cache_hint_selector_material_light = global::LeonaStore.Android.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Lottie.Forms.Droid.Resource.Color.abc_btn_colored_borderless_text_material = global::LeonaStore.Android.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::Lottie.Forms.Droid.Resource.Color.abc_btn_colored_text_material = global::LeonaStore.Android.Resource.Color.abc_btn_colored_text_material;
+			global::Lottie.Forms.Droid.Resource.Color.abc_color_highlight_material = global::LeonaStore.Android.Resource.Color.abc_color_highlight_material;
+			global::Lottie.Forms.Droid.Resource.Color.abc_hint_foreground_material_dark = global::LeonaStore.Android.Resource.Color.abc_hint_foreground_material_dark;
+			global::Lottie.Forms.Droid.Resource.Color.abc_hint_foreground_material_light = global::LeonaStore.Android.Resource.Color.abc_hint_foreground_material_light;
+			global::Lottie.Forms.Droid.Resource.Color.abc_input_method_navigation_guard = global::LeonaStore.Android.Resource.Color.abc_input_method_navigation_guard;
+			global::Lottie.Forms.Droid.Resource.Color.abc_primary_text_disable_only_material_dark = global::LeonaStore.Android.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Lottie.Forms.Droid.Resource.Color.abc_primary_text_disable_only_material_light = global::LeonaStore.Android.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Lottie.Forms.Droid.Resource.Color.abc_primary_text_material_dark = global::LeonaStore.Android.Resource.Color.abc_primary_text_material_dark;
+			global::Lottie.Forms.Droid.Resource.Color.abc_primary_text_material_light = global::LeonaStore.Android.Resource.Color.abc_primary_text_material_light;
+			global::Lottie.Forms.Droid.Resource.Color.abc_search_url_text = global::LeonaStore.Android.Resource.Color.abc_search_url_text;
+			global::Lottie.Forms.Droid.Resource.Color.abc_search_url_text_normal = global::LeonaStore.Android.Resource.Color.abc_search_url_text_normal;
+			global::Lottie.Forms.Droid.Resource.Color.abc_search_url_text_pressed = global::LeonaStore.Android.Resource.Color.abc_search_url_text_pressed;
+			global::Lottie.Forms.Droid.Resource.Color.abc_search_url_text_selected = global::LeonaStore.Android.Resource.Color.abc_search_url_text_selected;
+			global::Lottie.Forms.Droid.Resource.Color.abc_secondary_text_material_dark = global::LeonaStore.Android.Resource.Color.abc_secondary_text_material_dark;
+			global::Lottie.Forms.Droid.Resource.Color.abc_secondary_text_material_light = global::LeonaStore.Android.Resource.Color.abc_secondary_text_material_light;
+			global::Lottie.Forms.Droid.Resource.Color.abc_tint_btn_checkable = global::LeonaStore.Android.Resource.Color.abc_tint_btn_checkable;
+			global::Lottie.Forms.Droid.Resource.Color.abc_tint_default = global::LeonaStore.Android.Resource.Color.abc_tint_default;
+			global::Lottie.Forms.Droid.Resource.Color.abc_tint_edittext = global::LeonaStore.Android.Resource.Color.abc_tint_edittext;
+			global::Lottie.Forms.Droid.Resource.Color.abc_tint_seek_thumb = global::LeonaStore.Android.Resource.Color.abc_tint_seek_thumb;
+			global::Lottie.Forms.Droid.Resource.Color.abc_tint_spinner = global::LeonaStore.Android.Resource.Color.abc_tint_spinner;
+			global::Lottie.Forms.Droid.Resource.Color.abc_tint_switch_thumb = global::LeonaStore.Android.Resource.Color.abc_tint_switch_thumb;
+			global::Lottie.Forms.Droid.Resource.Color.abc_tint_switch_track = global::LeonaStore.Android.Resource.Color.abc_tint_switch_track;
+			global::Lottie.Forms.Droid.Resource.Color.accent_material_dark = global::LeonaStore.Android.Resource.Color.accent_material_dark;
+			global::Lottie.Forms.Droid.Resource.Color.accent_material_light = global::LeonaStore.Android.Resource.Color.accent_material_light;
+			global::Lottie.Forms.Droid.Resource.Color.background_floating_material_dark = global::LeonaStore.Android.Resource.Color.background_floating_material_dark;
+			global::Lottie.Forms.Droid.Resource.Color.background_floating_material_light = global::LeonaStore.Android.Resource.Color.background_floating_material_light;
+			global::Lottie.Forms.Droid.Resource.Color.background_material_dark = global::LeonaStore.Android.Resource.Color.background_material_dark;
+			global::Lottie.Forms.Droid.Resource.Color.background_material_light = global::LeonaStore.Android.Resource.Color.background_material_light;
+			global::Lottie.Forms.Droid.Resource.Color.bright_foreground_disabled_material_dark = global::LeonaStore.Android.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Lottie.Forms.Droid.Resource.Color.bright_foreground_disabled_material_light = global::LeonaStore.Android.Resource.Color.bright_foreground_disabled_material_light;
+			global::Lottie.Forms.Droid.Resource.Color.bright_foreground_inverse_material_dark = global::LeonaStore.Android.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Lottie.Forms.Droid.Resource.Color.bright_foreground_inverse_material_light = global::LeonaStore.Android.Resource.Color.bright_foreground_inverse_material_light;
+			global::Lottie.Forms.Droid.Resource.Color.bright_foreground_material_dark = global::LeonaStore.Android.Resource.Color.bright_foreground_material_dark;
+			global::Lottie.Forms.Droid.Resource.Color.bright_foreground_material_light = global::LeonaStore.Android.Resource.Color.bright_foreground_material_light;
+			global::Lottie.Forms.Droid.Resource.Color.button_material_dark = global::LeonaStore.Android.Resource.Color.button_material_dark;
+			global::Lottie.Forms.Droid.Resource.Color.button_material_light = global::LeonaStore.Android.Resource.Color.button_material_light;
+			global::Lottie.Forms.Droid.Resource.Color.cardview_dark_background = global::LeonaStore.Android.Resource.Color.cardview_dark_background;
+			global::Lottie.Forms.Droid.Resource.Color.cardview_light_background = global::LeonaStore.Android.Resource.Color.cardview_light_background;
+			global::Lottie.Forms.Droid.Resource.Color.cardview_shadow_end_color = global::LeonaStore.Android.Resource.Color.cardview_shadow_end_color;
+			global::Lottie.Forms.Droid.Resource.Color.cardview_shadow_start_color = global::LeonaStore.Android.Resource.Color.cardview_shadow_start_color;
+			global::Lottie.Forms.Droid.Resource.Color.design_bottom_navigation_shadow_color = global::LeonaStore.Android.Resource.Color.design_bottom_navigation_shadow_color;
+			global::Lottie.Forms.Droid.Resource.Color.design_error = global::LeonaStore.Android.Resource.Color.design_error;
+			global::Lottie.Forms.Droid.Resource.Color.design_fab_shadow_end_color = global::LeonaStore.Android.Resource.Color.design_fab_shadow_end_color;
+			global::Lottie.Forms.Droid.Resource.Color.design_fab_shadow_mid_color = global::LeonaStore.Android.Resource.Color.design_fab_shadow_mid_color;
+			global::Lottie.Forms.Droid.Resource.Color.design_fab_shadow_start_color = global::LeonaStore.Android.Resource.Color.design_fab_shadow_start_color;
+			global::Lottie.Forms.Droid.Resource.Color.design_fab_stroke_end_inner_color = global::LeonaStore.Android.Resource.Color.design_fab_stroke_end_inner_color;
+			global::Lottie.Forms.Droid.Resource.Color.design_fab_stroke_end_outer_color = global::LeonaStore.Android.Resource.Color.design_fab_stroke_end_outer_color;
+			global::Lottie.Forms.Droid.Resource.Color.design_fab_stroke_top_inner_color = global::LeonaStore.Android.Resource.Color.design_fab_stroke_top_inner_color;
+			global::Lottie.Forms.Droid.Resource.Color.design_fab_stroke_top_outer_color = global::LeonaStore.Android.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Lottie.Forms.Droid.Resource.Color.design_snackbar_background_color = global::LeonaStore.Android.Resource.Color.design_snackbar_background_color;
+			global::Lottie.Forms.Droid.Resource.Color.design_textinput_error_color_dark = global::LeonaStore.Android.Resource.Color.design_textinput_error_color_dark;
+			global::Lottie.Forms.Droid.Resource.Color.design_textinput_error_color_light = global::LeonaStore.Android.Resource.Color.design_textinput_error_color_light;
+			global::Lottie.Forms.Droid.Resource.Color.design_tint_password_toggle = global::LeonaStore.Android.Resource.Color.design_tint_password_toggle;
+			global::Lottie.Forms.Droid.Resource.Color.dim_foreground_disabled_material_dark = global::LeonaStore.Android.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Lottie.Forms.Droid.Resource.Color.dim_foreground_disabled_material_light = global::LeonaStore.Android.Resource.Color.dim_foreground_disabled_material_light;
+			global::Lottie.Forms.Droid.Resource.Color.dim_foreground_material_dark = global::LeonaStore.Android.Resource.Color.dim_foreground_material_dark;
+			global::Lottie.Forms.Droid.Resource.Color.dim_foreground_material_light = global::LeonaStore.Android.Resource.Color.dim_foreground_material_light;
+			global::Lottie.Forms.Droid.Resource.Color.foreground_material_dark = global::LeonaStore.Android.Resource.Color.foreground_material_dark;
+			global::Lottie.Forms.Droid.Resource.Color.foreground_material_light = global::LeonaStore.Android.Resource.Color.foreground_material_light;
+			global::Lottie.Forms.Droid.Resource.Color.highlighted_text_material_dark = global::LeonaStore.Android.Resource.Color.highlighted_text_material_dark;
+			global::Lottie.Forms.Droid.Resource.Color.highlighted_text_material_light = global::LeonaStore.Android.Resource.Color.highlighted_text_material_light;
+			global::Lottie.Forms.Droid.Resource.Color.material_blue_grey_800 = global::LeonaStore.Android.Resource.Color.material_blue_grey_800;
+			global::Lottie.Forms.Droid.Resource.Color.material_blue_grey_900 = global::LeonaStore.Android.Resource.Color.material_blue_grey_900;
+			global::Lottie.Forms.Droid.Resource.Color.material_blue_grey_950 = global::LeonaStore.Android.Resource.Color.material_blue_grey_950;
+			global::Lottie.Forms.Droid.Resource.Color.material_deep_teal_200 = global::LeonaStore.Android.Resource.Color.material_deep_teal_200;
+			global::Lottie.Forms.Droid.Resource.Color.material_deep_teal_500 = global::LeonaStore.Android.Resource.Color.material_deep_teal_500;
+			global::Lottie.Forms.Droid.Resource.Color.material_grey_100 = global::LeonaStore.Android.Resource.Color.material_grey_100;
+			global::Lottie.Forms.Droid.Resource.Color.material_grey_300 = global::LeonaStore.Android.Resource.Color.material_grey_300;
+			global::Lottie.Forms.Droid.Resource.Color.material_grey_50 = global::LeonaStore.Android.Resource.Color.material_grey_50;
+			global::Lottie.Forms.Droid.Resource.Color.material_grey_600 = global::LeonaStore.Android.Resource.Color.material_grey_600;
+			global::Lottie.Forms.Droid.Resource.Color.material_grey_800 = global::LeonaStore.Android.Resource.Color.material_grey_800;
+			global::Lottie.Forms.Droid.Resource.Color.material_grey_850 = global::LeonaStore.Android.Resource.Color.material_grey_850;
+			global::Lottie.Forms.Droid.Resource.Color.material_grey_900 = global::LeonaStore.Android.Resource.Color.material_grey_900;
+			global::Lottie.Forms.Droid.Resource.Color.notification_action_color_filter = global::LeonaStore.Android.Resource.Color.notification_action_color_filter;
+			global::Lottie.Forms.Droid.Resource.Color.notification_icon_bg_color = global::LeonaStore.Android.Resource.Color.notification_icon_bg_color;
+			global::Lottie.Forms.Droid.Resource.Color.notification_material_background_media_default_color = global::LeonaStore.Android.Resource.Color.notification_material_background_media_default_color;
+			global::Lottie.Forms.Droid.Resource.Color.primary_dark_material_dark = global::LeonaStore.Android.Resource.Color.primary_dark_material_dark;
+			global::Lottie.Forms.Droid.Resource.Color.primary_dark_material_light = global::LeonaStore.Android.Resource.Color.primary_dark_material_light;
+			global::Lottie.Forms.Droid.Resource.Color.primary_material_dark = global::LeonaStore.Android.Resource.Color.primary_material_dark;
+			global::Lottie.Forms.Droid.Resource.Color.primary_material_light = global::LeonaStore.Android.Resource.Color.primary_material_light;
+			global::Lottie.Forms.Droid.Resource.Color.primary_text_default_material_dark = global::LeonaStore.Android.Resource.Color.primary_text_default_material_dark;
+			global::Lottie.Forms.Droid.Resource.Color.primary_text_default_material_light = global::LeonaStore.Android.Resource.Color.primary_text_default_material_light;
+			global::Lottie.Forms.Droid.Resource.Color.primary_text_disabled_material_dark = global::LeonaStore.Android.Resource.Color.primary_text_disabled_material_dark;
+			global::Lottie.Forms.Droid.Resource.Color.primary_text_disabled_material_light = global::LeonaStore.Android.Resource.Color.primary_text_disabled_material_light;
+			global::Lottie.Forms.Droid.Resource.Color.ripple_material_dark = global::LeonaStore.Android.Resource.Color.ripple_material_dark;
+			global::Lottie.Forms.Droid.Resource.Color.ripple_material_light = global::LeonaStore.Android.Resource.Color.ripple_material_light;
+			global::Lottie.Forms.Droid.Resource.Color.secondary_text_default_material_dark = global::LeonaStore.Android.Resource.Color.secondary_text_default_material_dark;
+			global::Lottie.Forms.Droid.Resource.Color.secondary_text_default_material_light = global::LeonaStore.Android.Resource.Color.secondary_text_default_material_light;
+			global::Lottie.Forms.Droid.Resource.Color.secondary_text_disabled_material_dark = global::LeonaStore.Android.Resource.Color.secondary_text_disabled_material_dark;
+			global::Lottie.Forms.Droid.Resource.Color.secondary_text_disabled_material_light = global::LeonaStore.Android.Resource.Color.secondary_text_disabled_material_light;
+			global::Lottie.Forms.Droid.Resource.Color.switch_thumb_disabled_material_dark = global::LeonaStore.Android.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Lottie.Forms.Droid.Resource.Color.switch_thumb_disabled_material_light = global::LeonaStore.Android.Resource.Color.switch_thumb_disabled_material_light;
+			global::Lottie.Forms.Droid.Resource.Color.switch_thumb_material_dark = global::LeonaStore.Android.Resource.Color.switch_thumb_material_dark;
+			global::Lottie.Forms.Droid.Resource.Color.switch_thumb_material_light = global::LeonaStore.Android.Resource.Color.switch_thumb_material_light;
+			global::Lottie.Forms.Droid.Resource.Color.switch_thumb_normal_material_dark = global::LeonaStore.Android.Resource.Color.switch_thumb_normal_material_dark;
+			global::Lottie.Forms.Droid.Resource.Color.switch_thumb_normal_material_light = global::LeonaStore.Android.Resource.Color.switch_thumb_normal_material_light;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_action_bar_content_inset_material = global::LeonaStore.Android.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::LeonaStore.Android.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_action_bar_default_height_material = global::LeonaStore.Android.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material = global::LeonaStore.Android.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material = global::LeonaStore.Android.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_action_bar_elevation_material = global::LeonaStore.Android.Resource.Dimension.abc_action_bar_elevation_material;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::LeonaStore.Android.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::LeonaStore.Android.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::LeonaStore.Android.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_action_bar_progress_bar_size = global::LeonaStore.Android.Resource.Dimension.abc_action_bar_progress_bar_size;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_action_bar_stacked_max_height = global::LeonaStore.Android.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::LeonaStore.Android.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::LeonaStore.Android.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::LeonaStore.Android.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_action_button_min_height_material = global::LeonaStore.Android.Resource.Dimension.abc_action_button_min_height_material;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_action_button_min_width_material = global::LeonaStore.Android.Resource.Dimension.abc_action_button_min_width_material;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material = global::LeonaStore.Android.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height = global::LeonaStore.Android.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_button_inset_horizontal_material = global::LeonaStore.Android.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_button_inset_vertical_material = global::LeonaStore.Android.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_button_padding_horizontal_material = global::LeonaStore.Android.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_button_padding_vertical_material = global::LeonaStore.Android.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::LeonaStore.Android.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_config_prefDialogWidth = global::LeonaStore.Android.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_control_corner_material = global::LeonaStore.Android.Resource.Dimension.abc_control_corner_material;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_control_inset_material = global::LeonaStore.Android.Resource.Dimension.abc_control_inset_material;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_control_padding_material = global::LeonaStore.Android.Resource.Dimension.abc_control_padding_material;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_dialog_fixed_height_major = global::LeonaStore.Android.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_dialog_fixed_height_minor = global::LeonaStore.Android.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_dialog_fixed_width_major = global::LeonaStore.Android.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_dialog_fixed_width_minor = global::LeonaStore.Android.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::LeonaStore.Android.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::LeonaStore.Android.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_dialog_min_width_major = global::LeonaStore.Android.Resource.Dimension.abc_dialog_min_width_major;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_dialog_min_width_minor = global::LeonaStore.Android.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_dialog_padding_material = global::LeonaStore.Android.Resource.Dimension.abc_dialog_padding_material;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_dialog_padding_top_material = global::LeonaStore.Android.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_dialog_title_divider_material = global::LeonaStore.Android.Resource.Dimension.abc_dialog_title_divider_material;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_disabled_alpha_material_dark = global::LeonaStore.Android.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_disabled_alpha_material_light = global::LeonaStore.Android.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_dropdownitem_icon_width = global::LeonaStore.Android.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left = global::LeonaStore.Android.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right = global::LeonaStore.Android.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material = global::LeonaStore.Android.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::LeonaStore.Android.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_edit_text_inset_top_material = global::LeonaStore.Android.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_floating_window_z = global::LeonaStore.Android.Resource.Dimension.abc_floating_window_z;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material = global::LeonaStore.Android.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_panel_menu_list_width = global::LeonaStore.Android.Resource.Dimension.abc_panel_menu_list_width;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_progress_bar_height_material = global::LeonaStore.Android.Resource.Dimension.abc_progress_bar_height_material;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_search_view_preferred_height = global::LeonaStore.Android.Resource.Dimension.abc_search_view_preferred_height;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_search_view_preferred_width = global::LeonaStore.Android.Resource.Dimension.abc_search_view_preferred_width;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_seekbar_track_background_height_material = global::LeonaStore.Android.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material = global::LeonaStore.Android.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_select_dialog_padding_start_material = global::LeonaStore.Android.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_switch_padding = global::LeonaStore.Android.Resource.Dimension.abc_switch_padding;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_text_size_body_1_material = global::LeonaStore.Android.Resource.Dimension.abc_text_size_body_1_material;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_text_size_body_2_material = global::LeonaStore.Android.Resource.Dimension.abc_text_size_body_2_material;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_text_size_button_material = global::LeonaStore.Android.Resource.Dimension.abc_text_size_button_material;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_text_size_caption_material = global::LeonaStore.Android.Resource.Dimension.abc_text_size_caption_material;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_text_size_display_1_material = global::LeonaStore.Android.Resource.Dimension.abc_text_size_display_1_material;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_text_size_display_2_material = global::LeonaStore.Android.Resource.Dimension.abc_text_size_display_2_material;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_text_size_display_3_material = global::LeonaStore.Android.Resource.Dimension.abc_text_size_display_3_material;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_text_size_display_4_material = global::LeonaStore.Android.Resource.Dimension.abc_text_size_display_4_material;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_text_size_headline_material = global::LeonaStore.Android.Resource.Dimension.abc_text_size_headline_material;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_text_size_large_material = global::LeonaStore.Android.Resource.Dimension.abc_text_size_large_material;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_text_size_medium_material = global::LeonaStore.Android.Resource.Dimension.abc_text_size_medium_material;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_text_size_menu_header_material = global::LeonaStore.Android.Resource.Dimension.abc_text_size_menu_header_material;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_text_size_menu_material = global::LeonaStore.Android.Resource.Dimension.abc_text_size_menu_material;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_text_size_small_material = global::LeonaStore.Android.Resource.Dimension.abc_text_size_small_material;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_text_size_subhead_material = global::LeonaStore.Android.Resource.Dimension.abc_text_size_subhead_material;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::LeonaStore.Android.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_text_size_title_material = global::LeonaStore.Android.Resource.Dimension.abc_text_size_title_material;
+			global::Lottie.Forms.Droid.Resource.Dimension.abc_text_size_title_material_toolbar = global::LeonaStore.Android.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Lottie.Forms.Droid.Resource.Dimension.cardview_compat_inset_shadow = global::LeonaStore.Android.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Lottie.Forms.Droid.Resource.Dimension.cardview_default_elevation = global::LeonaStore.Android.Resource.Dimension.cardview_default_elevation;
+			global::Lottie.Forms.Droid.Resource.Dimension.cardview_default_radius = global::LeonaStore.Android.Resource.Dimension.cardview_default_radius;
+			global::Lottie.Forms.Droid.Resource.Dimension.design_appbar_elevation = global::LeonaStore.Android.Resource.Dimension.design_appbar_elevation;
+			global::Lottie.Forms.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::LeonaStore.Android.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::Lottie.Forms.Droid.Resource.Dimension.design_bottom_navigation_active_text_size = global::LeonaStore.Android.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::Lottie.Forms.Droid.Resource.Dimension.design_bottom_navigation_elevation = global::LeonaStore.Android.Resource.Dimension.design_bottom_navigation_elevation;
+			global::Lottie.Forms.Droid.Resource.Dimension.design_bottom_navigation_height = global::LeonaStore.Android.Resource.Dimension.design_bottom_navigation_height;
+			global::Lottie.Forms.Droid.Resource.Dimension.design_bottom_navigation_item_max_width = global::LeonaStore.Android.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::Lottie.Forms.Droid.Resource.Dimension.design_bottom_navigation_item_min_width = global::LeonaStore.Android.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::Lottie.Forms.Droid.Resource.Dimension.design_bottom_navigation_margin = global::LeonaStore.Android.Resource.Dimension.design_bottom_navigation_margin;
+			global::Lottie.Forms.Droid.Resource.Dimension.design_bottom_navigation_shadow_height = global::LeonaStore.Android.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::Lottie.Forms.Droid.Resource.Dimension.design_bottom_navigation_text_size = global::LeonaStore.Android.Resource.Dimension.design_bottom_navigation_text_size;
+			global::Lottie.Forms.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation = global::LeonaStore.Android.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::Lottie.Forms.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min = global::LeonaStore.Android.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::Lottie.Forms.Droid.Resource.Dimension.design_fab_border_width = global::LeonaStore.Android.Resource.Dimension.design_fab_border_width;
+			global::Lottie.Forms.Droid.Resource.Dimension.design_fab_elevation = global::LeonaStore.Android.Resource.Dimension.design_fab_elevation;
+			global::Lottie.Forms.Droid.Resource.Dimension.design_fab_image_size = global::LeonaStore.Android.Resource.Dimension.design_fab_image_size;
+			global::Lottie.Forms.Droid.Resource.Dimension.design_fab_size_mini = global::LeonaStore.Android.Resource.Dimension.design_fab_size_mini;
+			global::Lottie.Forms.Droid.Resource.Dimension.design_fab_size_normal = global::LeonaStore.Android.Resource.Dimension.design_fab_size_normal;
+			global::Lottie.Forms.Droid.Resource.Dimension.design_fab_translation_z_pressed = global::LeonaStore.Android.Resource.Dimension.design_fab_translation_z_pressed;
+			global::Lottie.Forms.Droid.Resource.Dimension.design_navigation_elevation = global::LeonaStore.Android.Resource.Dimension.design_navigation_elevation;
+			global::Lottie.Forms.Droid.Resource.Dimension.design_navigation_icon_padding = global::LeonaStore.Android.Resource.Dimension.design_navigation_icon_padding;
+			global::Lottie.Forms.Droid.Resource.Dimension.design_navigation_icon_size = global::LeonaStore.Android.Resource.Dimension.design_navigation_icon_size;
+			global::Lottie.Forms.Droid.Resource.Dimension.design_navigation_max_width = global::LeonaStore.Android.Resource.Dimension.design_navigation_max_width;
+			global::Lottie.Forms.Droid.Resource.Dimension.design_navigation_padding_bottom = global::LeonaStore.Android.Resource.Dimension.design_navigation_padding_bottom;
+			global::Lottie.Forms.Droid.Resource.Dimension.design_navigation_separator_vertical_padding = global::LeonaStore.Android.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::Lottie.Forms.Droid.Resource.Dimension.design_snackbar_action_inline_max_width = global::LeonaStore.Android.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Lottie.Forms.Droid.Resource.Dimension.design_snackbar_background_corner_radius = global::LeonaStore.Android.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::Lottie.Forms.Droid.Resource.Dimension.design_snackbar_elevation = global::LeonaStore.Android.Resource.Dimension.design_snackbar_elevation;
+			global::Lottie.Forms.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::LeonaStore.Android.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::Lottie.Forms.Droid.Resource.Dimension.design_snackbar_max_width = global::LeonaStore.Android.Resource.Dimension.design_snackbar_max_width;
+			global::Lottie.Forms.Droid.Resource.Dimension.design_snackbar_min_width = global::LeonaStore.Android.Resource.Dimension.design_snackbar_min_width;
+			global::Lottie.Forms.Droid.Resource.Dimension.design_snackbar_padding_horizontal = global::LeonaStore.Android.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::Lottie.Forms.Droid.Resource.Dimension.design_snackbar_padding_vertical = global::LeonaStore.Android.Resource.Dimension.design_snackbar_padding_vertical;
+			global::Lottie.Forms.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::LeonaStore.Android.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::Lottie.Forms.Droid.Resource.Dimension.design_snackbar_text_size = global::LeonaStore.Android.Resource.Dimension.design_snackbar_text_size;
+			global::Lottie.Forms.Droid.Resource.Dimension.design_tab_max_width = global::LeonaStore.Android.Resource.Dimension.design_tab_max_width;
+			global::Lottie.Forms.Droid.Resource.Dimension.design_tab_scrollable_min_width = global::LeonaStore.Android.Resource.Dimension.design_tab_scrollable_min_width;
+			global::Lottie.Forms.Droid.Resource.Dimension.design_tab_text_size = global::LeonaStore.Android.Resource.Dimension.design_tab_text_size;
+			global::Lottie.Forms.Droid.Resource.Dimension.design_tab_text_size_2line = global::LeonaStore.Android.Resource.Dimension.design_tab_text_size_2line;
+			global::Lottie.Forms.Droid.Resource.Dimension.disabled_alpha_material_dark = global::LeonaStore.Android.Resource.Dimension.disabled_alpha_material_dark;
+			global::Lottie.Forms.Droid.Resource.Dimension.disabled_alpha_material_light = global::LeonaStore.Android.Resource.Dimension.disabled_alpha_material_light;
+			global::Lottie.Forms.Droid.Resource.Dimension.highlight_alpha_material_colored = global::LeonaStore.Android.Resource.Dimension.highlight_alpha_material_colored;
+			global::Lottie.Forms.Droid.Resource.Dimension.highlight_alpha_material_dark = global::LeonaStore.Android.Resource.Dimension.highlight_alpha_material_dark;
+			global::Lottie.Forms.Droid.Resource.Dimension.highlight_alpha_material_light = global::LeonaStore.Android.Resource.Dimension.highlight_alpha_material_light;
+			global::Lottie.Forms.Droid.Resource.Dimension.hint_alpha_material_dark = global::LeonaStore.Android.Resource.Dimension.hint_alpha_material_dark;
+			global::Lottie.Forms.Droid.Resource.Dimension.hint_alpha_material_light = global::LeonaStore.Android.Resource.Dimension.hint_alpha_material_light;
+			global::Lottie.Forms.Droid.Resource.Dimension.hint_pressed_alpha_material_dark = global::LeonaStore.Android.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::Lottie.Forms.Droid.Resource.Dimension.hint_pressed_alpha_material_light = global::LeonaStore.Android.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::Lottie.Forms.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::LeonaStore.Android.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Lottie.Forms.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::LeonaStore.Android.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Lottie.Forms.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::LeonaStore.Android.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Lottie.Forms.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height = global::LeonaStore.Android.Resource.Dimension.mr_controller_volume_group_list_item_height;
+			global::Lottie.Forms.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::LeonaStore.Android.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
+			global::Lottie.Forms.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height = global::LeonaStore.Android.Resource.Dimension.mr_controller_volume_group_list_max_height;
+			global::Lottie.Forms.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::LeonaStore.Android.Resource.Dimension.mr_controller_volume_group_list_padding_top;
+			global::Lottie.Forms.Droid.Resource.Dimension.mr_dialog_fixed_width_major = global::LeonaStore.Android.Resource.Dimension.mr_dialog_fixed_width_major;
+			global::Lottie.Forms.Droid.Resource.Dimension.mr_dialog_fixed_width_minor = global::LeonaStore.Android.Resource.Dimension.mr_dialog_fixed_width_minor;
+			global::Lottie.Forms.Droid.Resource.Dimension.notification_action_icon_size = global::LeonaStore.Android.Resource.Dimension.notification_action_icon_size;
+			global::Lottie.Forms.Droid.Resource.Dimension.notification_action_text_size = global::LeonaStore.Android.Resource.Dimension.notification_action_text_size;
+			global::Lottie.Forms.Droid.Resource.Dimension.notification_big_circle_margin = global::LeonaStore.Android.Resource.Dimension.notification_big_circle_margin;
+			global::Lottie.Forms.Droid.Resource.Dimension.notification_content_margin_start = global::LeonaStore.Android.Resource.Dimension.notification_content_margin_start;
+			global::Lottie.Forms.Droid.Resource.Dimension.notification_large_icon_height = global::LeonaStore.Android.Resource.Dimension.notification_large_icon_height;
+			global::Lottie.Forms.Droid.Resource.Dimension.notification_large_icon_width = global::LeonaStore.Android.Resource.Dimension.notification_large_icon_width;
+			global::Lottie.Forms.Droid.Resource.Dimension.notification_main_column_padding_top = global::LeonaStore.Android.Resource.Dimension.notification_main_column_padding_top;
+			global::Lottie.Forms.Droid.Resource.Dimension.notification_media_narrow_margin = global::LeonaStore.Android.Resource.Dimension.notification_media_narrow_margin;
+			global::Lottie.Forms.Droid.Resource.Dimension.notification_right_icon_size = global::LeonaStore.Android.Resource.Dimension.notification_right_icon_size;
+			global::Lottie.Forms.Droid.Resource.Dimension.notification_right_side_padding_top = global::LeonaStore.Android.Resource.Dimension.notification_right_side_padding_top;
+			global::Lottie.Forms.Droid.Resource.Dimension.notification_small_icon_background_padding = global::LeonaStore.Android.Resource.Dimension.notification_small_icon_background_padding;
+			global::Lottie.Forms.Droid.Resource.Dimension.notification_small_icon_size_as_large = global::LeonaStore.Android.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Lottie.Forms.Droid.Resource.Dimension.notification_subtext_size = global::LeonaStore.Android.Resource.Dimension.notification_subtext_size;
+			global::Lottie.Forms.Droid.Resource.Dimension.notification_top_pad = global::LeonaStore.Android.Resource.Dimension.notification_top_pad;
+			global::Lottie.Forms.Droid.Resource.Dimension.notification_top_pad_large_text = global::LeonaStore.Android.Resource.Dimension.notification_top_pad_large_text;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::LeonaStore.Android.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_action_bar_item_background_material = global::LeonaStore.Android.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_btn_borderless_material = global::LeonaStore.Android.Resource.Drawable.abc_btn_borderless_material;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_btn_check_material = global::LeonaStore.Android.Resource.Drawable.abc_btn_check_material;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::LeonaStore.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::LeonaStore.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_btn_colored_material = global::LeonaStore.Android.Resource.Drawable.abc_btn_colored_material;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_btn_default_mtrl_shape = global::LeonaStore.Android.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_btn_radio_material = global::LeonaStore.Android.Resource.Drawable.abc_btn_radio_material;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::LeonaStore.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::LeonaStore.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::LeonaStore.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::LeonaStore.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_cab_background_internal_bg = global::LeonaStore.Android.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_cab_background_top_material = global::LeonaStore.Android.Resource.Drawable.abc_cab_background_top_material;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::LeonaStore.Android.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_control_background_material = global::LeonaStore.Android.Resource.Drawable.abc_control_background_material;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_dialog_material_background = global::LeonaStore.Android.Resource.Drawable.abc_dialog_material_background;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_edit_text_material = global::LeonaStore.Android.Resource.Drawable.abc_edit_text_material;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_ic_ab_back_material = global::LeonaStore.Android.Resource.Drawable.abc_ic_ab_back_material;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::LeonaStore.Android.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_ic_clear_material = global::LeonaStore.Android.Resource.Drawable.abc_ic_clear_material;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::LeonaStore.Android.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_ic_go_search_api_material = global::LeonaStore.Android.Resource.Drawable.abc_ic_go_search_api_material;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::LeonaStore.Android.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::LeonaStore.Android.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_ic_menu_overflow_material = global::LeonaStore.Android.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::LeonaStore.Android.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::LeonaStore.Android.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::LeonaStore.Android.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_ic_search_api_material = global::LeonaStore.Android.Resource.Drawable.abc_ic_search_api_material;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_ic_star_black_16dp = global::LeonaStore.Android.Resource.Drawable.abc_ic_star_black_16dp;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_ic_star_black_36dp = global::LeonaStore.Android.Resource.Drawable.abc_ic_star_black_36dp;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_ic_star_black_48dp = global::LeonaStore.Android.Resource.Drawable.abc_ic_star_black_48dp;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_ic_star_half_black_16dp = global::LeonaStore.Android.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_ic_star_half_black_36dp = global::LeonaStore.Android.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_ic_star_half_black_48dp = global::LeonaStore.Android.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_ic_voice_search_api_material = global::LeonaStore.Android.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_item_background_holo_dark = global::LeonaStore.Android.Resource.Drawable.abc_item_background_holo_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_item_background_holo_light = global::LeonaStore.Android.Resource.Drawable.abc_item_background_holo_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha = global::LeonaStore.Android.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_list_focused_holo = global::LeonaStore.Android.Resource.Drawable.abc_list_focused_holo;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_list_longpressed_holo = global::LeonaStore.Android.Resource.Drawable.abc_list_longpressed_holo;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_list_pressed_holo_dark = global::LeonaStore.Android.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_list_pressed_holo_light = global::LeonaStore.Android.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::LeonaStore.Android.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::LeonaStore.Android.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::LeonaStore.Android.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light = global::LeonaStore.Android.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_list_selector_holo_dark = global::LeonaStore.Android.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_list_selector_holo_light = global::LeonaStore.Android.Resource.Drawable.abc_list_selector_holo_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::LeonaStore.Android.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_popup_background_mtrl_mult = global::LeonaStore.Android.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_ratingbar_indicator_material = global::LeonaStore.Android.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_ratingbar_material = global::LeonaStore.Android.Resource.Drawable.abc_ratingbar_material;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_ratingbar_small_material = global::LeonaStore.Android.Resource.Drawable.abc_ratingbar_small_material;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::LeonaStore.Android.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::LeonaStore.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::LeonaStore.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::LeonaStore.Android.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::LeonaStore.Android.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_seekbar_thumb_material = global::LeonaStore.Android.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_seekbar_tick_mark_material = global::LeonaStore.Android.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_seekbar_track_material = global::LeonaStore.Android.Resource.Drawable.abc_seekbar_track_material;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::LeonaStore.Android.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_spinner_textfield_background_material = global::LeonaStore.Android.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_switch_thumb_material = global::LeonaStore.Android.Resource.Drawable.abc_switch_thumb_material;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha = global::LeonaStore.Android.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_tab_indicator_material = global::LeonaStore.Android.Resource.Drawable.abc_tab_indicator_material;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::LeonaStore.Android.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_text_cursor_material = global::LeonaStore.Android.Resource.Drawable.abc_text_cursor_material;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::LeonaStore.Android.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::LeonaStore.Android.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::LeonaStore.Android.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::LeonaStore.Android.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::LeonaStore.Android.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::LeonaStore.Android.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::LeonaStore.Android.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::LeonaStore.Android.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::LeonaStore.Android.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::LeonaStore.Android.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_textfield_search_material = global::LeonaStore.Android.Resource.Drawable.abc_textfield_search_material;
+			global::Lottie.Forms.Droid.Resource.Drawable.abc_vector_test = global::LeonaStore.Android.Resource.Drawable.abc_vector_test;
+			global::Lottie.Forms.Droid.Resource.Drawable.avd_hide_password = global::LeonaStore.Android.Resource.Drawable.avd_hide_password;
+			global::Lottie.Forms.Droid.Resource.Drawable.avd_show_password = global::LeonaStore.Android.Resource.Drawable.avd_show_password;
+			global::Lottie.Forms.Droid.Resource.Drawable.design_bottom_navigation_item_background = global::LeonaStore.Android.Resource.Drawable.design_bottom_navigation_item_background;
+			global::Lottie.Forms.Droid.Resource.Drawable.design_fab_background = global::LeonaStore.Android.Resource.Drawable.design_fab_background;
+			global::Lottie.Forms.Droid.Resource.Drawable.design_ic_visibility = global::LeonaStore.Android.Resource.Drawable.design_ic_visibility;
+			global::Lottie.Forms.Droid.Resource.Drawable.design_ic_visibility_off = global::LeonaStore.Android.Resource.Drawable.design_ic_visibility_off;
+			global::Lottie.Forms.Droid.Resource.Drawable.design_password_eye = global::LeonaStore.Android.Resource.Drawable.design_password_eye;
+			global::Lottie.Forms.Droid.Resource.Drawable.design_snackbar_background = global::LeonaStore.Android.Resource.Drawable.design_snackbar_background;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_audiotrack_dark = global::LeonaStore.Android.Resource.Drawable.ic_audiotrack_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_audiotrack_light = global::LeonaStore.Android.Resource.Drawable.ic_audiotrack_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_dialog_close_dark = global::LeonaStore.Android.Resource.Drawable.ic_dialog_close_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_dialog_close_light = global::LeonaStore.Android.Resource.Drawable.ic_dialog_close_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_group_collapse_00 = global::LeonaStore.Android.Resource.Drawable.ic_group_collapse_00;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_group_collapse_01 = global::LeonaStore.Android.Resource.Drawable.ic_group_collapse_01;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_group_collapse_02 = global::LeonaStore.Android.Resource.Drawable.ic_group_collapse_02;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_group_collapse_03 = global::LeonaStore.Android.Resource.Drawable.ic_group_collapse_03;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_group_collapse_04 = global::LeonaStore.Android.Resource.Drawable.ic_group_collapse_04;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_group_collapse_05 = global::LeonaStore.Android.Resource.Drawable.ic_group_collapse_05;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_group_collapse_06 = global::LeonaStore.Android.Resource.Drawable.ic_group_collapse_06;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_group_collapse_07 = global::LeonaStore.Android.Resource.Drawable.ic_group_collapse_07;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_group_collapse_08 = global::LeonaStore.Android.Resource.Drawable.ic_group_collapse_08;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_group_collapse_09 = global::LeonaStore.Android.Resource.Drawable.ic_group_collapse_09;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_group_collapse_10 = global::LeonaStore.Android.Resource.Drawable.ic_group_collapse_10;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_group_collapse_11 = global::LeonaStore.Android.Resource.Drawable.ic_group_collapse_11;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_group_collapse_12 = global::LeonaStore.Android.Resource.Drawable.ic_group_collapse_12;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_group_collapse_13 = global::LeonaStore.Android.Resource.Drawable.ic_group_collapse_13;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_group_collapse_14 = global::LeonaStore.Android.Resource.Drawable.ic_group_collapse_14;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_group_collapse_15 = global::LeonaStore.Android.Resource.Drawable.ic_group_collapse_15;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_group_expand_00 = global::LeonaStore.Android.Resource.Drawable.ic_group_expand_00;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_group_expand_01 = global::LeonaStore.Android.Resource.Drawable.ic_group_expand_01;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_group_expand_02 = global::LeonaStore.Android.Resource.Drawable.ic_group_expand_02;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_group_expand_03 = global::LeonaStore.Android.Resource.Drawable.ic_group_expand_03;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_group_expand_04 = global::LeonaStore.Android.Resource.Drawable.ic_group_expand_04;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_group_expand_05 = global::LeonaStore.Android.Resource.Drawable.ic_group_expand_05;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_group_expand_06 = global::LeonaStore.Android.Resource.Drawable.ic_group_expand_06;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_group_expand_07 = global::LeonaStore.Android.Resource.Drawable.ic_group_expand_07;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_group_expand_08 = global::LeonaStore.Android.Resource.Drawable.ic_group_expand_08;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_group_expand_09 = global::LeonaStore.Android.Resource.Drawable.ic_group_expand_09;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_group_expand_10 = global::LeonaStore.Android.Resource.Drawable.ic_group_expand_10;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_group_expand_11 = global::LeonaStore.Android.Resource.Drawable.ic_group_expand_11;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_group_expand_12 = global::LeonaStore.Android.Resource.Drawable.ic_group_expand_12;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_group_expand_13 = global::LeonaStore.Android.Resource.Drawable.ic_group_expand_13;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_group_expand_14 = global::LeonaStore.Android.Resource.Drawable.ic_group_expand_14;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_group_expand_15 = global::LeonaStore.Android.Resource.Drawable.ic_group_expand_15;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_media_pause_dark = global::LeonaStore.Android.Resource.Drawable.ic_media_pause_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_media_pause_light = global::LeonaStore.Android.Resource.Drawable.ic_media_pause_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_media_play_dark = global::LeonaStore.Android.Resource.Drawable.ic_media_play_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_media_play_light = global::LeonaStore.Android.Resource.Drawable.ic_media_play_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_media_stop_dark = global::LeonaStore.Android.Resource.Drawable.ic_media_stop_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_media_stop_light = global::LeonaStore.Android.Resource.Drawable.ic_media_stop_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connected_00_dark = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connected_00_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connected_00_light = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connected_00_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connected_01_dark = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connected_01_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connected_01_light = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connected_01_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connected_02_dark = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connected_02_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connected_02_light = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connected_02_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connected_03_dark = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connected_03_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connected_03_light = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connected_03_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connected_04_dark = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connected_04_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connected_04_light = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connected_04_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connected_05_dark = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connected_05_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connected_05_light = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connected_05_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connected_06_dark = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connected_06_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connected_06_light = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connected_06_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connected_07_dark = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connected_07_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connected_07_light = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connected_07_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connected_08_dark = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connected_08_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connected_08_light = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connected_08_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connected_09_dark = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connected_09_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connected_09_light = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connected_09_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connected_10_dark = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connected_10_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connected_10_light = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connected_10_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connected_11_dark = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connected_11_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connected_11_light = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connected_11_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connected_12_dark = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connected_12_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connected_12_light = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connected_12_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connected_13_dark = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connected_13_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connected_13_light = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connected_13_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connected_14_dark = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connected_14_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connected_14_light = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connected_14_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connected_15_dark = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connected_15_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connected_15_light = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connected_15_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connected_16_dark = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connected_16_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connected_16_light = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connected_16_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connected_17_dark = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connected_17_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connected_17_light = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connected_17_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connected_18_dark = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connected_18_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connected_18_light = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connected_18_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connected_19_dark = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connected_19_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connected_19_light = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connected_19_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connected_20_dark = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connected_20_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connected_20_light = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connected_20_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connected_21_dark = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connected_21_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connected_21_light = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connected_21_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connected_22_dark = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connected_22_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connected_22_light = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connected_22_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_00_dark = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connecting_00_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_00_light = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connecting_00_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_01_dark = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connecting_01_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_01_light = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connecting_01_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_02_dark = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connecting_02_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_02_light = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connecting_02_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_03_dark = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connecting_03_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_03_light = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connecting_03_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_04_dark = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connecting_04_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_04_light = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connecting_04_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_05_dark = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connecting_05_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_05_light = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connecting_05_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_06_dark = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connecting_06_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_06_light = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connecting_06_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_07_dark = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connecting_07_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_07_light = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connecting_07_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_08_dark = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connecting_08_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_08_light = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connecting_08_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_09_dark = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connecting_09_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_09_light = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connecting_09_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_10_dark = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connecting_10_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_10_light = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connecting_10_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_11_dark = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connecting_11_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_11_light = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connecting_11_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_12_dark = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connecting_12_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_12_light = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connecting_12_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_13_dark = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connecting_13_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_13_light = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connecting_13_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_14_dark = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connecting_14_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_14_light = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connecting_14_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_15_dark = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connecting_15_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_15_light = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connecting_15_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_16_dark = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connecting_16_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_16_light = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connecting_16_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_17_dark = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connecting_17_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_17_light = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connecting_17_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_18_dark = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connecting_18_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_18_light = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connecting_18_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_19_dark = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connecting_19_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_19_light = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connecting_19_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_20_dark = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connecting_20_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_20_light = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connecting_20_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_21_dark = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connecting_21_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_21_light = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connecting_21_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_22_dark = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connecting_22_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_22_light = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_connecting_22_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_disabled_dark = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_disabled_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_disabled_light = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_disabled_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_disconnected_dark = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_disconnected_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_disconnected_light = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_disconnected_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_mr_button_grey = global::LeonaStore.Android.Resource.Drawable.ic_mr_button_grey;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_vol_type_speaker_dark = global::LeonaStore.Android.Resource.Drawable.ic_vol_type_speaker_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_vol_type_speaker_group_dark = global::LeonaStore.Android.Resource.Drawable.ic_vol_type_speaker_group_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_vol_type_speaker_group_light = global::LeonaStore.Android.Resource.Drawable.ic_vol_type_speaker_group_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_vol_type_speaker_light = global::LeonaStore.Android.Resource.Drawable.ic_vol_type_speaker_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_vol_type_tv_dark = global::LeonaStore.Android.Resource.Drawable.ic_vol_type_tv_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.ic_vol_type_tv_light = global::LeonaStore.Android.Resource.Drawable.ic_vol_type_tv_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.mr_button_connected_dark = global::LeonaStore.Android.Resource.Drawable.mr_button_connected_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.mr_button_connected_light = global::LeonaStore.Android.Resource.Drawable.mr_button_connected_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.mr_button_connecting_dark = global::LeonaStore.Android.Resource.Drawable.mr_button_connecting_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.mr_button_connecting_light = global::LeonaStore.Android.Resource.Drawable.mr_button_connecting_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.mr_button_dark = global::LeonaStore.Android.Resource.Drawable.mr_button_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.mr_button_light = global::LeonaStore.Android.Resource.Drawable.mr_button_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.mr_dialog_close_dark = global::LeonaStore.Android.Resource.Drawable.mr_dialog_close_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.mr_dialog_close_light = global::LeonaStore.Android.Resource.Drawable.mr_dialog_close_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.mr_dialog_material_background_dark = global::LeonaStore.Android.Resource.Drawable.mr_dialog_material_background_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.mr_dialog_material_background_light = global::LeonaStore.Android.Resource.Drawable.mr_dialog_material_background_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.mr_group_collapse = global::LeonaStore.Android.Resource.Drawable.mr_group_collapse;
+			global::Lottie.Forms.Droid.Resource.Drawable.mr_group_expand = global::LeonaStore.Android.Resource.Drawable.mr_group_expand;
+			global::Lottie.Forms.Droid.Resource.Drawable.mr_media_pause_dark = global::LeonaStore.Android.Resource.Drawable.mr_media_pause_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.mr_media_pause_light = global::LeonaStore.Android.Resource.Drawable.mr_media_pause_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.mr_media_play_dark = global::LeonaStore.Android.Resource.Drawable.mr_media_play_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.mr_media_play_light = global::LeonaStore.Android.Resource.Drawable.mr_media_play_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.mr_media_stop_dark = global::LeonaStore.Android.Resource.Drawable.mr_media_stop_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.mr_media_stop_light = global::LeonaStore.Android.Resource.Drawable.mr_media_stop_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.mr_vol_type_audiotrack_dark = global::LeonaStore.Android.Resource.Drawable.mr_vol_type_audiotrack_dark;
+			global::Lottie.Forms.Droid.Resource.Drawable.mr_vol_type_audiotrack_light = global::LeonaStore.Android.Resource.Drawable.mr_vol_type_audiotrack_light;
+			global::Lottie.Forms.Droid.Resource.Drawable.navigation_empty_icon = global::LeonaStore.Android.Resource.Drawable.navigation_empty_icon;
+			global::Lottie.Forms.Droid.Resource.Drawable.notification_action_background = global::LeonaStore.Android.Resource.Drawable.notification_action_background;
+			global::Lottie.Forms.Droid.Resource.Drawable.notification_bg = global::LeonaStore.Android.Resource.Drawable.notification_bg;
+			global::Lottie.Forms.Droid.Resource.Drawable.notification_bg_low = global::LeonaStore.Android.Resource.Drawable.notification_bg_low;
+			global::Lottie.Forms.Droid.Resource.Drawable.notification_bg_low_normal = global::LeonaStore.Android.Resource.Drawable.notification_bg_low_normal;
+			global::Lottie.Forms.Droid.Resource.Drawable.notification_bg_low_pressed = global::LeonaStore.Android.Resource.Drawable.notification_bg_low_pressed;
+			global::Lottie.Forms.Droid.Resource.Drawable.notification_bg_normal = global::LeonaStore.Android.Resource.Drawable.notification_bg_normal;
+			global::Lottie.Forms.Droid.Resource.Drawable.notification_bg_normal_pressed = global::LeonaStore.Android.Resource.Drawable.notification_bg_normal_pressed;
+			global::Lottie.Forms.Droid.Resource.Drawable.notification_icon_background = global::LeonaStore.Android.Resource.Drawable.notification_icon_background;
+			global::Lottie.Forms.Droid.Resource.Drawable.notification_template_icon_bg = global::LeonaStore.Android.Resource.Drawable.notification_template_icon_bg;
+			global::Lottie.Forms.Droid.Resource.Drawable.notification_template_icon_low_bg = global::LeonaStore.Android.Resource.Drawable.notification_template_icon_low_bg;
+			global::Lottie.Forms.Droid.Resource.Drawable.notification_tile_bg = global::LeonaStore.Android.Resource.Drawable.notification_tile_bg;
+			global::Lottie.Forms.Droid.Resource.Drawable.notify_panel_notification_icon_bg = global::LeonaStore.Android.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Lottie.Forms.Droid.Resource.Id.action0 = global::LeonaStore.Android.Resource.Id.action0;
+			global::Lottie.Forms.Droid.Resource.Id.action_bar = global::LeonaStore.Android.Resource.Id.action_bar;
+			global::Lottie.Forms.Droid.Resource.Id.action_bar_activity_content = global::LeonaStore.Android.Resource.Id.action_bar_activity_content;
+			global::Lottie.Forms.Droid.Resource.Id.action_bar_container = global::LeonaStore.Android.Resource.Id.action_bar_container;
+			global::Lottie.Forms.Droid.Resource.Id.action_bar_root = global::LeonaStore.Android.Resource.Id.action_bar_root;
+			global::Lottie.Forms.Droid.Resource.Id.action_bar_spinner = global::LeonaStore.Android.Resource.Id.action_bar_spinner;
+			global::Lottie.Forms.Droid.Resource.Id.action_bar_subtitle = global::LeonaStore.Android.Resource.Id.action_bar_subtitle;
+			global::Lottie.Forms.Droid.Resource.Id.action_bar_title = global::LeonaStore.Android.Resource.Id.action_bar_title;
+			global::Lottie.Forms.Droid.Resource.Id.action_container = global::LeonaStore.Android.Resource.Id.action_container;
+			global::Lottie.Forms.Droid.Resource.Id.action_context_bar = global::LeonaStore.Android.Resource.Id.action_context_bar;
+			global::Lottie.Forms.Droid.Resource.Id.action_divider = global::LeonaStore.Android.Resource.Id.action_divider;
+			global::Lottie.Forms.Droid.Resource.Id.action_image = global::LeonaStore.Android.Resource.Id.action_image;
+			global::Lottie.Forms.Droid.Resource.Id.action_menu_divider = global::LeonaStore.Android.Resource.Id.action_menu_divider;
+			global::Lottie.Forms.Droid.Resource.Id.action_menu_presenter = global::LeonaStore.Android.Resource.Id.action_menu_presenter;
+			global::Lottie.Forms.Droid.Resource.Id.action_mode_bar = global::LeonaStore.Android.Resource.Id.action_mode_bar;
+			global::Lottie.Forms.Droid.Resource.Id.action_mode_bar_stub = global::LeonaStore.Android.Resource.Id.action_mode_bar_stub;
+			global::Lottie.Forms.Droid.Resource.Id.action_mode_close_button = global::LeonaStore.Android.Resource.Id.action_mode_close_button;
+			global::Lottie.Forms.Droid.Resource.Id.action_text = global::LeonaStore.Android.Resource.Id.action_text;
+			global::Lottie.Forms.Droid.Resource.Id.actions = global::LeonaStore.Android.Resource.Id.actions;
+			global::Lottie.Forms.Droid.Resource.Id.activity_chooser_view_content = global::LeonaStore.Android.Resource.Id.activity_chooser_view_content;
+			global::Lottie.Forms.Droid.Resource.Id.add = global::LeonaStore.Android.Resource.Id.add;
+			global::Lottie.Forms.Droid.Resource.Id.alertTitle = global::LeonaStore.Android.Resource.Id.alertTitle;
+			global::Lottie.Forms.Droid.Resource.Id.all = global::LeonaStore.Android.Resource.Id.all;
+			global::Lottie.Forms.Droid.Resource.Id.always = global::LeonaStore.Android.Resource.Id.always;
+			global::Lottie.Forms.Droid.Resource.Id.auto = global::LeonaStore.Android.Resource.Id.auto;
+			global::Lottie.Forms.Droid.Resource.Id.beginning = global::LeonaStore.Android.Resource.Id.beginning;
+			global::Lottie.Forms.Droid.Resource.Id.bottom = global::LeonaStore.Android.Resource.Id.bottom;
+			global::Lottie.Forms.Droid.Resource.Id.buttonPanel = global::LeonaStore.Android.Resource.Id.buttonPanel;
+			global::Lottie.Forms.Droid.Resource.Id.cancel_action = global::LeonaStore.Android.Resource.Id.cancel_action;
+			global::Lottie.Forms.Droid.Resource.Id.center = global::LeonaStore.Android.Resource.Id.center;
+			global::Lottie.Forms.Droid.Resource.Id.center_horizontal = global::LeonaStore.Android.Resource.Id.center_horizontal;
+			global::Lottie.Forms.Droid.Resource.Id.center_vertical = global::LeonaStore.Android.Resource.Id.center_vertical;
+			global::Lottie.Forms.Droid.Resource.Id.checkbox = global::LeonaStore.Android.Resource.Id.checkbox;
+			global::Lottie.Forms.Droid.Resource.Id.chronometer = global::LeonaStore.Android.Resource.Id.chronometer;
+			global::Lottie.Forms.Droid.Resource.Id.clip_horizontal = global::LeonaStore.Android.Resource.Id.clip_horizontal;
+			global::Lottie.Forms.Droid.Resource.Id.clip_vertical = global::LeonaStore.Android.Resource.Id.clip_vertical;
+			global::Lottie.Forms.Droid.Resource.Id.collapseActionView = global::LeonaStore.Android.Resource.Id.collapseActionView;
+			global::Lottie.Forms.Droid.Resource.Id.contentPanel = global::LeonaStore.Android.Resource.Id.contentPanel;
+			global::Lottie.Forms.Droid.Resource.Id.custom = global::LeonaStore.Android.Resource.Id.custom;
+			global::Lottie.Forms.Droid.Resource.Id.customPanel = global::LeonaStore.Android.Resource.Id.customPanel;
+			global::Lottie.Forms.Droid.Resource.Id.decor_content_parent = global::LeonaStore.Android.Resource.Id.decor_content_parent;
+			global::Lottie.Forms.Droid.Resource.Id.default_activity_button = global::LeonaStore.Android.Resource.Id.default_activity_button;
+			global::Lottie.Forms.Droid.Resource.Id.design_bottom_sheet = global::LeonaStore.Android.Resource.Id.design_bottom_sheet;
+			global::Lottie.Forms.Droid.Resource.Id.design_menu_item_action_area = global::LeonaStore.Android.Resource.Id.design_menu_item_action_area;
+			global::Lottie.Forms.Droid.Resource.Id.design_menu_item_action_area_stub = global::LeonaStore.Android.Resource.Id.design_menu_item_action_area_stub;
+			global::Lottie.Forms.Droid.Resource.Id.design_menu_item_text = global::LeonaStore.Android.Resource.Id.design_menu_item_text;
+			global::Lottie.Forms.Droid.Resource.Id.design_navigation_view = global::LeonaStore.Android.Resource.Id.design_navigation_view;
+			global::Lottie.Forms.Droid.Resource.Id.disableHome = global::LeonaStore.Android.Resource.Id.disableHome;
+			global::Lottie.Forms.Droid.Resource.Id.edit_query = global::LeonaStore.Android.Resource.Id.edit_query;
+			global::Lottie.Forms.Droid.Resource.Id.end = global::LeonaStore.Android.Resource.Id.end;
+			global::Lottie.Forms.Droid.Resource.Id.end_padder = global::LeonaStore.Android.Resource.Id.end_padder;
+			global::Lottie.Forms.Droid.Resource.Id.enterAlways = global::LeonaStore.Android.Resource.Id.enterAlways;
+			global::Lottie.Forms.Droid.Resource.Id.enterAlwaysCollapsed = global::LeonaStore.Android.Resource.Id.enterAlwaysCollapsed;
+			global::Lottie.Forms.Droid.Resource.Id.exitUntilCollapsed = global::LeonaStore.Android.Resource.Id.exitUntilCollapsed;
+			global::Lottie.Forms.Droid.Resource.Id.expand_activities_button = global::LeonaStore.Android.Resource.Id.expand_activities_button;
+			global::Lottie.Forms.Droid.Resource.Id.expanded_menu = global::LeonaStore.Android.Resource.Id.expanded_menu;
+			global::Lottie.Forms.Droid.Resource.Id.fill = global::LeonaStore.Android.Resource.Id.fill;
+			global::Lottie.Forms.Droid.Resource.Id.fill_horizontal = global::LeonaStore.Android.Resource.Id.fill_horizontal;
+			global::Lottie.Forms.Droid.Resource.Id.fill_vertical = global::LeonaStore.Android.Resource.Id.fill_vertical;
+			global::Lottie.Forms.Droid.Resource.Id.@fixed = global::LeonaStore.Android.Resource.Id.@fixed;
+			global::Lottie.Forms.Droid.Resource.Id.home = global::LeonaStore.Android.Resource.Id.home;
+			global::Lottie.Forms.Droid.Resource.Id.homeAsUp = global::LeonaStore.Android.Resource.Id.homeAsUp;
+			global::Lottie.Forms.Droid.Resource.Id.icon = global::LeonaStore.Android.Resource.Id.icon;
+			global::Lottie.Forms.Droid.Resource.Id.icon_group = global::LeonaStore.Android.Resource.Id.icon_group;
+			global::Lottie.Forms.Droid.Resource.Id.ifRoom = global::LeonaStore.Android.Resource.Id.ifRoom;
+			global::Lottie.Forms.Droid.Resource.Id.image = global::LeonaStore.Android.Resource.Id.image;
+			global::Lottie.Forms.Droid.Resource.Id.info = global::LeonaStore.Android.Resource.Id.info;
+			global::Lottie.Forms.Droid.Resource.Id.item_touch_helper_previous_elevation = global::LeonaStore.Android.Resource.Id.item_touch_helper_previous_elevation;
+			global::Lottie.Forms.Droid.Resource.Id.largeLabel = global::LeonaStore.Android.Resource.Id.largeLabel;
+			global::Lottie.Forms.Droid.Resource.Id.left = global::LeonaStore.Android.Resource.Id.left;
+			global::Lottie.Forms.Droid.Resource.Id.line1 = global::LeonaStore.Android.Resource.Id.line1;
+			global::Lottie.Forms.Droid.Resource.Id.line3 = global::LeonaStore.Android.Resource.Id.line3;
+			global::Lottie.Forms.Droid.Resource.Id.listMode = global::LeonaStore.Android.Resource.Id.listMode;
+			global::Lottie.Forms.Droid.Resource.Id.list_item = global::LeonaStore.Android.Resource.Id.list_item;
+			global::Lottie.Forms.Droid.Resource.Id.lottie_layer_name = global::LeonaStore.Android.Resource.Id.lottie_layer_name;
+			global::Lottie.Forms.Droid.Resource.Id.masked = global::LeonaStore.Android.Resource.Id.masked;
+			global::Lottie.Forms.Droid.Resource.Id.media_actions = global::LeonaStore.Android.Resource.Id.media_actions;
+			global::Lottie.Forms.Droid.Resource.Id.middle = global::LeonaStore.Android.Resource.Id.middle;
+			global::Lottie.Forms.Droid.Resource.Id.mini = global::LeonaStore.Android.Resource.Id.mini;
+			global::Lottie.Forms.Droid.Resource.Id.mr_art = global::LeonaStore.Android.Resource.Id.mr_art;
+			global::Lottie.Forms.Droid.Resource.Id.mr_chooser_list = global::LeonaStore.Android.Resource.Id.mr_chooser_list;
+			global::Lottie.Forms.Droid.Resource.Id.mr_chooser_route_desc = global::LeonaStore.Android.Resource.Id.mr_chooser_route_desc;
+			global::Lottie.Forms.Droid.Resource.Id.mr_chooser_route_icon = global::LeonaStore.Android.Resource.Id.mr_chooser_route_icon;
+			global::Lottie.Forms.Droid.Resource.Id.mr_chooser_route_name = global::LeonaStore.Android.Resource.Id.mr_chooser_route_name;
+			global::Lottie.Forms.Droid.Resource.Id.mr_chooser_title = global::LeonaStore.Android.Resource.Id.mr_chooser_title;
+			global::Lottie.Forms.Droid.Resource.Id.mr_close = global::LeonaStore.Android.Resource.Id.mr_close;
+			global::Lottie.Forms.Droid.Resource.Id.mr_control_divider = global::LeonaStore.Android.Resource.Id.mr_control_divider;
+			global::Lottie.Forms.Droid.Resource.Id.mr_control_playback_ctrl = global::LeonaStore.Android.Resource.Id.mr_control_playback_ctrl;
+			global::Lottie.Forms.Droid.Resource.Id.mr_control_subtitle = global::LeonaStore.Android.Resource.Id.mr_control_subtitle;
+			global::Lottie.Forms.Droid.Resource.Id.mr_control_title = global::LeonaStore.Android.Resource.Id.mr_control_title;
+			global::Lottie.Forms.Droid.Resource.Id.mr_control_title_container = global::LeonaStore.Android.Resource.Id.mr_control_title_container;
+			global::Lottie.Forms.Droid.Resource.Id.mr_custom_control = global::LeonaStore.Android.Resource.Id.mr_custom_control;
+			global::Lottie.Forms.Droid.Resource.Id.mr_default_control = global::LeonaStore.Android.Resource.Id.mr_default_control;
+			global::Lottie.Forms.Droid.Resource.Id.mr_dialog_area = global::LeonaStore.Android.Resource.Id.mr_dialog_area;
+			global::Lottie.Forms.Droid.Resource.Id.mr_expandable_area = global::LeonaStore.Android.Resource.Id.mr_expandable_area;
+			global::Lottie.Forms.Droid.Resource.Id.mr_group_expand_collapse = global::LeonaStore.Android.Resource.Id.mr_group_expand_collapse;
+			global::Lottie.Forms.Droid.Resource.Id.mr_media_main_control = global::LeonaStore.Android.Resource.Id.mr_media_main_control;
+			global::Lottie.Forms.Droid.Resource.Id.mr_name = global::LeonaStore.Android.Resource.Id.mr_name;
+			global::Lottie.Forms.Droid.Resource.Id.mr_playback_control = global::LeonaStore.Android.Resource.Id.mr_playback_control;
+			global::Lottie.Forms.Droid.Resource.Id.mr_title_bar = global::LeonaStore.Android.Resource.Id.mr_title_bar;
+			global::Lottie.Forms.Droid.Resource.Id.mr_volume_control = global::LeonaStore.Android.Resource.Id.mr_volume_control;
+			global::Lottie.Forms.Droid.Resource.Id.mr_volume_group_list = global::LeonaStore.Android.Resource.Id.mr_volume_group_list;
+			global::Lottie.Forms.Droid.Resource.Id.mr_volume_item_icon = global::LeonaStore.Android.Resource.Id.mr_volume_item_icon;
+			global::Lottie.Forms.Droid.Resource.Id.mr_volume_slider = global::LeonaStore.Android.Resource.Id.mr_volume_slider;
+			global::Lottie.Forms.Droid.Resource.Id.multiply = global::LeonaStore.Android.Resource.Id.multiply;
+			global::Lottie.Forms.Droid.Resource.Id.navigation_header_container = global::LeonaStore.Android.Resource.Id.navigation_header_container;
+			global::Lottie.Forms.Droid.Resource.Id.never = global::LeonaStore.Android.Resource.Id.never;
+			global::Lottie.Forms.Droid.Resource.Id.none = global::LeonaStore.Android.Resource.Id.none;
+			global::Lottie.Forms.Droid.Resource.Id.normal = global::LeonaStore.Android.Resource.Id.normal;
+			global::Lottie.Forms.Droid.Resource.Id.notification_background = global::LeonaStore.Android.Resource.Id.notification_background;
+			global::Lottie.Forms.Droid.Resource.Id.notification_main_column = global::LeonaStore.Android.Resource.Id.notification_main_column;
+			global::Lottie.Forms.Droid.Resource.Id.notification_main_column_container = global::LeonaStore.Android.Resource.Id.notification_main_column_container;
+			global::Lottie.Forms.Droid.Resource.Id.parallax = global::LeonaStore.Android.Resource.Id.parallax;
+			global::Lottie.Forms.Droid.Resource.Id.parentPanel = global::LeonaStore.Android.Resource.Id.parentPanel;
+			global::Lottie.Forms.Droid.Resource.Id.pin = global::LeonaStore.Android.Resource.Id.pin;
+			global::Lottie.Forms.Droid.Resource.Id.progress_circular = global::LeonaStore.Android.Resource.Id.progress_circular;
+			global::Lottie.Forms.Droid.Resource.Id.progress_horizontal = global::LeonaStore.Android.Resource.Id.progress_horizontal;
+			global::Lottie.Forms.Droid.Resource.Id.radio = global::LeonaStore.Android.Resource.Id.radio;
+			global::Lottie.Forms.Droid.Resource.Id.right = global::LeonaStore.Android.Resource.Id.right;
+			global::Lottie.Forms.Droid.Resource.Id.right_icon = global::LeonaStore.Android.Resource.Id.right_icon;
+			global::Lottie.Forms.Droid.Resource.Id.right_side = global::LeonaStore.Android.Resource.Id.right_side;
+			global::Lottie.Forms.Droid.Resource.Id.screen = global::LeonaStore.Android.Resource.Id.screen;
+			global::Lottie.Forms.Droid.Resource.Id.scroll = global::LeonaStore.Android.Resource.Id.scroll;
+			global::Lottie.Forms.Droid.Resource.Id.scrollIndicatorDown = global::LeonaStore.Android.Resource.Id.scrollIndicatorDown;
+			global::Lottie.Forms.Droid.Resource.Id.scrollIndicatorUp = global::LeonaStore.Android.Resource.Id.scrollIndicatorUp;
+			global::Lottie.Forms.Droid.Resource.Id.scrollView = global::LeonaStore.Android.Resource.Id.scrollView;
+			global::Lottie.Forms.Droid.Resource.Id.scrollable = global::LeonaStore.Android.Resource.Id.scrollable;
+			global::Lottie.Forms.Droid.Resource.Id.search_badge = global::LeonaStore.Android.Resource.Id.search_badge;
+			global::Lottie.Forms.Droid.Resource.Id.search_bar = global::LeonaStore.Android.Resource.Id.search_bar;
+			global::Lottie.Forms.Droid.Resource.Id.search_button = global::LeonaStore.Android.Resource.Id.search_button;
+			global::Lottie.Forms.Droid.Resource.Id.search_close_btn = global::LeonaStore.Android.Resource.Id.search_close_btn;
+			global::Lottie.Forms.Droid.Resource.Id.search_edit_frame = global::LeonaStore.Android.Resource.Id.search_edit_frame;
+			global::Lottie.Forms.Droid.Resource.Id.search_go_btn = global::LeonaStore.Android.Resource.Id.search_go_btn;
+			global::Lottie.Forms.Droid.Resource.Id.search_mag_icon = global::LeonaStore.Android.Resource.Id.search_mag_icon;
+			global::Lottie.Forms.Droid.Resource.Id.search_plate = global::LeonaStore.Android.Resource.Id.search_plate;
+			global::Lottie.Forms.Droid.Resource.Id.search_src_text = global::LeonaStore.Android.Resource.Id.search_src_text;
+			global::Lottie.Forms.Droid.Resource.Id.search_voice_btn = global::LeonaStore.Android.Resource.Id.search_voice_btn;
+			global::Lottie.Forms.Droid.Resource.Id.select_dialog_listview = global::LeonaStore.Android.Resource.Id.select_dialog_listview;
+			global::Lottie.Forms.Droid.Resource.Id.shortcut = global::LeonaStore.Android.Resource.Id.shortcut;
+			global::Lottie.Forms.Droid.Resource.Id.showCustom = global::LeonaStore.Android.Resource.Id.showCustom;
+			global::Lottie.Forms.Droid.Resource.Id.showHome = global::LeonaStore.Android.Resource.Id.showHome;
+			global::Lottie.Forms.Droid.Resource.Id.showTitle = global::LeonaStore.Android.Resource.Id.showTitle;
+			global::Lottie.Forms.Droid.Resource.Id.smallLabel = global::LeonaStore.Android.Resource.Id.smallLabel;
+			global::Lottie.Forms.Droid.Resource.Id.snackbar_action = global::LeonaStore.Android.Resource.Id.snackbar_action;
+			global::Lottie.Forms.Droid.Resource.Id.snackbar_text = global::LeonaStore.Android.Resource.Id.snackbar_text;
+			global::Lottie.Forms.Droid.Resource.Id.snap = global::LeonaStore.Android.Resource.Id.snap;
+			global::Lottie.Forms.Droid.Resource.Id.spacer = global::LeonaStore.Android.Resource.Id.spacer;
+			global::Lottie.Forms.Droid.Resource.Id.split_action_bar = global::LeonaStore.Android.Resource.Id.split_action_bar;
+			global::Lottie.Forms.Droid.Resource.Id.src_atop = global::LeonaStore.Android.Resource.Id.src_atop;
+			global::Lottie.Forms.Droid.Resource.Id.src_in = global::LeonaStore.Android.Resource.Id.src_in;
+			global::Lottie.Forms.Droid.Resource.Id.src_over = global::LeonaStore.Android.Resource.Id.src_over;
+			global::Lottie.Forms.Droid.Resource.Id.start = global::LeonaStore.Android.Resource.Id.start;
+			global::Lottie.Forms.Droid.Resource.Id.status_bar_latest_event_content = global::LeonaStore.Android.Resource.Id.status_bar_latest_event_content;
+			global::Lottie.Forms.Droid.Resource.Id.strong = global::LeonaStore.Android.Resource.Id.strong;
+			global::Lottie.Forms.Droid.Resource.Id.submenuarrow = global::LeonaStore.Android.Resource.Id.submenuarrow;
+			global::Lottie.Forms.Droid.Resource.Id.submit_area = global::LeonaStore.Android.Resource.Id.submit_area;
+			global::Lottie.Forms.Droid.Resource.Id.tabMode = global::LeonaStore.Android.Resource.Id.tabMode;
+			global::Lottie.Forms.Droid.Resource.Id.text = global::LeonaStore.Android.Resource.Id.text;
+			global::Lottie.Forms.Droid.Resource.Id.text2 = global::LeonaStore.Android.Resource.Id.text2;
+			global::Lottie.Forms.Droid.Resource.Id.textSpacerNoButtons = global::LeonaStore.Android.Resource.Id.textSpacerNoButtons;
+			global::Lottie.Forms.Droid.Resource.Id.textSpacerNoTitle = global::LeonaStore.Android.Resource.Id.textSpacerNoTitle;
+			global::Lottie.Forms.Droid.Resource.Id.text_input_password_toggle = global::LeonaStore.Android.Resource.Id.text_input_password_toggle;
+			global::Lottie.Forms.Droid.Resource.Id.textinput_counter = global::LeonaStore.Android.Resource.Id.textinput_counter;
+			global::Lottie.Forms.Droid.Resource.Id.textinput_error = global::LeonaStore.Android.Resource.Id.textinput_error;
+			global::Lottie.Forms.Droid.Resource.Id.time = global::LeonaStore.Android.Resource.Id.time;
+			global::Lottie.Forms.Droid.Resource.Id.title = global::LeonaStore.Android.Resource.Id.title;
+			global::Lottie.Forms.Droid.Resource.Id.titleDividerNoCustom = global::LeonaStore.Android.Resource.Id.titleDividerNoCustom;
+			global::Lottie.Forms.Droid.Resource.Id.title_template = global::LeonaStore.Android.Resource.Id.title_template;
+			global::Lottie.Forms.Droid.Resource.Id.top = global::LeonaStore.Android.Resource.Id.top;
+			global::Lottie.Forms.Droid.Resource.Id.topPanel = global::LeonaStore.Android.Resource.Id.topPanel;
+			global::Lottie.Forms.Droid.Resource.Id.touch_outside = global::LeonaStore.Android.Resource.Id.touch_outside;
+			global::Lottie.Forms.Droid.Resource.Id.transition_current_scene = global::LeonaStore.Android.Resource.Id.transition_current_scene;
+			global::Lottie.Forms.Droid.Resource.Id.transition_scene_layoutid_cache = global::LeonaStore.Android.Resource.Id.transition_scene_layoutid_cache;
+			global::Lottie.Forms.Droid.Resource.Id.up = global::LeonaStore.Android.Resource.Id.up;
+			global::Lottie.Forms.Droid.Resource.Id.useLogo = global::LeonaStore.Android.Resource.Id.useLogo;
+			global::Lottie.Forms.Droid.Resource.Id.view_offset_helper = global::LeonaStore.Android.Resource.Id.view_offset_helper;
+			global::Lottie.Forms.Droid.Resource.Id.visible = global::LeonaStore.Android.Resource.Id.visible;
+			global::Lottie.Forms.Droid.Resource.Id.volume_item_container = global::LeonaStore.Android.Resource.Id.volume_item_container;
+			global::Lottie.Forms.Droid.Resource.Id.weak = global::LeonaStore.Android.Resource.Id.weak;
+			global::Lottie.Forms.Droid.Resource.Id.withText = global::LeonaStore.Android.Resource.Id.withText;
+			global::Lottie.Forms.Droid.Resource.Id.wrap_content = global::LeonaStore.Android.Resource.Id.wrap_content;
+			global::Lottie.Forms.Droid.Resource.Integer.abc_config_activityDefaultDur = global::LeonaStore.Android.Resource.Integer.abc_config_activityDefaultDur;
+			global::Lottie.Forms.Droid.Resource.Integer.abc_config_activityShortDur = global::LeonaStore.Android.Resource.Integer.abc_config_activityShortDur;
+			global::Lottie.Forms.Droid.Resource.Integer.app_bar_elevation_anim_duration = global::LeonaStore.Android.Resource.Integer.app_bar_elevation_anim_duration;
+			global::Lottie.Forms.Droid.Resource.Integer.bottom_sheet_slide_duration = global::LeonaStore.Android.Resource.Integer.bottom_sheet_slide_duration;
+			global::Lottie.Forms.Droid.Resource.Integer.cancel_button_image_alpha = global::LeonaStore.Android.Resource.Integer.cancel_button_image_alpha;
+			global::Lottie.Forms.Droid.Resource.Integer.design_snackbar_text_max_lines = global::LeonaStore.Android.Resource.Integer.design_snackbar_text_max_lines;
+			global::Lottie.Forms.Droid.Resource.Integer.hide_password_duration = global::LeonaStore.Android.Resource.Integer.hide_password_duration;
+			global::Lottie.Forms.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::LeonaStore.Android.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
+			global::Lottie.Forms.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::LeonaStore.Android.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
+			global::Lottie.Forms.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::LeonaStore.Android.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
+			global::Lottie.Forms.Droid.Resource.Integer.show_password_duration = global::LeonaStore.Android.Resource.Integer.show_password_duration;
+			global::Lottie.Forms.Droid.Resource.Integer.status_bar_notification_info_maxnum = global::LeonaStore.Android.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Lottie.Forms.Droid.Resource.Interpolator.mr_fast_out_slow_in = global::LeonaStore.Android.Resource.Interpolator.mr_fast_out_slow_in;
+			global::Lottie.Forms.Droid.Resource.Interpolator.mr_linear_out_slow_in = global::LeonaStore.Android.Resource.Interpolator.mr_linear_out_slow_in;
+			global::Lottie.Forms.Droid.Resource.Layout.abc_action_bar_title_item = global::LeonaStore.Android.Resource.Layout.abc_action_bar_title_item;
+			global::Lottie.Forms.Droid.Resource.Layout.abc_action_bar_up_container = global::LeonaStore.Android.Resource.Layout.abc_action_bar_up_container;
+			global::Lottie.Forms.Droid.Resource.Layout.abc_action_bar_view_list_nav_layout = global::LeonaStore.Android.Resource.Layout.abc_action_bar_view_list_nav_layout;
+			global::Lottie.Forms.Droid.Resource.Layout.abc_action_menu_item_layout = global::LeonaStore.Android.Resource.Layout.abc_action_menu_item_layout;
+			global::Lottie.Forms.Droid.Resource.Layout.abc_action_menu_layout = global::LeonaStore.Android.Resource.Layout.abc_action_menu_layout;
+			global::Lottie.Forms.Droid.Resource.Layout.abc_action_mode_bar = global::LeonaStore.Android.Resource.Layout.abc_action_mode_bar;
+			global::Lottie.Forms.Droid.Resource.Layout.abc_action_mode_close_item_material = global::LeonaStore.Android.Resource.Layout.abc_action_mode_close_item_material;
+			global::Lottie.Forms.Droid.Resource.Layout.abc_activity_chooser_view = global::LeonaStore.Android.Resource.Layout.abc_activity_chooser_view;
+			global::Lottie.Forms.Droid.Resource.Layout.abc_activity_chooser_view_list_item = global::LeonaStore.Android.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Lottie.Forms.Droid.Resource.Layout.abc_alert_dialog_button_bar_material = global::LeonaStore.Android.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::Lottie.Forms.Droid.Resource.Layout.abc_alert_dialog_material = global::LeonaStore.Android.Resource.Layout.abc_alert_dialog_material;
+			global::Lottie.Forms.Droid.Resource.Layout.abc_alert_dialog_title_material = global::LeonaStore.Android.Resource.Layout.abc_alert_dialog_title_material;
+			global::Lottie.Forms.Droid.Resource.Layout.abc_dialog_title_material = global::LeonaStore.Android.Resource.Layout.abc_dialog_title_material;
+			global::Lottie.Forms.Droid.Resource.Layout.abc_expanded_menu_layout = global::LeonaStore.Android.Resource.Layout.abc_expanded_menu_layout;
+			global::Lottie.Forms.Droid.Resource.Layout.abc_list_menu_item_checkbox = global::LeonaStore.Android.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Lottie.Forms.Droid.Resource.Layout.abc_list_menu_item_icon = global::LeonaStore.Android.Resource.Layout.abc_list_menu_item_icon;
+			global::Lottie.Forms.Droid.Resource.Layout.abc_list_menu_item_layout = global::LeonaStore.Android.Resource.Layout.abc_list_menu_item_layout;
+			global::Lottie.Forms.Droid.Resource.Layout.abc_list_menu_item_radio = global::LeonaStore.Android.Resource.Layout.abc_list_menu_item_radio;
+			global::Lottie.Forms.Droid.Resource.Layout.abc_popup_menu_header_item_layout = global::LeonaStore.Android.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::Lottie.Forms.Droid.Resource.Layout.abc_popup_menu_item_layout = global::LeonaStore.Android.Resource.Layout.abc_popup_menu_item_layout;
+			global::Lottie.Forms.Droid.Resource.Layout.abc_screen_content_include = global::LeonaStore.Android.Resource.Layout.abc_screen_content_include;
+			global::Lottie.Forms.Droid.Resource.Layout.abc_screen_simple = global::LeonaStore.Android.Resource.Layout.abc_screen_simple;
+			global::Lottie.Forms.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode = global::LeonaStore.Android.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Lottie.Forms.Droid.Resource.Layout.abc_screen_toolbar = global::LeonaStore.Android.Resource.Layout.abc_screen_toolbar;
+			global::Lottie.Forms.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line = global::LeonaStore.Android.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Lottie.Forms.Droid.Resource.Layout.abc_search_view = global::LeonaStore.Android.Resource.Layout.abc_search_view;
+			global::Lottie.Forms.Droid.Resource.Layout.abc_select_dialog_material = global::LeonaStore.Android.Resource.Layout.abc_select_dialog_material;
+			global::Lottie.Forms.Droid.Resource.Layout.design_bottom_navigation_item = global::LeonaStore.Android.Resource.Layout.design_bottom_navigation_item;
+			global::Lottie.Forms.Droid.Resource.Layout.design_bottom_sheet_dialog = global::LeonaStore.Android.Resource.Layout.design_bottom_sheet_dialog;
+			global::Lottie.Forms.Droid.Resource.Layout.design_layout_snackbar = global::LeonaStore.Android.Resource.Layout.design_layout_snackbar;
+			global::Lottie.Forms.Droid.Resource.Layout.design_layout_snackbar_include = global::LeonaStore.Android.Resource.Layout.design_layout_snackbar_include;
+			global::Lottie.Forms.Droid.Resource.Layout.design_layout_tab_icon = global::LeonaStore.Android.Resource.Layout.design_layout_tab_icon;
+			global::Lottie.Forms.Droid.Resource.Layout.design_layout_tab_text = global::LeonaStore.Android.Resource.Layout.design_layout_tab_text;
+			global::Lottie.Forms.Droid.Resource.Layout.design_menu_item_action_area = global::LeonaStore.Android.Resource.Layout.design_menu_item_action_area;
+			global::Lottie.Forms.Droid.Resource.Layout.design_navigation_item = global::LeonaStore.Android.Resource.Layout.design_navigation_item;
+			global::Lottie.Forms.Droid.Resource.Layout.design_navigation_item_header = global::LeonaStore.Android.Resource.Layout.design_navigation_item_header;
+			global::Lottie.Forms.Droid.Resource.Layout.design_navigation_item_separator = global::LeonaStore.Android.Resource.Layout.design_navigation_item_separator;
+			global::Lottie.Forms.Droid.Resource.Layout.design_navigation_item_subheader = global::LeonaStore.Android.Resource.Layout.design_navigation_item_subheader;
+			global::Lottie.Forms.Droid.Resource.Layout.design_navigation_menu = global::LeonaStore.Android.Resource.Layout.design_navigation_menu;
+			global::Lottie.Forms.Droid.Resource.Layout.design_navigation_menu_item = global::LeonaStore.Android.Resource.Layout.design_navigation_menu_item;
+			global::Lottie.Forms.Droid.Resource.Layout.design_text_input_password_icon = global::LeonaStore.Android.Resource.Layout.design_text_input_password_icon;
+			global::Lottie.Forms.Droid.Resource.Layout.mr_chooser_dialog = global::LeonaStore.Android.Resource.Layout.mr_chooser_dialog;
+			global::Lottie.Forms.Droid.Resource.Layout.mr_chooser_list_item = global::LeonaStore.Android.Resource.Layout.mr_chooser_list_item;
+			global::Lottie.Forms.Droid.Resource.Layout.mr_controller_material_dialog_b = global::LeonaStore.Android.Resource.Layout.mr_controller_material_dialog_b;
+			global::Lottie.Forms.Droid.Resource.Layout.mr_controller_volume_item = global::LeonaStore.Android.Resource.Layout.mr_controller_volume_item;
+			global::Lottie.Forms.Droid.Resource.Layout.mr_playback_control = global::LeonaStore.Android.Resource.Layout.mr_playback_control;
+			global::Lottie.Forms.Droid.Resource.Layout.mr_volume_control = global::LeonaStore.Android.Resource.Layout.mr_volume_control;
+			global::Lottie.Forms.Droid.Resource.Layout.notification_action = global::LeonaStore.Android.Resource.Layout.notification_action;
+			global::Lottie.Forms.Droid.Resource.Layout.notification_action_tombstone = global::LeonaStore.Android.Resource.Layout.notification_action_tombstone;
+			global::Lottie.Forms.Droid.Resource.Layout.notification_media_action = global::LeonaStore.Android.Resource.Layout.notification_media_action;
+			global::Lottie.Forms.Droid.Resource.Layout.notification_media_cancel_action = global::LeonaStore.Android.Resource.Layout.notification_media_cancel_action;
+			global::Lottie.Forms.Droid.Resource.Layout.notification_template_big_media = global::LeonaStore.Android.Resource.Layout.notification_template_big_media;
+			global::Lottie.Forms.Droid.Resource.Layout.notification_template_big_media_custom = global::LeonaStore.Android.Resource.Layout.notification_template_big_media_custom;
+			global::Lottie.Forms.Droid.Resource.Layout.notification_template_big_media_narrow = global::LeonaStore.Android.Resource.Layout.notification_template_big_media_narrow;
+			global::Lottie.Forms.Droid.Resource.Layout.notification_template_big_media_narrow_custom = global::LeonaStore.Android.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::Lottie.Forms.Droid.Resource.Layout.notification_template_custom_big = global::LeonaStore.Android.Resource.Layout.notification_template_custom_big;
+			global::Lottie.Forms.Droid.Resource.Layout.notification_template_icon_group = global::LeonaStore.Android.Resource.Layout.notification_template_icon_group;
+			global::Lottie.Forms.Droid.Resource.Layout.notification_template_lines_media = global::LeonaStore.Android.Resource.Layout.notification_template_lines_media;
+			global::Lottie.Forms.Droid.Resource.Layout.notification_template_media = global::LeonaStore.Android.Resource.Layout.notification_template_media;
+			global::Lottie.Forms.Droid.Resource.Layout.notification_template_media_custom = global::LeonaStore.Android.Resource.Layout.notification_template_media_custom;
+			global::Lottie.Forms.Droid.Resource.Layout.notification_template_part_chronometer = global::LeonaStore.Android.Resource.Layout.notification_template_part_chronometer;
+			global::Lottie.Forms.Droid.Resource.Layout.notification_template_part_time = global::LeonaStore.Android.Resource.Layout.notification_template_part_time;
+			global::Lottie.Forms.Droid.Resource.Layout.select_dialog_item_material = global::LeonaStore.Android.Resource.Layout.select_dialog_item_material;
+			global::Lottie.Forms.Droid.Resource.Layout.select_dialog_multichoice_material = global::LeonaStore.Android.Resource.Layout.select_dialog_multichoice_material;
+			global::Lottie.Forms.Droid.Resource.Layout.select_dialog_singlechoice_material = global::LeonaStore.Android.Resource.Layout.select_dialog_singlechoice_material;
+			global::Lottie.Forms.Droid.Resource.Layout.support_simple_spinner_dropdown_item = global::LeonaStore.Android.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Lottie.Forms.Droid.Resource.String.ApplicationName = global::LeonaStore.Android.Resource.String.ApplicationName;
+			global::Lottie.Forms.Droid.Resource.String.Hello = global::LeonaStore.Android.Resource.String.Hello;
+			global::Lottie.Forms.Droid.Resource.String.abc_action_bar_home_description = global::LeonaStore.Android.Resource.String.abc_action_bar_home_description;
+			global::Lottie.Forms.Droid.Resource.String.abc_action_bar_home_description_format = global::LeonaStore.Android.Resource.String.abc_action_bar_home_description_format;
+			global::Lottie.Forms.Droid.Resource.String.abc_action_bar_home_subtitle_description_format = global::LeonaStore.Android.Resource.String.abc_action_bar_home_subtitle_description_format;
+			global::Lottie.Forms.Droid.Resource.String.abc_action_bar_up_description = global::LeonaStore.Android.Resource.String.abc_action_bar_up_description;
+			global::Lottie.Forms.Droid.Resource.String.abc_action_menu_overflow_description = global::LeonaStore.Android.Resource.String.abc_action_menu_overflow_description;
+			global::Lottie.Forms.Droid.Resource.String.abc_action_mode_done = global::LeonaStore.Android.Resource.String.abc_action_mode_done;
+			global::Lottie.Forms.Droid.Resource.String.abc_activity_chooser_view_see_all = global::LeonaStore.Android.Resource.String.abc_activity_chooser_view_see_all;
+			global::Lottie.Forms.Droid.Resource.String.abc_activitychooserview_choose_application = global::LeonaStore.Android.Resource.String.abc_activitychooserview_choose_application;
+			global::Lottie.Forms.Droid.Resource.String.abc_capital_off = global::LeonaStore.Android.Resource.String.abc_capital_off;
+			global::Lottie.Forms.Droid.Resource.String.abc_capital_on = global::LeonaStore.Android.Resource.String.abc_capital_on;
+			global::Lottie.Forms.Droid.Resource.String.abc_font_family_body_1_material = global::LeonaStore.Android.Resource.String.abc_font_family_body_1_material;
+			global::Lottie.Forms.Droid.Resource.String.abc_font_family_body_2_material = global::LeonaStore.Android.Resource.String.abc_font_family_body_2_material;
+			global::Lottie.Forms.Droid.Resource.String.abc_font_family_button_material = global::LeonaStore.Android.Resource.String.abc_font_family_button_material;
+			global::Lottie.Forms.Droid.Resource.String.abc_font_family_caption_material = global::LeonaStore.Android.Resource.String.abc_font_family_caption_material;
+			global::Lottie.Forms.Droid.Resource.String.abc_font_family_display_1_material = global::LeonaStore.Android.Resource.String.abc_font_family_display_1_material;
+			global::Lottie.Forms.Droid.Resource.String.abc_font_family_display_2_material = global::LeonaStore.Android.Resource.String.abc_font_family_display_2_material;
+			global::Lottie.Forms.Droid.Resource.String.abc_font_family_display_3_material = global::LeonaStore.Android.Resource.String.abc_font_family_display_3_material;
+			global::Lottie.Forms.Droid.Resource.String.abc_font_family_display_4_material = global::LeonaStore.Android.Resource.String.abc_font_family_display_4_material;
+			global::Lottie.Forms.Droid.Resource.String.abc_font_family_headline_material = global::LeonaStore.Android.Resource.String.abc_font_family_headline_material;
+			global::Lottie.Forms.Droid.Resource.String.abc_font_family_menu_material = global::LeonaStore.Android.Resource.String.abc_font_family_menu_material;
+			global::Lottie.Forms.Droid.Resource.String.abc_font_family_subhead_material = global::LeonaStore.Android.Resource.String.abc_font_family_subhead_material;
+			global::Lottie.Forms.Droid.Resource.String.abc_font_family_title_material = global::LeonaStore.Android.Resource.String.abc_font_family_title_material;
+			global::Lottie.Forms.Droid.Resource.String.abc_search_hint = global::LeonaStore.Android.Resource.String.abc_search_hint;
+			global::Lottie.Forms.Droid.Resource.String.abc_searchview_description_clear = global::LeonaStore.Android.Resource.String.abc_searchview_description_clear;
+			global::Lottie.Forms.Droid.Resource.String.abc_searchview_description_query = global::LeonaStore.Android.Resource.String.abc_searchview_description_query;
+			global::Lottie.Forms.Droid.Resource.String.abc_searchview_description_search = global::LeonaStore.Android.Resource.String.abc_searchview_description_search;
+			global::Lottie.Forms.Droid.Resource.String.abc_searchview_description_submit = global::LeonaStore.Android.Resource.String.abc_searchview_description_submit;
+			global::Lottie.Forms.Droid.Resource.String.abc_searchview_description_voice = global::LeonaStore.Android.Resource.String.abc_searchview_description_voice;
+			global::Lottie.Forms.Droid.Resource.String.abc_shareactionprovider_share_with = global::LeonaStore.Android.Resource.String.abc_shareactionprovider_share_with;
+			global::Lottie.Forms.Droid.Resource.String.abc_shareactionprovider_share_with_application = global::LeonaStore.Android.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Lottie.Forms.Droid.Resource.String.abc_toolbar_collapse_description = global::LeonaStore.Android.Resource.String.abc_toolbar_collapse_description;
+			global::Lottie.Forms.Droid.Resource.String.appbar_scrolling_view_behavior = global::LeonaStore.Android.Resource.String.appbar_scrolling_view_behavior;
+			global::Lottie.Forms.Droid.Resource.String.bottom_sheet_behavior = global::LeonaStore.Android.Resource.String.bottom_sheet_behavior;
+			global::Lottie.Forms.Droid.Resource.String.character_counter_pattern = global::LeonaStore.Android.Resource.String.character_counter_pattern;
+			global::Lottie.Forms.Droid.Resource.String.mr_button_content_description = global::LeonaStore.Android.Resource.String.mr_button_content_description;
+			global::Lottie.Forms.Droid.Resource.String.mr_cast_button_connected = global::LeonaStore.Android.Resource.String.mr_cast_button_connected;
+			global::Lottie.Forms.Droid.Resource.String.mr_cast_button_connecting = global::LeonaStore.Android.Resource.String.mr_cast_button_connecting;
+			global::Lottie.Forms.Droid.Resource.String.mr_cast_button_disconnected = global::LeonaStore.Android.Resource.String.mr_cast_button_disconnected;
+			global::Lottie.Forms.Droid.Resource.String.mr_chooser_searching = global::LeonaStore.Android.Resource.String.mr_chooser_searching;
+			global::Lottie.Forms.Droid.Resource.String.mr_chooser_title = global::LeonaStore.Android.Resource.String.mr_chooser_title;
+			global::Lottie.Forms.Droid.Resource.String.mr_controller_album_art = global::LeonaStore.Android.Resource.String.mr_controller_album_art;
+			global::Lottie.Forms.Droid.Resource.String.mr_controller_casting_screen = global::LeonaStore.Android.Resource.String.mr_controller_casting_screen;
+			global::Lottie.Forms.Droid.Resource.String.mr_controller_close_description = global::LeonaStore.Android.Resource.String.mr_controller_close_description;
+			global::Lottie.Forms.Droid.Resource.String.mr_controller_collapse_group = global::LeonaStore.Android.Resource.String.mr_controller_collapse_group;
+			global::Lottie.Forms.Droid.Resource.String.mr_controller_disconnect = global::LeonaStore.Android.Resource.String.mr_controller_disconnect;
+			global::Lottie.Forms.Droid.Resource.String.mr_controller_expand_group = global::LeonaStore.Android.Resource.String.mr_controller_expand_group;
+			global::Lottie.Forms.Droid.Resource.String.mr_controller_no_info_available = global::LeonaStore.Android.Resource.String.mr_controller_no_info_available;
+			global::Lottie.Forms.Droid.Resource.String.mr_controller_no_media_selected = global::LeonaStore.Android.Resource.String.mr_controller_no_media_selected;
+			global::Lottie.Forms.Droid.Resource.String.mr_controller_pause = global::LeonaStore.Android.Resource.String.mr_controller_pause;
+			global::Lottie.Forms.Droid.Resource.String.mr_controller_play = global::LeonaStore.Android.Resource.String.mr_controller_play;
+			global::Lottie.Forms.Droid.Resource.String.mr_controller_stop = global::LeonaStore.Android.Resource.String.mr_controller_stop;
+			global::Lottie.Forms.Droid.Resource.String.mr_controller_stop_casting = global::LeonaStore.Android.Resource.String.mr_controller_stop_casting;
+			global::Lottie.Forms.Droid.Resource.String.mr_controller_volume_slider = global::LeonaStore.Android.Resource.String.mr_controller_volume_slider;
+			global::Lottie.Forms.Droid.Resource.String.mr_system_route_name = global::LeonaStore.Android.Resource.String.mr_system_route_name;
+			global::Lottie.Forms.Droid.Resource.String.mr_user_route_category_name = global::LeonaStore.Android.Resource.String.mr_user_route_category_name;
+			global::Lottie.Forms.Droid.Resource.String.password_toggle_content_description = global::LeonaStore.Android.Resource.String.password_toggle_content_description;
+			global::Lottie.Forms.Droid.Resource.String.path_password_eye = global::LeonaStore.Android.Resource.String.path_password_eye;
+			global::Lottie.Forms.Droid.Resource.String.path_password_eye_mask_strike_through = global::LeonaStore.Android.Resource.String.path_password_eye_mask_strike_through;
+			global::Lottie.Forms.Droid.Resource.String.path_password_eye_mask_visible = global::LeonaStore.Android.Resource.String.path_password_eye_mask_visible;
+			global::Lottie.Forms.Droid.Resource.String.path_password_strike_through = global::LeonaStore.Android.Resource.String.path_password_strike_through;
+			global::Lottie.Forms.Droid.Resource.String.search_menu_title = global::LeonaStore.Android.Resource.String.search_menu_title;
+			global::Lottie.Forms.Droid.Resource.String.status_bar_notification_info_overflow = global::LeonaStore.Android.Resource.String.status_bar_notification_info_overflow;
+			global::Lottie.Forms.Droid.Resource.Style.AlertDialog_AppCompat = global::LeonaStore.Android.Resource.Style.AlertDialog_AppCompat;
+			global::Lottie.Forms.Droid.Resource.Style.AlertDialog_AppCompat_Light = global::LeonaStore.Android.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Lottie.Forms.Droid.Resource.Style.Animation_AppCompat_Dialog = global::LeonaStore.Android.Resource.Style.Animation_AppCompat_Dialog;
+			global::Lottie.Forms.Droid.Resource.Style.Animation_AppCompat_DropDownUp = global::LeonaStore.Android.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Lottie.Forms.Droid.Resource.Style.Animation_Design_BottomSheetDialog = global::LeonaStore.Android.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Lottie.Forms.Droid.Resource.Style.Base_AlertDialog_AppCompat = global::LeonaStore.Android.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Lottie.Forms.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light = global::LeonaStore.Android.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Animation_AppCompat_Dialog = global::LeonaStore.Android.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::LeonaStore.Android.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Lottie.Forms.Droid.Resource.Style.Base_CardView = global::LeonaStore.Android.Resource.Style.Base_CardView;
+			global::Lottie.Forms.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat = global::LeonaStore.Android.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Lottie.Forms.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::LeonaStore.Android.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Lottie.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat = global::LeonaStore.Android.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Lottie.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::LeonaStore.Android.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Lottie.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::LeonaStore.Android.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Lottie.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button = global::LeonaStore.Android.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Lottie.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::LeonaStore.Android.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Lottie.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::LeonaStore.Android.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Lottie.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::LeonaStore.Android.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Lottie.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::LeonaStore.Android.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Lottie.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::LeonaStore.Android.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Lottie.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::LeonaStore.Android.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Lottie.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::LeonaStore.Android.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Lottie.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large = global::LeonaStore.Android.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Lottie.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::LeonaStore.Android.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Lottie.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::LeonaStore.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Lottie.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::LeonaStore.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Lottie.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::LeonaStore.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Lottie.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::LeonaStore.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Lottie.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::LeonaStore.Android.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Lottie.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::LeonaStore.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Lottie.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::LeonaStore.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Lottie.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::LeonaStore.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Lottie.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small = global::LeonaStore.Android.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Lottie.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::LeonaStore.Android.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Lottie.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::LeonaStore.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Lottie.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::LeonaStore.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Lottie.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title = global::LeonaStore.Android.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Lottie.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::LeonaStore.Android.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Lottie.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::LeonaStore.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Lottie.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::LeonaStore.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Lottie.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::LeonaStore.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Lottie.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::LeonaStore.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Lottie.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::LeonaStore.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Lottie.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::LeonaStore.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Lottie.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::LeonaStore.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Lottie.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::LeonaStore.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Lottie.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::LeonaStore.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Lottie.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::LeonaStore.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Lottie.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::LeonaStore.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Lottie.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::LeonaStore.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Lottie.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::LeonaStore.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Lottie.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::LeonaStore.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Lottie.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::LeonaStore.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Lottie.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::LeonaStore.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Lottie.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::LeonaStore.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Lottie.Forms.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::LeonaStore.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Lottie.Forms.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::LeonaStore.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Lottie.Forms.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::LeonaStore.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Theme_AppCompat = global::LeonaStore.Android.Resource.Style.Base_Theme_AppCompat;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::LeonaStore.Android.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Dialog = global::LeonaStore.Android.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::LeonaStore.Android.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::LeonaStore.Android.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::LeonaStore.Android.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::LeonaStore.Android.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Light = global::LeonaStore.Android.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::LeonaStore.Android.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::LeonaStore.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::LeonaStore.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::LeonaStore.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::LeonaStore.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::LeonaStore.Android.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Lottie.Forms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat = global::LeonaStore.Android.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Lottie.Forms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::LeonaStore.Android.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Lottie.Forms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::LeonaStore.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Lottie.Forms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::LeonaStore.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Lottie.Forms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::LeonaStore.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::Lottie.Forms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::LeonaStore.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Lottie.Forms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::LeonaStore.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Lottie.Forms.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::LeonaStore.Android.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
+			global::Lottie.Forms.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::LeonaStore.Android.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
+			global::Lottie.Forms.Droid.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog = global::LeonaStore.Android.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog;
+			global::Lottie.Forms.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::LeonaStore.Android.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
+			global::Lottie.Forms.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::LeonaStore.Android.Resource.Style.Base_V12_Widget_AppCompat_EditText;
+			global::Lottie.Forms.Droid.Resource.Style.Base_V21_Theme_AppCompat = global::LeonaStore.Android.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Lottie.Forms.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::LeonaStore.Android.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Lottie.Forms.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light = global::LeonaStore.Android.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Lottie.Forms.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::LeonaStore.Android.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Lottie.Forms.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::LeonaStore.Android.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::Lottie.Forms.Droid.Resource.Style.Base_V22_Theme_AppCompat = global::LeonaStore.Android.Resource.Style.Base_V22_Theme_AppCompat;
+			global::Lottie.Forms.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light = global::LeonaStore.Android.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::Lottie.Forms.Droid.Resource.Style.Base_V23_Theme_AppCompat = global::LeonaStore.Android.Resource.Style.Base_V23_Theme_AppCompat;
+			global::Lottie.Forms.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light = global::LeonaStore.Android.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::Lottie.Forms.Droid.Resource.Style.Base_V7_Theme_AppCompat = global::LeonaStore.Android.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Lottie.Forms.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::LeonaStore.Android.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Lottie.Forms.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light = global::LeonaStore.Android.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Lottie.Forms.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::LeonaStore.Android.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Lottie.Forms.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::LeonaStore.Android.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::Lottie.Forms.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::LeonaStore.Android.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Lottie.Forms.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::LeonaStore.Android.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar = global::LeonaStore.Android.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::LeonaStore.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::LeonaStore.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::LeonaStore.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::LeonaStore.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton = global::LeonaStore.Android.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::LeonaStore.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::LeonaStore.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode = global::LeonaStore.Android.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::LeonaStore.Android.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::LeonaStore.Android.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Button = global::LeonaStore.Android.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::LeonaStore.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::LeonaStore.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::LeonaStore.Android.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::LeonaStore.Android.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small = global::LeonaStore.Android.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::LeonaStore.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::LeonaStore.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::LeonaStore.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::LeonaStore.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::LeonaStore.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::LeonaStore.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::LeonaStore.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::LeonaStore.Android.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Widget_AppCompat_EditText = global::LeonaStore.Android.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton = global::LeonaStore.Android.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::LeonaStore.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::LeonaStore.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::LeonaStore.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::LeonaStore.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::LeonaStore.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::LeonaStore.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::LeonaStore.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::LeonaStore.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::LeonaStore.Android.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::LeonaStore.Android.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ListView = global::LeonaStore.Android.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::LeonaStore.Android.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::LeonaStore.Android.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::LeonaStore.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::LeonaStore.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::LeonaStore.Android.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::LeonaStore.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::LeonaStore.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar = global::LeonaStore.Android.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::LeonaStore.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::LeonaStore.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Widget_AppCompat_SearchView = global::LeonaStore.Android.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::LeonaStore.Android.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar = global::LeonaStore.Android.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::LeonaStore.Android.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Spinner = global::LeonaStore.Android.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::LeonaStore.Android.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::LeonaStore.Android.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar = global::LeonaStore.Android.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::LeonaStore.Android.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Widget_Design_AppBarLayout = global::LeonaStore.Android.Resource.Style.Base_Widget_Design_AppBarLayout;
+			global::Lottie.Forms.Droid.Resource.Style.Base_Widget_Design_TabLayout = global::LeonaStore.Android.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Lottie.Forms.Droid.Resource.Style.CardView = global::LeonaStore.Android.Resource.Style.CardView;
+			global::Lottie.Forms.Droid.Resource.Style.CardView_Dark = global::LeonaStore.Android.Resource.Style.CardView_Dark;
+			global::Lottie.Forms.Droid.Resource.Style.CardView_Light = global::LeonaStore.Android.Resource.Style.CardView_Light;
+			global::Lottie.Forms.Droid.Resource.Style.Platform_AppCompat = global::LeonaStore.Android.Resource.Style.Platform_AppCompat;
+			global::Lottie.Forms.Droid.Resource.Style.Platform_AppCompat_Light = global::LeonaStore.Android.Resource.Style.Platform_AppCompat_Light;
+			global::Lottie.Forms.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat = global::LeonaStore.Android.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Lottie.Forms.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::LeonaStore.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Lottie.Forms.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::LeonaStore.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Lottie.Forms.Droid.Resource.Style.Platform_V11_AppCompat = global::LeonaStore.Android.Resource.Style.Platform_V11_AppCompat;
+			global::Lottie.Forms.Droid.Resource.Style.Platform_V11_AppCompat_Light = global::LeonaStore.Android.Resource.Style.Platform_V11_AppCompat_Light;
+			global::Lottie.Forms.Droid.Resource.Style.Platform_V14_AppCompat = global::LeonaStore.Android.Resource.Style.Platform_V14_AppCompat;
+			global::Lottie.Forms.Droid.Resource.Style.Platform_V14_AppCompat_Light = global::LeonaStore.Android.Resource.Style.Platform_V14_AppCompat_Light;
+			global::Lottie.Forms.Droid.Resource.Style.Platform_V21_AppCompat = global::LeonaStore.Android.Resource.Style.Platform_V21_AppCompat;
+			global::Lottie.Forms.Droid.Resource.Style.Platform_V21_AppCompat_Light = global::LeonaStore.Android.Resource.Style.Platform_V21_AppCompat_Light;
+			global::Lottie.Forms.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner = global::LeonaStore.Android.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Lottie.Forms.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::LeonaStore.Android.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Lottie.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::LeonaStore.Android.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Lottie.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::LeonaStore.Android.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Lottie.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::LeonaStore.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Lottie.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::LeonaStore.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Lottie.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::LeonaStore.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Lottie.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::LeonaStore.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Lottie.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::LeonaStore.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Lottie.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::LeonaStore.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Lottie.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::LeonaStore.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Lottie.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::LeonaStore.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Lottie.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::LeonaStore.Android.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Lottie.Forms.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::LeonaStore.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::Lottie.Forms.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::LeonaStore.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_AppCompat = global::LeonaStore.Android.Resource.Style.TextAppearance_AppCompat;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Body1 = global::LeonaStore.Android.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Body2 = global::LeonaStore.Android.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Button = global::LeonaStore.Android.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Caption = global::LeonaStore.Android.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Display1 = global::LeonaStore.Android.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Display2 = global::LeonaStore.Android.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Display3 = global::LeonaStore.Android.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Display4 = global::LeonaStore.Android.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Headline = global::LeonaStore.Android.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Inverse = global::LeonaStore.Android.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Large = global::LeonaStore.Android.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::LeonaStore.Android.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::LeonaStore.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::LeonaStore.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::LeonaStore.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::LeonaStore.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Medium = global::LeonaStore.Android.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::LeonaStore.Android.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Menu = global::LeonaStore.Android.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Notification = global::LeonaStore.Android.Resource.Style.TextAppearance_AppCompat_Notification;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Info = global::LeonaStore.Android.Resource.Style.TextAppearance_AppCompat_Notification_Info;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Info_Media = global::LeonaStore.Android.Resource.Style.TextAppearance_AppCompat_Notification_Info_Media;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Line2 = global::LeonaStore.Android.Resource.Style.TextAppearance_AppCompat_Notification_Line2;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Line2_Media = global::LeonaStore.Android.Resource.Style.TextAppearance_AppCompat_Notification_Line2_Media;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Media = global::LeonaStore.Android.Resource.Style.TextAppearance_AppCompat_Notification_Media;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Time = global::LeonaStore.Android.Resource.Style.TextAppearance_AppCompat_Notification_Time;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Time_Media = global::LeonaStore.Android.Resource.Style.TextAppearance_AppCompat_Notification_Time_Media;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Title = global::LeonaStore.Android.Resource.Style.TextAppearance_AppCompat_Notification_Title;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Title_Media = global::LeonaStore.Android.Resource.Style.TextAppearance_AppCompat_Notification_Title_Media;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::LeonaStore.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::LeonaStore.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Small = global::LeonaStore.Android.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::LeonaStore.Android.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Subhead = global::LeonaStore.Android.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::LeonaStore.Android.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Title = global::LeonaStore.Android.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::LeonaStore.Android.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::LeonaStore.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::LeonaStore.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::LeonaStore.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::LeonaStore.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::LeonaStore.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::LeonaStore.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::LeonaStore.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::LeonaStore.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::LeonaStore.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::LeonaStore.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::LeonaStore.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::LeonaStore.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::LeonaStore.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::LeonaStore.Android.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::LeonaStore.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::LeonaStore.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::LeonaStore.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::LeonaStore.Android.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::LeonaStore.Android.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::LeonaStore.Android.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_Design_Counter = global::LeonaStore.Android.Resource.Style.TextAppearance_Design_Counter;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow = global::LeonaStore.Android.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_Design_Error = global::LeonaStore.Android.Resource.Style.TextAppearance_Design_Error;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_Design_Hint = global::LeonaStore.Android.Resource.Style.TextAppearance_Design_Hint;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message = global::LeonaStore.Android.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_Design_Tab = global::LeonaStore.Android.Resource.Style.TextAppearance_Design_Tab;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_MediaRouter_PrimaryText = global::LeonaStore.Android.Resource.Style.TextAppearance_MediaRouter_PrimaryText;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_MediaRouter_SecondaryText = global::LeonaStore.Android.Resource.Style.TextAppearance_MediaRouter_SecondaryText;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_MediaRouter_Title = global::LeonaStore.Android.Resource.Style.TextAppearance_MediaRouter_Title;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_StatusBar_EventContent = global::LeonaStore.Android.Resource.Style.TextAppearance_StatusBar_EventContent;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Info = global::LeonaStore.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Info;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Line2 = global::LeonaStore.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Line2;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Time = global::LeonaStore.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Time;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Title = global::LeonaStore.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Title;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::LeonaStore.Android.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::LeonaStore.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Lottie.Forms.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::LeonaStore.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Lottie.Forms.Droid.Resource.Style.Theme_AppCompat = global::LeonaStore.Android.Resource.Style.Theme_AppCompat;
+			global::Lottie.Forms.Droid.Resource.Style.Theme_AppCompat_CompactMenu = global::LeonaStore.Android.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Lottie.Forms.Droid.Resource.Style.Theme_AppCompat_DayNight = global::LeonaStore.Android.Resource.Style.Theme_AppCompat_DayNight;
+			global::Lottie.Forms.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::LeonaStore.Android.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Lottie.Forms.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::LeonaStore.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Lottie.Forms.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::LeonaStore.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Lottie.Forms.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::LeonaStore.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Lottie.Forms.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::LeonaStore.Android.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Lottie.Forms.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::LeonaStore.Android.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Lottie.Forms.Droid.Resource.Style.Theme_AppCompat_Dialog = global::LeonaStore.Android.Resource.Style.Theme_AppCompat_Dialog;
+			global::Lottie.Forms.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert = global::LeonaStore.Android.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Lottie.Forms.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::LeonaStore.Android.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Lottie.Forms.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::LeonaStore.Android.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Lottie.Forms.Droid.Resource.Style.Theme_AppCompat_Light = global::LeonaStore.Android.Resource.Style.Theme_AppCompat_Light;
+			global::Lottie.Forms.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::LeonaStore.Android.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Lottie.Forms.Droid.Resource.Style.Theme_AppCompat_Light_Dialog = global::LeonaStore.Android.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Lottie.Forms.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::LeonaStore.Android.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Lottie.Forms.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::LeonaStore.Android.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Lottie.Forms.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::LeonaStore.Android.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Lottie.Forms.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::LeonaStore.Android.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Lottie.Forms.Droid.Resource.Style.Theme_AppCompat_NoActionBar = global::LeonaStore.Android.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Lottie.Forms.Droid.Resource.Style.Theme_Design = global::LeonaStore.Android.Resource.Style.Theme_Design;
+			global::Lottie.Forms.Droid.Resource.Style.Theme_Design_BottomSheetDialog = global::LeonaStore.Android.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::Lottie.Forms.Droid.Resource.Style.Theme_Design_Light = global::LeonaStore.Android.Resource.Style.Theme_Design_Light;
+			global::Lottie.Forms.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::LeonaStore.Android.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::Lottie.Forms.Droid.Resource.Style.Theme_Design_Light_NoActionBar = global::LeonaStore.Android.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::Lottie.Forms.Droid.Resource.Style.Theme_Design_NoActionBar = global::LeonaStore.Android.Resource.Style.Theme_Design_NoActionBar;
+			global::Lottie.Forms.Droid.Resource.Style.Theme_MediaRouter = global::LeonaStore.Android.Resource.Style.Theme_MediaRouter;
+			global::Lottie.Forms.Droid.Resource.Style.Theme_MediaRouter_Light = global::LeonaStore.Android.Resource.Style.Theme_MediaRouter_Light;
+			global::Lottie.Forms.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::LeonaStore.Android.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
+			global::Lottie.Forms.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel = global::LeonaStore.Android.Resource.Style.Theme_MediaRouter_LightControlPanel;
+			global::Lottie.Forms.Droid.Resource.Style.ThemeOverlay_AppCompat = global::LeonaStore.Android.Resource.Style.ThemeOverlay_AppCompat;
+			global::Lottie.Forms.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::LeonaStore.Android.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Lottie.Forms.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark = global::LeonaStore.Android.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Lottie.Forms.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::LeonaStore.Android.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Lottie.Forms.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::LeonaStore.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::Lottie.Forms.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::LeonaStore.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Lottie.Forms.Droid.Resource.Style.ThemeOverlay_AppCompat_Light = global::LeonaStore.Android.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Lottie.Forms.Droid.Resource.Style.ThemeOverlay_MediaRouter_Dark = global::LeonaStore.Android.Resource.Style.ThemeOverlay_MediaRouter_Dark;
+			global::Lottie.Forms.Droid.Resource.Style.ThemeOverlay_MediaRouter_Light = global::LeonaStore.Android.Resource.Style.ThemeOverlay_MediaRouter_Light;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_ActionBar = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_ActionButton = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_ActionMode = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_Button = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_Button;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_Button_Borderless = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_Button_Colored = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_Button_Small = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_ButtonBar = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_EditText = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_EditText;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_ImageButton = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_ImageButton;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_Light_SearchView = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_ListMenuView = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_ListView = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_ListView;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_ListView_Menu = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_NotificationActionContainer = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_NotificationActionContainer;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_NotificationActionText = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_NotificationActionText;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_PopupMenu = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_PopupWindow = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_ProgressBar = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_RatingBar = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_SearchView = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_SearchView;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_SeekBar = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_Spinner = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_Spinner;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_Toolbar = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::LeonaStore.Android.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_Design_AppBarLayout = global::LeonaStore.Android.Resource.Style.Widget_Design_AppBarLayout;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_Design_BottomNavigationView = global::LeonaStore.Android.Resource.Style.Widget_Design_BottomNavigationView;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_Design_BottomSheet_Modal = global::LeonaStore.Android.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_Design_CollapsingToolbar = global::LeonaStore.Android.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_Design_CoordinatorLayout = global::LeonaStore.Android.Resource.Style.Widget_Design_CoordinatorLayout;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_Design_FloatingActionButton = global::LeonaStore.Android.Resource.Style.Widget_Design_FloatingActionButton;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_Design_NavigationView = global::LeonaStore.Android.Resource.Style.Widget_Design_NavigationView;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::LeonaStore.Android.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_Design_Snackbar = global::LeonaStore.Android.Resource.Style.Widget_Design_Snackbar;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_Design_TabLayout = global::LeonaStore.Android.Resource.Style.Widget_Design_TabLayout;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_Design_TextInputLayout = global::LeonaStore.Android.Resource.Style.Widget_Design_TextInputLayout;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::LeonaStore.Android.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
+			global::Lottie.Forms.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::LeonaStore.Android.Resource.Style.Widget_MediaRouter_MediaRouteButton;
+			global::Lottie.Forms.Droid.Resource.Styleable.ActionBar = global::LeonaStore.Android.Resource.Styleable.ActionBar;
+			global::Lottie.Forms.Droid.Resource.Styleable.ActionBar_background = global::LeonaStore.Android.Resource.Styleable.ActionBar_background;
+			global::Lottie.Forms.Droid.Resource.Styleable.ActionBar_backgroundSplit = global::LeonaStore.Android.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Lottie.Forms.Droid.Resource.Styleable.ActionBar_backgroundStacked = global::LeonaStore.Android.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Lottie.Forms.Droid.Resource.Styleable.ActionBar_contentInsetEnd = global::LeonaStore.Android.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Lottie.Forms.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::LeonaStore.Android.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::Lottie.Forms.Droid.Resource.Styleable.ActionBar_contentInsetLeft = global::LeonaStore.Android.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Lottie.Forms.Droid.Resource.Styleable.ActionBar_contentInsetRight = global::LeonaStore.Android.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Lottie.Forms.Droid.Resource.Styleable.ActionBar_contentInsetStart = global::LeonaStore.Android.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Lottie.Forms.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::LeonaStore.Android.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::Lottie.Forms.Droid.Resource.Styleable.ActionBar_customNavigationLayout = global::LeonaStore.Android.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Lottie.Forms.Droid.Resource.Styleable.ActionBar_displayOptions = global::LeonaStore.Android.Resource.Styleable.ActionBar_displayOptions;
+			global::Lottie.Forms.Droid.Resource.Styleable.ActionBar_divider = global::LeonaStore.Android.Resource.Styleable.ActionBar_divider;
+			global::Lottie.Forms.Droid.Resource.Styleable.ActionBar_elevation = global::LeonaStore.Android.Resource.Styleable.ActionBar_elevation;
+			global::Lottie.Forms.Droid.Resource.Styleable.ActionBar_height = global::LeonaStore.Android.Resource.Styleable.ActionBar_height;
+			global::Lottie.Forms.Droid.Resource.Styleable.ActionBar_hideOnContentScroll = global::LeonaStore.Android.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Lottie.Forms.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator = global::LeonaStore.Android.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Lottie.Forms.Droid.Resource.Styleable.ActionBar_homeLayout = global::LeonaStore.Android.Resource.Styleable.ActionBar_homeLayout;
+			global::Lottie.Forms.Droid.Resource.Styleable.ActionBar_icon = global::LeonaStore.Android.Resource.Styleable.ActionBar_icon;
+			global::Lottie.Forms.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::LeonaStore.Android.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Lottie.Forms.Droid.Resource.Styleable.ActionBar_itemPadding = global::LeonaStore.Android.Resource.Styleable.ActionBar_itemPadding;
+			global::Lottie.Forms.Droid.Resource.Styleable.ActionBar_logo = global::LeonaStore.Android.Resource.Styleable.ActionBar_logo;
+			global::Lottie.Forms.Droid.Resource.Styleable.ActionBar_navigationMode = global::LeonaStore.Android.Resource.Styleable.ActionBar_navigationMode;
+			global::Lottie.Forms.Droid.Resource.Styleable.ActionBar_popupTheme = global::LeonaStore.Android.Resource.Styleable.ActionBar_popupTheme;
+			global::Lottie.Forms.Droid.Resource.Styleable.ActionBar_progressBarPadding = global::LeonaStore.Android.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Lottie.Forms.Droid.Resource.Styleable.ActionBar_progressBarStyle = global::LeonaStore.Android.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Lottie.Forms.Droid.Resource.Styleable.ActionBar_subtitle = global::LeonaStore.Android.Resource.Styleable.ActionBar_subtitle;
+			global::Lottie.Forms.Droid.Resource.Styleable.ActionBar_subtitleTextStyle = global::LeonaStore.Android.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Lottie.Forms.Droid.Resource.Styleable.ActionBar_title = global::LeonaStore.Android.Resource.Styleable.ActionBar_title;
+			global::Lottie.Forms.Droid.Resource.Styleable.ActionBar_titleTextStyle = global::LeonaStore.Android.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Lottie.Forms.Droid.Resource.Styleable.ActionBarLayout = global::LeonaStore.Android.Resource.Styleable.ActionBarLayout;
+			global::Lottie.Forms.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::LeonaStore.Android.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Lottie.Forms.Droid.Resource.Styleable.ActionMenuItemView = global::LeonaStore.Android.Resource.Styleable.ActionMenuItemView;
+			global::Lottie.Forms.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth = global::LeonaStore.Android.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Lottie.Forms.Droid.Resource.Styleable.ActionMenuView = global::LeonaStore.Android.Resource.Styleable.ActionMenuView;
+			global::Lottie.Forms.Droid.Resource.Styleable.ActionMode = global::LeonaStore.Android.Resource.Styleable.ActionMode;
+			global::Lottie.Forms.Droid.Resource.Styleable.ActionMode_background = global::LeonaStore.Android.Resource.Styleable.ActionMode_background;
+			global::Lottie.Forms.Droid.Resource.Styleable.ActionMode_backgroundSplit = global::LeonaStore.Android.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Lottie.Forms.Droid.Resource.Styleable.ActionMode_closeItemLayout = global::LeonaStore.Android.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Lottie.Forms.Droid.Resource.Styleable.ActionMode_height = global::LeonaStore.Android.Resource.Styleable.ActionMode_height;
+			global::Lottie.Forms.Droid.Resource.Styleable.ActionMode_subtitleTextStyle = global::LeonaStore.Android.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Lottie.Forms.Droid.Resource.Styleable.ActionMode_titleTextStyle = global::LeonaStore.Android.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Lottie.Forms.Droid.Resource.Styleable.ActivityChooserView = global::LeonaStore.Android.Resource.Styleable.ActivityChooserView;
+			global::Lottie.Forms.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::LeonaStore.Android.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Lottie.Forms.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount = global::LeonaStore.Android.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Lottie.Forms.Droid.Resource.Styleable.AlertDialog = global::LeonaStore.Android.Resource.Styleable.AlertDialog;
+			global::Lottie.Forms.Droid.Resource.Styleable.AlertDialog_android_layout = global::LeonaStore.Android.Resource.Styleable.AlertDialog_android_layout;
+			global::Lottie.Forms.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::LeonaStore.Android.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Lottie.Forms.Droid.Resource.Styleable.AlertDialog_listItemLayout = global::LeonaStore.Android.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Lottie.Forms.Droid.Resource.Styleable.AlertDialog_listLayout = global::LeonaStore.Android.Resource.Styleable.AlertDialog_listLayout;
+			global::Lottie.Forms.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::LeonaStore.Android.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Lottie.Forms.Droid.Resource.Styleable.AlertDialog_showTitle = global::LeonaStore.Android.Resource.Styleable.AlertDialog_showTitle;
+			global::Lottie.Forms.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::LeonaStore.Android.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppBarLayout = global::LeonaStore.Android.Resource.Styleable.AppBarLayout;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppBarLayout_android_background = global::LeonaStore.Android.Resource.Styleable.AppBarLayout_android_background;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppBarLayout_elevation = global::LeonaStore.Android.Resource.Styleable.AppBarLayout_elevation;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppBarLayout_expanded = global::LeonaStore.Android.Resource.Styleable.AppBarLayout_expanded;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppBarLayoutStates = global::LeonaStore.Android.Resource.Styleable.AppBarLayoutStates;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::LeonaStore.Android.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::LeonaStore.Android.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppBarLayout_Layout = global::LeonaStore.Android.Resource.Styleable.AppBarLayout_Layout;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::LeonaStore.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::LeonaStore.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatImageView = global::LeonaStore.Android.Resource.Styleable.AppCompatImageView;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatImageView_android_src = global::LeonaStore.Android.Resource.Styleable.AppCompatImageView_android_src;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatImageView_srcCompat = global::LeonaStore.Android.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatSeekBar = global::LeonaStore.Android.Resource.Styleable.AppCompatSeekBar;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb = global::LeonaStore.Android.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatSeekBar_tickMark = global::LeonaStore.Android.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::LeonaStore.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::LeonaStore.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTextHelper = global::LeonaStore.Android.Resource.Styleable.AppCompatTextHelper;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::LeonaStore.Android.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::LeonaStore.Android.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::LeonaStore.Android.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::LeonaStore.Android.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::LeonaStore.Android.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::LeonaStore.Android.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::LeonaStore.Android.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTextView = global::LeonaStore.Android.Resource.Styleable.AppCompatTextView;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance = global::LeonaStore.Android.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTextView_textAllCaps = global::LeonaStore.Android.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarSize = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_buttonStyle = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_colorAccent = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_colorPrimary = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_controlBackground = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_dialogTheme = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_dividerVertical = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_editTextBackground = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_editTextColor = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_editTextStyle = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_panelBackground = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_switchStyle = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_windowActionBar = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::Lottie.Forms.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle = global::LeonaStore.Android.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Lottie.Forms.Droid.Resource.Styleable.BottomNavigationView = global::LeonaStore.Android.Resource.Styleable.BottomNavigationView;
+			global::Lottie.Forms.Droid.Resource.Styleable.BottomNavigationView_elevation = global::LeonaStore.Android.Resource.Styleable.BottomNavigationView_elevation;
+			global::Lottie.Forms.Droid.Resource.Styleable.BottomNavigationView_itemBackground = global::LeonaStore.Android.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::Lottie.Forms.Droid.Resource.Styleable.BottomNavigationView_itemIconTint = global::LeonaStore.Android.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::Lottie.Forms.Droid.Resource.Styleable.BottomNavigationView_itemTextColor = global::LeonaStore.Android.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::Lottie.Forms.Droid.Resource.Styleable.BottomNavigationView_menu = global::LeonaStore.Android.Resource.Styleable.BottomNavigationView_menu;
+			global::Lottie.Forms.Droid.Resource.Styleable.BottomSheetBehavior_Layout = global::LeonaStore.Android.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::Lottie.Forms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::LeonaStore.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::Lottie.Forms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::LeonaStore.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::Lottie.Forms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::LeonaStore.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::Lottie.Forms.Droid.Resource.Styleable.ButtonBarLayout = global::LeonaStore.Android.Resource.Styleable.ButtonBarLayout;
+			global::Lottie.Forms.Droid.Resource.Styleable.ButtonBarLayout_allowStacking = global::LeonaStore.Android.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Lottie.Forms.Droid.Resource.Styleable.CardView = global::LeonaStore.Android.Resource.Styleable.CardView;
+			global::Lottie.Forms.Droid.Resource.Styleable.CardView_android_minHeight = global::LeonaStore.Android.Resource.Styleable.CardView_android_minHeight;
+			global::Lottie.Forms.Droid.Resource.Styleable.CardView_android_minWidth = global::LeonaStore.Android.Resource.Styleable.CardView_android_minWidth;
+			global::Lottie.Forms.Droid.Resource.Styleable.CardView_cardBackgroundColor = global::LeonaStore.Android.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Lottie.Forms.Droid.Resource.Styleable.CardView_cardCornerRadius = global::LeonaStore.Android.Resource.Styleable.CardView_cardCornerRadius;
+			global::Lottie.Forms.Droid.Resource.Styleable.CardView_cardElevation = global::LeonaStore.Android.Resource.Styleable.CardView_cardElevation;
+			global::Lottie.Forms.Droid.Resource.Styleable.CardView_cardMaxElevation = global::LeonaStore.Android.Resource.Styleable.CardView_cardMaxElevation;
+			global::Lottie.Forms.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap = global::LeonaStore.Android.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Lottie.Forms.Droid.Resource.Styleable.CardView_cardUseCompatPadding = global::LeonaStore.Android.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Lottie.Forms.Droid.Resource.Styleable.CardView_contentPadding = global::LeonaStore.Android.Resource.Styleable.CardView_contentPadding;
+			global::Lottie.Forms.Droid.Resource.Styleable.CardView_contentPaddingBottom = global::LeonaStore.Android.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Lottie.Forms.Droid.Resource.Styleable.CardView_contentPaddingLeft = global::LeonaStore.Android.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Lottie.Forms.Droid.Resource.Styleable.CardView_contentPaddingRight = global::LeonaStore.Android.Resource.Styleable.CardView_contentPaddingRight;
+			global::Lottie.Forms.Droid.Resource.Styleable.CardView_contentPaddingTop = global::LeonaStore.Android.Resource.Styleable.CardView_contentPaddingTop;
+			global::Lottie.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout = global::LeonaStore.Android.Resource.Styleable.CollapsingToolbarLayout;
+			global::Lottie.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::LeonaStore.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::Lottie.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::LeonaStore.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::Lottie.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::LeonaStore.Android.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::Lottie.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::LeonaStore.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::Lottie.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::LeonaStore.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::Lottie.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::LeonaStore.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::Lottie.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::LeonaStore.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::Lottie.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::LeonaStore.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::Lottie.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::LeonaStore.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::Lottie.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::LeonaStore.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::Lottie.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::LeonaStore.Android.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::Lottie.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::LeonaStore.Android.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::Lottie.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::LeonaStore.Android.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::Lottie.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_title = global::LeonaStore.Android.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::Lottie.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::LeonaStore.Android.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::Lottie.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::LeonaStore.Android.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::Lottie.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout = global::LeonaStore.Android.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::Lottie.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::LeonaStore.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::Lottie.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::LeonaStore.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::Lottie.Forms.Droid.Resource.Styleable.ColorStateListItem = global::LeonaStore.Android.Resource.Styleable.ColorStateListItem;
+			global::Lottie.Forms.Droid.Resource.Styleable.ColorStateListItem_alpha = global::LeonaStore.Android.Resource.Styleable.ColorStateListItem_alpha;
+			global::Lottie.Forms.Droid.Resource.Styleable.ColorStateListItem_android_alpha = global::LeonaStore.Android.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Lottie.Forms.Droid.Resource.Styleable.ColorStateListItem_android_color = global::LeonaStore.Android.Resource.Styleable.ColorStateListItem_android_color;
+			global::Lottie.Forms.Droid.Resource.Styleable.CompoundButton = global::LeonaStore.Android.Resource.Styleable.CompoundButton;
+			global::Lottie.Forms.Droid.Resource.Styleable.CompoundButton_android_button = global::LeonaStore.Android.Resource.Styleable.CompoundButton_android_button;
+			global::Lottie.Forms.Droid.Resource.Styleable.CompoundButton_buttonTint = global::LeonaStore.Android.Resource.Styleable.CompoundButton_buttonTint;
+			global::Lottie.Forms.Droid.Resource.Styleable.CompoundButton_buttonTintMode = global::LeonaStore.Android.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Lottie.Forms.Droid.Resource.Styleable.CoordinatorLayout = global::LeonaStore.Android.Resource.Styleable.CoordinatorLayout;
+			global::Lottie.Forms.Droid.Resource.Styleable.CoordinatorLayout_keylines = global::LeonaStore.Android.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Lottie.Forms.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::LeonaStore.Android.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Lottie.Forms.Droid.Resource.Styleable.CoordinatorLayout_Layout = global::LeonaStore.Android.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Lottie.Forms.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::LeonaStore.Android.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Lottie.Forms.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::LeonaStore.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Lottie.Forms.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::LeonaStore.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Lottie.Forms.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::LeonaStore.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Lottie.Forms.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::LeonaStore.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Lottie.Forms.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::LeonaStore.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Lottie.Forms.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::LeonaStore.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Lottie.Forms.Droid.Resource.Styleable.DesignTheme = global::LeonaStore.Android.Resource.Styleable.DesignTheme;
+			global::Lottie.Forms.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::LeonaStore.Android.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::Lottie.Forms.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle = global::LeonaStore.Android.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::Lottie.Forms.Droid.Resource.Styleable.DesignTheme_textColorError = global::LeonaStore.Android.Resource.Styleable.DesignTheme_textColorError;
+			global::Lottie.Forms.Droid.Resource.Styleable.DrawerArrowToggle = global::LeonaStore.Android.Resource.Styleable.DrawerArrowToggle;
+			global::Lottie.Forms.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::LeonaStore.Android.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Lottie.Forms.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::LeonaStore.Android.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Lottie.Forms.Droid.Resource.Styleable.DrawerArrowToggle_barLength = global::LeonaStore.Android.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Lottie.Forms.Droid.Resource.Styleable.DrawerArrowToggle_color = global::LeonaStore.Android.Resource.Styleable.DrawerArrowToggle_color;
+			global::Lottie.Forms.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize = global::LeonaStore.Android.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Lottie.Forms.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::LeonaStore.Android.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Lottie.Forms.Droid.Resource.Styleable.DrawerArrowToggle_spinBars = global::LeonaStore.Android.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Lottie.Forms.Droid.Resource.Styleable.DrawerArrowToggle_thickness = global::LeonaStore.Android.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Lottie.Forms.Droid.Resource.Styleable.FloatingActionButton = global::LeonaStore.Android.Resource.Styleable.FloatingActionButton;
+			global::Lottie.Forms.Droid.Resource.Styleable.FloatingActionButton_backgroundTint = global::LeonaStore.Android.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::Lottie.Forms.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::LeonaStore.Android.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::Lottie.Forms.Droid.Resource.Styleable.FloatingActionButton_borderWidth = global::LeonaStore.Android.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::Lottie.Forms.Droid.Resource.Styleable.FloatingActionButton_elevation = global::LeonaStore.Android.Resource.Styleable.FloatingActionButton_elevation;
+			global::Lottie.Forms.Droid.Resource.Styleable.FloatingActionButton_fabSize = global::LeonaStore.Android.Resource.Styleable.FloatingActionButton_fabSize;
+			global::Lottie.Forms.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::LeonaStore.Android.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::Lottie.Forms.Droid.Resource.Styleable.FloatingActionButton_rippleColor = global::LeonaStore.Android.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Lottie.Forms.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding = global::LeonaStore.Android.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::Lottie.Forms.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::LeonaStore.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::Lottie.Forms.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::LeonaStore.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Lottie.Forms.Droid.Resource.Styleable.ForegroundLinearLayout = global::LeonaStore.Android.Resource.Styleable.ForegroundLinearLayout;
+			global::Lottie.Forms.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::LeonaStore.Android.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::Lottie.Forms.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::LeonaStore.Android.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::Lottie.Forms.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::LeonaStore.Android.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Lottie.Forms.Droid.Resource.Styleable.LinearLayoutCompat = global::LeonaStore.Android.Resource.Styleable.LinearLayoutCompat;
+			global::Lottie.Forms.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::LeonaStore.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Lottie.Forms.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::LeonaStore.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Lottie.Forms.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity = global::LeonaStore.Android.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Lottie.Forms.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation = global::LeonaStore.Android.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Lottie.Forms.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::LeonaStore.Android.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Lottie.Forms.Droid.Resource.Styleable.LinearLayoutCompat_divider = global::LeonaStore.Android.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Lottie.Forms.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::LeonaStore.Android.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Lottie.Forms.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::LeonaStore.Android.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Lottie.Forms.Droid.Resource.Styleable.LinearLayoutCompat_showDividers = global::LeonaStore.Android.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Lottie.Forms.Droid.Resource.Styleable.LinearLayoutCompat_Layout = global::LeonaStore.Android.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Lottie.Forms.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::LeonaStore.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Lottie.Forms.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::LeonaStore.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Lottie.Forms.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::LeonaStore.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Lottie.Forms.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::LeonaStore.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Lottie.Forms.Droid.Resource.Styleable.ListPopupWindow = global::LeonaStore.Android.Resource.Styleable.ListPopupWindow;
+			global::Lottie.Forms.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::LeonaStore.Android.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Lottie.Forms.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::LeonaStore.Android.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Lottie.Forms.Droid.Resource.Styleable.LottieAnimationView = global::LeonaStore.Android.Resource.Styleable.LottieAnimationView;
+			global::Lottie.Forms.Droid.Resource.Styleable.LottieAnimationView_lottie_autoPlay = global::LeonaStore.Android.Resource.Styleable.LottieAnimationView_lottie_autoPlay;
+			global::Lottie.Forms.Droid.Resource.Styleable.LottieAnimationView_lottie_cacheStrategy = global::LeonaStore.Android.Resource.Styleable.LottieAnimationView_lottie_cacheStrategy;
+			global::Lottie.Forms.Droid.Resource.Styleable.LottieAnimationView_lottie_colorFilter = global::LeonaStore.Android.Resource.Styleable.LottieAnimationView_lottie_colorFilter;
+			global::Lottie.Forms.Droid.Resource.Styleable.LottieAnimationView_lottie_enableMergePathsForKitKatAndAbove = global::LeonaStore.Android.Resource.Styleable.LottieAnimationView_lottie_enableMergePathsForKitKatAndAbove;
+			global::Lottie.Forms.Droid.Resource.Styleable.LottieAnimationView_lottie_fileName = global::LeonaStore.Android.Resource.Styleable.LottieAnimationView_lottie_fileName;
+			global::Lottie.Forms.Droid.Resource.Styleable.LottieAnimationView_lottie_imageAssetsFolder = global::LeonaStore.Android.Resource.Styleable.LottieAnimationView_lottie_imageAssetsFolder;
+			global::Lottie.Forms.Droid.Resource.Styleable.LottieAnimationView_lottie_loop = global::LeonaStore.Android.Resource.Styleable.LottieAnimationView_lottie_loop;
+			global::Lottie.Forms.Droid.Resource.Styleable.LottieAnimationView_lottie_progress = global::LeonaStore.Android.Resource.Styleable.LottieAnimationView_lottie_progress;
+			global::Lottie.Forms.Droid.Resource.Styleable.LottieAnimationView_lottie_scale = global::LeonaStore.Android.Resource.Styleable.LottieAnimationView_lottie_scale;
+			global::Lottie.Forms.Droid.Resource.Styleable.MediaRouteButton = global::LeonaStore.Android.Resource.Styleable.MediaRouteButton;
+			global::Lottie.Forms.Droid.Resource.Styleable.MediaRouteButton_android_minHeight = global::LeonaStore.Android.Resource.Styleable.MediaRouteButton_android_minHeight;
+			global::Lottie.Forms.Droid.Resource.Styleable.MediaRouteButton_android_minWidth = global::LeonaStore.Android.Resource.Styleable.MediaRouteButton_android_minWidth;
+			global::Lottie.Forms.Droid.Resource.Styleable.MediaRouteButton_buttonTint = global::LeonaStore.Android.Resource.Styleable.MediaRouteButton_buttonTint;
+			global::Lottie.Forms.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::LeonaStore.Android.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
+			global::Lottie.Forms.Droid.Resource.Styleable.MenuGroup = global::LeonaStore.Android.Resource.Styleable.MenuGroup;
+			global::Lottie.Forms.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior = global::LeonaStore.Android.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Lottie.Forms.Droid.Resource.Styleable.MenuGroup_android_enabled = global::LeonaStore.Android.Resource.Styleable.MenuGroup_android_enabled;
+			global::Lottie.Forms.Droid.Resource.Styleable.MenuGroup_android_id = global::LeonaStore.Android.Resource.Styleable.MenuGroup_android_id;
+			global::Lottie.Forms.Droid.Resource.Styleable.MenuGroup_android_menuCategory = global::LeonaStore.Android.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Lottie.Forms.Droid.Resource.Styleable.MenuGroup_android_orderInCategory = global::LeonaStore.Android.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Lottie.Forms.Droid.Resource.Styleable.MenuGroup_android_visible = global::LeonaStore.Android.Resource.Styleable.MenuGroup_android_visible;
+			global::Lottie.Forms.Droid.Resource.Styleable.MenuItem = global::LeonaStore.Android.Resource.Styleable.MenuItem;
+			global::Lottie.Forms.Droid.Resource.Styleable.MenuItem_actionLayout = global::LeonaStore.Android.Resource.Styleable.MenuItem_actionLayout;
+			global::Lottie.Forms.Droid.Resource.Styleable.MenuItem_actionProviderClass = global::LeonaStore.Android.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Lottie.Forms.Droid.Resource.Styleable.MenuItem_actionViewClass = global::LeonaStore.Android.Resource.Styleable.MenuItem_actionViewClass;
+			global::Lottie.Forms.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::LeonaStore.Android.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Lottie.Forms.Droid.Resource.Styleable.MenuItem_android_checkable = global::LeonaStore.Android.Resource.Styleable.MenuItem_android_checkable;
+			global::Lottie.Forms.Droid.Resource.Styleable.MenuItem_android_checked = global::LeonaStore.Android.Resource.Styleable.MenuItem_android_checked;
+			global::Lottie.Forms.Droid.Resource.Styleable.MenuItem_android_enabled = global::LeonaStore.Android.Resource.Styleable.MenuItem_android_enabled;
+			global::Lottie.Forms.Droid.Resource.Styleable.MenuItem_android_icon = global::LeonaStore.Android.Resource.Styleable.MenuItem_android_icon;
+			global::Lottie.Forms.Droid.Resource.Styleable.MenuItem_android_id = global::LeonaStore.Android.Resource.Styleable.MenuItem_android_id;
+			global::Lottie.Forms.Droid.Resource.Styleable.MenuItem_android_menuCategory = global::LeonaStore.Android.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Lottie.Forms.Droid.Resource.Styleable.MenuItem_android_numericShortcut = global::LeonaStore.Android.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Lottie.Forms.Droid.Resource.Styleable.MenuItem_android_onClick = global::LeonaStore.Android.Resource.Styleable.MenuItem_android_onClick;
+			global::Lottie.Forms.Droid.Resource.Styleable.MenuItem_android_orderInCategory = global::LeonaStore.Android.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Lottie.Forms.Droid.Resource.Styleable.MenuItem_android_title = global::LeonaStore.Android.Resource.Styleable.MenuItem_android_title;
+			global::Lottie.Forms.Droid.Resource.Styleable.MenuItem_android_titleCondensed = global::LeonaStore.Android.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Lottie.Forms.Droid.Resource.Styleable.MenuItem_android_visible = global::LeonaStore.Android.Resource.Styleable.MenuItem_android_visible;
+			global::Lottie.Forms.Droid.Resource.Styleable.MenuItem_showAsAction = global::LeonaStore.Android.Resource.Styleable.MenuItem_showAsAction;
+			global::Lottie.Forms.Droid.Resource.Styleable.MenuView = global::LeonaStore.Android.Resource.Styleable.MenuView;
+			global::Lottie.Forms.Droid.Resource.Styleable.MenuView_android_headerBackground = global::LeonaStore.Android.Resource.Styleable.MenuView_android_headerBackground;
+			global::Lottie.Forms.Droid.Resource.Styleable.MenuView_android_horizontalDivider = global::LeonaStore.Android.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Lottie.Forms.Droid.Resource.Styleable.MenuView_android_itemBackground = global::LeonaStore.Android.Resource.Styleable.MenuView_android_itemBackground;
+			global::Lottie.Forms.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::LeonaStore.Android.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Lottie.Forms.Droid.Resource.Styleable.MenuView_android_itemTextAppearance = global::LeonaStore.Android.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Lottie.Forms.Droid.Resource.Styleable.MenuView_android_verticalDivider = global::LeonaStore.Android.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Lottie.Forms.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle = global::LeonaStore.Android.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Lottie.Forms.Droid.Resource.Styleable.MenuView_preserveIconSpacing = global::LeonaStore.Android.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Lottie.Forms.Droid.Resource.Styleable.MenuView_subMenuArrow = global::LeonaStore.Android.Resource.Styleable.MenuView_subMenuArrow;
+			global::Lottie.Forms.Droid.Resource.Styleable.NavigationView = global::LeonaStore.Android.Resource.Styleable.NavigationView;
+			global::Lottie.Forms.Droid.Resource.Styleable.NavigationView_android_background = global::LeonaStore.Android.Resource.Styleable.NavigationView_android_background;
+			global::Lottie.Forms.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::LeonaStore.Android.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::Lottie.Forms.Droid.Resource.Styleable.NavigationView_android_maxWidth = global::LeonaStore.Android.Resource.Styleable.NavigationView_android_maxWidth;
+			global::Lottie.Forms.Droid.Resource.Styleable.NavigationView_elevation = global::LeonaStore.Android.Resource.Styleable.NavigationView_elevation;
+			global::Lottie.Forms.Droid.Resource.Styleable.NavigationView_headerLayout = global::LeonaStore.Android.Resource.Styleable.NavigationView_headerLayout;
+			global::Lottie.Forms.Droid.Resource.Styleable.NavigationView_itemBackground = global::LeonaStore.Android.Resource.Styleable.NavigationView_itemBackground;
+			global::Lottie.Forms.Droid.Resource.Styleable.NavigationView_itemIconTint = global::LeonaStore.Android.Resource.Styleable.NavigationView_itemIconTint;
+			global::Lottie.Forms.Droid.Resource.Styleable.NavigationView_itemTextAppearance = global::LeonaStore.Android.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::Lottie.Forms.Droid.Resource.Styleable.NavigationView_itemTextColor = global::LeonaStore.Android.Resource.Styleable.NavigationView_itemTextColor;
+			global::Lottie.Forms.Droid.Resource.Styleable.NavigationView_menu = global::LeonaStore.Android.Resource.Styleable.NavigationView_menu;
+			global::Lottie.Forms.Droid.Resource.Styleable.PopupWindow = global::LeonaStore.Android.Resource.Styleable.PopupWindow;
+			global::Lottie.Forms.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::LeonaStore.Android.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::Lottie.Forms.Droid.Resource.Styleable.PopupWindow_android_popupBackground = global::LeonaStore.Android.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Lottie.Forms.Droid.Resource.Styleable.PopupWindow_overlapAnchor = global::LeonaStore.Android.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Lottie.Forms.Droid.Resource.Styleable.PopupWindowBackgroundState = global::LeonaStore.Android.Resource.Styleable.PopupWindowBackgroundState;
+			global::Lottie.Forms.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::LeonaStore.Android.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Lottie.Forms.Droid.Resource.Styleable.RecycleListView = global::LeonaStore.Android.Resource.Styleable.RecycleListView;
+			global::Lottie.Forms.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::LeonaStore.Android.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::Lottie.Forms.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::LeonaStore.Android.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::Lottie.Forms.Droid.Resource.Styleable.RecyclerView = global::LeonaStore.Android.Resource.Styleable.RecyclerView;
+			global::Lottie.Forms.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability = global::LeonaStore.Android.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::Lottie.Forms.Droid.Resource.Styleable.RecyclerView_android_orientation = global::LeonaStore.Android.Resource.Styleable.RecyclerView_android_orientation;
+			global::Lottie.Forms.Droid.Resource.Styleable.RecyclerView_layoutManager = global::LeonaStore.Android.Resource.Styleable.RecyclerView_layoutManager;
+			global::Lottie.Forms.Droid.Resource.Styleable.RecyclerView_reverseLayout = global::LeonaStore.Android.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Lottie.Forms.Droid.Resource.Styleable.RecyclerView_spanCount = global::LeonaStore.Android.Resource.Styleable.RecyclerView_spanCount;
+			global::Lottie.Forms.Droid.Resource.Styleable.RecyclerView_stackFromEnd = global::LeonaStore.Android.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Lottie.Forms.Droid.Resource.Styleable.ScrimInsetsFrameLayout = global::LeonaStore.Android.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::Lottie.Forms.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::LeonaStore.Android.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::Lottie.Forms.Droid.Resource.Styleable.ScrollingViewBehavior_Layout = global::LeonaStore.Android.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::Lottie.Forms.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::LeonaStore.Android.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::Lottie.Forms.Droid.Resource.Styleable.SearchView = global::LeonaStore.Android.Resource.Styleable.SearchView;
+			global::Lottie.Forms.Droid.Resource.Styleable.SearchView_android_focusable = global::LeonaStore.Android.Resource.Styleable.SearchView_android_focusable;
+			global::Lottie.Forms.Droid.Resource.Styleable.SearchView_android_imeOptions = global::LeonaStore.Android.Resource.Styleable.SearchView_android_imeOptions;
+			global::Lottie.Forms.Droid.Resource.Styleable.SearchView_android_inputType = global::LeonaStore.Android.Resource.Styleable.SearchView_android_inputType;
+			global::Lottie.Forms.Droid.Resource.Styleable.SearchView_android_maxWidth = global::LeonaStore.Android.Resource.Styleable.SearchView_android_maxWidth;
+			global::Lottie.Forms.Droid.Resource.Styleable.SearchView_closeIcon = global::LeonaStore.Android.Resource.Styleable.SearchView_closeIcon;
+			global::Lottie.Forms.Droid.Resource.Styleable.SearchView_commitIcon = global::LeonaStore.Android.Resource.Styleable.SearchView_commitIcon;
+			global::Lottie.Forms.Droid.Resource.Styleable.SearchView_defaultQueryHint = global::LeonaStore.Android.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Lottie.Forms.Droid.Resource.Styleable.SearchView_goIcon = global::LeonaStore.Android.Resource.Styleable.SearchView_goIcon;
+			global::Lottie.Forms.Droid.Resource.Styleable.SearchView_iconifiedByDefault = global::LeonaStore.Android.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Lottie.Forms.Droid.Resource.Styleable.SearchView_layout = global::LeonaStore.Android.Resource.Styleable.SearchView_layout;
+			global::Lottie.Forms.Droid.Resource.Styleable.SearchView_queryBackground = global::LeonaStore.Android.Resource.Styleable.SearchView_queryBackground;
+			global::Lottie.Forms.Droid.Resource.Styleable.SearchView_queryHint = global::LeonaStore.Android.Resource.Styleable.SearchView_queryHint;
+			global::Lottie.Forms.Droid.Resource.Styleable.SearchView_searchHintIcon = global::LeonaStore.Android.Resource.Styleable.SearchView_searchHintIcon;
+			global::Lottie.Forms.Droid.Resource.Styleable.SearchView_searchIcon = global::LeonaStore.Android.Resource.Styleable.SearchView_searchIcon;
+			global::Lottie.Forms.Droid.Resource.Styleable.SearchView_submitBackground = global::LeonaStore.Android.Resource.Styleable.SearchView_submitBackground;
+			global::Lottie.Forms.Droid.Resource.Styleable.SearchView_suggestionRowLayout = global::LeonaStore.Android.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Lottie.Forms.Droid.Resource.Styleable.SearchView_voiceIcon = global::LeonaStore.Android.Resource.Styleable.SearchView_voiceIcon;
+			global::Lottie.Forms.Droid.Resource.Styleable.SnackbarLayout = global::LeonaStore.Android.Resource.Styleable.SnackbarLayout;
+			global::Lottie.Forms.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth = global::LeonaStore.Android.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Lottie.Forms.Droid.Resource.Styleable.SnackbarLayout_elevation = global::LeonaStore.Android.Resource.Styleable.SnackbarLayout_elevation;
+			global::Lottie.Forms.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::LeonaStore.Android.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::Lottie.Forms.Droid.Resource.Styleable.Spinner = global::LeonaStore.Android.Resource.Styleable.Spinner;
+			global::Lottie.Forms.Droid.Resource.Styleable.Spinner_android_dropDownWidth = global::LeonaStore.Android.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Lottie.Forms.Droid.Resource.Styleable.Spinner_android_entries = global::LeonaStore.Android.Resource.Styleable.Spinner_android_entries;
+			global::Lottie.Forms.Droid.Resource.Styleable.Spinner_android_popupBackground = global::LeonaStore.Android.Resource.Styleable.Spinner_android_popupBackground;
+			global::Lottie.Forms.Droid.Resource.Styleable.Spinner_android_prompt = global::LeonaStore.Android.Resource.Styleable.Spinner_android_prompt;
+			global::Lottie.Forms.Droid.Resource.Styleable.Spinner_popupTheme = global::LeonaStore.Android.Resource.Styleable.Spinner_popupTheme;
+			global::Lottie.Forms.Droid.Resource.Styleable.SwitchCompat = global::LeonaStore.Android.Resource.Styleable.SwitchCompat;
+			global::Lottie.Forms.Droid.Resource.Styleable.SwitchCompat_android_textOff = global::LeonaStore.Android.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Lottie.Forms.Droid.Resource.Styleable.SwitchCompat_android_textOn = global::LeonaStore.Android.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Lottie.Forms.Droid.Resource.Styleable.SwitchCompat_android_thumb = global::LeonaStore.Android.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Lottie.Forms.Droid.Resource.Styleable.SwitchCompat_showText = global::LeonaStore.Android.Resource.Styleable.SwitchCompat_showText;
+			global::Lottie.Forms.Droid.Resource.Styleable.SwitchCompat_splitTrack = global::LeonaStore.Android.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Lottie.Forms.Droid.Resource.Styleable.SwitchCompat_switchMinWidth = global::LeonaStore.Android.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Lottie.Forms.Droid.Resource.Styleable.SwitchCompat_switchPadding = global::LeonaStore.Android.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Lottie.Forms.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance = global::LeonaStore.Android.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Lottie.Forms.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding = global::LeonaStore.Android.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Lottie.Forms.Droid.Resource.Styleable.SwitchCompat_thumbTint = global::LeonaStore.Android.Resource.Styleable.SwitchCompat_thumbTint;
+			global::Lottie.Forms.Droid.Resource.Styleable.SwitchCompat_thumbTintMode = global::LeonaStore.Android.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::Lottie.Forms.Droid.Resource.Styleable.SwitchCompat_track = global::LeonaStore.Android.Resource.Styleable.SwitchCompat_track;
+			global::Lottie.Forms.Droid.Resource.Styleable.SwitchCompat_trackTint = global::LeonaStore.Android.Resource.Styleable.SwitchCompat_trackTint;
+			global::Lottie.Forms.Droid.Resource.Styleable.SwitchCompat_trackTintMode = global::LeonaStore.Android.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::Lottie.Forms.Droid.Resource.Styleable.TabItem = global::LeonaStore.Android.Resource.Styleable.TabItem;
+			global::Lottie.Forms.Droid.Resource.Styleable.TabItem_android_icon = global::LeonaStore.Android.Resource.Styleable.TabItem_android_icon;
+			global::Lottie.Forms.Droid.Resource.Styleable.TabItem_android_layout = global::LeonaStore.Android.Resource.Styleable.TabItem_android_layout;
+			global::Lottie.Forms.Droid.Resource.Styleable.TabItem_android_text = global::LeonaStore.Android.Resource.Styleable.TabItem_android_text;
+			global::Lottie.Forms.Droid.Resource.Styleable.TabLayout = global::LeonaStore.Android.Resource.Styleable.TabLayout;
+			global::Lottie.Forms.Droid.Resource.Styleable.TabLayout_tabBackground = global::LeonaStore.Android.Resource.Styleable.TabLayout_tabBackground;
+			global::Lottie.Forms.Droid.Resource.Styleable.TabLayout_tabContentStart = global::LeonaStore.Android.Resource.Styleable.TabLayout_tabContentStart;
+			global::Lottie.Forms.Droid.Resource.Styleable.TabLayout_tabGravity = global::LeonaStore.Android.Resource.Styleable.TabLayout_tabGravity;
+			global::Lottie.Forms.Droid.Resource.Styleable.TabLayout_tabIndicatorColor = global::LeonaStore.Android.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::Lottie.Forms.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight = global::LeonaStore.Android.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::Lottie.Forms.Droid.Resource.Styleable.TabLayout_tabMaxWidth = global::LeonaStore.Android.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::Lottie.Forms.Droid.Resource.Styleable.TabLayout_tabMinWidth = global::LeonaStore.Android.Resource.Styleable.TabLayout_tabMinWidth;
+			global::Lottie.Forms.Droid.Resource.Styleable.TabLayout_tabMode = global::LeonaStore.Android.Resource.Styleable.TabLayout_tabMode;
+			global::Lottie.Forms.Droid.Resource.Styleable.TabLayout_tabPadding = global::LeonaStore.Android.Resource.Styleable.TabLayout_tabPadding;
+			global::Lottie.Forms.Droid.Resource.Styleable.TabLayout_tabPaddingBottom = global::LeonaStore.Android.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::Lottie.Forms.Droid.Resource.Styleable.TabLayout_tabPaddingEnd = global::LeonaStore.Android.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::Lottie.Forms.Droid.Resource.Styleable.TabLayout_tabPaddingStart = global::LeonaStore.Android.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::Lottie.Forms.Droid.Resource.Styleable.TabLayout_tabPaddingTop = global::LeonaStore.Android.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::Lottie.Forms.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor = global::LeonaStore.Android.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::Lottie.Forms.Droid.Resource.Styleable.TabLayout_tabTextAppearance = global::LeonaStore.Android.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::Lottie.Forms.Droid.Resource.Styleable.TabLayout_tabTextColor = global::LeonaStore.Android.Resource.Styleable.TabLayout_tabTextColor;
+			global::Lottie.Forms.Droid.Resource.Styleable.TextAppearance = global::LeonaStore.Android.Resource.Styleable.TextAppearance;
+			global::Lottie.Forms.Droid.Resource.Styleable.TextAppearance_android_shadowColor = global::LeonaStore.Android.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::Lottie.Forms.Droid.Resource.Styleable.TextAppearance_android_shadowDx = global::LeonaStore.Android.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::Lottie.Forms.Droid.Resource.Styleable.TextAppearance_android_shadowDy = global::LeonaStore.Android.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::Lottie.Forms.Droid.Resource.Styleable.TextAppearance_android_shadowRadius = global::LeonaStore.Android.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::Lottie.Forms.Droid.Resource.Styleable.TextAppearance_android_textColor = global::LeonaStore.Android.Resource.Styleable.TextAppearance_android_textColor;
+			global::Lottie.Forms.Droid.Resource.Styleable.TextAppearance_android_textColorHint = global::LeonaStore.Android.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::Lottie.Forms.Droid.Resource.Styleable.TextAppearance_android_textSize = global::LeonaStore.Android.Resource.Styleable.TextAppearance_android_textSize;
+			global::Lottie.Forms.Droid.Resource.Styleable.TextAppearance_android_textStyle = global::LeonaStore.Android.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Lottie.Forms.Droid.Resource.Styleable.TextAppearance_android_typeface = global::LeonaStore.Android.Resource.Styleable.TextAppearance_android_typeface;
+			global::Lottie.Forms.Droid.Resource.Styleable.TextAppearance_textAllCaps = global::LeonaStore.Android.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Lottie.Forms.Droid.Resource.Styleable.TextInputLayout = global::LeonaStore.Android.Resource.Styleable.TextInputLayout;
+			global::Lottie.Forms.Droid.Resource.Styleable.TextInputLayout_android_hint = global::LeonaStore.Android.Resource.Styleable.TextInputLayout_android_hint;
+			global::Lottie.Forms.Droid.Resource.Styleable.TextInputLayout_android_textColorHint = global::LeonaStore.Android.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::Lottie.Forms.Droid.Resource.Styleable.TextInputLayout_counterEnabled = global::LeonaStore.Android.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::Lottie.Forms.Droid.Resource.Styleable.TextInputLayout_counterMaxLength = global::LeonaStore.Android.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::Lottie.Forms.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::LeonaStore.Android.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Lottie.Forms.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance = global::LeonaStore.Android.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Lottie.Forms.Droid.Resource.Styleable.TextInputLayout_errorEnabled = global::LeonaStore.Android.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Lottie.Forms.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance = global::LeonaStore.Android.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Lottie.Forms.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::LeonaStore.Android.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::Lottie.Forms.Droid.Resource.Styleable.TextInputLayout_hintEnabled = global::LeonaStore.Android.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::Lottie.Forms.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance = global::LeonaStore.Android.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Lottie.Forms.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::LeonaStore.Android.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::Lottie.Forms.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::LeonaStore.Android.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::Lottie.Forms.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::LeonaStore.Android.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::Lottie.Forms.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint = global::LeonaStore.Android.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::Lottie.Forms.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::LeonaStore.Android.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::Lottie.Forms.Droid.Resource.Styleable.Toolbar = global::LeonaStore.Android.Resource.Styleable.Toolbar;
+			global::Lottie.Forms.Droid.Resource.Styleable.Toolbar_android_gravity = global::LeonaStore.Android.Resource.Styleable.Toolbar_android_gravity;
+			global::Lottie.Forms.Droid.Resource.Styleable.Toolbar_android_minHeight = global::LeonaStore.Android.Resource.Styleable.Toolbar_android_minHeight;
+			global::Lottie.Forms.Droid.Resource.Styleable.Toolbar_buttonGravity = global::LeonaStore.Android.Resource.Styleable.Toolbar_buttonGravity;
+			global::Lottie.Forms.Droid.Resource.Styleable.Toolbar_collapseContentDescription = global::LeonaStore.Android.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Lottie.Forms.Droid.Resource.Styleable.Toolbar_collapseIcon = global::LeonaStore.Android.Resource.Styleable.Toolbar_collapseIcon;
+			global::Lottie.Forms.Droid.Resource.Styleable.Toolbar_contentInsetEnd = global::LeonaStore.Android.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Lottie.Forms.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::LeonaStore.Android.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::Lottie.Forms.Droid.Resource.Styleable.Toolbar_contentInsetLeft = global::LeonaStore.Android.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Lottie.Forms.Droid.Resource.Styleable.Toolbar_contentInsetRight = global::LeonaStore.Android.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Lottie.Forms.Droid.Resource.Styleable.Toolbar_contentInsetStart = global::LeonaStore.Android.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Lottie.Forms.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::LeonaStore.Android.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::Lottie.Forms.Droid.Resource.Styleable.Toolbar_logo = global::LeonaStore.Android.Resource.Styleable.Toolbar_logo;
+			global::Lottie.Forms.Droid.Resource.Styleable.Toolbar_logoDescription = global::LeonaStore.Android.Resource.Styleable.Toolbar_logoDescription;
+			global::Lottie.Forms.Droid.Resource.Styleable.Toolbar_maxButtonHeight = global::LeonaStore.Android.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Lottie.Forms.Droid.Resource.Styleable.Toolbar_navigationContentDescription = global::LeonaStore.Android.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Lottie.Forms.Droid.Resource.Styleable.Toolbar_navigationIcon = global::LeonaStore.Android.Resource.Styleable.Toolbar_navigationIcon;
+			global::Lottie.Forms.Droid.Resource.Styleable.Toolbar_popupTheme = global::LeonaStore.Android.Resource.Styleable.Toolbar_popupTheme;
+			global::Lottie.Forms.Droid.Resource.Styleable.Toolbar_subtitle = global::LeonaStore.Android.Resource.Styleable.Toolbar_subtitle;
+			global::Lottie.Forms.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance = global::LeonaStore.Android.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Lottie.Forms.Droid.Resource.Styleable.Toolbar_subtitleTextColor = global::LeonaStore.Android.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Lottie.Forms.Droid.Resource.Styleable.Toolbar_title = global::LeonaStore.Android.Resource.Styleable.Toolbar_title;
+			global::Lottie.Forms.Droid.Resource.Styleable.Toolbar_titleMargin = global::LeonaStore.Android.Resource.Styleable.Toolbar_titleMargin;
+			global::Lottie.Forms.Droid.Resource.Styleable.Toolbar_titleMarginBottom = global::LeonaStore.Android.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Lottie.Forms.Droid.Resource.Styleable.Toolbar_titleMarginEnd = global::LeonaStore.Android.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Lottie.Forms.Droid.Resource.Styleable.Toolbar_titleMarginStart = global::LeonaStore.Android.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Lottie.Forms.Droid.Resource.Styleable.Toolbar_titleMarginTop = global::LeonaStore.Android.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Lottie.Forms.Droid.Resource.Styleable.Toolbar_titleMargins = global::LeonaStore.Android.Resource.Styleable.Toolbar_titleMargins;
+			global::Lottie.Forms.Droid.Resource.Styleable.Toolbar_titleTextAppearance = global::LeonaStore.Android.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Lottie.Forms.Droid.Resource.Styleable.Toolbar_titleTextColor = global::LeonaStore.Android.Resource.Styleable.Toolbar_titleTextColor;
+			global::Lottie.Forms.Droid.Resource.Styleable.View = global::LeonaStore.Android.Resource.Styleable.View;
+			global::Lottie.Forms.Droid.Resource.Styleable.View_android_focusable = global::LeonaStore.Android.Resource.Styleable.View_android_focusable;
+			global::Lottie.Forms.Droid.Resource.Styleable.View_android_theme = global::LeonaStore.Android.Resource.Styleable.View_android_theme;
+			global::Lottie.Forms.Droid.Resource.Styleable.View_paddingEnd = global::LeonaStore.Android.Resource.Styleable.View_paddingEnd;
+			global::Lottie.Forms.Droid.Resource.Styleable.View_paddingStart = global::LeonaStore.Android.Resource.Styleable.View_paddingStart;
+			global::Lottie.Forms.Droid.Resource.Styleable.View_theme = global::LeonaStore.Android.Resource.Styleable.View_theme;
+			global::Lottie.Forms.Droid.Resource.Styleable.ViewBackgroundHelper = global::LeonaStore.Android.Resource.Styleable.ViewBackgroundHelper;
+			global::Lottie.Forms.Droid.Resource.Styleable.ViewBackgroundHelper_android_background = global::LeonaStore.Android.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Lottie.Forms.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::LeonaStore.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Lottie.Forms.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::LeonaStore.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Lottie.Forms.Droid.Resource.Styleable.ViewStubCompat = global::LeonaStore.Android.Resource.Styleable.ViewStubCompat;
+			global::Lottie.Forms.Droid.Resource.Styleable.ViewStubCompat_android_id = global::LeonaStore.Android.Resource.Styleable.ViewStubCompat_android_id;
+			global::Lottie.Forms.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId = global::LeonaStore.Android.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Lottie.Forms.Droid.Resource.Styleable.ViewStubCompat_android_layout = global::LeonaStore.Android.Resource.Styleable.ViewStubCompat_android_layout;
 			global::Splat.Resource.String.library_name = global::LeonaStore.Android.Resource.String.library_name;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::LeonaStore.Android.Resource.Attribute.actionBarSize;
 		}
@@ -679,6 +2806,33 @@ namespace LeonaStore.Android
 			
 			// aapt resource value: 0x7f0100fb
 			public const int logoDescription = 2130772219;
+			
+			// aapt resource value: 0x7f010156
+			public const int lottie_autoPlay = 2130772310;
+			
+			// aapt resource value: 0x7f01015b
+			public const int lottie_cacheStrategy = 2130772315;
+			
+			// aapt resource value: 0x7f01015c
+			public const int lottie_colorFilter = 2130772316;
+			
+			// aapt resource value: 0x7f01015a
+			public const int lottie_enableMergePathsForKitKatAndAbove = 2130772314;
+			
+			// aapt resource value: 0x7f010155
+			public const int lottie_fileName = 2130772309;
+			
+			// aapt resource value: 0x7f010158
+			public const int lottie_imageAssetsFolder = 2130772312;
+			
+			// aapt resource value: 0x7f010157
+			public const int lottie_loop = 2130772311;
+			
+			// aapt resource value: 0x7f010159
+			public const int lottie_progress = 2130772313;
+			
+			// aapt resource value: 0x7f01015d
+			public const int lottie_scale = 2130772317;
 			
 			// aapt resource value: 0x7f010136
 			public const int maxActionInlineWidth = 2130772278;
@@ -2842,41 +4996,41 @@ namespace LeonaStore.Android
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f09009e
-			public const int action0 = 2131296414;
+			// aapt resource value: 0x7f0900a1
+			public const int action0 = 2131296417;
 			
-			// aapt resource value: 0x7f090064
-			public const int action_bar = 2131296356;
+			// aapt resource value: 0x7f090067
+			public const int action_bar = 2131296359;
 			
 			// aapt resource value: 0x7f090001
 			public const int action_bar_activity_content = 2131296257;
 			
-			// aapt resource value: 0x7f090063
-			public const int action_bar_container = 2131296355;
+			// aapt resource value: 0x7f090066
+			public const int action_bar_container = 2131296358;
 			
-			// aapt resource value: 0x7f09005f
-			public const int action_bar_root = 2131296351;
+			// aapt resource value: 0x7f090062
+			public const int action_bar_root = 2131296354;
 			
 			// aapt resource value: 0x7f090002
 			public const int action_bar_spinner = 2131296258;
 			
-			// aapt resource value: 0x7f090042
-			public const int action_bar_subtitle = 2131296322;
+			// aapt resource value: 0x7f090045
+			public const int action_bar_subtitle = 2131296325;
 			
-			// aapt resource value: 0x7f090041
-			public const int action_bar_title = 2131296321;
+			// aapt resource value: 0x7f090044
+			public const int action_bar_title = 2131296324;
 			
-			// aapt resource value: 0x7f09009b
-			public const int action_container = 2131296411;
+			// aapt resource value: 0x7f09009e
+			public const int action_container = 2131296414;
 			
-			// aapt resource value: 0x7f090065
-			public const int action_context_bar = 2131296357;
+			// aapt resource value: 0x7f090068
+			public const int action_context_bar = 2131296360;
 			
-			// aapt resource value: 0x7f0900a2
-			public const int action_divider = 2131296418;
+			// aapt resource value: 0x7f0900a5
+			public const int action_divider = 2131296421;
 			
-			// aapt resource value: 0x7f09009c
-			public const int action_image = 2131296412;
+			// aapt resource value: 0x7f09009f
+			public const int action_image = 2131296415;
 			
 			// aapt resource value: 0x7f090003
 			public const int action_menu_divider = 2131296259;
@@ -2884,311 +5038,314 @@ namespace LeonaStore.Android
 			// aapt resource value: 0x7f090004
 			public const int action_menu_presenter = 2131296260;
 			
-			// aapt resource value: 0x7f090061
-			public const int action_mode_bar = 2131296353;
+			// aapt resource value: 0x7f090064
+			public const int action_mode_bar = 2131296356;
 			
-			// aapt resource value: 0x7f090060
-			public const int action_mode_bar_stub = 2131296352;
+			// aapt resource value: 0x7f090063
+			public const int action_mode_bar_stub = 2131296355;
 			
-			// aapt resource value: 0x7f090043
-			public const int action_mode_close_button = 2131296323;
+			// aapt resource value: 0x7f090046
+			public const int action_mode_close_button = 2131296326;
 			
-			// aapt resource value: 0x7f09009d
-			public const int action_text = 2131296413;
+			// aapt resource value: 0x7f0900a0
+			public const int action_text = 2131296416;
 			
-			// aapt resource value: 0x7f0900ab
-			public const int actions = 2131296427;
-			
-			// aapt resource value: 0x7f090044
-			public const int activity_chooser_view_content = 2131296324;
-			
-			// aapt resource value: 0x7f09001e
-			public const int add = 2131296286;
-			
-			// aapt resource value: 0x7f090058
-			public const int alertTitle = 2131296344;
-			
-			// aapt resource value: 0x7f09003d
-			public const int all = 2131296317;
-			
-			// aapt resource value: 0x7f090023
-			public const int always = 2131296291;
-			
-			// aapt resource value: 0x7f09002f
-			public const int auto = 2131296303;
-			
-			// aapt resource value: 0x7f090020
-			public const int beginning = 2131296288;
-			
-			// aapt resource value: 0x7f090028
-			public const int bottom = 2131296296;
-			
-			// aapt resource value: 0x7f09004b
-			public const int buttonPanel = 2131296331;
-			
-			// aapt resource value: 0x7f09009f
-			public const int cancel_action = 2131296415;
-			
-			// aapt resource value: 0x7f090030
-			public const int center = 2131296304;
-			
-			// aapt resource value: 0x7f090031
-			public const int center_horizontal = 2131296305;
-			
-			// aapt resource value: 0x7f090032
-			public const int center_vertical = 2131296306;
-			
-			// aapt resource value: 0x7f09005b
-			public const int checkbox = 2131296347;
-			
-			// aapt resource value: 0x7f0900a7
-			public const int chronometer = 2131296423;
-			
-			// aapt resource value: 0x7f090039
-			public const int clip_horizontal = 2131296313;
-			
-			// aapt resource value: 0x7f09003a
-			public const int clip_vertical = 2131296314;
-			
-			// aapt resource value: 0x7f090024
-			public const int collapseActionView = 2131296292;
-			
-			// aapt resource value: 0x7f090075
-			public const int container = 2131296373;
-			
-			// aapt resource value: 0x7f09004e
-			public const int contentPanel = 2131296334;
-			
-			// aapt resource value: 0x7f090076
-			public const int coordinator = 2131296374;
-			
-			// aapt resource value: 0x7f090055
-			public const int custom = 2131296341;
-			
-			// aapt resource value: 0x7f090054
-			public const int customPanel = 2131296340;
-			
-			// aapt resource value: 0x7f090062
-			public const int decor_content_parent = 2131296354;
+			// aapt resource value: 0x7f0900ae
+			public const int actions = 2131296430;
 			
 			// aapt resource value: 0x7f090047
-			public const int default_activity_button = 2131296327;
+			public const int activity_chooser_view_content = 2131296327;
 			
-			// aapt resource value: 0x7f090078
-			public const int design_bottom_sheet = 2131296376;
+			// aapt resource value: 0x7f09001f
+			public const int add = 2131296287;
 			
-			// aapt resource value: 0x7f09007f
-			public const int design_menu_item_action_area = 2131296383;
+			// aapt resource value: 0x7f09005b
+			public const int alertTitle = 2131296347;
 			
-			// aapt resource value: 0x7f09007e
-			public const int design_menu_item_action_area_stub = 2131296382;
+			// aapt resource value: 0x7f09003e
+			public const int all = 2131296318;
 			
-			// aapt resource value: 0x7f09007d
-			public const int design_menu_item_text = 2131296381;
+			// aapt resource value: 0x7f090024
+			public const int always = 2131296292;
 			
-			// aapt resource value: 0x7f09007c
-			public const int design_navigation_view = 2131296380;
-			
-			// aapt resource value: 0x7f090012
-			public const int disableHome = 2131296274;
-			
-			// aapt resource value: 0x7f090066
-			public const int edit_query = 2131296358;
+			// aapt resource value: 0x7f090030
+			public const int auto = 2131296304;
 			
 			// aapt resource value: 0x7f090021
-			public const int end = 2131296289;
+			public const int beginning = 2131296289;
 			
-			// aapt resource value: 0x7f0900b1
-			public const int end_padder = 2131296433;
+			// aapt resource value: 0x7f090029
+			public const int bottom = 2131296297;
 			
-			// aapt resource value: 0x7f09002a
-			public const int enterAlways = 2131296298;
+			// aapt resource value: 0x7f09004e
+			public const int buttonPanel = 2131296334;
 			
-			// aapt resource value: 0x7f09002b
-			public const int enterAlwaysCollapsed = 2131296299;
+			// aapt resource value: 0x7f0900a2
+			public const int cancel_action = 2131296418;
 			
-			// aapt resource value: 0x7f09002c
-			public const int exitUntilCollapsed = 2131296300;
+			// aapt resource value: 0x7f090031
+			public const int center = 2131296305;
 			
-			// aapt resource value: 0x7f090045
-			public const int expand_activities_button = 2131296325;
-			
-			// aapt resource value: 0x7f09005a
-			public const int expanded_menu = 2131296346;
-			
-			// aapt resource value: 0x7f09003b
-			public const int fill = 2131296315;
-			
-			// aapt resource value: 0x7f09003c
-			public const int fill_horizontal = 2131296316;
+			// aapt resource value: 0x7f090032
+			public const int center_horizontal = 2131296306;
 			
 			// aapt resource value: 0x7f090033
-			public const int fill_vertical = 2131296307;
+			public const int center_vertical = 2131296307;
 			
-			// aapt resource value: 0x7f09003f
-			public const int @fixed = 2131296319;
+			// aapt resource value: 0x7f09005e
+			public const int checkbox = 2131296350;
+			
+			// aapt resource value: 0x7f0900aa
+			public const int chronometer = 2131296426;
+			
+			// aapt resource value: 0x7f09003a
+			public const int clip_horizontal = 2131296314;
+			
+			// aapt resource value: 0x7f09003b
+			public const int clip_vertical = 2131296315;
+			
+			// aapt resource value: 0x7f090025
+			public const int collapseActionView = 2131296293;
+			
+			// aapt resource value: 0x7f090078
+			public const int container = 2131296376;
+			
+			// aapt resource value: 0x7f090051
+			public const int contentPanel = 2131296337;
+			
+			// aapt resource value: 0x7f090079
+			public const int coordinator = 2131296377;
+			
+			// aapt resource value: 0x7f090058
+			public const int custom = 2131296344;
+			
+			// aapt resource value: 0x7f090057
+			public const int customPanel = 2131296343;
+			
+			// aapt resource value: 0x7f090065
+			public const int decor_content_parent = 2131296357;
+			
+			// aapt resource value: 0x7f09004a
+			public const int default_activity_button = 2131296330;
+			
+			// aapt resource value: 0x7f09007b
+			public const int design_bottom_sheet = 2131296379;
+			
+			// aapt resource value: 0x7f090082
+			public const int design_menu_item_action_area = 2131296386;
+			
+			// aapt resource value: 0x7f090081
+			public const int design_menu_item_action_area_stub = 2131296385;
+			
+			// aapt resource value: 0x7f090080
+			public const int design_menu_item_text = 2131296384;
+			
+			// aapt resource value: 0x7f09007f
+			public const int design_navigation_view = 2131296383;
+			
+			// aapt resource value: 0x7f090013
+			public const int disableHome = 2131296275;
+			
+			// aapt resource value: 0x7f090069
+			public const int edit_query = 2131296361;
+			
+			// aapt resource value: 0x7f090022
+			public const int end = 2131296290;
+			
+			// aapt resource value: 0x7f0900b4
+			public const int end_padder = 2131296436;
+			
+			// aapt resource value: 0x7f09002b
+			public const int enterAlways = 2131296299;
+			
+			// aapt resource value: 0x7f09002c
+			public const int enterAlwaysCollapsed = 2131296300;
+			
+			// aapt resource value: 0x7f09002d
+			public const int exitUntilCollapsed = 2131296301;
+			
+			// aapt resource value: 0x7f090048
+			public const int expand_activities_button = 2131296328;
+			
+			// aapt resource value: 0x7f09005d
+			public const int expanded_menu = 2131296349;
+			
+			// aapt resource value: 0x7f09003c
+			public const int fill = 2131296316;
+			
+			// aapt resource value: 0x7f09003d
+			public const int fill_horizontal = 2131296317;
+			
+			// aapt resource value: 0x7f090034
+			public const int fill_vertical = 2131296308;
+			
+			// aapt resource value: 0x7f090040
+			public const int @fixed = 2131296320;
 			
 			// aapt resource value: 0x7f090005
 			public const int home = 2131296261;
 			
-			// aapt resource value: 0x7f090013
-			public const int homeAsUp = 2131296275;
+			// aapt resource value: 0x7f090014
+			public const int homeAsUp = 2131296276;
+			
+			// aapt resource value: 0x7f09004c
+			public const int icon = 2131296332;
+			
+			// aapt resource value: 0x7f0900af
+			public const int icon_group = 2131296431;
+			
+			// aapt resource value: 0x7f090026
+			public const int ifRoom = 2131296294;
 			
 			// aapt resource value: 0x7f090049
-			public const int icon = 2131296329;
+			public const int image = 2131296329;
 			
-			// aapt resource value: 0x7f0900ac
-			public const int icon_group = 2131296428;
-			
-			// aapt resource value: 0x7f090025
-			public const int ifRoom = 2131296293;
-			
-			// aapt resource value: 0x7f090046
-			public const int image = 2131296326;
-			
-			// aapt resource value: 0x7f0900a8
-			public const int info = 2131296424;
+			// aapt resource value: 0x7f0900ab
+			public const int info = 2131296427;
 			
 			// aapt resource value: 0x7f090000
 			public const int item_touch_helper_previous_elevation = 2131296256;
 			
-			// aapt resource value: 0x7f090074
-			public const int largeLabel = 2131296372;
+			// aapt resource value: 0x7f090077
+			public const int largeLabel = 2131296375;
 			
-			// aapt resource value: 0x7f090034
-			public const int left = 2131296308;
+			// aapt resource value: 0x7f090035
+			public const int left = 2131296309;
 			
-			// aapt resource value: 0x7f0900ad
-			public const int line1 = 2131296429;
+			// aapt resource value: 0x7f0900b0
+			public const int line1 = 2131296432;
 			
-			// aapt resource value: 0x7f0900af
-			public const int line3 = 2131296431;
-			
-			// aapt resource value: 0x7f09000f
-			public const int listMode = 2131296271;
-			
-			// aapt resource value: 0x7f090048
-			public const int list_item = 2131296328;
-			
-			// aapt resource value: 0x7f0900b5
-			public const int masked = 2131296437;
-			
-			// aapt resource value: 0x7f0900a1
-			public const int media_actions = 2131296417;
-			
-			// aapt resource value: 0x7f090022
-			public const int middle = 2131296290;
-			
-			// aapt resource value: 0x7f09003e
-			public const int mini = 2131296318;
-			
-			// aapt resource value: 0x7f09008d
-			public const int mr_art = 2131296397;
-			
-			// aapt resource value: 0x7f090082
-			public const int mr_chooser_list = 2131296386;
-			
-			// aapt resource value: 0x7f090085
-			public const int mr_chooser_route_desc = 2131296389;
-			
-			// aapt resource value: 0x7f090083
-			public const int mr_chooser_route_icon = 2131296387;
-			
-			// aapt resource value: 0x7f090084
-			public const int mr_chooser_route_name = 2131296388;
-			
-			// aapt resource value: 0x7f090081
-			public const int mr_chooser_title = 2131296385;
-			
-			// aapt resource value: 0x7f09008a
-			public const int mr_close = 2131296394;
-			
-			// aapt resource value: 0x7f090090
-			public const int mr_control_divider = 2131296400;
-			
-			// aapt resource value: 0x7f090096
-			public const int mr_control_playback_ctrl = 2131296406;
-			
-			// aapt resource value: 0x7f090099
-			public const int mr_control_subtitle = 2131296409;
-			
-			// aapt resource value: 0x7f090098
-			public const int mr_control_title = 2131296408;
-			
-			// aapt resource value: 0x7f090097
-			public const int mr_control_title_container = 2131296407;
-			
-			// aapt resource value: 0x7f09008b
-			public const int mr_custom_control = 2131296395;
-			
-			// aapt resource value: 0x7f09008c
-			public const int mr_default_control = 2131296396;
-			
-			// aapt resource value: 0x7f090087
-			public const int mr_dialog_area = 2131296391;
-			
-			// aapt resource value: 0x7f090086
-			public const int mr_expandable_area = 2131296390;
-			
-			// aapt resource value: 0x7f09009a
-			public const int mr_group_expand_collapse = 2131296410;
-			
-			// aapt resource value: 0x7f09008e
-			public const int mr_media_main_control = 2131296398;
-			
-			// aapt resource value: 0x7f090089
-			public const int mr_name = 2131296393;
-			
-			// aapt resource value: 0x7f09008f
-			public const int mr_playback_control = 2131296399;
-			
-			// aapt resource value: 0x7f090088
-			public const int mr_title_bar = 2131296392;
-			
-			// aapt resource value: 0x7f090091
-			public const int mr_volume_control = 2131296401;
-			
-			// aapt resource value: 0x7f090092
-			public const int mr_volume_group_list = 2131296402;
-			
-			// aapt resource value: 0x7f090094
-			public const int mr_volume_item_icon = 2131296404;
-			
-			// aapt resource value: 0x7f090095
-			public const int mr_volume_slider = 2131296405;
-			
-			// aapt resource value: 0x7f090019
-			public const int multiply = 2131296281;
-			
-			// aapt resource value: 0x7f09007b
-			public const int navigation_header_container = 2131296379;
-			
-			// aapt resource value: 0x7f090026
-			public const int never = 2131296294;
-			
-			// aapt resource value: 0x7f090014
-			public const int none = 2131296276;
+			// aapt resource value: 0x7f0900b2
+			public const int line3 = 2131296434;
 			
 			// aapt resource value: 0x7f090010
-			public const int normal = 2131296272;
+			public const int listMode = 2131296272;
 			
-			// aapt resource value: 0x7f0900aa
-			public const int notification_background = 2131296426;
+			// aapt resource value: 0x7f09004b
+			public const int list_item = 2131296331;
+			
+			// aapt resource value: 0x7f09000f
+			public const int lottie_layer_name = 2131296271;
+			
+			// aapt resource value: 0x7f0900b8
+			public const int masked = 2131296440;
 			
 			// aapt resource value: 0x7f0900a4
-			public const int notification_main_column = 2131296420;
+			public const int media_actions = 2131296420;
 			
-			// aapt resource value: 0x7f0900a3
-			public const int notification_main_column_container = 2131296419;
+			// aapt resource value: 0x7f090023
+			public const int middle = 2131296291;
 			
-			// aapt resource value: 0x7f090037
-			public const int parallax = 2131296311;
+			// aapt resource value: 0x7f09003f
+			public const int mini = 2131296319;
 			
-			// aapt resource value: 0x7f09004d
-			public const int parentPanel = 2131296333;
+			// aapt resource value: 0x7f090090
+			public const int mr_art = 2131296400;
+			
+			// aapt resource value: 0x7f090085
+			public const int mr_chooser_list = 2131296389;
+			
+			// aapt resource value: 0x7f090088
+			public const int mr_chooser_route_desc = 2131296392;
+			
+			// aapt resource value: 0x7f090086
+			public const int mr_chooser_route_icon = 2131296390;
+			
+			// aapt resource value: 0x7f090087
+			public const int mr_chooser_route_name = 2131296391;
+			
+			// aapt resource value: 0x7f090084
+			public const int mr_chooser_title = 2131296388;
+			
+			// aapt resource value: 0x7f09008d
+			public const int mr_close = 2131296397;
+			
+			// aapt resource value: 0x7f090093
+			public const int mr_control_divider = 2131296403;
+			
+			// aapt resource value: 0x7f090099
+			public const int mr_control_playback_ctrl = 2131296409;
+			
+			// aapt resource value: 0x7f09009c
+			public const int mr_control_subtitle = 2131296412;
+			
+			// aapt resource value: 0x7f09009b
+			public const int mr_control_title = 2131296411;
+			
+			// aapt resource value: 0x7f09009a
+			public const int mr_control_title_container = 2131296410;
+			
+			// aapt resource value: 0x7f09008e
+			public const int mr_custom_control = 2131296398;
+			
+			// aapt resource value: 0x7f09008f
+			public const int mr_default_control = 2131296399;
+			
+			// aapt resource value: 0x7f09008a
+			public const int mr_dialog_area = 2131296394;
+			
+			// aapt resource value: 0x7f090089
+			public const int mr_expandable_area = 2131296393;
+			
+			// aapt resource value: 0x7f09009d
+			public const int mr_group_expand_collapse = 2131296413;
+			
+			// aapt resource value: 0x7f090091
+			public const int mr_media_main_control = 2131296401;
+			
+			// aapt resource value: 0x7f09008c
+			public const int mr_name = 2131296396;
+			
+			// aapt resource value: 0x7f090092
+			public const int mr_playback_control = 2131296402;
+			
+			// aapt resource value: 0x7f09008b
+			public const int mr_title_bar = 2131296395;
+			
+			// aapt resource value: 0x7f090094
+			public const int mr_volume_control = 2131296404;
+			
+			// aapt resource value: 0x7f090095
+			public const int mr_volume_group_list = 2131296405;
+			
+			// aapt resource value: 0x7f090097
+			public const int mr_volume_item_icon = 2131296407;
+			
+			// aapt resource value: 0x7f090098
+			public const int mr_volume_slider = 2131296408;
+			
+			// aapt resource value: 0x7f09001a
+			public const int multiply = 2131296282;
+			
+			// aapt resource value: 0x7f09007e
+			public const int navigation_header_container = 2131296382;
+			
+			// aapt resource value: 0x7f090027
+			public const int never = 2131296295;
+			
+			// aapt resource value: 0x7f090015
+			public const int none = 2131296277;
+			
+			// aapt resource value: 0x7f090011
+			public const int normal = 2131296273;
+			
+			// aapt resource value: 0x7f0900ad
+			public const int notification_background = 2131296429;
+			
+			// aapt resource value: 0x7f0900a7
+			public const int notification_main_column = 2131296423;
+			
+			// aapt resource value: 0x7f0900a6
+			public const int notification_main_column_container = 2131296422;
 			
 			// aapt resource value: 0x7f090038
-			public const int pin = 2131296312;
+			public const int parallax = 2131296312;
+			
+			// aapt resource value: 0x7f090050
+			public const int parentPanel = 2131296336;
+			
+			// aapt resource value: 0x7f090039
+			public const int pin = 2131296313;
 			
 			// aapt resource value: 0x7f090006
 			public const int progress_circular = 2131296262;
@@ -3196,140 +5353,143 @@ namespace LeonaStore.Android
 			// aapt resource value: 0x7f090007
 			public const int progress_horizontal = 2131296263;
 			
-			// aapt resource value: 0x7f09005d
-			public const int radio = 2131296349;
+			// aapt resource value: 0x7f090060
+			public const int radio = 2131296352;
 			
-			// aapt resource value: 0x7f090035
-			public const int right = 2131296309;
+			// aapt resource value: 0x7f090036
+			public const int right = 2131296310;
 			
-			// aapt resource value: 0x7f0900a9
-			public const int right_icon = 2131296425;
+			// aapt resource value: 0x7f0900ac
+			public const int right_icon = 2131296428;
 			
-			// aapt resource value: 0x7f0900a5
-			public const int right_side = 2131296421;
+			// aapt resource value: 0x7f0900a8
+			public const int right_side = 2131296424;
 			
-			// aapt resource value: 0x7f09001a
-			public const int screen = 2131296282;
-			
-			// aapt resource value: 0x7f09002d
-			public const int scroll = 2131296301;
-			
-			// aapt resource value: 0x7f090053
-			public const int scrollIndicatorDown = 2131296339;
-			
-			// aapt resource value: 0x7f09004f
-			public const int scrollIndicatorUp = 2131296335;
-			
-			// aapt resource value: 0x7f090050
-			public const int scrollView = 2131296336;
-			
-			// aapt resource value: 0x7f090040
-			public const int scrollable = 2131296320;
-			
-			// aapt resource value: 0x7f090068
-			public const int search_badge = 2131296360;
-			
-			// aapt resource value: 0x7f090067
-			public const int search_bar = 2131296359;
-			
-			// aapt resource value: 0x7f090069
-			public const int search_button = 2131296361;
-			
-			// aapt resource value: 0x7f09006e
-			public const int search_close_btn = 2131296366;
-			
-			// aapt resource value: 0x7f09006a
-			public const int search_edit_frame = 2131296362;
-			
-			// aapt resource value: 0x7f090070
-			public const int search_go_btn = 2131296368;
-			
-			// aapt resource value: 0x7f09006b
-			public const int search_mag_icon = 2131296363;
-			
-			// aapt resource value: 0x7f09006c
-			public const int search_plate = 2131296364;
-			
-			// aapt resource value: 0x7f09006d
-			public const int search_src_text = 2131296365;
-			
-			// aapt resource value: 0x7f090071
-			public const int search_voice_btn = 2131296369;
-			
-			// aapt resource value: 0x7f090072
-			public const int select_dialog_listview = 2131296370;
-			
-			// aapt resource value: 0x7f09005c
-			public const int shortcut = 2131296348;
-			
-			// aapt resource value: 0x7f090015
-			public const int showCustom = 2131296277;
-			
-			// aapt resource value: 0x7f090016
-			public const int showHome = 2131296278;
-			
-			// aapt resource value: 0x7f090017
-			public const int showTitle = 2131296279;
-			
-			// aapt resource value: 0x7f0900b2
-			public const int sliding_tabs = 2131296434;
-			
-			// aapt resource value: 0x7f090073
-			public const int smallLabel = 2131296371;
-			
-			// aapt resource value: 0x7f09007a
-			public const int snackbar_action = 2131296378;
-			
-			// aapt resource value: 0x7f090079
-			public const int snackbar_text = 2131296377;
+			// aapt resource value: 0x7f09001b
+			public const int screen = 2131296283;
 			
 			// aapt resource value: 0x7f09002e
-			public const int snap = 2131296302;
+			public const int scroll = 2131296302;
 			
-			// aapt resource value: 0x7f09004c
-			public const int spacer = 2131296332;
+			// aapt resource value: 0x7f090056
+			public const int scrollIndicatorDown = 2131296342;
+			
+			// aapt resource value: 0x7f090052
+			public const int scrollIndicatorUp = 2131296338;
+			
+			// aapt resource value: 0x7f090053
+			public const int scrollView = 2131296339;
+			
+			// aapt resource value: 0x7f090041
+			public const int scrollable = 2131296321;
+			
+			// aapt resource value: 0x7f09006b
+			public const int search_badge = 2131296363;
+			
+			// aapt resource value: 0x7f09006a
+			public const int search_bar = 2131296362;
+			
+			// aapt resource value: 0x7f09006c
+			public const int search_button = 2131296364;
+			
+			// aapt resource value: 0x7f090071
+			public const int search_close_btn = 2131296369;
+			
+			// aapt resource value: 0x7f09006d
+			public const int search_edit_frame = 2131296365;
+			
+			// aapt resource value: 0x7f090073
+			public const int search_go_btn = 2131296371;
+			
+			// aapt resource value: 0x7f09006e
+			public const int search_mag_icon = 2131296366;
+			
+			// aapt resource value: 0x7f09006f
+			public const int search_plate = 2131296367;
+			
+			// aapt resource value: 0x7f090070
+			public const int search_src_text = 2131296368;
+			
+			// aapt resource value: 0x7f090074
+			public const int search_voice_btn = 2131296372;
+			
+			// aapt resource value: 0x7f090075
+			public const int select_dialog_listview = 2131296373;
+			
+			// aapt resource value: 0x7f09005f
+			public const int shortcut = 2131296351;
+			
+			// aapt resource value: 0x7f090016
+			public const int showCustom = 2131296278;
+			
+			// aapt resource value: 0x7f090017
+			public const int showHome = 2131296279;
+			
+			// aapt resource value: 0x7f090018
+			public const int showTitle = 2131296280;
+			
+			// aapt resource value: 0x7f0900b5
+			public const int sliding_tabs = 2131296437;
+			
+			// aapt resource value: 0x7f090076
+			public const int smallLabel = 2131296374;
+			
+			// aapt resource value: 0x7f09007d
+			public const int snackbar_action = 2131296381;
+			
+			// aapt resource value: 0x7f09007c
+			public const int snackbar_text = 2131296380;
+			
+			// aapt resource value: 0x7f09002f
+			public const int snap = 2131296303;
+			
+			// aapt resource value: 0x7f09004f
+			public const int spacer = 2131296335;
 			
 			// aapt resource value: 0x7f090008
 			public const int split_action_bar = 2131296264;
 			
-			// aapt resource value: 0x7f09001b
-			public const int src_atop = 2131296283;
-			
 			// aapt resource value: 0x7f09001c
-			public const int src_in = 2131296284;
+			public const int src_atop = 2131296284;
 			
 			// aapt resource value: 0x7f09001d
-			public const int src_over = 2131296285;
+			public const int src_in = 2131296285;
 			
-			// aapt resource value: 0x7f090036
-			public const int start = 2131296310;
+			// aapt resource value: 0x7f09001e
+			public const int src_over = 2131296286;
 			
-			// aapt resource value: 0x7f0900a0
-			public const int status_bar_latest_event_content = 2131296416;
+			// aapt resource value: 0x7f090037
+			public const int start = 2131296311;
 			
-			// aapt resource value: 0x7f09005e
-			public const int submenuarrow = 2131296350;
+			// aapt resource value: 0x7f0900a3
+			public const int status_bar_latest_event_content = 2131296419;
 			
-			// aapt resource value: 0x7f09006f
-			public const int submit_area = 2131296367;
+			// aapt resource value: 0x7f090042
+			public const int strong = 2131296322;
 			
-			// aapt resource value: 0x7f090011
-			public const int tabMode = 2131296273;
+			// aapt resource value: 0x7f090061
+			public const int submenuarrow = 2131296353;
 			
-			// aapt resource value: 0x7f0900b0
-			public const int text = 2131296432;
+			// aapt resource value: 0x7f090072
+			public const int submit_area = 2131296370;
 			
-			// aapt resource value: 0x7f0900ae
-			public const int text2 = 2131296430;
+			// aapt resource value: 0x7f090012
+			public const int tabMode = 2131296274;
 			
-			// aapt resource value: 0x7f090052
-			public const int textSpacerNoButtons = 2131296338;
+			// aapt resource value: 0x7f0900b3
+			public const int text = 2131296435;
 			
-			// aapt resource value: 0x7f090051
-			public const int textSpacerNoTitle = 2131296337;
+			// aapt resource value: 0x7f0900b1
+			public const int text2 = 2131296433;
 			
-			// aapt resource value: 0x7f090080
-			public const int text_input_password_toggle = 2131296384;
+			// aapt resource value: 0x7f090055
+			public const int textSpacerNoButtons = 2131296341;
+			
+			// aapt resource value: 0x7f090054
+			public const int textSpacerNoTitle = 2131296340;
+			
+			// aapt resource value: 0x7f090083
+			public const int text_input_password_toggle = 2131296387;
 			
 			// aapt resource value: 0x7f09000c
 			public const int textinput_counter = 2131296268;
@@ -3337,29 +5497,29 @@ namespace LeonaStore.Android
 			// aapt resource value: 0x7f09000d
 			public const int textinput_error = 2131296269;
 			
-			// aapt resource value: 0x7f0900a6
-			public const int time = 2131296422;
+			// aapt resource value: 0x7f0900a9
+			public const int time = 2131296425;
 			
-			// aapt resource value: 0x7f09004a
-			public const int title = 2131296330;
+			// aapt resource value: 0x7f09004d
+			public const int title = 2131296333;
+			
+			// aapt resource value: 0x7f09005c
+			public const int titleDividerNoCustom = 2131296348;
+			
+			// aapt resource value: 0x7f09005a
+			public const int title_template = 2131296346;
+			
+			// aapt resource value: 0x7f0900b6
+			public const int toolbar = 2131296438;
+			
+			// aapt resource value: 0x7f09002a
+			public const int top = 2131296298;
 			
 			// aapt resource value: 0x7f090059
-			public const int titleDividerNoCustom = 2131296345;
+			public const int topPanel = 2131296345;
 			
-			// aapt resource value: 0x7f090057
-			public const int title_template = 2131296343;
-			
-			// aapt resource value: 0x7f0900b3
-			public const int toolbar = 2131296435;
-			
-			// aapt resource value: 0x7f090029
-			public const int top = 2131296297;
-			
-			// aapt resource value: 0x7f090056
-			public const int topPanel = 2131296342;
-			
-			// aapt resource value: 0x7f090077
-			public const int touch_outside = 2131296375;
+			// aapt resource value: 0x7f09007a
+			public const int touch_outside = 2131296378;
 			
 			// aapt resource value: 0x7f09000a
 			public const int transition_current_scene = 2131296266;
@@ -3370,23 +5530,26 @@ namespace LeonaStore.Android
 			// aapt resource value: 0x7f090009
 			public const int up = 2131296265;
 			
-			// aapt resource value: 0x7f090018
-			public const int useLogo = 2131296280;
+			// aapt resource value: 0x7f090019
+			public const int useLogo = 2131296281;
 			
 			// aapt resource value: 0x7f09000e
 			public const int view_offset_helper = 2131296270;
 			
-			// aapt resource value: 0x7f0900b4
-			public const int visible = 2131296436;
+			// aapt resource value: 0x7f0900b7
+			public const int visible = 2131296439;
 			
-			// aapt resource value: 0x7f090093
-			public const int volume_item_container = 2131296403;
+			// aapt resource value: 0x7f090096
+			public const int volume_item_container = 2131296406;
 			
-			// aapt resource value: 0x7f090027
-			public const int withText = 2131296295;
+			// aapt resource value: 0x7f090043
+			public const int weak = 2131296323;
 			
-			// aapt resource value: 0x7f09001f
-			public const int wrap_content = 2131296287;
+			// aapt resource value: 0x7f090028
+			public const int withText = 2131296296;
+			
+			// aapt resource value: 0x7f090020
+			public const int wrap_content = 2131296288;
 			
 			static Id()
 			{
@@ -3702,8 +5865,14 @@ namespace LeonaStore.Android
 		public partial class String
 		{
 			
+			// aapt resource value: 0x7f0a0041
+			public const int AppName = 2131361857;
+			
+			// aapt resource value: 0x7f0a0040
+			public const int ApplicationName = 2131361856;
+			
 			// aapt resource value: 0x7f0a003f
-			public const int AppName = 2131361855;
+			public const int Hello = 2131361855;
 			
 			// aapt resource value: 0x7f0a0015
 			public const int abc_action_bar_home_description = 2131361813;
@@ -6286,6 +8455,44 @@ namespace LeonaStore.Android
 			
 			// aapt resource value: 1
 			public const int ListPopupWindow_android_dropDownVerticalOffset = 1;
+			
+			public static int[] LottieAnimationView = new int[] {
+					2130772309,
+					2130772310,
+					2130772311,
+					2130772312,
+					2130772313,
+					2130772314,
+					2130772315,
+					2130772316,
+					2130772317};
+			
+			// aapt resource value: 1
+			public const int LottieAnimationView_lottie_autoPlay = 1;
+			
+			// aapt resource value: 6
+			public const int LottieAnimationView_lottie_cacheStrategy = 6;
+			
+			// aapt resource value: 7
+			public const int LottieAnimationView_lottie_colorFilter = 7;
+			
+			// aapt resource value: 5
+			public const int LottieAnimationView_lottie_enableMergePathsForKitKatAndAbove = 5;
+			
+			// aapt resource value: 0
+			public const int LottieAnimationView_lottie_fileName = 0;
+			
+			// aapt resource value: 3
+			public const int LottieAnimationView_lottie_imageAssetsFolder = 3;
+			
+			// aapt resource value: 2
+			public const int LottieAnimationView_lottie_loop = 2;
+			
+			// aapt resource value: 4
+			public const int LottieAnimationView_lottie_progress = 4;
+			
+			// aapt resource value: 8
+			public const int LottieAnimationView_lottie_scale = 8;
 			
 			public static int[] MediaRouteButton = new int[] {
 					16843071,

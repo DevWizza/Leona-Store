@@ -8,6 +8,7 @@ using Microsoft.Practices.Unity;
 using Prism;
 using Prism.Unity;
 using UIKit;
+using Lottie.Forms.iOS.Renderers;
 
 namespace LeonaStore.iOS
 {
@@ -29,6 +30,8 @@ namespace LeonaStore.iOS
 			global::Xamarin.Forms.Forms.Init();
 
 			ImageCircleRenderer.Init();
+
+            AnimationViewRenderer.Init();
 
 			LoadApplication(new App(new iOSInitializer()));
 

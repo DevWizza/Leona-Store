@@ -11,45 +11,26 @@
 	xmlns:dots="clr-namespace:LeonaStore.Components.CarouselDotsGenerator;assembly=LeonaStore"
 	xmlns:listingComponents="clr-namespace:LeonaStore;assembly=LeonaStore"
 	x:Class="LeonaStore.Views.ListingDetail">
-	<ScrollView>
-	<StackLayout>
-			
-			<StackLayout
-				Spacing="20"
+    
+    <ScrollView>
+	<StackLayout
+        Spacing="20"
 				Padding="0,40,0,40"
-				VerticalOptions="FillAndExpand" 
+        VerticalOptions="FillAndExpand" 
 				HorizontalOptions="FillAndExpand">
-
+			 
 	<StackLayout Spacing="20">
 
-			<RelativeLayout HorizontalOptions="FillAndExpand"
+			<StackLayout HorizontalOptions="FillAndExpand"
+                         Spacing="10"
 		VerticalOptions="FillAndExpand">
 
 	<cv:CarouselView
+        HeightRequest="180"
 		HorizontalOptions="FillAndExpand"
 		VerticalOptions="FillAndExpand"
 		ItemsSource="{Binding SelectedListingItem.ListingImages}"
-		Position="{Binding CarouselPosition}"
-	RelativeLayout.XConstraint =
-  "{ConstraintExpression Type=RelativeToParent,
-                         Property=X,
-                         Factor=0,
-                         Constant=0}"
-	RelativeLayout.YConstraint =
-  "{ConstraintExpression Type=RelativeToParent,
-                         Property=Y,
-                         Factor=0,
-                         Constant=0}"
-	RelativeLayout.WidthConstraint =
-  "{ConstraintExpression Type=RelativeToParent,
-                         Property=Width,
-                         Factor=1,
-                         Constant=0}"
-	RelativeLayout.HeightConstraint =
-  "{ConstraintExpression Type=RelativeToParent,
-                         Property=Height,
-                         Factor=0,
-                         Constant=180}">
+		Position="{Binding CarouselPosition}">
 		    <cv:CarouselView.ItemTemplate>
 		      <DataTemplate>
 		        	<Image
@@ -64,36 +45,16 @@
 
 	<StackLayout
 		HorizontalOptions="FillAndExpand"
-		VerticalOptions="FillAndExpand"
-	RelativeLayout.XConstraint =
-  "{ConstraintExpression Type=RelativeToParent,
-                         Property=X,
-                         Factor=0,
-                         Constant=0}"
-	RelativeLayout.YConstraint =
-  "{ConstraintExpression Type=RelativeToParent,
-                         Property=Y,
-                         Factor=0,
-                         Constant=40}"
-	RelativeLayout.WidthConstraint =
-  "{ConstraintExpression Type=RelativeToParent,
-                         Property=Width,
-                         Factor=1,
-                         Constant=0}"
-	RelativeLayout.HeightConstraint =
-  "{ConstraintExpression Type=RelativeToParent,
-                         Property=Height,
-                         Factor=0,
-                         Constant=180}">
+		VerticalOptions="FillAndExpand">
 
-		<dots:CarouselDotsGenerator
+                        <dots:CarouselDotsGenerator
 			DotColor="#e74c3c"
 			HorizontalOptions="CenterAndExpand"
 			VerticalOptions="EndAndExpand"
 			ItemsSource="{Binding SelectedListingItem.ListingImages}"
 			CurrentPage="{Binding CarouselPosition}"/>
 
-	</StackLayout>
+                    </StackLayout>
 
 	<StackLayout
 							HorizontalOptions="FillAndExpand"
@@ -128,7 +89,7 @@
 							
 	</StackLayout>
 
-</RelativeLayout>
+</StackLayout>
 
 	<BoxView
 		HorizontalOptions="FillAndExpand"
@@ -207,14 +168,13 @@
 			Text="{Binding SelectedListingItem.ProductDescription}"/>
 
 		<Button TextColor="White"
+                Margin="0,10,0,0"
 			Text="ADD TO CART"
 				FontSize="18"
-				WidthRequest="80"
-				HeightRequest="60"
+				WidthRequest="70"
+				HeightRequest="70"
 			BackgroundColor="#e74c3c"/>
 		</StackLayout>
-				</StackLayout>
-			</StackLayout>
+				</StackLayout> 
 	</ScrollView>
-	
 </ContentPage>

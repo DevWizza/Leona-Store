@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LeonaStore.Views.NotReadyYet.NotReadyYetPage"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+	         prism:ViewModelLocator.AutowireViewModel="True"
+             BackgroundColor="White"
+             xmlns:lottie="clr-namespace:Lottie.Forms;assembly=Lottie.Forms">
+
+    <StackLayout>
+
+        <lottie:AnimationView 
+                Animation="loading.json"
+                Loop="True"
+                AutoPlay="True"
+            HorizontalOptions="FillAndExpand"
+            VerticalOptions="FillAndExpand"
+            />
+ 
+        <Label Text="This app is not ready for iOS, run Android instead." 
+               HorizontalOptions="Center" 
+               VerticalOptions="Center" 
+               Margin="20" 
+               HorizontalTextAlignment="Center"
+               TextColor="Gray"/>
+
+    </StackLayout>
+        
+</ContentPage>

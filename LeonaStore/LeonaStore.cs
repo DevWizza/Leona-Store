@@ -14,6 +14,7 @@ namespace LeonaStore
 		public static readonly string MoreApps = nameof(MoreApps);
 		public static readonly string LeonaNavigationPage = nameof(LeonaNavigationPage);
 		public static readonly string MasterDetailContainer = nameof(MasterDetailContainer);
+        public static readonly string NotReadyYetPage = nameof(NotReadyYetPage);
 		public static readonly string AbsoluteURI = "http://www.devwizza.com";
 	}
 
