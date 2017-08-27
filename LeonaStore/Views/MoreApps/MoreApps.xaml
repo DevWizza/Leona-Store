@@ -6,7 +6,7 @@
 	BackgroundColor="#F5F5F5"
 	Title="Get to know me"
 	xmlns:control="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin.Abstractions"
-    xmlns:me="clr-namespace:Me;assembly=Me"
+    xmlns:me="clr-namespace:MiProfile.Me.XForms;assembly=Me"
 	x:Class="LeonaStore.Views.MoreApps">
 
     <me:MiProfile/>
