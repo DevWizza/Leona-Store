@@ -34,11 +34,6 @@ namespace LeonaStore
 		public static readonly string NewUserKey = nameof(NewUserKey);
 	}
 
-	public class AppColors
-	{
-		public static readonly Color BrandingColor = Color.FromHex("e74c3c");
-	}
-
 	public class API
 	{
 		public static readonly string REST_Endpoint = "https://gist.githubusercontent.com/";

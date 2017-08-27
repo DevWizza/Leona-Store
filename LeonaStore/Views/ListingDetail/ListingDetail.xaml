@@ -48,7 +48,7 @@
 		VerticalOptions="FillAndExpand">
 
                         <dots:CarouselDotsGenerator
-			DotColor="#e74c3c"
+			DotColor="{StaticResource leonaColor}"
 			HorizontalOptions="CenterAndExpand"
 			VerticalOptions="EndAndExpand"
 			ItemsSource="{Binding SelectedListingItem.ListingImages}"
@@ -81,7 +81,7 @@
                          Constant=180}">
 
 		<ActivityIndicator
-				Color="#e74c3c"
+				Color="{StaticResource leonaColor}"
 				IsRunning="true"
 				IsVisible="{Binding IsLoading}"
 				HorizontalOptions="CenterAndExpand"
@@ -103,7 +103,7 @@
 	<StackLayout Spacing="16" Padding="40,0,40,0" IsVisible="{Binding ShowContent}">
 
 		<Label FontAttributes="Bold" Text="NEW ARRIVAL"
-			TextColor="#e74c3c"/>
+			TextColor="{StaticResource leonaColor}"/>
 
 		<StackLayout Orientation="Horizontal">
 
@@ -173,7 +173,7 @@
 				FontSize="18"
 				WidthRequest="70"
 				HeightRequest="70"
-			BackgroundColor="#e74c3c"/>
+			BackgroundColor="{StaticResource leonaColor}"/>
 		</StackLayout>
 				</StackLayout> 
 	</ScrollView>

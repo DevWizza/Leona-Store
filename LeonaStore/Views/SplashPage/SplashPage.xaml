@@ -18,7 +18,7 @@
 		HeightRequest="300"/>
 
 	<ActivityIndicator 
-		Color="#e74c3c"
+		Color="{StaticResource leonaColor}"
 		IsRunning="true"/>
 
 	</StackLayout>

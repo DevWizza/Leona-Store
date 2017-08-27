@@ -8,7 +8,10 @@
 	<prism:PrismApplication.Resources>
 		<ResourceDictionary>
 			<local:MoneyConverter x:Key="moneyConverter"/>
+      <Color x:Key="leonaColor">#e74c3c</Color>
+      <Color x:Key="likeLeonaColorButALittleBitMoreOpaque">#c0392b</Color>
 		</ResourceDictionary>
+    
 	</prism:PrismApplication.Resources>
 
 	

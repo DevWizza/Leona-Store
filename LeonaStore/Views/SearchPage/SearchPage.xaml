@@ -77,8 +77,8 @@
 	                         Property=Height,
 	                         Factor=1,
 	                         Constant=0}">
-	                         		
-		<StackLayout BackgroundColor="#e74c3c"
+
+            <StackLayout BackgroundColor="{StaticResource leonaColor}"
 				VerticalOptions="StartAndExpand"
 				HorizontalOptions="FillAndExpand"
 				Padding="8,10,8,10"
@@ -139,7 +139,7 @@
 	                         Constant=0}">
 
 			<ActivityIndicator
-				Color="#e74c3c"
+				Color="{StaticResource leonaColor}"
 				IsRunning="true"
 				IsVisible="{Binding IsLoading}"
 				HorizontalOptions="CenterAndExpand"

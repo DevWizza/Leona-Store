@@ -25,9 +25,7 @@ namespace LeonaStore.ViewModels
 		public bool ShowContinueButton { get; set; }
 
 		public ICommand PositionChangedCommand { get; set; }
-
-		public Color BackgroundColor { get; set; }
-
+        
 		public LandingContentPageViewModel(INavigationService navigationService)
 		{
 			_navigationService = navigationService;
@@ -63,9 +61,7 @@ namespace LeonaStore.ViewModels
 
 		public void OnNavigatedTo(NavigationParameters parameters)
 		{
-			BackgroundColor = AppColors.BrandingColor;
-
-			if (PagesModelData == null)
+            if (PagesModelData == null)
 			{
 				PagesModelData = new List<LandingPageTemplateModel>
 				{

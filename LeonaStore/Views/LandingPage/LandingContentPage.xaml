@@ -7,7 +7,7 @@
 	xmlns:template="clr-namespace:LeonaStore.Views.LandingPage.LandingPageTemplate;assembly=LeonaStore"
 	xmlns:cv="clr-namespace:Xamarin.Forms;assembly=Xamarin.Forms.CarouselView"
 	xmlns:dots="clr-namespace:LeonaStore.Components.CarouselDotsGenerator;assembly=LeonaStore"
-	BackgroundColor="{Binding BackgroundColor}"
+	BackgroundColor="{StaticResource leonaColor}"
 	prism:ViewModelLocator.AutowireViewModel="True" 
 	x:Class="LeonaStore.Views.LandingContentPage">
 
@@ -76,7 +76,7 @@
 				HorizontalOptions="CenterAndExpand"
 				TextColor="White"
 				Command="{Binding SkipLandingPage}"
-				BackgroundColor="#c0392b"
+				BackgroundColor="{StaticResource likeLeonaColorButALittleBitMoreOpaque}"
 				WidthRequest="200">
 
 			<Button.Behaviors>

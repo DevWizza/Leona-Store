@@ -45,7 +45,7 @@
 		
 	<Label Text="Only 4 in stock!"
 			FontSize="18"
-			TextColor="#e74c3c"
+			TextColor="{StaticResource leonaColor}"
 			HorizontalTextAlignment="Center">
 	</Label>
 
@@ -57,7 +57,7 @@
 			VerticalOptions="End"
 			HorizontalOptions="FillAndExpand"
 			HeightRequest="1"
-			BackgroundColor="#e74c3c"
+			BackgroundColor="{StaticResource leonaColor}"
 		RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=1,Constant=0}"
         RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=X, Factor=0, Constant=-1}"
         RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width,Factor=1,Constant=0}"

@@ -17,7 +17,7 @@
             VerticalOptions="FillAndExpand"
             />
  
-        <Label Text="This app is not ready for iOS, run Android instead." 
+        <Label Text="Leona Store is not ready for iOS, run Android instead." 
                HorizontalOptions="Center" 
                VerticalOptions="Center" 
                Margin="20" 
