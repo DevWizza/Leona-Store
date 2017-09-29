@@ -10,7 +10,7 @@
 	BackgroundColor="{StaticResource leonaColor}"
 	prism:ViewModelLocator.AutowireViewModel="True" 
 	x:Class="LeonaStore.Views.LandingContentPage">
-
+    
 	<StackLayout
 		HorizontalOptions="FillAndExpand"
 		VerticalOptions="FillAndExpand">

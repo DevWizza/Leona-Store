@@ -30,9 +30,11 @@ namespace LeonaStore.ViewModels
 			var isNotFirstTimeUser = await _cache.GetObjectAsync<bool>(CacheKeys.NewUserKey);
 
 			if (isNotFirstTimeUser)
-				await _navigationSevice.NavigateAsync(new Uri($"{Screens.AbsoluteURI}/MasterDetailContainer/NavigationPage/{Screens.ProductListing}", UriKind.Absolute));
+				await _navigationSevice.NavigateAsync(new Uri($"{Screens.AbsoluteURI}/{Screens.MasterDetailContainer}/{Screens.LeonaNavigationPage}/{Screens.ProductListing}", UriKind.Absolute));
 			else
 				await _navigationSevice.NavigateAsync(new Uri($"{Screens.AbsoluteURI}/{Screens.LandingContentPage}", UriKind.Absolute));
+
+            await _cache.Insert(CacheKeys.NewUserKey, true);
 		}
 
 		public void OnNavigatingTo(NavigationParameters parameters)
