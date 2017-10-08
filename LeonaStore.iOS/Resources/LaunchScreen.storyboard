@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo.png" width="256" height="115.5"/>
+        <image name="ic_close_white_24dp.png" width="18" height="18"/>
+        <image name="ic_email_white_24dp.png" width="18" height="18"/>
+        <image name="ic_favorite_black_24dp.png" width="15" height="14.5"/>
+        <image name="ic_help_black_24dp.png" width="18" height="18"/>
+        <image name="ic_home_black_24dp.png" width="18" height="18"/>
+        <image name="ic_info_black_24dp.png" width="18" height="18"/>
+        <image name="ic_language_black_24dp.png" width="18" height="18"/>
+        <image name="ic_list_black_24dp.png" width="18" height="18"/>
+        <image name="ic_location_on_black_24dp.png" width="18" height="18"/>
+        <image name="ic_person_black_24dp.png" width="18" height="18"/>
+        <image name="ic_search_white_24dp.png" width="18" height="18"/>
+        <image name="ic_settings_black_24dp.png" width="18" height="18"/>
+        <image name="ic_subject_black_24dp.png" width="18" height="18"/>
+        <image name="ic_trending_up_black_24dp.png" width="18" height="18"/>
+        <image name="modern.png" width="100" height="100"/>
+        <image name="pocket.png" width="100" height="100"/>
+        <image name="profile.png" width="361" height="361"/>
+        <image name="ready.png" width="117" height="104"/>
+        <image name="selected_heart.png" width="300" height="267.5"/>
+        <image name="unselected_heart.png" width="300" height="267.5"/>
+        <image name="me.png" width="320" height="320"/>
+        <image name="ic_menu.png" width="24" height="24"/>
+    </resources>
+</document>

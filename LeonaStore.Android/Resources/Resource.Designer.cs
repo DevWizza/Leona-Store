@@ -726,7 +726,13 @@ namespace LeonaStore.Android
 			global::Lottie.Forms.Droid.Resource.Drawable.abc_textfield_search_material = global::LeonaStore.Android.Resource.Drawable.abc_textfield_search_material;
 			global::Lottie.Forms.Droid.Resource.Drawable.abc_vector_test = global::LeonaStore.Android.Resource.Drawable.abc_vector_test;
 			global::Lottie.Forms.Droid.Resource.Drawable.avd_hide_password = global::LeonaStore.Android.Resource.Drawable.avd_hide_password;
+			global::Lottie.Forms.Droid.Resource.Drawable.avd_hide_password_1 = global::LeonaStore.Android.Resource.Drawable.avd_hide_password_1;
+			global::Lottie.Forms.Droid.Resource.Drawable.avd_hide_password_2 = global::LeonaStore.Android.Resource.Drawable.avd_hide_password_2;
+			global::Lottie.Forms.Droid.Resource.Drawable.avd_hide_password_3 = global::LeonaStore.Android.Resource.Drawable.avd_hide_password_3;
 			global::Lottie.Forms.Droid.Resource.Drawable.avd_show_password = global::LeonaStore.Android.Resource.Drawable.avd_show_password;
+			global::Lottie.Forms.Droid.Resource.Drawable.avd_show_password_1 = global::LeonaStore.Android.Resource.Drawable.avd_show_password_1;
+			global::Lottie.Forms.Droid.Resource.Drawable.avd_show_password_2 = global::LeonaStore.Android.Resource.Drawable.avd_show_password_2;
+			global::Lottie.Forms.Droid.Resource.Drawable.avd_show_password_3 = global::LeonaStore.Android.Resource.Drawable.avd_show_password_3;
 			global::Lottie.Forms.Droid.Resource.Drawable.design_bottom_navigation_item_background = global::LeonaStore.Android.Resource.Drawable.design_bottom_navigation_item_background;
 			global::Lottie.Forms.Droid.Resource.Drawable.design_fab_background = global::LeonaStore.Android.Resource.Drawable.design_fab_background;
 			global::Lottie.Forms.Droid.Resource.Drawable.design_ic_visibility = global::LeonaStore.Android.Resource.Drawable.design_ic_visibility;
@@ -4362,8 +4368,26 @@ namespace LeonaStore.Android
 			// aapt resource value: 0x7f020053
 			public const int avd_hide_password = 2130837587;
 			
+			// aapt resource value: 0x7f020122
+			public const int avd_hide_password_1 = 2130837794;
+			
+			// aapt resource value: 0x7f020123
+			public const int avd_hide_password_2 = 2130837795;
+			
+			// aapt resource value: 0x7f020124
+			public const int avd_hide_password_3 = 2130837796;
+			
 			// aapt resource value: 0x7f020054
 			public const int avd_show_password = 2130837588;
+			
+			// aapt resource value: 0x7f020125
+			public const int avd_show_password_1 = 2130837797;
+			
+			// aapt resource value: 0x7f020126
+			public const int avd_show_password_2 = 2130837798;
+			
+			// aapt resource value: 0x7f020127
+			public const int avd_show_password_3 = 2130837799;
 			
 			// aapt resource value: 0x7f020055
 			public const int design_bottom_navigation_item_background = 2130837589;
