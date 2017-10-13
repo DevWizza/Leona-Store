@@ -46,10 +46,10 @@
 		FontSize="20"/>
 		
 	<Label Text="{Binding ListingOwner.OwnerIdentityName}"
-		FontSize="18"/>
+		FontSize="16"/>
 
 	<Label Text="{Binding Price, Converter={StaticResource moneyConverter}}"
-		FontSize="18"
+		FontSize="16"
 		TextColor="Black"/>
 
 	</StackLayout>

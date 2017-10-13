@@ -21,6 +21,7 @@
 		SelectedItem="{Binding ItemSelected, Mode=TwoWay}"
 		SeparatorColor="Transparent"
 		HasUnevenRows="true"
+        BackgroundColor="{Binding BackgroundColor}"
 		SeparatorVisibility="None"
 		RefreshCommand="{Binding RefreshListingCommand}"
 		IsPullToRefreshEnabled="true"

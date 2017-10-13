@@ -8,55 +8,12 @@
 	xmlns:listingItemTemplateSelector="clr-namespace:LeonaStore.Views.Home.ListingItem;assembly=LeonaStore"
 	x:Class="LeonaStore.Views.SearchPage">
 
-	<RelativeLayout VerticalOptions="FillAndExpand"
+	<RelativeLayout 
+        x:Name="Container"
+        VerticalOptions="FillAndExpand"
 		HorizontalOptions="FillAndExpand"
 		Padding="0,0,0,0">
-		
-		<StackLayout Padding="0,100,0,0" RelativeLayout.XConstraint =
-	  "{ConstraintExpression Type=RelativeToParent,
-	                         Property=X,
-	                         Factor=0,
-	                         Constant=0}"
-		RelativeLayout.YConstraint =
-	  "{ConstraintExpression Type=RelativeToParent,
-	                         Property=Height,
-	                         Factor=0,
-	                         Constant=0}"
-		RelativeLayout.WidthConstraint =
-	  "{ConstraintExpression Type=RelativeToParent,
-	                         Property=Width,
-	                         Factor=1,
-	                         Constant=0}"
-		RelativeLayout.HeightConstraint =
-	  "{ConstraintExpression Type=RelativeToParent,
-	                         Property=Height,
-	                         Factor=1,
-	                         Constant=0}">
-			
-				<ListView
-		ItemsSource="{Binding Articles}"
-		SelectedItem="{Binding ItemSelected, Mode=TwoWay}"
-		SeparatorColor="Transparent"
-		HasUnevenRows="true"
-		SeparatorVisibility="None"
-		IsPullToRefreshEnabled="false"
-		HorizontalOptions="FillAndExpand"
-		VerticalOptions="FillAndExpand">
-		<ListView.ItemTemplate>
-			<DataTemplate>
-				<ViewCell>
-					<BasicItemWithinFrame:BasicItemWithinFrame/>
-				</ViewCell>
-			</DataTemplate>
-		</ListView.ItemTemplate>
-		<ListView.Behaviors>
-			<prismBehaviors:EventToCommandBehavior EventName="ItemSelected"
-				Command="{Binding NavigateToListingDetailCommand}" EventArgsParameterPath="SelectedItem"/>
-		</ListView.Behaviors>
-	</ListView>
-
-			</StackLayout>
-		
+  
 		<StackLayout RelativeLayout.XConstraint =
 	  "{ConstraintExpression Type=RelativeToParent,
 	                         Property=X,
@@ -78,43 +35,97 @@
 	                         Factor=1,
 	                         Constant=0}">
 
-            <StackLayout BackgroundColor="{StaticResource leonaColor}"
-				VerticalOptions="StartAndExpand"
-				HorizontalOptions="FillAndExpand"
-				Padding="8,10,8,10"
-				Orientation="Vertical">
+            <OnPlatform x:TypeArguments="View">
+                
+                <On Platform="iOS">
 
-		<Image Source="ic_close_white_24dp" 
-				Aspect="AspectFit" 
-				HeightRequest="24"
-				WidthRequest="24"
-				HorizontalOptions="Start">
-				<Image.GestureRecognizers>
-					<TapGestureRecognizer Command="{Binding NavigateBackCommand}"/>
-				</Image.GestureRecognizers>
-		</Image>
+                    <StackLayout
+                        BackgroundColor="{StaticResource leonaColor}"
+                        Padding="0,20,0,10">
 
-		<Frame HorizontalOptions="FillAndExpand"
-			CornerRadius="4"
-			OutlineColor="#F5F5F5"
-			HasShadow="true"
-			Padding="10">
-			
-		<SearchBar HorizontalOptions="FillAndExpand"
-			VerticalOptions="Start"
-			HeightRequest="40"
-			CancelButtonColor="White"
-			Text="{Binding SearchQuery}"
-			SearchCommand="{Binding PerformSearchCommand}"
-			Placeholder="Search for...">
-		
-		</SearchBar>
-		</Frame>
+                        <Image Source="ic_close_white_24dp" 
+                Aspect="AspectFit" 
+                HeightRequest="24"
+                WidthRequest="24"
+                VerticalOptions="Start"
+                HorizontalOptions="Start">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding NavigateBackCommand}"/>
+                </Image.GestureRecognizers>
+        </Image>
+                        
+                <SearchBar HorizontalOptions="FillAndExpand"
+                    VerticalOptions="Start"
+                    CancelButtonColor="White"
+                    BackgroundColor="{StaticResource leonaColor}"
+                    Text="{Binding SearchQuery}"
+                    TextColor="{StaticResource leonaColor}"
+                    SearchCommand="{Binding PerformSearchCommand}"
+                    Placeholder="Search for..."/>
 
-		</StackLayout>
+                        
+                </StackLayout>
+
+                </On>
+
+                
+                <On Platform="Android">
+
+
+                            <StackLayout BackgroundColor="{StaticResource leonaColor}"
+                VerticalOptions="StartAndExpand"
+                HorizontalOptions="FillAndExpand"
+                Padding="8,10,8,10"
+                Orientation="Vertical">
+
+        <Image Source="ic_close_white_24dp" 
+                Aspect="AspectFit" 
+                HeightRequest="24"
+                WidthRequest="24"
+                HorizontalOptions="Start">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding NavigateBackCommand}"/>
+                </Image.GestureRecognizers>
+        </Image>
+
+        <Frame HorizontalOptions="FillAndExpand"
+            CornerRadius="4"
+            OutlineColor="#F5F5F5"
+            HasShadow="true"
+            Padding="10">
+            
+        <SearchBar HorizontalOptions="FillAndExpand"
+            VerticalOptions="Start"
+            HeightRequest="40"
+            CancelButtonColor="White"
+            Text="{Binding SearchQuery}"
+            TextColor="{StaticResource leonaColor}"
+            SearchCommand="{Binding PerformSearchCommand}"
+            Placeholder="Search for...">
+        
+        </SearchBar>
+        </Frame>
+
+        </StackLayout>
+
+
+                </On>
+
+
+                
+            </OnPlatform>
+
+
 				
 			</StackLayout>
 
+
+
+
+
+
+
+        
 		<StackLayout
 		IsVisible="{Binding IsLoading}"
 		RelativeLayout.XConstraint =
@@ -194,6 +205,51 @@
 			</StackLayout>
 
 		</StackLayout>
+
+
+        <ListView
+                x:Name="List"
+        ItemsSource="{Binding Articles}"
+        SelectedItem="{Binding ItemSelected, Mode=TwoWay}"
+        SeparatorColor="Transparent"
+        HasUnevenRows="true"
+        SeparatorVisibility="None"
+        IsPullToRefreshEnabled="false"
+        HorizontalOptions="FillAndExpand"
+        VerticalOptions="FillAndExpand"
+        Margin="0,100,0,0"
+        RelativeLayout.XConstraint =
+      "{ConstraintExpression Type=RelativeToParent,
+                             Property=X,
+                             Factor=0,
+                             Constant=0}"
+        RelativeLayout.YConstraint =
+      "{ConstraintExpression Type=RelativeToParent,
+                             Property=Height,
+                             Factor=0,
+                             Constant=0}"
+        RelativeLayout.WidthConstraint =
+      "{ConstraintExpression Type=RelativeToParent,
+                             Property=Width,
+                             Factor=1,
+                             Constant=0}"
+        RelativeLayout.HeightConstraint =
+      "{ConstraintExpression Type=RelativeToParent,
+                             Property=Height,
+                             Factor=1,
+                             Constant=0}">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <BasicItemWithinFrame:BasicItemWithinFrame/>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+        <ListView.Behaviors>
+            <prismBehaviors:EventToCommandBehavior EventName="ItemSelected"
+                Command="{Binding NavigateToListingDetailCommand}" EventArgsParameterPath="SelectedItem"/>
+        </ListView.Behaviors>
+    </ListView>
 
 	</RelativeLayout>
 	
