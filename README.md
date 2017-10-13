@@ -40,8 +40,6 @@ Basically I want to feature all Xamarin Forms features in this project so people
 
 # Sounds good, but what does the app looks like?
 
-Mon ami, permettez-moi de vous présenter
-
 ![app_preview](https://cdn.rawgit.com/DevWizza/Leona-Store/develop/README/AppPreview.png)
 
 
