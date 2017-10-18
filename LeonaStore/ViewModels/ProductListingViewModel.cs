@@ -23,8 +23,6 @@ namespace LeonaStore.ViewModels
 
 			public ICommand ListingSelectedCommand { get; set; }
 
-			public ICommand SearchListingCommand { get; set; }
-
 			public bool IsRefreshingListing { get; set; }
 
 			readonly INavigationService _navigationService;
@@ -43,13 +41,6 @@ namespace LeonaStore.ViewModels
 				RefreshListingCommand = new Command(async()=> await OnRefreshListing());
 
 				ListingSelectedCommand = new Command<ListingItem>(OnListingSelected);
-
-				SearchListingCommand = new Command(OnSearchListing);
-			}
-
-			async void OnSearchListing()
-			{
-				await _navigationService.NavigateAsync($"{Screens.SearchPage}", useModalNavigation: true);
 			}
 
 			async void OnListingSelected(ListingItem item)

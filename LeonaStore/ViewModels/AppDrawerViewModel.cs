@@ -75,12 +75,6 @@ namespace ViewModels.ViewModels
 					},
 					new DrawerItem
 					{
-						Text = "Get to know me",
-						Icon = "ic_info_black_24dp",
-						ScreenNavigateTo = LeonaStore.Screens.MoreApps
-					},
-					new DrawerItem
-					{
 						Text = "Settings",
 						Icon = "ic_settings_black_24dp",
 						ScreenNavigateTo = LeonaStore.Screens.ProductListing

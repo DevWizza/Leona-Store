@@ -95,10 +95,6 @@
     <Compile Include="Services\ListingServices\IListingService.cs" />
     <Compile Include="Services\ListingServices\ListingService.cs" />
     <Compile Include="Components\Behaviors\HideViewIf.cs" />
-    <Compile Include="Views\SearchPage\SearchPage.xaml.cs">
-      <DependentUpon>SearchPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="ViewModels\SearchPageViewModel.cs" />
     <Compile Include="Views\ProductListing\ListingItems\BasicItemWIthinFrame\BasicItemWithinFrame.xaml.cs">
       <DependentUpon>BasicItemWithinFrame.xaml</DependentUpon>
     </Compile>
@@ -119,9 +115,6 @@
     </Compile>
     <Compile Include="Components\ListViewDivider\SeparatorView.xaml.cs">
       <DependentUpon>SeparatorView.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Views\MoreApps\MoreApps.xaml.cs">
-      <DependentUpon>MoreApps.xaml</DependentUpon>
     </Compile>
     <Compile Include="ViewModels\MoreAppsViewModel.cs" />
     <Compile Include="Views\LeonaNavigationPage\LeonaNavigationPage.xaml.cs">
@@ -185,10 +178,6 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <LogicalName>ListingModelSelectionTemplate.xaml</LogicalName>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\SearchPage\SearchPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-      <LogicalName>SearchPage.xaml</LogicalName>
-    </EmbeddedResource>
     <EmbeddedResource Include="Views\ProductListing\ListingItems\BasicItemWIthinFrame\BasicItemWithinFrame.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <LogicalName>BasicItemWithinFrame.xaml</LogicalName>
@@ -212,10 +201,6 @@
     <EmbeddedResource Include="Components\ListViewDivider\SeparatorView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <LogicalName>SeparatorView.xaml</LogicalName>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Views\MoreApps\MoreApps.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-      <LogicalName>MoreApps.xaml</LogicalName>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\LeonaNavigationPage\LeonaNavigationPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>

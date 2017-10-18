@@ -169,11 +169,15 @@
 
 		<Button TextColor="White"
                 Margin="0,10,0,0"
-			Text="ADD TO CART"
+			    Text="Shop Now!"
 				FontSize="18"
 				WidthRequest="70"
-				HeightRequest="70"
+				HeightRequest="60"
 			BackgroundColor="{StaticResource leonaColor}"/>
+
+
+            <!--70-->
+                
 		</StackLayout>
 				</StackLayout> 
 	</ScrollView>

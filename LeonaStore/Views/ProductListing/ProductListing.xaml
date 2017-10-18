@@ -8,12 +8,7 @@
 	xmlns:listingItemTemplateSelector="clr-namespace:LeonaStore.Views.Home.ListingItem;assembly=LeonaStore"
 	prism:ViewModelLocator.AutowireViewModel="True"
 	x:Class="LeonaStore.Views.ProductListing">
-
-	<ContentPage.ToolbarItems>
-		<ToolbarItem Icon="ic_search_white_24dp" Command="{Binding SearchListingCommand}"/>
-	</ContentPage.ToolbarItems>
-	<!--Create component that let you create ToolbarItems out of a List-->
-
+    
 	<StackLayout>
 
 		<ListView
