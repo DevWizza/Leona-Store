@@ -9,6 +9,7 @@ using Prism;
 using Prism.Unity;
 using UIKit;
 using Lottie.Forms.iOS.Renderers;
+using FFImageLoading.Forms.Touch;
 
 namespace LeonaStore.iOS
 {
@@ -33,7 +34,9 @@ namespace LeonaStore.iOS
 
             AnimationViewRenderer.Init();
 
-			LoadApplication(new App(new iOSInitializer()));
+            CachedImageRenderer.Init();
+
+            LoadApplication(new App(new iOSInitializer()));
 
 			return base.FinishedLaunching(app, options);
 		}

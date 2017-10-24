@@ -8,6 +8,8 @@ using System.Collections.Generic;
 using ListingServices;
 using System.Threading.Tasks;
 using System;
+using Plugin.Connectivity;
+using Acr.UserDialogs;
 
 namespace LeonaStore.ViewModels
 	{
@@ -31,10 +33,17 @@ namespace LeonaStore.ViewModels
 
 			public ListingItem ItemSelected { get; set; }
 
-			public ProductListingViewModel(INavigationService navigationService,
-		                                   IListingService listingService)
+            readonly IUserDialogs _userDialog;
+
+            public bool TheresNothingToShow { get; set; }
+
+            public ProductListingViewModel(INavigationService navigationService,
+		                                   IListingService listingService,
+                                           IUserDialogs userDialog)
 			{
-				_listingService = listingService;
+                _userDialog = userDialog;
+                
+                _listingService = listingService;
 
 				_navigationService = navigationService;
 				
@@ -61,9 +70,23 @@ namespace LeonaStore.ViewModels
 
 			async Task OnRefreshListing()
 			{
-				IsRefreshingListing = true;
+            
+                if (!CrossConnectivity.Current.IsConnected)
+                {
+                    _userDialog.Alert("You must be connected to the internet :(.", "Oh no!", "Ok!");
+
+                    IsRefreshingListing = false;
+
+                    TheresNothingToShow = true;
+
+                    return;
+                }
+
+                IsRefreshingListing = true;
 
 				Articles = await _listingService.GetAllListings();
+
+                TheresNothingToShow = Articles == null;
 
 				IsRefreshingListing = false;
 			}

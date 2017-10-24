@@ -7,7 +7,8 @@
 	Opacity="0"
 	Margin="0,8,0,8"
 	Orientation="Horizontal"
-	HorizontalOptions="FillAndExpand">
+	HorizontalOptions="FillAndExpand"
+    xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms">
 
 	<Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
 
@@ -24,13 +25,14 @@
 		Grid.Row="0"
 		Grid.Column="0">
 
-	<Image 
-		Source="{Binding ProductBackground}"
-		Aspect="AspectFit"
-		HeightRequest="150"
-		WidthRequest="150"
-		VerticalOptions="CenterAndExpand"
-		HorizontalOptions="CenterAndExpand"/>
+	<ffimageloading:CachedImage  
+        Source="{Binding ProductBackground}"
+        Aspect="AspectFit"
+        DownsampleToViewSize="true"
+        HeightRequest="150"
+        WidthRequest="150"
+        VerticalOptions="CenterAndExpand"
+        HorizontalOptions="CenterAndExpand"/>
 
 	</StackLayout>
 

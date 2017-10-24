@@ -6,11 +6,13 @@
 	BackgroundColor="{Binding ListingOwner.BrandColorHex}"
 	HeightRequest="350"
 	Margin="0,8,0,8"
-	HorizontalOptions="FillAndExpand">
+	HorizontalOptions="FillAndExpand"
+    xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms">
 
-	<Image
+	<ffimageloading:CachedImage  
 		Source="{Binding ProductBackground}"
 		Aspect="AspectFit"
+        DownsampleToViewSize="false"
 		RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Y, Factor=0,Constant=20}"
         RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=X, Factor=0, Constant=0}"
         RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width,Factor=1,Constant=0}"
@@ -20,7 +22,7 @@
         	<behaviors:ZoomInBehavior/>
 		</Image.Behaviors>
 
-	</Image>
+	</ffimageloading:CachedImage>
 
 	<StackLayout
 		VerticalOptions="EndAndExpand"

@@ -10,7 +10,8 @@
 	xmlns:cv="clr-namespace:Xamarin.Forms;assembly=Xamarin.Forms.CarouselView"
 	xmlns:dots="clr-namespace:LeonaStore.Components.CarouselDotsGenerator;assembly=LeonaStore"
 	xmlns:listingComponents="clr-namespace:LeonaStore;assembly=LeonaStore"
-	x:Class="LeonaStore.Views.ListingDetail">
+	x:Class="LeonaStore.Views.ListingDetail"
+    xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms">
     
     <ScrollView>
 	<StackLayout
@@ -33,9 +34,10 @@
 		Position="{Binding CarouselPosition}">
 		    <cv:CarouselView.ItemTemplate>
 		      <DataTemplate>
-		        	<Image
+		        	<ffimageloading:CachedImage
 	WidthRequest="180"
 	HeightRequest="180"
+    DownsampleToViewSize="true"
 	HorizontalOptions="CenterAndExpand"
 	Aspect="AspectFit"
 	Source="{Binding .}"/>

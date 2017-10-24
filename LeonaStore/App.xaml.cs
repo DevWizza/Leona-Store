@@ -7,6 +7,7 @@ using LeonaStore.Views.Home;
 using Like.ViewModels;
 using ListingServices;
 using ViewModels.ViewModels;
+using Acr.UserDialogs;
 
 namespace LeonaStore
 {
@@ -34,6 +35,8 @@ namespace LeonaStore
 
 			Container.RegisterType(typeof(ICache), typeof(AkavacheImpl));
 			Container.RegisterType(typeof(IListingService), typeof(ListingService));
-		}
+            Container.RegisterInstance(UserDialogs.Instance);
+
+        }
 	}
 }

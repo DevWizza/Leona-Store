@@ -8,6 +8,8 @@ using Prism;
 using Prism.Unity;
 using Microsoft.Practices.Unity;
 using Lottie.Forms.Droid;
+using Acr.UserDialogs;
+using FFImageLoading.Forms.Droid;
 
 namespace LeonaStore.Android
 {
@@ -26,6 +28,10 @@ namespace LeonaStore.Android
             ImageCircleRenderer.Init();
 
             AnimationViewRenderer.Init();
+
+            CachedImageRenderer.Init();
+
+            UserDialogs.Init(()=>this);
 
             LoadApplication(new App(new AndroidInitializer()));
         }

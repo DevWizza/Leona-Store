@@ -9,20 +9,79 @@
 	prism:ViewModelLocator.AutowireViewModel="True"
 	x:Class="LeonaStore.Views.ProductListing">
     
-	<StackLayout>
+	<RelativeLayout>
 
+        <StackLayout
+            VerticalOptions="CenterAndExpand"
+            IsVisible="{Binding TheresNothingToShow}"
+            RelativeLayout.XConstraint =
+          "{ConstraintExpression Type=RelativeToParent,
+                                 Property=X,
+                                 Factor=0,
+                                 Constant=0}"
+        RelativeLayout.YConstraint =
+          "{ConstraintExpression Type=RelativeToParent,
+                                 Property=Y,
+                                 Factor=0,
+                                 Constant=0}"
+        RelativeLayout.WidthConstraint =
+          "{ConstraintExpression Type=RelativeToParent,
+                                 Property=Width,
+                                 Factor=1,
+                                 Constant=0}"
+        RelativeLayout.HeightConstraint =
+          "{ConstraintExpression Type=RelativeToParent,
+                                 Property=Height,
+                                 Factor=1,
+                                 Constant=0}">
+
+         <Label
+            HorizontalOptions="CenterAndExpand"
+            VerticalOptions="Center"
+            FontSize="40"
+            FontAttributes="Bold"
+            Text="Nothing to show"/>
+
+        <Label
+            HorizontalOptions="CenterAndExpand"
+            VerticalOptions="Center"
+            Text="Swipe down to try again. :)"/>
+
+        </StackLayout>
+
+        
 		<ListView
 		ItemsSource="{Binding Articles}"
 		SelectedItem="{Binding ItemSelected, Mode=TwoWay}"
 		SeparatorColor="Transparent"
 		HasUnevenRows="true"
-        BackgroundColor="{Binding BackgroundColor}"
+        BackgroundColor="Transparent"
 		SeparatorVisibility="None"
 		RefreshCommand="{Binding RefreshListingCommand}"
 		IsPullToRefreshEnabled="true"
 		IsRefreshing="{Binding IsRefreshingListing}"
 		HorizontalOptions="FillAndExpand"
-		VerticalOptions="FillAndExpand">
+		VerticalOptions="FillAndExpand"
+        RelativeLayout.XConstraint =
+          "{ConstraintExpression Type=RelativeToParent,
+                                 Property=X,
+                                 Factor=0,
+                                 Constant=0}"
+        RelativeLayout.YConstraint =
+          "{ConstraintExpression Type=RelativeToParent,
+                                 Property=Y,
+                                 Factor=0,
+                                 Constant=0}"
+        RelativeLayout.WidthConstraint =
+          "{ConstraintExpression Type=RelativeToParent,
+                                 Property=Width,
+                                 Factor=1,
+                                 Constant=0}"
+        RelativeLayout.HeightConstraint =
+          "{ConstraintExpression Type=RelativeToParent,
+                                 Property=Height,
+                                 Factor=1,
+                                 Constant=0}">
 		<ListView.ItemTemplate>
 			<DataTemplate>
 				<listingItemTemplateSelector:ListingItemTemplateSelector/>
@@ -33,9 +92,8 @@
 				Command="{Binding ListingSelectedCommand}" EventArgsParameterPath="SelectedItem"/>
 		</ListView.Behaviors>
 	</ListView>
-
-
-	</StackLayout>
+ 
+	</RelativeLayout>
 	
 </ContentPage>
 

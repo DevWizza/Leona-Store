@@ -66,8 +66,9 @@
 				VerticalOptions="EndAndExpand"/>
 
 			<Label
-				Text="luis.pena.nunez@gmail.com"
+				Text="luis.pena.nunez.developer@gmail.com"
 				TextColor="White"
+                FontSize="14"
 				HorizontalOptions="StartAndExpand"
 				VerticalOptions="EndAndExpand"/>
 
