@@ -11,11 +11,29 @@
 	prism:ViewModelLocator.AutowireViewModel="True" 
 	x:Class="LeonaStore.Views.LandingContentPage">
     
-	<StackLayout
-		HorizontalOptions="FillAndExpand"
-		VerticalOptions="FillAndExpand">
+	<RelativeLayout>
 
 		<StackLayout
+            RelativeLayout.XConstraint =
+      "{ConstraintExpression Type=RelativeToParent,
+                             Property=X,
+                             Factor=0,
+                             Constant=0}"
+    RelativeLayout.YConstraint =
+      "{ConstraintExpression Type=RelativeToParent,
+                             Property=Y,
+                             Factor=0,
+                             Constant=0}"
+        RelativeLayout.WidthConstraint =
+      "{ConstraintExpression Type=RelativeToParent,
+                             Property=Width,
+                             Factor=1,
+                             Constant=0}"
+    RelativeLayout.HeightConstraint =
+      "{ConstraintExpression Type=RelativeToParent,
+                             Property=Height,
+                             Factor=1,
+                             Constant=0}"
 		Padding="30"
 		Orientation="Horizontal">
 
@@ -40,27 +58,67 @@
 		</StackLayout>
 
 
-		<cv:CarouselView
-			x:Name="Carousel"
-			HorizontalOptions="FillAndExpand"
-			VerticalOptions="FillAndExpand"
-			ItemsSource="{Binding PagesModelData}"
-			Position="{Binding CarouselPosition}">
-			
-			    <cv:CarouselView.ItemTemplate>
-			      <DataTemplate>
-			        <template:LandingPageViewTemplate/>
-			      </DataTemplate>
-			    </cv:CarouselView.ItemTemplate>
+        <cv:CarouselView
+            RelativeLayout.XConstraint =
+      "{ConstraintExpression Type=RelativeToParent,
+                             Property=X,
+                             Factor=0,
+                             Constant=0}"
+    RelativeLayout.YConstraint =
+      "{ConstraintExpression Type=RelativeToParent,
+                             Property=Y,
+                             Factor=0,
+                             Constant=0}"
+        RelativeLayout.WidthConstraint =
+      "{ConstraintExpression Type=RelativeToParent,
+                             Property=Width,
+                             Factor=1,
+                             Constant=0}"
+    RelativeLayout.HeightConstraint =
+      "{ConstraintExpression Type=RelativeToParent,
+                             Property=Height,
+                             Factor=1,
+                             Constant=0}"
+            x:Name="Carousel"
+            HorizontalOptions="FillAndExpand"
+            VerticalOptions="FillAndExpand"
+            ItemsSource="{Binding PagesModelData}"
+            Position="{Binding CarouselPosition}">
+            
+                <cv:CarouselView.ItemTemplate>
+                  <DataTemplate>
+                    <template:LandingPageViewTemplate/>
+                  </DataTemplate>
+                </cv:CarouselView.ItemTemplate>
 
-			<cv:CarouselView.Behaviors>
-			    	<prismBehaviors:EventToCommandBehavior EventName="PositionSelected"
-				Command="{Binding PositionChangedCommand}" EventArgsParameterPath="SelectedPosition"/>
-			</cv:CarouselView.Behaviors>
-			
-	  </cv:CarouselView>
+            <cv:CarouselView.Behaviors>
+                    <prismBehaviors:EventToCommandBehavior EventName="PositionSelected"
+                Command="{Binding PositionChangedCommand}" EventArgsParameterPath="SelectedPosition"/>
+            </cv:CarouselView.Behaviors>
+            
+      </cv:CarouselView>
 
 		<StackLayout
+            RelativeLayout.XConstraint =
+      "{ConstraintExpression Type=RelativeToParent,
+                             Property=X,
+                             Factor=0,
+                             Constant=0}"
+    RelativeLayout.YConstraint =
+      "{ConstraintExpression Type=RelativeToParent,
+                             Property=Y,
+                             Factor=0,
+                             Constant=0}"
+        RelativeLayout.WidthConstraint =
+      "{ConstraintExpression Type=RelativeToParent,
+                             Property=Width,
+                             Factor=1,
+                             Constant=0}"
+    RelativeLayout.HeightConstraint =
+      "{ConstraintExpression Type=RelativeToParent,
+                             Property=Height,
+                             Factor=1,
+                             Constant=0}"
 			HorizontalOptions="FillAndExpand"
 			VerticalOptions="End"
 			Padding="0,0,0,50">
@@ -94,5 +152,5 @@
 
 		</StackLayout>
 
-	</StackLayout>
+	</RelativeLayout>
 </ContentPage>
